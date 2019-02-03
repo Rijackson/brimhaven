@@ -1,0 +1,176 @@
+[
+    {
+        "id":"salt_pork",
+        "iconID":"items_rijackson_1:4",
+        "name":"Salt pork",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":40,
+        "category":"food",
+        "description":"This tastes very...salty.",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":3,
+                    "duration":12,
+                    "chance":"100"
+                },
+                {
+                    "condition":"nausea",
+                    "magnitude":1,
+                    "duration":8,
+                    "chance":"15"
+                }
+            ]
+        }
+    },
+    {
+        "id":"whip_bind",
+        "iconID":"items_weapons_3:57",
+        "name":"Whip of binding",
+        "displaytype":"extraordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":6700,
+        "category":"whip",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":2,
+                "max":5
+            },
+            "increaseAttackCost":5,
+            "increaseAttackChance":10,
+            "increaseCriticalSkill":5,
+            "increaseBlockChance":8,
+            "setCriticalMultiplier":1.5
+        },
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"entanglement",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"25"
+                }
+            ]
+        }
+    },
+    {
+        "id":"flail_farm",
+        "iconID":"items_weapons_3:23",
+        "name":"Farmer's flail",
+        "displaytype":"ordinary",
+        "category":"staff",
+        "description":"This looks more suited to farming than fighting",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":1,
+                "max":2
+            },
+            "increaseAttackCost":5,
+            "increaseAttackChance":5,
+            "increaseBlockChance":5
+        }
+    },
+    {
+        "id":"boots_spiked",
+        "iconID":"items_rijackson_1:9",
+        "name":"Spiked metal boots",
+        "displaytype":"ordinary",
+        "category":"feet_mtl_li",
+        "description":"These boots look very uncomfortable. For your enemy!",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":1,
+                "max":3
+            },
+            "increaseAttackChance":-2,
+            "increaseBlockChance":7
+        }
+    },
+    {
+        "id":"necklace_dexterity",
+        "iconID":"items_reterski_1:11",
+        "name":"Necklace of dexterity",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":3160,
+        "category":"neck",
+        "equipEffect":{
+            "increaseUseItemCost":-1,
+            "increaseReequipCost":-1
+        }
+    },
+    {
+        "id":"stoutford_plate_mail1",
+        "iconID":"items_japozero:169",
+        "name":"Stoutford's plate mail",
+        "displaytype":"rare",
+        "category":"plmail",
+        "equipEffect":{
+            "increaseMaxHP":7,
+            "increaseBlockChance":28,
+            "increaseDamageResistance":0
+        }
+    },
+    {
+        "id":"stoutford_plate_mail2",
+        "iconID":"items_japozero:175",
+        "name":"Stoutford's rigid plate mail",
+        "displaytype":"rare",
+        "category":"plmail",
+        "equipEffect":{
+            "increaseBlockChance":25,
+            "increaseDamageResistance":2
+        }
+    },
+    {
+        "id":"stoutford_steel_helmet",
+        "iconID":"items_armours:25",
+        "name":"Stoutford's steel helmet",
+        "displaytype":"ordinary",
+        "category":"hd_mtl_hv",
+        "equipEffect":{
+            "increaseMaxHP":10,
+            "increaseAttackChance":-5,
+            "increaseBlockChance":7
+        }
+    },
+    {
+        "id":"stoutford_engraved_steel_helmet",
+        "iconID":"items_armours:25",
+        "name":"Stoutford's engraved steel helmet",
+        "displaytype":"rare",
+        "category":"hd_mtl_hv",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":0,
+                "max":0
+            },
+            "increaseMaxHP":15,
+            "increaseAttackChance":-4,
+            "increaseBlockChance":7
+        }
+    },
+    {
+        "id":"boots_6",
+        "iconID":"items_armours:32",
+        "name":"Boots of Swiftness",
+        "displaytype":"ordinary",
+        "category":"feet_mtl_li",
+        "equipEffect":{
+            "increaseMaxHP":5,
+            "increaseAttackChance":7,
+            "increaseBlockChance":10
+        }
+    },
+    {
+        "id":"rope_ladder",
+        "iconID":"items_misc_2:138",
+        "name":"Rope ladder",
+        "displaytype":"quest",
+        "hasManualPrice":1,
+        "baseMarketCost":350,
+        "category":"other"
+    }
+]

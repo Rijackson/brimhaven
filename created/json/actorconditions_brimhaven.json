@@ -1,0 +1,12 @@
+[
+    {
+        "id":"entanglement",
+        "iconID":"actorconditions_japozero:39",
+        "name":"Entanglement",
+        "category":"physical",
+        "abilityEffect":{
+            "increaseMoveCost":3,
+            "increaseAttackCost":1
+        }
+    }
+]
