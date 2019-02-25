@@ -1,0 +1,20 @@
+[
+    {
+        "id":"brv_employee",
+        "name":"Stebbarik",
+        "iconID":"monsters_ld1:34",
+        "moveCost":5,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_employee",
+		"phraseID":"brv_employee"
+    },
+    {
+        "id":"brv_employer",
+        "name":"Gnossath",
+		"iconID":"monsters_ld1:10",
+        "moveCost":5,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_employer",
+		"phraseID":"brv_employer"
+    }
+]

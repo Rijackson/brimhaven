@@ -1,0 +1,18 @@
+[
+    {
+        "id":"brv_employee",
+        "name":"Work for debts",
+        "showInLog":1,
+        "stages":[	
+			{	"progress":10, 
+				"logText":"Stebbarik was ill at home in bed. He could not do his job and feared that he would lose his job. Because of his high debts, he feared that Gnossath would then take his house away.\nYou offered to do the work for Stebbarik." },
+			{ 	"progress":30, 
+				"logText":"Gnossath told you to carry 50 heavy boulders from the stock to the dam next to him." },
+			{	"progress":40, 
+				"logText":"You carried the first boulder to the dam." },
+			{	"progress":90, 
+				"logText":"Finally that was the last boulder. Gnossath was very pleased with your work.", 
+				"finishesQuest":1 }
+        ]
+    }
+]

@@ -172,5 +172,14 @@
         "hasManualPrice":1,
         "baseMarketCost":350,
         "category":"other"
+    },
+    {
+        "id":"brv_boulder",
+        "iconID":"items_japozero:576",
+        "name":"Boulder",
+        "displaytype":"quest",
+        "hasManualPrice":1,
+        "baseMarketCost":350,
+        "category":"other"
     }
 ]
