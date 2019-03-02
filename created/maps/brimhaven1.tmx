@@ -224,14 +224,14 @@
   </object>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object id="65" name="brv_employer" type="spawn" x="416" y="352" width="32" height="32">
+  <object id="65" name="brv_employer" type="spawn" x="416" y="320" width="32" height="32">
    <properties>
     <property name="quantity" value="1"/>
     <property name="spawngroup" value="brv_employer"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys">
+ <objectgroup name="Keys" visible="0">
   <object id="68" name="brv_employer_check_boulder" type="key" x="32" y="704" width="64" height="32">
    <properties>
     <property name="phrase" value="brv_employer_check_boulder"/>
@@ -241,7 +241,7 @@
     <property name="requireValue" value="5"/>
    </properties>
   </object>
-  <object id="7" name="brv_employer_check_boulder_2" type="key" x="0" y="608" width="32" height="320">
+  <object id="7" name="brv_employer_check_boulder_2" type="key" x="0" y="512" width="32" height="416">
    <properties>
     <property name="phrase" value="brv_employer_check_boulder_2"/>
     <property name="requireId" value="brv_boulder"/>

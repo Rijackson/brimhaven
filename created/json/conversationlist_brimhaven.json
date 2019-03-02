@@ -226,7 +226,7 @@
   },  
   {
     "id":"brv_employer_10",
-    "message":"Did you find this lazy bone, Stebbarik?",
+    "message":"Have you seen this lazy bone, Stebbarik?",
     "replies":[
       {
         "text":"Stebbarik is ill at home. He is very anxious that you might get angry.",
@@ -313,7 +313,7 @@
     "id":"brv_employer_carry_boulder",
     "replies":[
       {
-        "nextPhraseID":"brv_employer_carry_boulder",
+        "nextPhraseID":"brv_employer_carry_boulder_8",
         "requires":[
           {
             "requireType":"inventoryRemove",
@@ -600,6 +600,28 @@
 	]
   },
   {
+    "id":"brv_employer_carry_boulder_8",
+    "replies":[
+      {
+        "nextPhraseID":"brv_employer_carry_boulder_8",
+        "requires":[
+          {
+            "requireType":"inventoryRemove",
+            "requireID":"brv_boulder",
+            "value":1
+          }
+        ]
+	  },
+      {
+        "nextPhraseID":"brv_employer_carry_boulder_9"
+	  }
+	]
+  },
+  {
+    "id":"brv_employer_carry_boulder_9",
+    "message":"Breathing heavily under the big load, you collapse, losing all the boulders."
+  },
+  {
     "id":"brv_employer_check_boulder",
     "message":"You can't carry so many boulders."
   },
@@ -617,10 +639,23 @@
             "requireType":"questProgress",
             "requireID":"brv_employee",
             "value":10
+          },
+          {
+            "requireType":"questProgress",
+            "requireID":"brv_employee",
+            "value":90,
+			"negate":true
           }
         ]
+	  },
+      {
+        "nextPhraseID":"brv_employer_get_boulder_02"
 	  }
 	]
+  },
+  {
+    "id":"brv_employer_get_boulder_02",
+    "message":">Hands off! These boulders are needed for the dam!"
   },
   {
     "id":"brv_employer_get_boulder_10",
@@ -657,7 +692,7 @@
   },
   {
     "id":"brv_employer_get_boulder_20",
-    "message":"Heavy!",
+    "message":"Uff, that's heavy!",
 	"rewards":[
 		{
 			"rewardType":"giveItem",
@@ -669,6 +704,24 @@
 			"rewardID":"fatigue1",
 			"value":99
 		}
+	],
+    "replies":[
+      {
+        "text":"Take another one.",
+        "nextPhraseID":"brv_employer_get_boulder_20",
+        "requires":[
+          {
+            "requireType":"inventoryKeep",
+            "requireID":"brv_boulder",
+            "value":4,
+			"negate":true
+          }
+        ]
+      },
+      {
+        "text":"And now to the dam.",
+        "nextPhraseID":"X"
+      }
 	]
   },
   {
@@ -813,7 +866,7 @@
 	],
     "replies":[
       {
-        "text":"Uff.",
+        "text":"Uff. They somehow seem to get heavier and heavier.",
 		"nextPhraseID":"brv_employer_put_boulder_10"
       }
 	]
@@ -829,12 +882,18 @@
 	],
     "replies":[
       {
-        "nextPhraseID":"brv_employer_put_boulder_30",
+        "nextPhraseID":"brv_employer_put_boulder_90",
         "requires":[
           {
 			"requireType": "factionScore",
 			"requireID": "brv_boulder_count",
-			"value": 50
+			"value": 25
+          },
+          {
+			"requireType": "questProgress",
+			"requireID": "brv_employee",
+			"value": 90,
+			"negate":true
           }
         ]
 	  },
@@ -844,7 +903,13 @@
           {
 			"requireType": "factionScore",
 			"requireID": "brv_boulder_count",
-			"value": 40
+			"value": 20
+          },
+          {
+			"requireType": "questProgress",
+			"requireID": "brv_employee",
+			"value": 44,
+			"negate":true
           }
         ]
 	  },
@@ -854,7 +919,13 @@
           {
 			"requireType": "factionScore",
 			"requireID": "brv_boulder_count",
-			"value": 30
+			"value": 15
+          },
+          {
+			"requireType": "questProgress",
+			"requireID": "brv_employee",
+			"value": 43,
+			"negate":true
           }
         ]
 	  },
@@ -864,7 +935,13 @@
           {
 			"requireType": "factionScore",
 			"requireID": "brv_boulder_count",
-			"value": 20
+			"value": 10
+          },
+          {
+			"requireType": "questProgress",
+			"requireID": "brv_employee",
+			"value": 42,
+			"negate":true
           }
         ]
 	  },
@@ -874,7 +951,13 @@
           {
 			"requireType": "factionScore",
 			"requireID": "brv_boulder_count",
-			"value": 10
+			"value": 5
+          },
+          {
+			"requireType": "questProgress",
+			"requireID": "brv_employee",
+			"value": 41,
+			"negate":true
           }
         ]
 	  }
@@ -882,38 +965,76 @@
   },
   {
     "id":"brv_employer_put_boulder_21",
-	"switchToNPC":"brv_employer",
-    "message":"You have already 10 boulders."
-  },
-  {
-    "id":"brv_employer_put_boulder_22",
-	"switchToNPC":"brv_employer",
-    "message":"You have already 20 boulders."
-  },
-  {
-    "id":"brv_employer_put_boulder_23",
-	"switchToNPC":"brv_employer",
-    "message":"You have already 30 boulders."
-  },
-  {
-    "id":"brv_employer_put_boulder_24",
-	"switchToNPC":"brv_employer",
-    "message":"Only about 10 boulders left."
-  },
-  {
-    "id":"brv_employer_put_boulder_30",
-	"switchToNPC":"brv_employer",
-    "message":"Wow, you got it.",
 	"rewards":[
 		{
 			"rewardType":"questProgress",
 			"rewardID":"brv_employee",
-			"value":50
+			"value":41
 		}
 	],
+	"switchToNPC":"brv_employer",
+    "message":"You have brought already 10 boulders."
+  },
+  {
+    "id":"brv_employer_put_boulder_22",
+	"rewards":[
+		{
+			"rewardType":"questProgress",
+			"rewardID":"brv_employee",
+			"value":42
+		}
+	],
+	"switchToNPC":"brv_employer",
+    "message":"20 boulders."
+  },
+  {
+    "id":"brv_employer_put_boulder_23",
+	"rewards":[
+		{
+			"rewardType":"questProgress",
+			"rewardID":"brv_employee",
+			"value":43
+		}
+	],
+	"switchToNPC":"brv_employer",
+    "message":"30 boulders."
+  },
+  {
+    "id":"brv_employer_put_boulder_24",
+	"rewards":[
+		{
+			"rewardType":"questProgress",
+			"rewardID":"brv_employee",
+			"value":44
+		}
+	],
+	"switchToNPC":"brv_employer",
+    "message":"Only about 10 boulders left."
+  },
+  {
+    "id":"brv_employer_put_boulder_90",
+	"rewards":[
+		{
+			"rewardType":"questProgress",
+			"rewardID":"brv_employee",
+			"value":90
+		}
+	],
+	"switchToNPC":"brv_employer",
+    "message":"Wow, you got it.",
     "replies":[
       {
         "text":"My arms are longer now...",
+		"nextPhraseID":"brv_employer_put_boulder_92"
+      }
+	]
+  },
+  {
+    "id":"brv_employer_put_boulder_92",
+    "message":"I am really impressed. You have done four times as much as Stebbarik. So tell him, that he could stay home this week and get cured again.",
+    "replies":[
+      {
+        "text":"He will be very relieved.",
 		"nextPhraseID":"X"
       }
 	]

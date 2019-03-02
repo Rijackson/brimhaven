@@ -10,9 +10,28 @@
 				"logText":"Gnossath told you to carry 50 heavy boulders from the stock to the dam next to him." },
 			{	"progress":40, 
 				"logText":"You carried the first boulder to the dam." },
+			{	"progress":41, 
+				"logText":"You had already carried 5 boulders to the dam." },
+			{	"progress":42, 
+				"logText":"10 boulders." },
+			{	"progress":43, 
+				"logText":"15 boulders." },
+			{	"progress":44, 
+				"logText":"Only a few still missing..." },
 			{	"progress":90, 
-				"logText":"Finally that was the last boulder. Gnossath was very pleased with your work.", 
+				"logText":"Finally - that was the last boulder! Gnossath was very pleased with your work.", 
 				"finishesQuest":1 }
+        ]
+    },
+    {
+        "id":"brv_nondisplay",
+        "name":"brv_nondisplay",
+        "showInLog":0,
+        "stages":[	
+			{	"progress":24, "logText":"- Employee Msg 24" },
+			{	"progress":23, "logText":"- Employee Msg 23" },
+			{	"progress":22, "logText":"- Employee Msg 22" },
+			{	"progress":21, "logText":"- Employee Msg 21" }
         ]
     }
 ]
