@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="6" height="10" tilewidth="32" tileheight="32" infinite="0" nextobjectid="3">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="6" height="10" tilewidth="32" tileheight="32" infinite="0" nextobjectid="6">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -180,19 +180,22 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7577" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_guynmart.png" width="512" height="256"/>
+ </tileset>
  <layer name="Ground" width="6" height="10">
   <data encoding="base64" compression="zlib">
-   eJzbysnAsBUHviiFimHiD6VQMUx8BxrGJv6LTHGQ/ejiF6H2o4uDxJ5yQvAOTgQbhAEuCTGK
+   eJzbysnAsBUHviiFimHiD6VQMUx8BxrGJv6LTHGQ/ejiF6H2o9sLEnvKCcE7OBFsEAYAJckxSA==
   </data>
  </layer>
  <layer name="Objects" width="6" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYMAP+Pkh9E4+7PInsYi7s2AX8xTFLc7JhF1cEoe4PSumWZFA8SgsdiADALD0BfM=
+   eJxjYMAD+BkYprFBmDv5UKV6oeIn0cRBwJ0Fu9hxPOKcTNjFJbGIXwdie1ZMs54DxV9isQMZAABWdAnS
   </data>
  </layer>
  <layer name="Above" width="6" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYMANDotB6IUymOI3+RkYNmIRx2fONX7S1B8jUv0lHOLYAADwMgsE
+   eJxjYMANDotB6IUy2MU34hDfzoJd/Bo/dvGjOMSP4RA/CRS/iWTHJai4OwsE4wMAi6oN9g==
   </data>
  </layer>
  <layer name="Walkable" width="6" height="10" visible="0">
@@ -209,7 +212,14 @@
   </object>
  </objectgroup>
  <objectgroup name="Spawn" visible="0">
-  <object id="2" name="brv_employee" type="spawn" x="128" y="160" width="32" height="96"/>
+  <object id="3" name="brv_tavern1_landlord" type="spawn" x="128" y="128" width="32" height="96"/>
+  <object id="2" name="brv_employee2" type="spawn" x="64" y="128" width="32" height="32"/>
+  <object id="4" name="brv_tavern1_guest" type="spawn" x="64" y="160" width="32" height="96">
+   <properties>
+    <property name="quantity" value="3"/>
+   </properties>
+  </object>
+  <object id="5" name="brv_tavern1_guest2" type="spawn" x="96" y="96" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="Keys" visible="0"/>
 </map>

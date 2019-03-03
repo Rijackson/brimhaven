@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextobjectid="6">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="20" height="27" tilewidth="32" tileheight="32" infinite="0" nextobjectid="4">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -177,69 +177,46 @@
  <tileset firstgid="7321" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7449" name="map_transition_5" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_transition_5.png" width="512" height="256"/>
- </tileset>
- <layer name="Ground" width="30" height="30">
+ <layer name="Ground" width="20" height="27">
   <data encoding="base64" compression="zlib">
-   eJytl0FOwzAQRaNILJJtdjlJT1BxyFwhRu2OlYEVEqvChgN0wRmyoiNi8fM9tseBSl9q7TpvZvzHbl3bNM6oh5uOfdPMMHYFXW56N0jWP1XoeeV6GOPYrgZ5Y3yoU7fNyyf4QRh3GLPWhbnnIZZv9frgWg/sPdyXIVbIgeORuobXpf31hmU/UMI9jLFkXOY5HhlfVsn7wH3t6iRr78dYp06Pibn+D1zUQp+1eJAbal3LfWzzXG1sobE93DeFaxVyOVaWJWf2MOfI88JNzYX1GltyRnbJwzyP3M8hVi5nZLOHj3dbLs9buTm2xcM874D7NcQqcXmv0TvsJT43UrU4jFuupd4WP3vi5s4ga71TvYVz4dzQery2r7R6M1frI4v6/kd76s2+LfUv93KOm2PnuNqdymdB4JbYGhf7ZC74WbvPavY6dXbMBT9rZ4HFa5wzP1+406rSXYbPkXqzd5it9RGfHW79DWa531JxlWqNClz5Pf5huBNz9Sh5G7+L3Bpmah9y+/yfXIu/c1xn5E7kQ23vUv7C5/B/iikj7T8If0fLmfMNa78BaJmw4g==
+   eJytlTEOgzAMRSM2ZjZO0iP0sgSpyk7LDYAr9BRMTVUsRda3Y0cdvoKQ83D4X3HsQnhlnX0IS16fjYqX5qzj4m153Ru1CLx3ozaB9xj82hkv9T/ed10Hv6i/CfBuo1/p2ot499EvjYd0FpJqEM+jGk/qS3vPfSYeyoC0T8sC8VAGpH1aFognZaDG4z4TT8pAjcefuR/8/6NzoSxoPFQr9W31N4Fvo2erv5Z8e/y18qz+WnnI36j4YbkfyjqaIbHD9dpdwlWyStGso3kn1Unic+ooeC3zjs+pueBNDXOO98t53vP+m/cBc/qX2g==
   </data>
  </layer>
- <layer name="Objects" width="30" height="30">
+ <layer name="Objects" width="20" height="27">
   <data encoding="base64" compression="zlib">
-   eJzVVr9rFEEUHvfYmLM4cgdZUO5fEQvFTiyMYNKF2FiqRdJaHlaWQVLYRrsTFInViXdH0sTqwFNxwTIB8QeWvpd5H/vuObN7rmn84HGzszvve7/nnHPuXcfVwtOk3jlg/R/Pn5Yd/xPys/F3hwteABuXZiRO5+aIX7IYP/+ZOPOF2b0OfdtN/O/5xHM01R6vL8izxuWuc1dIvom+G6k/Xwbt569sPnlP0m8697YtPMS5QtKQ+G4Q78GyX7Mtu12/Xk0LrmG73K4Qfgo3sEn6tkgmpOthWtjDaKhc3xHejHzdr8F7Yi/x5op7JHrWKbf3SO6TbCz6vV5afDOR79i2Or02zIrz1vbsL/V9IF2vI/KR5KvyD7HWPodwkXw9lG/Gkdges57InJxmRYwA+MzcXCcr6Z/nrglvWQz43Shi01R0DwI+gxu8u6qnxsuFvwC/Q+9V4UhibeOhuW8rfxslM4vfofeqwDGeiv6Bsd/mGnncNHHXPavfIX+Xul44HlizrqNIjZ3oVPGuQizX17teOB5Y30q99FvhGrOzhHFXzQkLO6/0rNH1wHyQeeLNeh4I7+qSc2tLfh2q26p+x3vUWKgfdbwfqRxuBXpMI9bbFlU+gxuweamLshoL5boKHH/0tL1X8fxK7rix9Bb3dIybfUZOOU9PKN7bonPb9C962t6reNa1gXijHjX/sMTn0FzZIbv65MNzNZt+tHxt9ExvTAO6r56ZFQ3dP71ArQ2I8w3J99bsvq6PUTvMe1Nx2Xs6pEcD/u53fB5zWWOf/Z8YXtzFg0Csc9V3sf84z5LC3z1zB2OfbfiiZsjYxAGI1TbbZ2fIAel8QfJS/fIe984n83/gWHQi3/Aldl/q2FjwmSHxjDrF757ieWzm2k5gznEOQvWlZ6LVcxpgW2x9AZwTzfkbTovy2Q==
+   eJxjYKANuCFII4MHIVjDBKFXM1HPTDGgWdehYZgkg8AgcIkNgbHJXxNEdcs1pLh4LsDAUARUJ8MEoUH8h0BzHkExiM8DleNkgvDxge8CqOZ/F8CUR3YDujw+/+PiY0tb1wWxs2kNQP6SE8HvHmIAMeodgHHymQ1Co4sjy4Hibbco9nBCjitQPDOzMzD4A/WEsCLEQXwQBsmB1EgihX0hkjoYAMXNNTS7kM2LYIVgEMhghWCY+kZWVLefEkU1B+QHUNggm4ccVujpZCIrxP8wf10Sw3QvuaAFaHYrFv8TAuhhgw2cFsUdvyCALoerfEUWh8UhiOZBCicQG1kOHaCHKQjgS5+HgGGciCVcrhGRJ2FpZzaanXOYIHgukvhsJoQ4IYwPYPPfYAFrkNxG7fqEWoCSuh0ATZFO7A==
   </data>
  </layer>
- <layer name="Above" width="30" height="30">
+ <layer name="Above" width="20" height="27">
   <data encoding="base64" compression="zlib">
-   eJzNVssJwkAQTQIhCjkERE/BPrQDbUDtQGsSjxbh2Qpi7oJ2EAsQEzYL47CzO7v5Pgj5rJM3M/teRs+zw31hGdAShuZ9zvrlfUXi/GXy5mWey0gcTeBPzDlBPDrel6r/qpwCTZ62mAb/92lA19W3DuM6t677PGaYvKdbv6K9VWn4HanXsfdwrFyX8blmj0wa1vmuIDz9qZ8XiBfXjMHVsIm3Aq4ZcscoD6xh6LszuKZ6AfuFa8bcLrjN1c+beH6VeN46Mf8uBbkfQnGW/coAv67fEJuSc8vgrXCs+U6huM4U9br0W+U1CO5M1flKBUq3nJkKvwW2NVO8Om9LcOYZxc15PwWutl29lRLfg7bmGZ7dQ8JWpzh254tj79vFNeml7eyQaON/EOxXn7wuNV9GpDMXcPX1A37hRwQ=
+   eJxjYICAQ2IMVAMgs4aCeQ/ZydP/CE0fyKzDQMzIQZ55TGj6YOaRC9D1YjOvSAa3fpgcjL5EhHmUgMFgHnJakBPBNA9dDJYG0NMQTBxfWsDmPlga+Ihm3ici0ig282B8fOb540gDyOb5o6UBdH+hp11i3YcLEKOOkHkwN5ewMjCUskLYpMQvev6ewoppBynxS0wY4QPo5pGati2A7rdE8gO6eej5mxDwAJrliWTeXCbq5l9aA5D/L1O5vCE1DPEBaoflYDIPAChoPq4=
   </data>
  </layer>
- <layer name="Top" width="30" height="30">
+ <layer name="Walkable" width="20" height="27" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztzjENADAIADC+OcC/JiRMySwQHna0ChrBjyq3Bz33bA8AAICpBxxNAdI=
-  </data>
- </layer>
- <layer name="Walkable" width="30" height="30" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJztk7sRwDAIQz2F91/BGyZNGh8fIeGkCXduEsyTQaw5xroPEk/emn3nK25F38/FZvgmd/dHFxep18He71u1LG0dvrD2y+J6u6j2mg3kLjsz9H/1X+apk1zFw0qv0LlXPY5yLYYVDLfCjsLjZhoybqYh6hHrMauGd48J1MsIV92L7C0d3Cy/k6uwK37Zv0WBamS0dkV1Pkw9hd1VB8mP8pQ3IzNmeq6+t7oLqrYTx2NeTjK/0A==
+   eJzbKMbAsBGIQWCjGPXwqHmUmQUD1HALIfOIlcelnlw+NvMoAZSaR404GizmYQtnXHFBTDrC5QZSwpIY83CZSYyd6OYTYxcx9lPbPEL+o4Z52NyNKz5IBZS6ixQzyQlvcvLFqHn0MQ8A3PMbyw==
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object id="1" name="west" type="mapchange" x="0" y="320" width="32" height="416">
+  <object id="1" name="north" type="mapchange" x="64" y="0" width="32" height="32">
    <properties>
-    <property name="map" value="brimhaven1"/>
-    <property name="place" value="east"/>
-   </properties>
-  </object>
-  <object id="2" name="north" type="mapchange" x="800" y="128" width="64" height="32">
-   <properties>
-    <property name="map" value="brimhaven6"/>
+    <property name="map" value="brimhaven5"/>
     <property name="place" value="south"/>
    </properties>
   </object>
-  <object id="5" name="north2" type="mapchange" x="64" y="0" width="352" height="32">
+  <object id="2" name="south" type="mapchange" x="160" y="832" width="64" height="32">
    <properties>
-    <property name="map" value="brimhaven7"/>
-    <property name="place" value="south"/>
+    <property name="map" value="brimhaven3"/>
+    <property name="place" value="north"/>
    </properties>
   </object>
-  <object id="3" name="brimhaven_employee" type="mapchange" x="832" y="416" width="32" height="32">
+  <object id="3" name="tavern" type="mapchange" x="320" y="480" width="32" height="32">
    <properties>
-    <property name="map" value="brimhaven_employee"/>
+    <property name="map" value="brimhaven_tavern1"/>
     <property name="place" value="entrance"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup name="Spawn"/>
- <objectgroup name="Keys">
-  <object id="4" name="brv_employee_key_house" type="key" x="832" y="416" width="32" height="32">
-   <properties>
-    <property name="phrase" value="brv_employee_key_house"/>
-    <property name="requireId" value="brv_nondisplay"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="11"/>
-   </properties>
-  </object>
- </objectgroup>
+ <objectgroup name="Keys"/>
 </map>

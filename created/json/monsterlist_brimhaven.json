@@ -9,6 +9,15 @@
 		"phraseID":"brv_employee"
     },
     {
+        "id":"brv_employee2",
+        "name":"Stebbarik",
+        "iconID":"monsters_ld1:34",
+        "moveCost":5,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_employee2",
+		"phraseID":"brv_employee2"
+    },
+    {
         "id":"brv_employer",
         "name":"Gnossath",
 		"iconID":"monsters_ld1:10",
@@ -16,5 +25,32 @@
         "monsterClass":"humanoid",
         "spawnGroup":"brv_employer",
 		"phraseID":"brv_employer"
+    },
+    {
+        "id":"brv_tavern1_guest",
+        "name":"Customer",
+		"iconID":"monsters_ld1:30",
+        "moveCost":5,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_tavern1_guest",
+		"phraseID":"brv_tavern1_guest"
+    },
+    {
+        "id":"brv_tavern1_guest2",
+        "name":"Customer",
+		"iconID":"monsters_ld1:40",
+        "moveCost":5,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_tavern1_guest2",
+		"phraseID":"brv_tavern1_guest2"
+    },
+    {
+        "id":"brv_tavern1_landlord",
+        "name":"Rik",
+		"iconID":"monsters_ld1:20",
+        "moveCost":5,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_tavern1_landlord",
+		"phraseID":"brv_tavern1_landlord"
     }
 ]

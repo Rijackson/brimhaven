@@ -161,6 +161,42 @@
         "nextPhraseID":"X"
       }
 	]
+  },
+  {
+    "id":"brv_employee2",
+    "rewards":[
+      {
+        "rewardType":"removeQuestProgress",
+        "rewardID":"brv_nondisplay",
+        "value":11
+      }
+    ],
+    "message":"Hey kid! Come and have a drink with me!",
+    "replies":[
+      {
+        "text":"No, thank you.",
+        "nextPhraseID":"X"
+      },
+      {
+        "text":"I thought you were ill?",
+        "nextPhraseID":"brv_employee2_10",
+        "requires":[
+          {
+            "requireType":"questProgress",
+            "requireID":"brv_employee",
+            "value":90
+          }
+        ]
+      }
+	]
+  },
+  {
+    "id":"brv_employee2_10",
+    "message":"I am still - just taking my medicine here."
+  },
+  {
+    "id":"brv_employee_key_house",
+    "message":"The door is locked."
   },  
   {
     "id":"brv_employer",
@@ -212,6 +248,18 @@
   },  
   {
     "id":"brv_employer_01",
+    "rewards":[
+      {
+        "rewardType":"questProgress",
+        "rewardID":"brv_nondisplay",
+        "value":11
+      },
+      {
+        "rewardType":"removeSpawnArea",
+        "rewardID":"brv_employee2",
+        "mapName":"brimhaven_tavern1"
+      }
+    ],
     "message":"Hey, kid! I am waiting for Stebbarik. Have you seen him?",
     "replies":[
       {
@@ -627,6 +675,7 @@
   },
   {
     "id":"brv_employer_check_boulder_2",
+	"switchToNPC":"brv_employer",
     "message":"Hey, where are you going? Bring the boulders to the dam!"
   },
   {
@@ -655,7 +704,8 @@
   },
   {
     "id":"brv_employer_get_boulder_02",
-    "message":">Hands off! These boulders are needed for the dam!"
+	"switchToNPC":"brv_employer",
+    "message":"Hands off! These boulders are needed for the dam!"
   },
   {
     "id":"brv_employer_get_boulder_10",
@@ -801,7 +851,7 @@
 	],
     "replies":[
       {
-        "text":"Uff.",
+        "text":"N",
 		"nextPhraseID":"brv_employer_put_boulder_10"
       }
 	]
@@ -823,7 +873,7 @@
 	],
     "replies":[
       {
-        "text":"Uff.",
+        "text":"N",
 		"nextPhraseID":"brv_employer_put_boulder_10"
       }
 	]
@@ -845,7 +895,8 @@
 	],
     "replies":[
       {
-        "nextPhraseID":"brv_employer_put_boulder_10"
+        "text":"Uff.",
+		"nextPhraseID":"brv_employer_put_boulder_10"
       }
 	]
   },
@@ -973,7 +1024,7 @@
 		}
 	],
 	"switchToNPC":"brv_employer",
-    "message":"You have brought already 10 boulders."
+    "message":"You have brought already 5 boulders."
   },
   {
     "id":"brv_employer_put_boulder_22",
@@ -985,7 +1036,7 @@
 		}
 	],
 	"switchToNPC":"brv_employer",
-    "message":"20 boulders."
+    "message":"10 boulders."
   },
   {
     "id":"brv_employer_put_boulder_23",
@@ -997,7 +1048,7 @@
 		}
 	],
 	"switchToNPC":"brv_employer",
-    "message":"30 boulders."
+    "message":"15 boulders."
   },
   {
     "id":"brv_employer_put_boulder_24",
@@ -1009,7 +1060,7 @@
 		}
 	],
 	"switchToNPC":"brv_employer",
-    "message":"Only about 10 boulders left."
+    "message":"Only about 5 boulders left."
   },
   {
     "id":"brv_employer_put_boulder_90",
@@ -1018,6 +1069,11 @@
 			"rewardType":"questProgress",
 			"rewardID":"brv_employee",
 			"value":90
+		},
+		{
+			"rewardType":"spawnAll",
+			"rewardID":"brv_employee2",
+			"mapName":"brimhaven_tavern1"
 		}
 	],
 	"switchToNPC":"brv_employer",
@@ -1038,5 +1094,17 @@
 		"nextPhraseID":"X"
       }
 	]
+  },
+  {
+    "id":"brv_tavern1_guest",
+    "message":"I'm drinking because I hate me..."
+  },
+  {
+    "id":"brv_tavern1_guest2",
+    "message":"I hate me, because I'm drinking..."
+  },
+  {
+    "id":"brv_tavern1_landlord",
+    "message":"I'm coming, just a second..."
   }
 ]
