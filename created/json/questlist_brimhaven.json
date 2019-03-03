@@ -28,7 +28,7 @@
         "name":"brv_nondisplay",
         "showInLog":0,
         "stages":[	
-			{	"progress":11, "logText":"11=1 Employees house open" },
+			{	"progress":11, "logText":"11=1 Employee is at home" },
 			{	"progress":23, "logText":"- Employee Msg 23" },
 			{	"progress":22, "logText":"- Employee Msg 22" },
 			{	"progress":21, "logText":"- Employee Msg 21" }

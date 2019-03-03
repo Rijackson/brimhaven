@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextobjectid="6">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextobjectid="10">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -187,12 +187,12 @@
  </layer>
  <layer name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzVVr9rFEEUHvfYmLM4cgdZUO5fEQvFTiyMYNKF2FiqRdJaHlaWQVLYRrsTFInViXdH0sTqwFNxwTIB8QeWvpd5H/vuObN7rmn84HGzszvve7/nnHPuXcfVwtOk3jlg/R/Pn5Yd/xPys/F3hwteABuXZiRO5+aIX7IYP/+ZOPOF2b0OfdtN/O/5xHM01R6vL8izxuWuc1dIvom+G6k/Xwbt569sPnlP0m8697YtPMS5QtKQ+G4Q78GyX7Mtu12/Xk0LrmG73K4Qfgo3sEn6tkgmpOthWtjDaKhc3xHejHzdr8F7Yi/x5op7JHrWKbf3SO6TbCz6vV5afDOR79i2Or02zIrz1vbsL/V9IF2vI/KR5KvyD7HWPodwkXw9lG/Gkdges57InJxmRYwA+MzcXCcr6Z/nrglvWQz43Shi01R0DwI+gxu8u6qnxsuFvwC/Q+9V4UhibeOhuW8rfxslM4vfofeqwDGeiv6Bsd/mGnncNHHXPavfIX+Xul44HlizrqNIjZ3oVPGuQizX17teOB5Y30q99FvhGrOzhHFXzQkLO6/0rNH1wHyQeeLNeh4I7+qSc2tLfh2q26p+x3vUWKgfdbwfqRxuBXpMI9bbFlU+gxuweamLshoL5boKHH/0tL1X8fxK7rix9Bb3dIybfUZOOU9PKN7bonPb9C962t6reNa1gXijHjX/sMTn0FzZIbv65MNzNZt+tHxt9ExvTAO6r56ZFQ3dP71ArQ2I8w3J99bsvq6PUTvMe1Nx2Xs6pEcD/u53fB5zWWOf/Z8YXtzFg0Csc9V3sf84z5LC3z1zB2OfbfiiZsjYxAGI1TbbZ2fIAel8QfJS/fIe984n83/gWHQi3/Aldl/q2FjwmSHxjDrF757ieWzm2k5gznEOQvWlZ6LVcxpgW2x9AZwTzfkbTovy2Q==
+   eJzVVr9rFEEUHvfYmLM4cgdZUPZfEQOKnVgYwdiF2FiqRdIKWgQra0lhG+1OUCRWJ94dSROrA08lC5YJiD+w9L3M+9h3z5nd80zjB4+dndl537yfs845977jZsKzZLZ9wOo/7j+pc/xPKE7H1/bnvADWL82In85M4b9kPr7/gDiLucm5Dn2bJ/55NvEcTTXH43PyrnExd+4SyTfRdy31+6ug7fyVTScfSLpN5961hYc4l0ka4t814t1b9GM+y3buxytpydVvV58rhJ/CDayTvg2SEel6lJbnYTRUrG8Lb0a27s7Ae3xe4i0U90D0rFJs75LcI1mb93ObafnNSL7js81Sa/2s3G/Pnv2lvo+k601EPpF8VfbB19rmEM6TrfvyzTDi2yPWE+mT46z0EQCbmZvzZDn9c98V4a3yAa8NImcai+5ewGZwg3db1dRwsbQX4DXUXh0OxdfWH5r7lrK3UdGzeA21Vwf28Vj098z5bawRx3Xjd12zeg3xu5B7YX9gzLoOIzl2rFP5uw6xWF/NvbA/ML6Reum2wjlmewnjjuoTFrZf6V6j84H5INP4m/XcF96VBeduLvhxKG/r6h3ryLFQPWp/P1Yx3JDx00CtMWK1bVFnM7gBG5dZUZVjoVjXgf2Pmrb3Kt5fyx03lNrimo5xs82IKeK0JDqXTP2ipu29inedG/A38lHz9yM28/8DakVji+a7ZMML1Zt+tHxubJraGAd0Xz41KRoPaP9D0XEQuAt6NPeW5Htrcl7nx6Ad5r2uuOw9HdKjAXt3Oz6OhYwxz/aPDC/u4l7A14Wqu9g/zvOktHfH3MGY5zN8UT1kaPwAxHKbz2d7yB7pfEnySj15jmvns/kfOBKdiDdsid2X2jcWvKdPPINO+dxRPE9MX9sK9DmOQSi/dE+0ek4CfBabXwDHRHP+BuLi8z0=
   </data>
  </layer>
  <layer name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzNVssJwkAQTQIhCjkERE/BPrQDbUDtQGsSjxbh2Qpi7oJ2EAsQEzYL47CzO7v5Pgj5rJM3M/teRs+zw31hGdAShuZ9zvrlfUXi/GXy5mWey0gcTeBPzDlBPDrel6r/qpwCTZ62mAb/92lA19W3DuM6t677PGaYvKdbv6K9VWn4HanXsfdwrFyX8blmj0wa1vmuIDz9qZ8XiBfXjMHVsIm3Aq4ZcscoD6xh6LszuKZ6AfuFa8bcLrjN1c+beH6VeN46Mf8uBbkfQnGW/coAv67fEJuSc8vgrXCs+U6huM4U9br0W+U1CO5M1flKBUq3nJkKvwW2NVO8Om9LcOYZxc15PwWutl29lRLfg7bmGZ7dQ8JWpzh254tj79vFNeml7eyQaON/EOxXn7wuNV9GpDMXcPX1A37hRwQ=
+   eJzNVksKwjAQTQulCi4E0VXxHnoDvYB6A93racSlh3Dtzl11L+gN9ABiSxoYh0wyafrxQeknTt/M5L2OQrjhPHIMqAht894HzfI+Ynn+MHlvWZ7jWB4+CDr2nCCuNe9L3n9dTqEhT1d0w9/7JKTralqHvSK3uvv8z7B5z7R+RHur0/Az1q9j7+FYta7ib4Y9smnY5LsX4el38fyFeHHNGFwN23hz4Johdw/lgTUMfbcH11QvYL9wzZi7DE5D/XMfz0/6Qkz79t8lIPdVJM+qXyngN/UbYpZxzhm8OdYF3yaS16mm3jL91nkNgjtTTb7SgdItZ6bCb4FrzRSvydsKnHlGcXPeT4GrbR33hfALREJ8D3zm2TbT6C4qH18XXHWKYxeBPJaBW5xPL11nh0IV/4Ngv5rkLVPzwXO2tA2uvr7exkjL
   </data>
  </layer>
  <layer name="Top" width="30" height="30">
@@ -200,9 +200,9 @@
    eJztzjENADAIADC+OcC/JiRMySwQHna0ChrBjyq3Bz33bA8AAICpBxxNAdI=
   </data>
  </layer>
- <layer name="Walkable" width="30" height="30" visible="0">
+ <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztk7sRwDAIQz2F91/BGyZNGh8fIeGkCXduEsyTQaw5xroPEk/emn3nK25F38/FZvgmd/dHFxep18He71u1LG0dvrD2y+J6u6j2mg3kLjsz9H/1X+apk1zFw0qv0LlXPY5yLYYVDLfCjsLjZhoybqYh6hHrMauGd48J1MsIV92L7C0d3Cy/k6uwK37Zv0WBamS0dkV1Pkw9hd1VB8mP8pQ3IzNmeq6+t7oLqrYTx2NeTjK/0A==
+   eJztk7ERwDAIAz2F91/BGyZNGp8AgXDShDs3CdZjEGuOse7DxJO3Zt/5ipup7+dyM3yTu/uji8vodbD3+0gL1dbhC7RfiGvtotrrajB3qzNj/2f/RZ46yVU8rPSKnXvW4ywXMVBUuBm2FxY3qiHiRjV4Pap6DGlY9yrBepnhqnsRvaWDG+V3clU2y92/ecFyM7Uq/kMa2fmw2owOuwsdOky+l6e8mel1pefqez1/nfDBiWMxL8+7wJc=
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -230,15 +230,35 @@
     <property name="place" value="entrance"/>
    </properties>
   </object>
- </objectgroup>
- <objectgroup name="Spawn"/>
- <objectgroup name="Keys">
-  <object id="4" name="brv_employee_key_house" type="key" x="832" y="416" width="32" height="32">
+  <object id="6" name="tavern" type="mapchange" x="864" y="704" width="32" height="32">
    <properties>
-    <property name="phrase" value="brv_employee_key_house"/>
-    <property name="requireId" value="brv_nondisplay"/>
+    <property name="map" value="brimhaven_tavern1"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object id="7" name="brv_fisher" type="spawn" x="608" y="736" width="96" height="192">
+   <properties>
+    <property name="spawngroup" value="brv_fisher"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys">
+  <object id="8" name="andor:1" type="key" x="608" y="896" width="64" height="32">
+   <properties>
+    <property name="phrase" value="brv_fisher"/>
+    <property name="requireId" value="andor"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="11"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object id="9" name="andor:1b" type="key" x="640" y="736" width="64" height="32">
+   <properties>
+    <property name="phrase" value="brv_fisher"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
    </properties>
   </object>
  </objectgroup>

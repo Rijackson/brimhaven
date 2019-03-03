@@ -197,6 +197,36 @@
   {
     "id":"brv_employee_key_house",
     "message":"The door is locked."
+  },
+  {
+    "id":"brv_employee_wife",
+    "message":"Who are you? Stebbarik, my husband, is not at home.",
+    "replies":[
+      {
+        "text":"N",
+        "nextPhraseID":"brv_employee_wife_10"
+      }
+	]
+  },
+  {
+    "id":"brv_employee_wife_10",
+    "message":"Not at home, no. He never is.",
+    "replies":[
+      {
+        "text":"N",
+        "nextPhraseID":"X"
+      }
+	]
+  },
+  {
+    "id":"brv_employee_wife2",
+    "message":"Hey kid! Come and have a drink with me!",
+    "replies":[
+      {
+        "text":"No, thank you.",
+        "nextPhraseID":"X"
+      }
+	]
   },  
   {
     "id":"brv_employer",
@@ -249,16 +279,31 @@
   {
     "id":"brv_employer_01",
     "rewards":[
-      {
-        "rewardType":"questProgress",
-        "rewardID":"brv_nondisplay",
-        "value":11
-      },
-      {
-        "rewardType":"removeSpawnArea",
-        "rewardID":"brv_employee2",
-        "mapName":"brimhaven_tavern1"
-      }
+		{
+			"rewardType":"questProgress",
+			"rewardID":"brv_nondisplay",
+			"value":11
+		},
+		{
+			"rewardType":"removeSpawnArea",
+			"rewardID":"brv_employee2",
+			"mapName":"brimhaven_tavern1"
+		},
+		{
+			"rewardType":"removeSpawnArea",
+			"rewardID":"brv_employee_wife",
+			"mapName":"brimhaven_employee"
+		},
+		{
+			"rewardType":"spawnAll",
+			"rewardID":"brv_employee",
+			"mapName":"brimhaven_employee"
+		},
+		{
+			"rewardType":"spawnAll",
+			"rewardID":"brv_employee_wife2",
+			"mapName":"brimhaven_tavern1"
+		}
     ],
     "message":"Hey, kid! I am waiting for Stebbarik. Have you seen him?",
     "replies":[
@@ -270,7 +315,17 @@
   },  
   {
     "id":"brv_employer_02",
-    "message":"He has to work for me. I hope for him, that he will appear soon."
+    "message":"He has to work for me. I hope for him, that he will appear soon.",
+    "replies":[
+      {
+        "text":"N",
+        "nextPhraseID":"brv_employer_04"
+      }
+	]
+  },  
+  {
+    "id":"brv_employer_04",
+    "message":"You could do me a favour, if you'd find him."
   },  
   {
     "id":"brv_employer_10",
@@ -954,7 +1009,7 @@
           {
 			"requireType": "factionScore",
 			"requireID": "brv_boulder_count",
-			"value": 20
+			"value": 21
           },
           {
 			"requireType": "questProgress",
@@ -970,7 +1025,7 @@
           {
 			"requireType": "factionScore",
 			"requireID": "brv_boulder_count",
-			"value": 15
+			"value": 16
           },
           {
 			"requireType": "questProgress",
@@ -986,7 +1041,7 @@
           {
 			"requireType": "factionScore",
 			"requireID": "brv_boulder_count",
-			"value": 10
+			"value": 11
           },
           {
 			"requireType": "questProgress",
@@ -1002,7 +1057,7 @@
           {
 			"requireType": "factionScore",
 			"requireID": "brv_boulder_count",
-			"value": 5
+			"value": 6
           },
           {
 			"requireType": "questProgress",
@@ -1024,7 +1079,7 @@
 		}
 	],
 	"switchToNPC":"brv_employer",
-    "message":"You have brought already 5 boulders."
+    "message":"You have brought already more than 5 boulders."
   },
   {
     "id":"brv_employer_put_boulder_22",
@@ -1036,7 +1091,7 @@
 		}
 	],
 	"switchToNPC":"brv_employer",
-    "message":"10 boulders."
+    "message":"Over 10 boulders."
   },
   {
     "id":"brv_employer_put_boulder_23",
@@ -1048,7 +1103,7 @@
 		}
 	],
 	"switchToNPC":"brv_employer",
-    "message":"15 boulders."
+    "message":"At least 15 boulders now."
   },
   {
     "id":"brv_employer_put_boulder_24",
@@ -1060,15 +1115,30 @@
 		}
 	],
 	"switchToNPC":"brv_employer",
-    "message":"Only about 5 boulders left."
+    "message":"Only a few boulders left."
   },
   {
     "id":"brv_employer_put_boulder_90",
 	"rewards":[
 		{
+			"rewardType":"removeSpawnArea",
+			"rewardID":"brv_employee_wife2",
+			"mapName":"brimhaven_tavern1"
+		},
+		{
+			"rewardType":"removeSpawnArea",
+			"rewardID":"brv_employee",
+			"mapName":"brimhaven_employee"
+		},
+		{
 			"rewardType":"questProgress",
 			"rewardID":"brv_employee",
 			"value":90
+		},
+		{
+			"rewardType":"spawnAll",
+			"rewardID":"brv_employee_wife",
+			"mapName":"brimhaven_employee"
 		},
 		{
 			"rewardType":"spawnAll",
@@ -1096,12 +1166,16 @@
 	]
   },
   {
+    "id":"brv_fisher",
+    "message":"Hush! You are chasing the fish away!"
+  },
+  {
     "id":"brv_tavern1_guest",
-    "message":"I'm drinking because I hate me..."
+    "message":"I'm drinking because I hate myself..."
   },
   {
     "id":"brv_tavern1_guest2",
-    "message":"I hate me, because I'm drinking..."
+    "message":"I hate myself, because I'm drinking..."
   },
   {
     "id":"brv_tavern1_landlord",

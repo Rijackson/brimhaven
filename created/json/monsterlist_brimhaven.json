@@ -18,6 +18,24 @@
 		"phraseID":"brv_employee2"
     },
     {
+        "id":"brv_employee_wife",
+        "name":"Hettah",
+        "iconID":"monsters_ld1:155",
+        "moveCost":5,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_employee_wife",
+		"phraseID":"brv_employee_wife"
+    },
+    {
+        "id":"brv_employee_wife2",
+        "name":"Hettah",
+        "iconID":"monsters_ld1:155",
+        "moveCost":5,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_employee_wife2",
+		"phraseID":"brv_employee_wife2"
+    },
+    {
         "id":"brv_employer",
         "name":"Gnossath",
 		"iconID":"monsters_ld1:10",
@@ -27,9 +45,18 @@
 		"phraseID":"brv_employer"
     },
     {
+        "id":"brv_fisher",
+        "name":"Fisherman",
+		"iconID":"monsters_ld2:115",
+        "moveCost":5,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_fisher",
+		"phraseID":"brv_fisher"
+    },
+    {
         "id":"brv_tavern1_guest",
         "name":"Customer",
-		"iconID":"monsters_ld1:30",
+		"iconID":"monsters_ld1:119",
         "moveCost":5,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_tavern1_guest",
@@ -38,7 +65,7 @@
     {
         "id":"brv_tavern1_guest2",
         "name":"Customer",
-		"iconID":"monsters_ld1:40",
+		"iconID":"monsters_ld1:64",
         "moveCost":5,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_tavern1_guest2",
