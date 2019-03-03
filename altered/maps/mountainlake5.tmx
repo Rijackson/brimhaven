@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="11">
+<map version="1.2" tiledversion="1.2.2" orientation="orthogonal" renderorder="right-down" width="29" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="13">
+ <properties>
+  <property name="outdoors" value="1"/>
+ </properties>
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -121,7 +124,7 @@
   <image source="../drawable/map_rock_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="5041" name="map_roof_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_roof_1.png" width="512" height="256"/>
+  <image source="../../../../Maps/drawable/map_roof_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="5169" name="map_roof_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_roof_2.png" width="512" height="256"/>
@@ -153,124 +156,119 @@
  <tileset firstgid="6321" name="map_transition_4" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_transition_4.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="6449" name="map_tree_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="6449" name="map_transition_5" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_transition_5.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="6577" name="map_tree_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_tree_1.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="6577" name="map_tree_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="6705" name="map_tree_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_tree_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="6705" name="map_wall_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="6833" name="map_wall_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_wall_1.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="6833" name="map_wall_2" tilewidth="32" tileheight="32" tilecount="120" columns="15">
+ <tileset firstgid="6961" name="map_wall_2" tilewidth="32" tileheight="32" tilecount="120" columns="15">
   <image source="../drawable/map_wall_2.png" width="480" height="256"/>
  </tileset>
- <tileset firstgid="6953" name="map_wall_3" tilewidth="32" tileheight="32" tilecount="120" columns="15">
+ <tileset firstgid="7081" name="map_wall_3" tilewidth="32" tileheight="32" tilecount="120" columns="15">
   <image source="../drawable/map_wall_3.png" width="480" height="256"/>
  </tileset>
- <tileset firstgid="7073" name="map_wall_4" tilewidth="32" tileheight="32" tilecount="120" columns="15">
+ <tileset firstgid="7201" name="map_wall_4" tilewidth="32" tileheight="32" tilecount="120" columns="15">
   <image source="../drawable/map_wall_4.png" width="480" height="256"/>
  </tileset>
- <tileset firstgid="7193" name="map_window_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="7321" name="map_window_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_1.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7321" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer id="1" name="Ground" width="30" height="30">
+ <layer id="1" name="Ground" width="29" height="20">
   <data encoding="base64" compression="zlib">
-   eJy1lsFthDAQRVlu0AKXtJYSkjqiNBClhOwKUUDYW65AC1aUGjjFCI92dvi2x5g9fHk1tufNH9toz2VRnAPqra4idrH6qbb6juTSask/Wk1gDnEHG//K4PXMp/GsuR7omVhjwCcxp4BnDbsXvMl5RD553xEzhT0KXuy8TYSpPWufNx9XwyTl3LGjuXSuqewcLt2P8cGeETflXOXe51Oc+VSvd7ovt98DI+Kavi/cl9O9Xp2ISfGB9VW+0VFI1oi4b01RvDe3kbh/1SqKD4xjyvt3L7myRtSrD5vzs7mNxP2tVlEc+dVyQ3s7J9lnLu7XFzcP4PrUVds8oToQd7aqaz2zBVyZU9Yh17SOO7vfpBCTq/NwfT3qAJcLsVu2fumPrAHVgbicueRJ4c6evagWKeST59LsIWZs9MX2Spsjtm5vLXIf8nlUfsRCeXNiWn6sLi1rT19ifc29Vyl3VnuvUv2nxNF799Uj5zTfh5jkf4PQPMX+AQXNvkE=
+   eJy91UEOgjAQBdDSXQ+mp+QKbeIJCrtuixsPwEGE0InjOFOGSlj8GHXoM7V8kjMmKfL4M94aE0o03hlmuMjs7ZZgZRNmJRPWWLPnxWVmKOFMOs+Znrm2t/LvyMv7qSQ2mvQ6yIAyFvfWba+z3ZIbzWy/9wuMCeVZ1lvN2j5J50NyqTGjwBxnxkYzOd6g4UzYp1A5f9p7SGuC6y824X8928Tn9qjZ4mvv86N9pjWlmdoZquXe8dF2WYtJ19TuRVCYtE9xr1JT+i6532eLZHDdKvU7/nztw5f7hOtpraHJWPoQm7h/zg54nEndNyTzsDg=
   </data>
  </layer>
- <layer id="2" name="Objects" width="30" height="30">
+ <layer id="2" name="Objects" width="29" height="20">
   <data encoding="base64" compression="zlib">
-   eJylVjtu20AQ3RAq7EYgVTBNOjt9TuAjqNABDIQ5QdJFnaBj2DlBPk0aF3ZlIJaTxpUs20lpwImBAHER2J33YXegx+FwRSUPGJCc/byZt7MDOufceeEauOjo2xqE50nZHHMd9p4X6bl63o3n+Ulcwvsxs+OTdfPE3hofMts/I96//v1K5byKI5UfQ+chvNv/oHUKkqe17tJzPCgeK+cL4/wsHVhT65zaOFPcKbSdYYrz+WA1t9aqLRfLz2tnK3JpO2utbarmrLFfdH+2Kd8tlXtbjbWhrfbmKmfNw4D+wivruvSm1Fzguu/cyydNE+jvddClT77OnXvjbZRHvg3nXm2k9x34+t3sWMPgY52zMpigiryLzWAp4D7cr3n2gkEZTDBag3fVfUjhMt5PnD84JV+G3GFo+iwL+vLdf5rVrQsQs9RrRedrcd+T6R4n8b/w9f++QxzMe1cu8z3uoOFdnHNWhF5wW9ZjABZFMw70U5mPOJHrItac1Pep//5jxADOL37sh3++9fPGeZh3TjGcFcs4WKsrGuNcBaWPa+J9s0Qf/B5jAjebjuOG7Jb0RexjxYueAmCMdcf8k6LOe+r1+uptpxd0E37RjfvDOG/GKTqXqh4O/f5Hhv2OvN9irx326rrxPnJfwHvQb2onsQESB/IQyPvC0H8Y8wWfjOOJ74rynfWXMc3jfH2X4MN+n/vB8M55MMdur34ftW6V0lximuT1Mc6DeS1AB1nHWk8TMWhIHG2818b5sMa8j/UOiCZ47hi5YP4u+eVday0aT1Xfk3kjpWNFzyHtyX1Ea2DVFPvkjKd506cBH2KW9dZ9QO1NjLoD9F3lOmHfVJ0FfHv+ez/aO6On7xlj+9n/2yf1f6/HGeJ7BPQF9+I=
+   eJylVcFOwzAMjXbjGA5FkfhG+AP4EMRX7BN6GAcQEpWout6rdr1X4wTxGtNXz+4q7UlWmjTx83MSx7nL2GXOvUVrvXNdcK6PVqf2049zajFO+PBj/xBWkBicjC75wZb55Di1L5tx3bef+21IR7Ium/9jTlzTpe88jOP/PGmceSSKMHH10fbRaqFJ00l4jT4bETf61XSVfvJHXMdoP5nufwf9Cvxsw+SH48D+o6GVOegs0PxLnBh/Hs7jaLOpfY6c94K3UjiofxB7KjmXsE9zj9lkdRrD3PL5oP0flD0dYB3jQcnbPu0P4uv2POZe+P818su8d5HrJtrTZjoHbMhHXAzJiXPfw1y7jHcwONC/BsxTAfWhTbnuDJ2ab9nne3fyJ86E3B95j/gcWTVCQwN3nGDdc9Z1mgN1EnNYr+Tne075Zv6lO6fV5ybdV4sfuZGj9XN+Oaf0en3uYZ8RzG9hrcZK6GPdxJ8rbwSvZ5+oieYvaeR6pb1LS++Pxoma+sRHZ5rMel8I2r+tkmOs4ZXxrqyFpker4YWIQ1tnobwyxmvwB1xx/Hw=
   </data>
  </layer>
- <layer id="3" name="Above" width="30" height="30">
+ <layer id="3" name="Above" width="29" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYCAOHBbDz6c2gJl/aYDsxQYuo8k9ZqLMLmTz0P2JrAaXHLn24TMPV7jDwGoy/EyM+0H2riFgNjl2E2MvMYDadtM6HdPKXkr0o+cfetk7qpd4MwfKXkrKOGLtRc/DhMobatlLbYArrD4OUJkyWACh8mWnEAPDLiHq2zvYw/0a38DYe4XK9iL74zId/TSY7aV2GNMDDDU3dwlQbsZNQVTzkDEIXBfE1HMNi9hNLGIwgM0MQm5Btw8Ai0k8uQ==
+   eJxjYKAM3JJkYLgpSbw4NcBmGpmLDPZQ2Q5eIQYGPiHscrOZqGvXUAeXxSD0ahLC5aYgeXbAwCUxTHFS7EcGuPRdQjJ7DZKaw2KYarEBQmkS3d41eNxPrJ3UBOh2khu+pIBLWPyJbi+onLpFhzIF2T4YoIe9uMpnWgBCZRnI3s2SiDAnJuzJKe+JrX88GRkYwtFwGCN+PZSW13PR9CObB5K7hKOeGE4Avfylh33ElHkAO1wr/Q==
   </data>
  </layer>
- <layer id="8" name="Top" width="30" height="30">
+ <layer id="4" name="Walkable" width="29" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzt0zENAAAIBDGCfwt4ZcUB+aRVcMtVZZn+LoBc/gEA4FqnXgE/
+   eJzbKMbAsJEIDAPEqKUWRgYDYSe6/cjuoLW78LmDVL3UcAcx6qgVLqTYSc14INVOavmVVH/S2k5s9tHTTnqFLbXtJMYMdHlK7CdWHzY5fIBSP5IT5sQCStIDOemDmvaN4sGPAZyUbvg=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="30" height="30" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJztlF0KwDAIg3uK3f8KveHexZ8v61boUAgM0SbWrPMaYzYajcZPEcUuXptr3u/2exrvE0+u8pIgvIoG71w1sjvzuMlMlQ5SR3gz/jf2FenKZlD86J1rv0lvxO1ppj3KTNSbJK9qs7VVKLxePqqvNJD9ev98pD3jXfU3fVsIr/puVF5SezPP7cINtwEF1Q==
-  </data>
- </layer>
- <objectgroup id="5" name="Mapevents" visible="0">
-  <object id="1" name="west_lower" type="mapchange" x="0" y="512" width="32" height="64">
+ <objectgroup id="5" name="Mapevents">
+  <object id="1" name="west" type="mapchange" x="0" y="288" width="32" height="160">
    <properties>
-    <property name="map" value="brimhaven4"/>
-    <property name="place" value="east_lower"/>
+    <property name="map" value="mountainlake4"/>
+    <property name="place" value="east"/>
    </properties>
   </object>
-  <object id="2" name="west_upper" type="mapchange" x="0" y="608" width="32" height="320">
+  <object id="2" name="north" type="mapchange" x="320" y="0" width="64" height="32">
    <properties>
-    <property name="map" value="brimhaven4"/>
-    <property name="place" value="east_upper"/>
-   </properties>
-  </object>
-  <object id="3" name="east" type="mapchange" x="928" y="512" width="32" height="416">
-   <properties>
-    <property name="map" value="brimhaven3"/>
-    <property name="place" value="west"/>
-   </properties>
-  </object>
-  <object id="5" name="brv_employer_put_boulder" type="script" x="448" y="320" width="32" height="32"/>
-  <object id="6" name="brv_employer_carry_boulder" type="script" x="32" y="320" width="896" height="608">
-   <properties>
-    <property name="when" value="step"/>
+    <property name="map" value="mountainlake6"/>
+    <property name="place" value="south"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup id="6" name="Spawn" visible="0">
-  <object id="65" name="brv_employer" type="spawn" x="416" y="320" width="32" height="32">
+  <object id="3" name="arulir_1" type="spawn" x="672" y="192" width="32" height="64">
    <properties>
-    <property name="quantity" value="1"/>
-    <property name="spawngroup" value="brv_employer"/>
+    <property name="spawngroup" value="arulir_1"/>
+   </properties>
+  </object>
+  <object id="4" name="arulir_1_1" type="spawn" x="672" y="256" width="32" height="64">
+   <properties>
+    <property name="spawngroup" value="arulir_1"/>
+   </properties>
+  </object>
+  <object id="5" name="arulir_1_2" type="spawn" x="448" y="448" width="64" height="32">
+   <properties>
+    <property name="spawngroup" value="arulir_1"/>
+   </properties>
+  </object>
+  <object id="6" name="arulir_1_3" type="spawn" x="512" y="448" width="64" height="32">
+   <properties>
+    <property name="spawngroup" value="arulir_1"/>
+   </properties>
+  </object>
+  <object id="7" name="arulir_1_4" type="spawn" x="608" y="352" width="128" height="160">
+   <properties>
+    <property name="spawngroup" value="arulir_1"/>
+   </properties>
+  </object>
+  <object id="8" name="maonit_3" type="spawn" x="576" y="96" width="64" height="32">
+   <properties>
+    <property name="spawngroup" value="maonit_3"/>
+   </properties>
+  </object>
+  <object id="9" name="arulir_1_5" type="spawn" x="512" y="96" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="arulir_1"/>
+   </properties>
+  </object>
+  <object id="10" name="maonit_3_1" type="spawn" x="32" y="96" width="160" height="160">
+   <properties>
+    <property name="spawngroup" value="maonit_3"/>
+   </properties>
+  </object>
+  <object id="11" name="maonit_2" type="spawn" x="64" y="128" width="384" height="384">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="maonit_2"/>
+   </properties>
+  </object>
+  <object id="12" name="maonit_2_1" type="spawn" x="416" y="64" width="64" height="32">
+   <properties>
+    <property name="spawngroup" value="maonit_2"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Keys" visible="0">
-  <object id="68" name="brv_employer_check_boulder" type="key" x="32" y="704" width="64" height="32">
-   <properties>
-    <property name="phrase" value="brv_employer_check_boulder"/>
-    <property name="requireId" value="brv_boulder"/>
-    <property name="requireNegation" value="true"/>
-    <property name="requireType" value="inventoryKeep"/>
-    <property name="requireValue" value="5"/>
-   </properties>
-  </object>
-  <object id="7" name="brv_employer_check_boulder_2" type="key" x="0" y="512" width="32" height="416">
-   <properties>
-    <property name="phrase" value="brv_employer_check_boulder_2"/>
-    <property name="requireId" value="brv_boulder"/>
-    <property name="requireNegation" value="true"/>
-    <property name="requireType" value="inventoryKeep"/>
-    <property name="requireValue" value="1"/>
-   </properties>
-  </object>
-  <object id="8" name="brv_employer_check_boulder_2a" type="key" x="928" y="512" width="32" height="416">
-   <properties>
-    <property name="phrase" value="brv_employer_check_boulder_2"/>
-    <property name="requireId" value="brv_boulder"/>
-    <property name="requireNegation" value="true"/>
-    <property name="requireType" value="inventoryKeep"/>
-    <property name="requireValue" value="1"/>
-   </properties>
-  </object>
-  <object id="9" name="brv_employer_get_boulder" type="key" x="64" y="640" width="32" height="32">
-   <properties>
-    <property name="phrase" value="brv_employer_get_boulder"/>
-    <property name="requireId" value="base_nondisplay"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="2"/>
-   </properties>
-  </object>
- </objectgroup>
+ <objectgroup id="7" name="Keys"/>
 </map>

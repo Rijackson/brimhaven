@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="11">
+<map version="1.2" tiledversion="1.2.2" orientation="orthogonal" renderorder="right-down" width="30" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="11">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -177,50 +177,32 @@
  <tileset firstgid="7321" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer id="1" name="Ground" width="30" height="30">
+ <layer id="9" name="Ground" width="30" height="10">
   <data encoding="base64" compression="zlib">
-   eJy1lsFthDAQRVlu0AKXtJYSkjqiNBClhOwKUUDYW65AC1aUGjjFCI92dvi2x5g9fHk1tufNH9toz2VRnAPqra4idrH6qbb6juTSask/Wk1gDnEHG//K4PXMp/GsuR7omVhjwCcxp4BnDbsXvMl5RD553xEzhT0KXuy8TYSpPWufNx9XwyTl3LGjuXSuqewcLt2P8cGeETflXOXe51Oc+VSvd7ovt98DI+Kavi/cl9O9Xp2ISfGB9VW+0VFI1oi4b01RvDe3kbh/1SqKD4xjyvt3L7myRtSrD5vzs7mNxP2tVlEc+dVyQ3s7J9lnLu7XFzcP4PrUVds8oToQd7aqaz2zBVyZU9Yh17SOO7vfpBCTq/NwfT3qAJcLsVu2fumPrAHVgbicueRJ4c6evagWKeST59LsIWZs9MX2Spsjtm5vLXIf8nlUfsRCeXNiWn6sLi1rT19ifc29Vyl3VnuvUv2nxNF799Uj5zTfh5jkf4PQPMX+AQXNvkE=
+   eJxbx8TAsG4Uj+JRPIqHAAYAIUPOQQ==
   </data>
  </layer>
- <layer id="2" name="Objects" width="30" height="30">
+ <layer id="10" name="Objects" width="30" height="10">
   <data encoding="base64" compression="zlib">
-   eJylVjtu20AQ3RAq7EYgVTBNOjt9TuAjqNABDIQ5QdJFnaBj2DlBPk0aF3ZlIJaTxpUs20lpwImBAHER2J33YXegx+FwRSUPGJCc/byZt7MDOufceeEauOjo2xqE50nZHHMd9p4X6bl63o3n+Ulcwvsxs+OTdfPE3hofMts/I96//v1K5byKI5UfQ+chvNv/oHUKkqe17tJzPCgeK+cL4/wsHVhT65zaOFPcKbSdYYrz+WA1t9aqLRfLz2tnK3JpO2utbarmrLFfdH+2Kd8tlXtbjbWhrfbmKmfNw4D+wivruvSm1Fzguu/cyydNE+jvddClT77OnXvjbZRHvg3nXm2k9x34+t3sWMPgY52zMpigiryLzWAp4D7cr3n2gkEZTDBag3fVfUjhMt5PnD84JV+G3GFo+iwL+vLdf5rVrQsQs9RrRedrcd+T6R4n8b/w9f++QxzMe1cu8z3uoOFdnHNWhF5wW9ZjABZFMw70U5mPOJHrItac1Pep//5jxADOL37sh3++9fPGeZh3TjGcFcs4WKsrGuNcBaWPa+J9s0Qf/B5jAjebjuOG7Jb0RexjxYueAmCMdcf8k6LOe+r1+uptpxd0E37RjfvDOG/GKTqXqh4O/f5Hhv2OvN9irx326rrxPnJfwHvQb2onsQESB/IQyPvC0H8Y8wWfjOOJ74rynfWXMc3jfH2X4MN+n/vB8M55MMdur34ftW6V0lximuT1Mc6DeS1AB1nHWk8TMWhIHG2818b5sMa8j/UOiCZ47hi5YP4u+eVday0aT1Xfk3kjpWNFzyHtyX1Ea2DVFPvkjKd506cBH2KW9dZ9QO1NjLoD9F3lOmHfVJ0FfHv+ez/aO6On7xlj+9n/2yf1f6/HGeJ7BPQF9+I=
+   eJxjYBgFo2AUjIKhAQAEsAAB
   </data>
  </layer>
- <layer id="3" name="Above" width="30" height="30">
+ <layer id="11" name="Above" width="30" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYCAOHBbDz6c2gJl/aYDsxQYuo8k9ZqLMLmTz0P2JrAaXHLn24TMPV7jDwGoy/EyM+0H2riFgNjl2E2MvMYDadtM6HdPKXkr0o+cfetk7qpd4MwfKXkrKOGLtRc/DhMobatlLbYArrD4OUJkyWACh8mWnEAPDLiHq2zvYw/0a38DYe4XK9iL74zId/TSY7aV2GNMDDDU3dwlQbsZNQVTzkDEIXBfE1HMNi9hNLGIwgM0MQm5Btw8Ai0k8uQ==
+   eJxjYBgFo2AUjIKhAQAEsAAB
   </data>
  </layer>
- <layer id="8" name="Top" width="30" height="30">
+ <layer id="12" name="Top" width="30" height="10">
   <data encoding="base64" compression="zlib">
-   eJzt0zENAAAIBDGCfwt4ZcUB+aRVcMtVZZn+LoBc/gEA4FqnXgE/
+   eJxjYBgFo2AUjIKhAQAEsAAB
   </data>
  </layer>
- <layer id="4" name="Walkable" width="30" height="30" visible="0">
+ <layer id="13" name="Walkable" width="30" height="10" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztlF0KwDAIg3uK3f8KveHexZ8v61boUAgM0SbWrPMaYzYajcZPEcUuXptr3u/2exrvE0+u8pIgvIoG71w1sjvzuMlMlQ5SR3gz/jf2FenKZlD86J1rv0lvxO1ppj3KTNSbJK9qs7VVKLxePqqvNJD9ev98pD3jXfU3fVsIr/puVF5SezPP7cINtwEF1Q==
+   eJzbKMbAsHEUj+JRPIqHAAYAb0zpNQ==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents" visible="0">
-  <object id="1" name="west_lower" type="mapchange" x="0" y="512" width="32" height="64">
-   <properties>
-    <property name="map" value="brimhaven4"/>
-    <property name="place" value="east_lower"/>
-   </properties>
-  </object>
-  <object id="2" name="west_upper" type="mapchange" x="0" y="608" width="32" height="320">
-   <properties>
-    <property name="map" value="brimhaven4"/>
-    <property name="place" value="east_upper"/>
-   </properties>
-  </object>
-  <object id="3" name="east" type="mapchange" x="928" y="512" width="32" height="416">
-   <properties>
-    <property name="map" value="brimhaven3"/>
-    <property name="place" value="west"/>
-   </properties>
-  </object>
   <object id="5" name="brv_employer_put_boulder" type="script" x="448" y="320" width="32" height="32"/>
   <object id="6" name="brv_employer_carry_boulder" type="script" x="32" y="320" width="896" height="608">
    <properties>
@@ -236,41 +218,5 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Keys" visible="0">
-  <object id="68" name="brv_employer_check_boulder" type="key" x="32" y="704" width="64" height="32">
-   <properties>
-    <property name="phrase" value="brv_employer_check_boulder"/>
-    <property name="requireId" value="brv_boulder"/>
-    <property name="requireNegation" value="true"/>
-    <property name="requireType" value="inventoryKeep"/>
-    <property name="requireValue" value="5"/>
-   </properties>
-  </object>
-  <object id="7" name="brv_employer_check_boulder_2" type="key" x="0" y="512" width="32" height="416">
-   <properties>
-    <property name="phrase" value="brv_employer_check_boulder_2"/>
-    <property name="requireId" value="brv_boulder"/>
-    <property name="requireNegation" value="true"/>
-    <property name="requireType" value="inventoryKeep"/>
-    <property name="requireValue" value="1"/>
-   </properties>
-  </object>
-  <object id="8" name="brv_employer_check_boulder_2a" type="key" x="928" y="512" width="32" height="416">
-   <properties>
-    <property name="phrase" value="brv_employer_check_boulder_2"/>
-    <property name="requireId" value="brv_boulder"/>
-    <property name="requireNegation" value="true"/>
-    <property name="requireType" value="inventoryKeep"/>
-    <property name="requireValue" value="1"/>
-   </properties>
-  </object>
-  <object id="9" name="brv_employer_get_boulder" type="key" x="64" y="640" width="32" height="32">
-   <properties>
-    <property name="phrase" value="brv_employer_get_boulder"/>
-    <property name="requireId" value="base_nondisplay"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="2"/>
-   </properties>
-  </object>
- </objectgroup>
+ <objectgroup id="7" name="Keys" visible="0"/>
 </map>
