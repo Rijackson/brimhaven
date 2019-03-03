@@ -179,22 +179,22 @@
  </tileset>
  <layer id="1" name="Ground" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJy1lsFtwzAMRYXc4hHsQ7tBF2o3aDcpukDREZrC8ABxbr1aXkFT+BQJMGGG+ZIo2zl8KKElPn5KMnw6GHNKqPe6iNif1//xXudMLq1Cfus1gmeIO/j47wZez3y6yJzLjp6JZRM+iTkmPGvYveCNs0fkk/cdMUvYVvBy++0yTO1ex7zFuBomacsZ25tL+1rK3sKl82Ef7BlxS/ZVrn2qjHkG4szw/8z6yt8HTsQ1fQ/cl+pWkkvxgfVV3lErJGtE3M/GmK9mGYn7WhvzVi/xgXHc4fbeS66sEfXq2+f8aZaRuO+e+VEvceRXy02t7Wah/SVxv7G4ewA3pu54nydVB+JOXlUBtwVcmVPWIee0M3eaf5NSTK4uwo31qANcLsRu2fzQH1kDqgNxOTPkKeFOkbWoFinkk+fSrCFmbozF1kqbIzdvbS1yHfK5V37EQnm3xLT8XF1a1pq+5Pq69VyVnFntuSr1XxJH9z1Wj3ymeT/kJL8NUs8pdgWqJ7TP
+   eJy1ljFuwzAMRRVv8RHspQdrh+7t0J6j6AWCHqEpDB+gztbV9hV0Ck+VERFmaFKiLGf4UEBJfPyUZORcGHMOqHO6kNiP099xrd9ILq3m/IPTyMxx3N7FvzN4HfJphTWXHT0Dawj4BOYY8Kxhd4Q3eo+cT9x3jpnCHggvdt42wtSeteRN4mqYoJw7tjcXzjWVncOF+zHc2TPHTTlXuvf5EGc+lNc73RXr74ElcU3fZ+7b4VbvXsCEeI/6St/oQERr5LgftTGf9TIC97Ey5qla4j3i2OL23VMurZHr1cnl/KqXEbgvjvlaLXHOr5Yb2tt60T5jYb9S3N6BK6k9rvOE6uC4k1NZ6pkNw6U5aR10TeO5k/8NCjGxWoEr9ahluFgcu0Hr5/7QGrg6OC5mznlSuJOwl6uFivOJc2n2ADM2SrGt0uaIrdtaC93H+dwrP8fi8ubEtPxYXVrWlr7E+pp7r1LurPZepfpPiXPvXaqHzmm+DzHR/waheYj9A/pQvHs=
   </data>
  </layer>
  <layer id="2" name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJylVr1uE0EQXp3chOK4c3FICIki0OcJ8ggu8gAp7g2gw53lx0h4An4amhShikIcaFI5TgJlJCBSJFJE0LGfdj95bm5ufYZPGt3+zO438+3s2s45d166Fi56jm0Ow/ekas+5HnvPy7Sv9jtSPOR9l9nxcd08sbfG28wenwnue9++UrGs4kjlJ6HzIO+zf9A6BeZprbv0HH8Uj5XzhXF+lg5SU+ucujhT3Cl0nWGK8/lwNbfWqisXa1yuna3IpeustbapmrPmfvr9fqh6AjZV7l011oWu2purnDWPBPQnL9f1eZtSvsB17tzTB20jdH8d9HknXxTOvfS2U/Tfd+jrd6NnDYNP6pxVwYh6DV7ch99rnj0xrIIR6+S76j6kcBnvJ84fnFa+vMPQ9EkW9JV3/1HWtL4xs17rxPneR01p+o1j/Fu+/t/0iEPy3lXLfPVvo4W76HNWhrfgpmrGACzKdhx4T+mPOJHrItYc6/vU938ZMYDzk5/75r+vvN+4CH7nIoazchmH1OpKzMlcicrHNfFjs8Q7+DXGBG5pOo7vwm6Evoh9rHjxpgCYk7rD/6Rs8p56vT572x4E3chP3eT7MC7acVLnStXDod//o2G3kfdLfGtHg6Dbcd7cB33eF/Ae5G3tGBvAOJAHwfbC0H8U8wUf5h8/DF/0a5HvLF/GNI/++i5hDPt9yIOhLfUgx5Gf2x0s9z/Om37o10pzxjQpmnMyD8lrATpwnazRaRHytmLQYBxdvNfG+UiN5T48a9kGqCu+20Yu8N8V42xrranxVOgs/XaUjrX4jsSe8h3RGlg1xTFoyjOexr2pK3OEj8wbMXO91F/W3sSoO0DfVVkncmwaz4J6YGzP9/ejvTbe9D1jbj/7f3uv/t/reQmO/QWMXfqK
+   eJylVjtuFEEQbUabkAwzGwwSIrPJOYGPsIEPYIm5AWRsttpj2JwA7ISEACLLeA2Jo/XahtCSwZIlHFiQ0aXup31TU9M7C08qTX+q+1W9rm6Nc86dla6F855jG8PwPa7ac67H3vMy7av9rj3PD+IC735mx4d188TeGu8ye3xGvPe+falyXsWRyo+h8wDv5j9onQLytNZdeI4/isfK+dw4P0sH1tQ6py7OFHcKXWeY4nw2XM2tterKxRrntbMVuXSdtdY2VXPW3E+6P5uU74bKvavGutBVe3OVs+ZhiP7gxbo+b1PKV3CVO/fiQdsA3V8Hfd7Jl4Vzr7xtF/33Hfr6fdizhoWPdc6qYEC9Bq/ch99rnj0wrIIB6+S76j6kcBHvp5y/cFr54g6Lpk+zoC/f/cdZ0/rGjHqtE+d7HzWF6TcO8T/39f+2RxzMe1ct8z3soeFd9Dktw1twUzVjECzKdhzynsJf4pRcF7HmUN8nvv/LiEE4P/u57/772vuNi+B3RjGclss4WKtLmuNcgcrHNfFjs8Q7+C3GJNxsOo5rshvSV2IfK155UwQyx7qL/3HZ5D3xen3xtjUIuoEfuvH7MC7acULnStXDR7//J8NuI+/X+NaOBkG3o7y5j/RxX4T3Q97WDrEJEIfkAaC9MPQfxXyFT+afPApf6deU7yxfxjSP/vouyZjs9z4PJm3WAxyHfm5nsNz/KG/6Sb9WmiOmSdGc4zyY14LogHVco9Mi5G3FoIE4univjPNhjXkfnDW3BdBVvltGLuK/Q+Noa62h8ZR0Zr9tpWNN3xHtye+I1sCqKYyJpjjjadwbuiJH8eG8JWasZ/259iZG3Qn0XeU64bFpPAvoIWO7vr8X7Y3xpu8ac3vZ/9uB+r/X8wyM/QX60f09
   </data>
  </layer>
  <layer id="3" name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYCAOHBbDz6c2uAw1/xKaPXOZaGsvPn9dRpN7TKFbkM1D9yeyGlxy5NqHz7zDBNSsJsPPxLgfZO8aAmaTYzcx9hIDqG03rfMPrexFzwP00ntIjHz9lPgZZC+5+gebvcSYd4iC8oYSeykp44i1Fz0PEypvqGUvtQGusPo4QGXKYAGEyoedQgwMu4Soby+hcKeVvcSCa3wDY+8VKtuL7I/LdPTTYLaX2mFMDzDU3NwlQLkZNwVRzUPGIHBdEFPPNSxiN7GIwQA2Mwi5Bd0+AMT1QbU=
+   eJzVlMENgzAMRaMOUAEHhmYVukA5wgYNAnHuBN2gikSl1A2xZTsh/VIOJPF/tkVsDE1TG//Wlt39H5m5MX8Lzp4XGcv3g3X6d47OuLyY34Tc6Rk1U/J33BvizWFTuBRps1P/x6m48A3kih1bfrykZsflxpfGpfiNgnkj4UpmHJUL3zA2b7S42jrq1eukmVKKsPlwb4wZGn0u1vdUXKqW6zncWZnr12Ez1lQyV7vHOfRvOXeV3GOrv/385bTWvzFLYG8L7H0U8sBygbw3zM5B7w==
   </data>
  </layer>
  <layer id="8" name="Top" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztzgENAAAIA6DP/hXsagzdhAQkwBdd2wMAAC4ZWEgAoA==
+   eJzt0zENAAAIBDGCfwt4ZcUB+aRVcMtVZZn+LoBc/gEA4FqnXgE/
   </data>
  </layer>
  <layer id="4" name="Walkable" width="30" height="30" visible="0">
