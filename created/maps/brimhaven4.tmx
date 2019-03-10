@@ -46,7 +46,7 @@
   <image source="../drawable/map_entrance_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="1841" name="map_entrance_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_entrance_2.png" width="512" height="256"/>
+  <image source="../../../../Sources/Current-master/andors-trail-master/AndorsTrail/res/drawable/map_entrance_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="1969" name="map_fence_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_fence_1.png" width="512" height="256"/>
@@ -121,7 +121,7 @@
   <image source="../drawable/map_rock_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="5041" name="map_roof_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_roof_1.png" width="512" height="256"/>
+  <image source="../../../../Sources/Current-master/andors-trail-master/AndorsTrail/res/drawable/map_roof_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="5169" name="map_roof_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_roof_2.png" width="512" height="256"/>
@@ -187,7 +187,7 @@
  </layer>
  <layer id="2" name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <layer id="3" name="Above" width="30" height="30">
@@ -195,9 +195,9 @@
    eJzFl00KwjAQhWsh6EoornsC90K7cecdvIfeQM/mAZRKN4IewCMUW+zgNE4yk5/SD0SraWYy73USk4TnOefHvJgxdfZ9v2eCgD2zBT8mRWNc5g5lnQ+va0vsKkJeB5Ukx/ZVoriPVfi8HKc25lkNPdD0cUFz37pL8qc80Gluq7cJWEOjxeW8C3Sa45ylupp8nAr8TeUszdeE7l0KU907fPUuBXEp9Hy3grrFAPKN8fxOgUTnMWJKdHbNjdNcOp+PBy8W/aeo8ZRxQ9HPEqG9zEaBaqT3M0nvpQjdc0E3yZkK89b2XMx1Sd+zUb/P4HvJmQoD+w5Vr8oQd6f+v3NdLxDqD9f1AlJ/xPaz9Ln28fOe0AWg+uLNoC+GyrfI7dfcb5K4vmeJsQnpD7gWJl/F+C9GAWecD3QlNp4=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="30" height="30" visible="0">
+ <layer id="4" name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzFk0EOxCAMA/lGD/3/N6seKnFIbAccGmmldgse44TrHuP6+ffWSRarE1z2vysbpIvY7L0z/45+IC0Hd2dPxK1oudgzV9FTspq/qVX1754zlgHyi7QRs5J9tj/KfCUTxEBs5nt3nlluux6yLLKeR1mp+9EZWCYsG6WUPdW5U3rnuKfM52qvnT6QN7dvpP09Z+s7uWi9+06innbOx8odqbIV7Qo3WsfOhrT/4HZUxj1RlfO6ZjfSegABGG0P
+   eJzFkzsOwCAMQ7kGQ+9/zYqhUgdiO+BAJKR+iF9wQn9a65fXiJMsFie47LvLG6SL2Oy90v+KfiAtB3cnZ8bNaLnYf66ip3j1/6dGtn73nDEPUL1IGzEz3kf5M89XPEEMxGZ1784z8223hsiLqOczr9R8dAbmCfNGCSUnO3dK7xz3lNW52mtnHag2d91I+3uO9ldy0X73nUQ9rZyPlTuSZSvaGe5sHzsb0r7BrYiIeyIy562a3bFeBTNtRQ==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -213,7 +213,7 @@
     <property name="place" value="west_lower"/>
    </properties>
   </object>
-  <object id="3" name="south2" type="mapchange" x="480" y="928" width="352" height="32">
+  <object id="3" name="south2" type="mapchange" x="480" y="928" width="320" height="32">
    <properties>
     <property name="map" value="brimhaven2"/>
     <property name="place" value="north2"/>
