@@ -46,7 +46,7 @@
   <image source="../drawable/map_entrance_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="1841" name="map_entrance_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../../../Sources/Current-master/andors-trail-master/AndorsTrail/res/drawable/map_entrance_2.png" width="512" height="256"/>
+  <image source="../drawable/map_entrance_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="1969" name="map_fence_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_fence_1.png" width="512" height="256"/>
@@ -121,7 +121,7 @@
   <image source="../drawable/map_rock_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="5041" name="map_roof_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../../../Sources/Current-master/andors-trail-master/AndorsTrail/res/drawable/map_roof_1.png" width="512" height="256"/>
+  <image source="../drawable/map_roof_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="5169" name="map_roof_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_roof_2.png" width="512" height="256"/>

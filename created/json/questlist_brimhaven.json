@@ -24,6 +24,15 @@
         ]
     },
     {
+        "id":"brv_draught",
+        "name":"Water or food?",
+        "showInLog":1,
+        "stages":[	
+			{	"progress":70, 
+				"logText":"Water came pouring through the hole in the dam. Much water!"  }
+        ]
+    },
+    {
         "id":"brv_nondisplay",
         "name":"brv_nondisplay",
         "showInLog":0,
@@ -31,7 +40,17 @@
 			{	"progress":11, "logText":"11=1 Employee is at home" },
 			{	"progress":23, "logText":"- Employee Msg 23" },
 			{	"progress":22, "logText":"- Employee Msg 22" },
-			{	"progress":21, "logText":"- Employee Msg 21" }
-        ]
+			{	"progress":21, "logText":"- Employee Msg 21" },
+			{	"progress":23, "logText":"- Employee Msg 23" },
+			{	"progress":71, "logText":"71=Stage-1 flood" },
+			{	"progress":72, "logText":"72=stage-2 flood" },
+			{	"progress":73, "logText":"73=stage-3 flood" },
+			{	"progress":79, "logText":"79=End flood" },
+			{	"progress":80, "logText":"80=Start flood" },
+			{	"progress":81, "logText":"81=Stage-1 flood" },
+			{	"progress":82, "logText":"82=stage-2 flood" },
+			{	"progress":83, "logText":"83=stage-3 flood" },
+			{	"progress":89, "logText":"89=End flood" }
+		]
     }
 ]
