@@ -183,6 +183,9 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7577" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_guynmart.png" width="512" height="256"/>
+ </tileset>
  <layer name="Ground" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJzNls0NwjAMhaPe2g06FmLSqieUBSoVVmAEZoBKWBjLz3H+BId3c96XOLaTZQxh+VPFIYTrS5ehTzzyuL199oQP8Xh8CZs81vEjy4d4PD6XHRUP8kE5lLF8jZcrz8mFco7i14wcWx6WF4r15trDRV4o1yl2FDnemFL3JtfmsOXdIq48c1TqH9WlJ0+bwSYfreesuqzlko/Wc5aPty4QF+3FikVcbz334OawS1TDLdkbYp2mEM6T3Yfaek/Pabz7/M1N9QTKD+JazOOMxLWY1nzUuCi3jzn9BnGhd03jtnoL0JmpHnpz+XzkM7I39xDnlvRp65nhmUk9+MSlGqj515Zw96HNvzZ1h6gGPD3o5Xr35p1dLfUrrqUnSyKZSg==
@@ -220,7 +223,7 @@
  </layer>
  <layer name="Above_3" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzlla0WgCAMhXkFi+f4/u9hMVu0YrJq8A2ERpiM/bHgl9kubHcjBD7zJAhu5Bxtz0tzaOjtxBzU819sxDyLw1szj4Kuxt0hYpqBozIHEt1ara6keVd0qb3ViJX4sjU2Am+26i2Gpe46+OjWwLxujdbeo9Kj3lBtsTmEZqGVrFXG95hdCMme4vZF6iOurtRH3Fp57QuNf7vEa/9gf20PvHafBK87a/vuT7zm/DH1
+   eJzFljsOAjEMRLflApEouP8taGiodyWqpaKFghuwFBEhJPbE44SRIiFhz3O+3mmy67gnkkHdQt941sODtyQel0NbPKM5fJhxSDqF71ik1lxLwUPzeRpykNpRLyl+3e7AVbgHElNjS7H3jfn4A1dSbW8RLyk31VqYs7a3GtvzXKA+ver1GiXFsz6aO2LeVq7XnpbeEc0jvwstzDcrzc97UMsaWdY0anbmImLeKYaLvlPeXPYeWLm1vm3lar3WY/6lofXaXvxUzDcfw2WEeNf+Y+qI5w6t77z7/T1KvdbeqhdhTHaO
   </data>
  </layer>
  <layer name="Above_9" width="30" height="30" visible="0">

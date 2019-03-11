@@ -1,5 +1,17 @@
 [
     {
+        "id":"drowning",
+        "iconID":"actorconditions_1:68",
+        "name":"Drowning",
+        "category":"physical",
+		"roundEffect":{
+			"increaseCurrentHP":{
+				"min":-40,
+				"max":-40
+			}
+		}
+    },
+    {
         "id":"entanglement",
         "iconID":"actorconditions_japozero:39",
         "name":"Entanglement",
