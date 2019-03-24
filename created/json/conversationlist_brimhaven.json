@@ -1268,14 +1268,6 @@
     "id":"brv_flood_2",
     "replies":[
       {
-        "nextPhraseID":"brv_flood_2a"
-      }
-	]
-  },
-  {
-    "id":"brv_flood_2a",
-    "replies":[
-      {
         "nextPhraseID":"brv_flood_2_10",
         "requires":[
           {
@@ -1295,6 +1287,42 @@
   },
   {
     "id":"brv_flood_2_10",
+	"rewards":[
+		{
+			"rewardType":"actorCondition",
+			"rewardID":"drowning",
+			"value":500
+		}
+	],
+    "replies":[
+      {
+        "nextPhraseID":"brv_flood_2a_10"
+      }
+	]
+  },
+  {
+    "id":"brv_flood_2a",
+    "replies":[
+      {
+        "nextPhraseID":"brv_flood_2a_10",
+        "requires":[
+          {
+            "requireType":"questProgress",
+            "requireID":"brv_nondisplay",
+            "value":72
+          },
+          {
+            "requireType":"questProgress",
+            "requireID":"brv_nondisplay",
+            "value":73,
+			"negate":true
+          }
+        ]
+      }
+	]
+  },
+  {
+    "id":"brv_flood_2a_10",
 	"rewards":[
 		{
 			"rewardType":"questProgress",

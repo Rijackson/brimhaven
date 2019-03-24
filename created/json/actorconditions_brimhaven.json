@@ -7,7 +7,7 @@
 		"roundEffect":{
 			"increaseCurrentHP":{
 				"min":-40,
-				"max":-40
+				"max":-80
 			}
 		}
     },
