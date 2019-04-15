@@ -79,5 +79,52 @@
         "monsterClass":"humanoid",
         "spawnGroup":"brv_tavern1_landlord",
 		"phraseID":"brv_tavern1_landlord"
+    },
+    {
+        "id":"old_basilisk",
+        "name":"Old Basilisk",
+        "iconID":"monsters_rltiles2:77",
+        "maxHP":60,
+        "unique":1,
+        "monsterClass":"reptile",
+        "attackDamage":{
+            "min":3,
+            "max":5
+        },
+        "spawnGroup":"basiliskcave2_boss",
+        "faction":"",
+        "attackCost":3,
+        "attackChance":55,
+        "criticalSkill":10,
+        "criticalMultiplier":2.0,
+        "blockChance":80,
+        "damageResistance":5,
+        "deathEffect":{
+            
+        }
+    },
+    {
+        "id":"anakis",
+        "name":"Anakis",
+        "iconID":"monsters_ld1:84",
+        "unique":1,
+        "movementAggressionType":"protectSpawn",
+        "spawnGroup":"anakis",
+        "phraseID":"anakis_start"
+    },
+    {
+        "id":"juttarka",
+        "name":"Juttarka",
+        "iconID":"monsters_ld1:185",
+        "unique":1,
+        "spawnGroup":"juttarka",
+        "phraseID":"juttarka_thank"
+    },
+    {
+        "id":"fangwurm",
+        "name":"Fangwurm",
+        "iconID":"monsters_ld1:2",
+        "unique":1,
+        "phraseID":"fangwurm_start"
     }
 ]

@@ -181,5 +181,44 @@
         "hasManualPrice":1,
         "baseMarketCost":350,
         "category":"other"
-    }
+    },
+    {
+        "id":"hand_mirror",
+        "iconID":"items_japozero:457",
+        "name":"Hand mirror",
+        "hasManualPrice":1,
+        "category":"shld_mtl_li",
+        "equipEffect":{
+            "increaseMoveCost":1,
+            "increaseAttackCost":1,
+            "increaseBlockChance":-10
+        }
+    },
+    {
+        "id":"basilisk_blood",
+        "iconID":"items_consumables:33",
+        "name":"Basilisk blood",
+        "displaytype":"quest",
+        "hasManualPrice":1,
+        "category":"pot",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"stoneskin",
+                    "magnitude":1,
+                    "duration":20,
+                    "chance":"100"
+                }
+            ]
+        }
+    },
+    {
+        "id":"empty_crystal_vial",
+        "iconID":"items_consumables:58",
+        "name":"Empty crystal vial",
+        "displaytype":"quest",
+        "hasManualPrice":1,
+        "baseMarketCost":0,
+        "category":"flask"
+    }	
 ]

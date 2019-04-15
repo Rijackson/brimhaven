@@ -1,0 +1,38 @@
+[
+    {
+        "id":"fallhaven_potions",
+        "message":"Welcome to my shop. Please browse my fine selection of everyday potions.",
+        "replies":[
+            {
+                "text":"Let me see what potions you have available.",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"Do you have anything to help against food-poisoning?",
+                "nextPhraseID":"fallhaven_pot_antifoodp1"
+            },
+            {
+                "text":"I was told that I can get some Spotted Hornbeam fungus from you.",
+                "nextPhraseID":"fallhaven_potions1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lodar_pots",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"Can you sell me a special crystal vial?",
+                "nextPhraseID":"fallhaven_potions_offer_crystal_vial",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"quick_glance",
+                        "value":78
+                    }
+                ]
+            }
+        ]
+    }
+]

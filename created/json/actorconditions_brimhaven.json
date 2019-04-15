@@ -84,5 +84,39 @@
 				"max":-1
 			}
 		}
+    },
+    {
+        "id":"turn_to_stone",
+        "iconID":"actorconditions_1:89",
+        "name":"Turning to stone",
+        "category":"physical",
+        "roundEffect":{
+            "visualEffectID":"greenSplash",
+            "increaseCurrentHP":{
+                "min":-10,
+                "max":-10
+            },
+            "increaseCurrentAP":{
+                "min":-100,
+                "max":-100
+            }
+        },
+        "abilityEffect":{
+            "increaseMoveCost":100,
+            "increaseUseItemCost":100,
+            "increaseReequipCost":100,
+            "increaseAttackCost":100
+        }
+    },
+    {
+        "id":"stoneskin",
+        "iconID":"actorconditions_1:84",
+        "name":"Stone skin",
+        "category":"physical",
+        "isPositive":1,
+        "abilityEffect":{
+            "increaseBlockChance":20,
+            "increaseDamageResistance":3
+        }
     }
 ]
