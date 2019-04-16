@@ -200,12 +200,12 @@
    eJxjYBgFo4D6AAACWAAB
   </data>
  </layer>
- <layer id="5" name="Walkable" width="30" height="5">
+ <layer id="5" name="Walkable" width="30" height="5" visible="0">
   <data encoding="base64" compression="zlib">
    eJzbKMbAsHEAMQjAaBibXvYi24luN63cQwqgt73YwoFcDABD511J
   </data>
  </layer>
- <objectgroup id="6" name="Mapevents" visible="0">
+ <objectgroup id="6" name="Mapevents">
   <object id="1" name="south" type="mapchange" x="64" y="128" width="352" height="32">
    <properties>
     <property name="map" value="brimhaven3"/>
@@ -220,7 +220,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Spawn" visible="0">
+ <objectgroup id="7" name="Spawn">
   <object id="4" name="anakis" type="spawn" x="96" y="64" width="64" height="32">
    <properties>
     <property name="spawngroup" value="anakis"/>
