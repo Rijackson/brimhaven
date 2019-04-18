@@ -1,1358 +1,1359 @@
 [
-  {
-    "id":"brv_employee",
-    "replies":[
-      {
-        "nextPhraseID":"brv_employee_90",
-        "requires":[
-          {
-            "requireType":"questProgress",
-            "requireID":"brv_employee",
-            "value":90
-          }
+    {
+        "id":"brv_employee",
+        "replies":[
+            {
+                "nextPhraseID":"brv_employee_90",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_employee",
+                        "value":90
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_employee_40",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_employee",
+                        "value":40
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_employee_30",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_employee",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_employee_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_employee",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_employee_01"
+            }
         ]
-      },
-      {
-        "nextPhraseID":"brv_employee_40",
-        "requires":[
-          {
-            "requireType":"questProgress",
-            "requireID":"brv_employee",
-            "value":40
-          }
+    },
+    {
+        "id":"brv_employee_01",
+        "message":"Ooh. Oooooh!",
+        "replies":[
+            {
+                "text":"Hey, what's the matter with you?",
+                "nextPhraseID":"brv_employee_02"
+            }
         ]
-      },
-      {
-        "nextPhraseID":"brv_employee_30",
-        "requires":[
-          {
-            "requireType":"questProgress",
-            "requireID":"brv_employee",
-            "value":30
-          }
+    },
+    {
+        "id":"brv_employee_02",
+        "message":"I feel so bad.",
+        "replies":[
+            {
+                "text":"Looks like a bit fever. Just stay in bed for a few days.",
+                "nextPhraseID":"brv_employee_03"
+            }
         ]
-      },
-      {
-        "nextPhraseID":"brv_employee_10",
-        "requires":[
-          {
-            "requireType":"questProgress",
-            "requireID":"brv_employee",
-            "value":10
-          }
+    },
+    {
+        "id":"brv_employee_03",
+        "message":"But I can't! I mustn't! Gnossath would kill me.",
+        "replies":[
+            {
+                "text":"Gnossath would kill you? Why?",
+                "nextPhraseID":"brv_employee_04"
+            }
         ]
-      },
-      {
-        "nextPhraseID":"brv_employee_01"
-      }
-    ]
-  },
-  {
-    "id":"brv_employee_01",
-    "message":"Ooh. Oooooh!",
-    "replies":[
-      {
-        "text":"Hey, what's the matter with you?",
-        "nextPhraseID":"brv_employee_02"
-      }
-	]
-  },
-  {
-    "id":"brv_employee_02",
-    "message":"I feel so bad.",
-    "replies":[
-      {
-        "text":"Looks like a bit fever. Just stay in bed for a few days.",
-        "nextPhraseID":"brv_employee_03"
-      }
-	]
-  },
-  {
-    "id":"brv_employee_03",
-    "message":"But I can't! I mustn't! Gnossath would kill me.",
-    "replies":[
-      {
-        "text":"Gnossath would kill you? Why?",
-        "nextPhraseID":"brv_employee_04"
-      }
-	]
-  },
-  {
-    "id":"brv_employee_04",
-    "message":"I am working for him.",
-    "replies":[
-      {
-        "text":"N",
-        "nextPhraseID":"brv_employee_05"
-      }
-	]
-  },
-  {
-    "id":"brv_employee_05",
-    "message":"He had lent me money, so that I could afford this house. But no work - no money. I fear that Gnossath would take my house, if I can't pay my debts.",
-    "replies":[
-      {
-        "text":"Maybe I could help you? I could do your work.",
-        "nextPhraseID":"brv_employee_06"
-      },
-      {
-        "text":"That's the way it goes, man. Have a nice day.",
-        "nextPhraseID":"X"
-      }
-	]
-  },
-  {
-    "id":"brv_employee_06",
-    "message":"You would do that? Oh, thank you! Thank you!",
-    "rewards":[
-      {
-        "rewardType":"questProgress",
-        "rewardID":"brv_employee",
-        "value":10
-      }
-    ],
-    "replies":[
-      {
-        "text":"And you - get healthy again!.",
-        "nextPhraseID":"X"
-      },
-      {
-        "text":"I have too good a heart.",
-        "nextPhraseID":"X"
-      }
-	]
-  },
-  {
-    "id":"brv_employee_10",
-    "message":"Did you talk to Gnossath?",
-    "replies":[
-      {
-        "text":"Not yet.",
-        "nextPhraseID":"X"
-      }
-	]
-  },
-  {
-    "id":"brv_employee_30",
-    "message":"Did you talk to Gnossath?",
-    "replies":[
-      {
-        "text":"Yes. He wants me to carry heavy boulders.",
-        "nextPhraseID":"X"
-      }
-	]
-  },
-  {
-    "id":"brv_employee_40",
-    "message":"Did you start working already?",
-    "replies":[
-      {
-        "text":"Yes. It is hard work, really.",
-        "nextPhraseID":"X"
-      }
-	]
-  },
-  {
-    "id":"brv_employee_90",
-    "message":"Thank you for your help!",
-    "replies":[
-      {
-        "text":"Was a pleasure.",
-        "nextPhraseID":"X"
-      }
-	]
-  },
-  {
-    "id":"brv_employee2",
-    "rewards":[
-      {
-        "rewardType":"removeQuestProgress",
-        "rewardID":"brv_nondisplay",
-        "value":11
-      }
-    ],
-    "message":"Hey kid! Come and have a drink with me!",
-    "replies":[
-      {
-        "text":"No, thank you.",
-        "nextPhraseID":"X"
-      },
-      {
-        "text":"I thought you were ill?",
-        "nextPhraseID":"brv_employee2_10",
-        "requires":[
-          {
-            "requireType":"questProgress",
-            "requireID":"brv_employee",
-            "value":90
-          }
+    },
+    {
+        "id":"brv_employee_04",
+        "message":"I am working for him.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_employee_05"
+            }
         ]
-      }
-	]
-  },
-  {
-    "id":"brv_employee2_10",
-    "message":"I am still - just taking my medicine here."
-  },
-  {
-    "id":"brv_employee_key_house",
-    "message":"The door is locked."
-  },
-  {
-    "id":"brv_employee_wife",
-    "message":"Who are you? Stebbarik, my husband, is not at home.",
-    "replies":[
-      {
-        "text":"N",
-        "nextPhraseID":"brv_employee_wife_10"
-      }
-	]
-  },
-  {
-    "id":"brv_employee_wife_10",
-    "message":"Not at home, no. He never is.",
-    "replies":[
-      {
-        "text":"N",
-        "nextPhraseID":"X"
-      }
-	]
-  },
-  {
-    "id":"brv_employee_wife2",
-    "message":"Hey kid! Come and have a drink with me!",
-    "replies":[
-      {
-        "text":"No, thank you.",
-        "nextPhraseID":"X"
-      }
-	]
-  },  
-  {
-    "id":"brv_employer",
-    "replies":[
-      {
-        "nextPhraseID":"brv_employer_90",
-        "requires":[
-          {
-            "requireType":"questProgress",
-            "requireID":"brv_employee",
-            "value":90
-          }
+    },
+    {
+        "id":"brv_employee_05",
+        "message":"He had lent me money, so that I could afford this house. But no work - no money. I fear that Gnossath would take my house, if I can't pay my debts.",
+        "replies":[
+            {
+                "text":"Maybe I could help you? I could do your work.",
+                "nextPhraseID":"brv_employee_06"
+            },
+            {
+                "text":"That's the way it goes, man. Have a nice day.",
+                "nextPhraseID":"X"
+            }
         ]
-      },
-      {
-        "nextPhraseID":"brv_employer_40",
-        "requires":[
-          {
-            "requireType":"questProgress",
-            "requireID":"brv_employee",
-            "value":40
-          }
-        ]
-      },
-      {
-        "nextPhraseID":"brv_employer_30",
-        "requires":[
-          {
-            "requireType":"questProgress",
-            "requireID":"brv_employee",
-            "value":30
-          }
-        ]
-      },
-      {
-        "nextPhraseID":"brv_employer_10",
-        "requires":[
-          {
-            "requireType":"questProgress",
-            "requireID":"brv_employee",
-            "value":10
-          }
-        ]
-      },
-      {
-        "nextPhraseID":"brv_employer_01"
-      }
-    ]
-  },  
-  {
-    "id":"brv_employer_01",
-    "rewards":[
-		{
-			"rewardType":"questProgress",
-			"rewardID":"brv_nondisplay",
-			"value":11
-		},
-		{
-			"rewardType":"removeSpawnArea",
-			"rewardID":"brv_employee2",
-			"mapName":"brimhaven_tavern1"
-		},
-		{
-			"rewardType":"removeSpawnArea",
-			"rewardID":"brv_employee_wife",
-			"mapName":"brimhaven_employee"
-		},
-		{
-			"rewardType":"spawnAll",
-			"rewardID":"brv_employee",
-			"mapName":"brimhaven_employee"
-		},
-		{
-			"rewardType":"spawnAll",
-			"rewardID":"brv_employee_wife2",
-			"mapName":"brimhaven_tavern1"
-		}
-    ],
-    "message":"Hey, kid! I am waiting for Stebbarik. Have you seen him?",
-    "replies":[
-      {
-        "text":"No. What do you want of him?",
-        "nextPhraseID":"brv_employer_02"
-      }
-	]
-  },  
-  {
-    "id":"brv_employer_02",
-    "message":"He has to work for me. I hope for him, that he will appear soon.",
-    "replies":[
-      {
-        "text":"N",
-        "nextPhraseID":"brv_employer_04"
-      }
-	]
-  },  
-  {
-    "id":"brv_employer_04",
-    "message":"You could do me a favour, if you'd find him."
-  },  
-  {
-    "id":"brv_employer_10",
-    "message":"Have you seen this lazy bone, Stebbarik?",
-    "replies":[
-      {
-        "text":"Stebbarik is ill at home. He is very anxious that you might get angry.",
-        "nextPhraseID":"brv_employer_10_10"
-      }
-	]
-  },
-  {
-    "id":"brv_employer_10_10",
-    "message":"Ill? Rats! Who will repair the dam now? It must be done soon.",
-    "replies":[
-      {
-        "text":"If it is so important, maybe I can help?",
-        "nextPhraseID":"brv_employer_10_20"
-      }
-	]
-  },
-  {
-    "id":"brv_employer_10_20",
-    "message":"You? A kid? It is too heavy work. We need 50 big boulders carried from the stock to the dam here.",
-    "replies":[
-      {
-        "text":"Sounds easy. Let me try it.",
-        "nextPhraseID":"brv_employer_10_30"
-      },
-      {
-        "text":"You are right. This is no work for me.",
-        "nextPhraseID":"X"
-      }
-	]
-  },  
-  {
-    "id":"brv_employer_10_30",
-    "message":"OK. Try, if you want. The pile of boulders is just next to the wooden logs over there.",
-    "rewards":[
-      {
-        "rewardType":"questProgress",
-        "rewardID":"brv_employee",
-        "value":30
-      }
-    ],
-    "replies":[
-      {
-        "text":"Aye.",
-        "nextPhraseID":"brv_employer_10_40"
-      }
-	]
-  },  
-  {
-    "id":"brv_employer_10_40",
-    "message":"But beware, they are really heavy."
-  },  
-  {
-    "id":"brv_employer_30",
-    "message":"Where are the boulders? I knew it would be too heavy for you.",
-    "replies":[
-      {
-        "text":"Just you wait.",
-        "nextPhraseID":"X"
-      }
-	]
-  },  
-  {
-    "id":"brv_employer_40",
-    "message":"You have carried some boulders already - good. Just do the rest too.",
-    "replies":[
-      {
-        "text":"Aye.",
-        "nextPhraseID":"X"
-      }
-	]
-  },  
-  {
-    "id":"brv_employer_90",
-    "message":"Thanks again for your good work. Are you sure you don't want a job?",
-    "replies":[
-      {
-        "text":"Certainly not. I am on a mission of Mikhail.",
-        "nextPhraseID":"X"
-      }
-	]
-  },
-  {
-    "id":"brv_employer_carry_boulder",
-    "replies":[
-      {
-        "nextPhraseID":"brv_employer_carry_boulder_8",
-        "requires":[
-          {
-            "requireType":"inventoryRemove",
-            "requireID":"brv_boulder",
-            "value":5
-          }
-        ]
-	  },
-      {
-        "nextPhraseID":"brv_employer_carry_boulder_1"
-	  }
-	]
-  },
-  {
-    "id":"brv_employer_carry_boulder_1",
-    "replies":[
-      {
-        "nextPhraseID":"brv_employer_carry_boulder_1c",
-        "requires":[
-          {
-            "requireType":"inventoryKeep",
-            "requireID":"brv_boulder",
-            "value":1,
-			"negate":true
-          },
-          {
-            "requireType":"hasActorCondition",
-            "requireID":"fatigue1"
-          }
-        ]
-	  },
-      {
-        "nextPhraseID":"brv_employer_carry_boulder_1s",
-        "requires":[
-          {
-            "requireType":"inventoryKeep",
-            "requireID":"brv_boulder",
-            "value":1
-          },
-          {
-            "requireType":"hasActorCondition",
-            "requireID":"fatigue1",
-			"negate":true
-          }
-        ]
-	  },
-      {
-        "nextPhraseID":"brv_employer_carry_boulder_2"
-	  }
-	]
-  },
-  {
-    "id":"brv_employer_carry_boulder_1c",
-    "rewards":[
-		{
-			"rewardType":"actorCondition",
-			"rewardID":"fatigue1",
-			"value":-99
-		}
-	],
-    "replies":[
-      {
-        "nextPhraseID":"brv_employer_carry_boulder_2"
-	  }
-	]
-  },
-  {
-    "id":"brv_employer_carry_boulder_1s",
-    "rewards":[
-		{
-			"rewardType":"actorCondition",
-			"rewardID":"fatigue1",
-			"value":99
-		}
-	],
-    "replies":[
-      {
-        "nextPhraseID":"brv_employer_carry_boulder_2"
-	  }
-	]
-  },
-  {
-    "id":"brv_employer_carry_boulder_2",
-    "replies":[
-      {
-        "nextPhraseID":"brv_employer_carry_boulder_2c",
-        "requires":[
-          {
-            "requireType":"inventoryKeep",
-            "requireID":"brv_boulder",
-            "value":2,
-			"negate":true
-          },
-          {
-            "requireType":"hasActorCondition",
-            "requireID":"fatigue2"
-          }
-        ]
-	  },
-      {
-        "nextPhraseID":"brv_employer_carry_boulder_2s",
-        "requires":[
-          {
-            "requireType":"inventoryKeep",
-            "requireID":"brv_boulder",
-            "value":2
-          },
-          {
-            "requireType":"hasActorCondition",
-            "requireID":"fatigue2",
-			"negate":true
-          }
-        ]
-	  },
-      {
-        "nextPhraseID":"brv_employer_carry_boulder_3"
-	  }
-	]
-  },
-  {
-    "id":"brv_employer_carry_boulder_2c",
-    "rewards":[
-		{
-			"rewardType":"actorCondition",
-			"rewardID":"fatigue2",
-			"value":-99
-		}
-	],
-    "replies":[
-      {
-        "nextPhraseID":"brv_employer_carry_boulder_3"
-	  }
-	]
-  },
-  {
-    "id":"brv_employer_carry_boulder_2s",
-    "rewards":[
-		{
-			"rewardType":"actorCondition",
-			"rewardID":"fatigue2",
-			"value":99
-		}
-	],
-    "replies":[
-      {
-        "nextPhraseID":"brv_employer_carry_boulder_3"
-	  }
-	]
-  },
-  {
-    "id":"brv_employer_carry_boulder_3",
-    "replies":[
-      {
-        "nextPhraseID":"brv_employer_carry_boulder_3c",
-        "requires":[
-          {
-            "requireType":"inventoryKeep",
-            "requireID":"brv_boulder",
-            "value":3,
-			"negate":true
-          },
-          {
-            "requireType":"hasActorCondition",
-            "requireID":"fatigue3"
-          }
-        ]
-	  },
-      {
-        "nextPhraseID":"brv_employer_carry_boulder_3s",
-        "requires":[
-          {
-            "requireType":"inventoryKeep",
-            "requireID":"brv_boulder",
-            "value":3
-          },
-          {
-            "requireType":"hasActorCondition",
-            "requireID":"fatigue3",
-			"negate":true
-          }
-        ]
-	  },
-      {
-        "nextPhraseID":"brv_employer_carry_boulder_4"
-	  }
-	]
-  },
-  {
-    "id":"brv_employer_carry_boulder_3c",
-    "rewards":[
-		{
-			"rewardType":"actorCondition",
-			"rewardID":"fatigue3",
-			"value":-99
-		}
-	],
-    "replies":[
-      {
-        "nextPhraseID":"brv_employer_carry_boulder_4"
-	  }
-	]
-  },
-  {
-    "id":"brv_employer_carry_boulder_3s",
-    "rewards":[
-		{
-			"rewardType":"actorCondition",
-			"rewardID":"fatigue3",
-			"value":99
-		}
-	],
-    "replies":[
-      {
-        "nextPhraseID":"brv_employer_carry_boulder_4"
-	  }
-	]
-  },
-  {
-    "id":"brv_employer_carry_boulder_4",
-    "replies":[
-      {
-        "nextPhraseID":"brv_employer_carry_boulder_4c",
-        "requires":[
-          {
-            "requireType":"inventoryKeep",
-            "requireID":"brv_boulder",
-            "value":4,
-			"negate":true
-          },
-          {
-            "requireType":"hasActorCondition",
-            "requireID":"fatigue4"
-          }
-        ]
-	  },
-      {
-        "nextPhraseID":"brv_employer_carry_boulder_4s",
-        "requires":[
-          {
-            "requireType":"inventoryKeep",
-            "requireID":"brv_boulder",
-            "value":4
-          },
-          {
-            "requireType":"hasActorCondition",
-            "requireID":"fatigue4",
-			"negate":true
-          }
-        ]
-	  },
-      {
-        "nextPhraseID":"X"
-	  }
-	]
-  },
-  {
-    "id":"brv_employer_carry_boulder_4c",
-    "rewards":[
-		{
-			"rewardType":"actorCondition",
-			"rewardID":"fatigue4",
-			"value":-99
-		}
-	],
-    "replies":[
-      {
-        "nextPhraseID":"X"
-	  }
-	]
-  },
-  {
-    "id":"brv_employer_carry_boulder_4s",
-    "rewards":[
-		{
-			"rewardType":"actorCondition",
-			"rewardID":"fatigue4",
-			"value":99
-		}
-	],
-    "replies":[
-      {
-        "nextPhraseID":"X"
-	  }
-	]
-  },
-  {
-    "id":"brv_employer_carry_boulder_8",
-    "replies":[
-      {
-        "nextPhraseID":"brv_employer_carry_boulder_8",
-        "requires":[
-          {
-            "requireType":"inventoryRemove",
-            "requireID":"brv_boulder",
-            "value":1
-          }
-        ]
-	  },
-      {
-        "nextPhraseID":"brv_employer_carry_boulder_9"
-	  }
-	]
-  },
-  {
-    "id":"brv_employer_carry_boulder_9",
-    "message":"Breathing heavily under the big load, you collapse, losing all the boulders."
-  },
-  {
-    "id":"brv_employer_check_boulder",
-    "message":"You can't carry so many boulders."
-  },
-  {
-    "id":"brv_employer_check_boulder_2",
-	"switchToNPC":"brv_employer",
-    "message":"Hey, where are you going? Bring the boulders to the dam!"
-  },
-  {
-    "id":"brv_employer_get_boulder",
-    "replies":[
-      {
-        "nextPhraseID":"brv_employer_get_boulder_10",
-        "requires":[
-          {
-            "requireType":"questProgress",
-            "requireID":"brv_employee",
-            "value":10
-          },
-          {
-            "requireType":"questProgress",
-            "requireID":"brv_employee",
-            "value":90,
-			"negate":true
-          }
-        ]
-	  },
-      {
-        "nextPhraseID":"brv_employer_get_boulder_02"
-	  }
-	]
-  },
-  {
-    "id":"brv_employer_get_boulder_02",
-	"switchToNPC":"brv_employer",
-    "message":"Hands off! These boulders are needed for the dam!"
-  },
-  {
-    "id":"brv_employer_get_boulder_10",
-    "message":"Take a boulder?",
-    "replies":[
-      {
-        "text":"Ah, no. This would be too much.",
-        "requires":[
-          {
-            "requireType":"inventoryKeep",
-            "requireID":"brv_boulder",
-            "value":4
-          }
+    },
+    {
+        "id":"brv_employee_06",
+        "message":"You would do that? Oh, thank you! Thank you!",
+        "replies":[
+            {
+                "text":"And you - get healthy again!.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I have too good a heart.",
+                "nextPhraseID":"X"
+            }
         ],
-        "nextPhraseID":"X"
-      },
-      {
-        "text":"Yes.",
-        "nextPhraseID":"brv_employer_get_boulder_20",
-        "requires":[
-          {
-            "requireType":"inventoryKeep",
-            "requireID":"brv_boulder",
-            "value":4,
-			"negate":true
-          }
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_employee",
+                "value":10
+            }
         ]
-      },
-      {
-        "text":"No.",
-        "nextPhraseID":"X"
-      }
-	]
-  },
-  {
-    "id":"brv_employer_get_boulder_20",
-    "message":"Uff, that's heavy!",
-	"rewards":[
-		{
-			"rewardType":"giveItem",
-			"rewardID":"brv_boulder",
-			"value":1
-		},
-		{
-			"rewardType":"actorCondition",
-			"rewardID":"fatigue1",
-			"value":99
-		}
-	],
-    "replies":[
-      {
-        "text":"Take another one.",
-        "nextPhraseID":"brv_employer_get_boulder_20",
-        "requires":[
-          {
-            "requireType":"inventoryKeep",
-            "requireID":"brv_boulder",
-            "value":4,
-			"negate":true
-          }
+    },
+    {
+        "id":"brv_employee_10",
+        "message":"Did you talk to Gnossath?",
+        "replies":[
+            {
+                "text":"Not yet.",
+                "nextPhraseID":"X"
+            }
         ]
-      },
-      {
-        "text":"And now to the dam.",
-        "nextPhraseID":"X"
-      }
-	]
-  },
-  {
-    "id":"brv_employer_put_boulder",
-    "replies":[
-      {
-        "nextPhraseID":"brv_employer_put_boulder_4",
-        "requires":[
-          {
-            "requireType":"inventoryRemove",
-            "requireID":"brv_boulder",
-            "value":4
-          }
+    },
+    {
+        "id":"brv_employee_30",
+        "message":"Did you talk to Gnossath?",
+        "replies":[
+            {
+                "text":"Yes. He wants me to carry heavy boulders.",
+                "nextPhraseID":"X"
+            }
         ]
-	  },
-      {
-        "nextPhraseID":"brv_employer_put_boulder_3",
-        "requires":[
-          {
-            "requireType":"inventoryRemove",
-            "requireID":"brv_boulder",
-            "value":3
-          }
+    },
+    {
+        "id":"brv_employee_40",
+        "message":"Did you start working already?",
+        "replies":[
+            {
+                "text":"Yes. It is hard work, really.",
+                "nextPhraseID":"X"
+            }
         ]
-	  },
-      {
-        "nextPhraseID":"brv_employer_put_boulder_2",
-        "requires":[
-          {
-            "requireType":"inventoryRemove",
-            "requireID":"brv_boulder",
-            "value":2
-          }
+    },
+    {
+        "id":"brv_employee_90",
+        "message":"Thank you for your help!",
+        "replies":[
+            {
+                "text":"Was a pleasure.",
+                "nextPhraseID":"X"
+            }
         ]
-	  },
-      {
-        "nextPhraseID":"brv_employer_put_boulder_1",
-        "requires":[
-          {
-            "requireType":"inventoryRemove",
-            "requireID":"brv_boulder",
-            "value":1
-          }
+    },
+    {
+        "id":"brv_employee2",
+        "message":"Hey kid! Come and have a drink with me!",
+        "replies":[
+            {
+                "text":"No, thank you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I thought you were ill?",
+                "nextPhraseID":"brv_employee2_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_employee",
+                        "value":90
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brv_nondisplay",
+                "value":11
+            }
         ]
-	  }
-	]
-  },
-  {
-    "id":"brv_employer_put_boulder_1",
-    "message":"You throw the boulder into the water, just before the dam.",
-	"rewards":[
-		{
-			"rewardType":"alignmentChange",
-			"rewardID":"brv_boulder_count",
-			"value":1
-		},
-		{
-			"rewardType":"actorCondition",
-			"rewardID":"fatigue1",
-			"value":-99
-		},
-		{
-			"rewardType":"actorCondition",
-			"rewardID":"fatigue2",
-			"value":-99
-		},
-		{
-			"rewardType":"actorCondition",
-			"rewardID":"fatigue3",
-			"value":-99
-		},
-		{
-			"rewardType":"actorCondition",
-			"rewardID":"fatigue4",
-			"value":-99
-		}
-	],
-    "replies":[
-      {
-        "text":"N",
-		"nextPhraseID":"brv_employer_put_boulder_10"
-      }
-	]
-  },
-  {
-    "id":"brv_employer_put_boulder_2",
-    "message":"You throw 2 boulders into the water, just before the dam.",
-	"rewards":[
-		{
-			"rewardType":"alignmentChange",
-			"rewardID":"brv_boulder_count",
-			"value":2
-		},
-		{
-			"rewardType":"actorCondition",
-			"rewardID":"fatigue2",
-			"value":-99
-		}
-	],
-    "replies":[
-      {
-        "text":"N",
-		"nextPhraseID":"brv_employer_put_boulder_10"
-      }
-	]
-  },
-  {
-    "id":"brv_employer_put_boulder_3",
-    "message":"You throw 3 boulders into the water, just before the dam.",
-	"rewards":[
-		{
-			"rewardType":"alignmentChange",
-			"rewardID":"brv_boulder_count",
-			"value":3
-		},
-		{
-			"rewardType":"actorCondition",
-			"rewardID":"fatigue3",
-			"value":-99
-		}
-	],
-    "replies":[
-      {
-        "text":"Uff.",
-		"nextPhraseID":"brv_employer_put_boulder_10"
-      }
-	]
-  },
-  {
-    "id":"brv_employer_put_boulder_4",
-    "message":"You throw 4 boulders into the water, just before the dam.",
-	"rewards":[
-		{
-			"rewardType":"alignmentChange",
-			"rewardID":"brv_boulder_count",
-			"value":4
-		},
-		{
-			"rewardType":"actorCondition",
-			"rewardID":"fatigue4",
-			"value":-99
-		}
-	],
-    "replies":[
-      {
-        "text":"Uff. They somehow seem to get heavier and heavier.",
-		"nextPhraseID":"brv_employer_put_boulder_10"
-      }
-	]
-  },
-  {
-    "id":"brv_employer_put_boulder_10",
-	"rewards":[
-		{
-			"rewardType":"questProgress",
-			"rewardID":"brv_employee",
-			"value":40
-		}
-	],
-    "replies":[
-      {
-        "nextPhraseID":"brv_employer_put_boulder_90",
-        "requires":[
-          {
-			"requireType": "factionScore",
-			"requireID": "brv_boulder_count",
-			"value": 25
-          },
-          {
-			"requireType": "questProgress",
-			"requireID": "brv_employee",
-			"value": 90,
-			"negate":true
-          }
+    },
+    {
+        "id":"brv_employee2_10",
+        "message":"I am still - just taking my medicine here."
+    },
+    {
+        "id":"brv_employee_key_house",
+        "message":"The door is locked."
+    },
+    {
+        "id":"brv_employee_wife",
+        "message":"Who are you? Stebbarik, my husband, is not at home.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_employee_wife_10"
+            }
         ]
-	  },
-      {
-        "nextPhraseID":"brv_employer_put_boulder_24",
-        "requires":[
-          {
-			"requireType": "factionScore",
-			"requireID": "brv_boulder_count",
-			"value": 21
-          },
-          {
-			"requireType": "questProgress",
-			"requireID": "brv_employee",
-			"value": 44,
-			"negate":true
-          }
+    },
+    {
+        "id":"brv_employee_wife_10",
+        "message":"Not at home, no. He never is.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"X"
+            }
         ]
-	  },
-      {
-        "nextPhraseID":"brv_employer_put_boulder_23",
-        "requires":[
-          {
-			"requireType": "factionScore",
-			"requireID": "brv_boulder_count",
-			"value": 16
-          },
-          {
-			"requireType": "questProgress",
-			"requireID": "brv_employee",
-			"value": 43,
-			"negate":true
-          }
+    },
+    {
+        "id":"brv_employee_wife2",
+        "message":"Hey kid! Come and have a drink with me!",
+        "replies":[
+            {
+                "text":"No, thank you.",
+                "nextPhraseID":"X"
+            }
         ]
-	  },
-      {
-        "nextPhraseID":"brv_employer_put_boulder_22",
-        "requires":[
-          {
-			"requireType": "factionScore",
-			"requireID": "brv_boulder_count",
-			"value": 11
-          },
-          {
-			"requireType": "questProgress",
-			"requireID": "brv_employee",
-			"value": 42,
-			"negate":true
-          }
+    },
+    {
+        "id":"brv_employer",
+        "replies":[
+            {
+                "nextPhraseID":"brv_employer_90",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_employee",
+                        "value":90
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_employer_40",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_employee",
+                        "value":40
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_employer_30",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_employee",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_employer_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_employee",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_employer_01"
+            }
         ]
-	  },
-      {
-        "nextPhraseID":"brv_employer_put_boulder_21",
-        "requires":[
-          {
-			"requireType": "factionScore",
-			"requireID": "brv_boulder_count",
-			"value": 6
-          },
-          {
-			"requireType": "questProgress",
-			"requireID": "brv_employee",
-			"value": 41,
-			"negate":true
-          }
+    },
+    {
+        "id":"brv_employer_01",
+        "message":"Hey, kid! I am waiting for Stebbarik. Have you seen him?",
+        "replies":[
+            {
+                "text":"No. What do you want of him?",
+                "nextPhraseID":"brv_employer_02"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay",
+                "value":11
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"brv_employee2",
+                "mapName":"brimhaven_tavern1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"brv_employee_wife",
+                "mapName":"brimhaven_employee"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"brv_employee",
+                "mapName":"brimhaven_employee"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"brv_employee_wife2",
+                "mapName":"brimhaven_tavern1"
+            }
         ]
-	  }
-	]
-  },
-  {
-    "id":"brv_employer_put_boulder_21",
-	"rewards":[
-		{
-			"rewardType":"questProgress",
-			"rewardID":"brv_employee",
-			"value":41
-		}
-	],
-	"switchToNPC":"brv_employer",
-    "message":"You have brought already more than 5 boulders."
-  },
-  {
-    "id":"brv_employer_put_boulder_22",
-	"rewards":[
-		{
-			"rewardType":"questProgress",
-			"rewardID":"brv_employee",
-			"value":42
-		}
-	],
-	"switchToNPC":"brv_employer",
-    "message":"Over 10 boulders."
-  },
-  {
-    "id":"brv_employer_put_boulder_23",
-	"rewards":[
-		{
-			"rewardType":"questProgress",
-			"rewardID":"brv_employee",
-			"value":43
-		}
-	],
-	"switchToNPC":"brv_employer",
-    "message":"At least 15 boulders now."
-  },
-  {
-    "id":"brv_employer_put_boulder_24",
-	"rewards":[
-		{
-			"rewardType":"questProgress",
-			"rewardID":"brv_employee",
-			"value":44
-		}
-	],
-	"switchToNPC":"brv_employer",
-    "message":"Only a few boulders left."
-  },
-  {
-    "id":"brv_employer_put_boulder_90",
-	"rewards":[
-		{
-			"rewardType":"removeSpawnArea",
-			"rewardID":"brv_employee_wife2",
-			"mapName":"brimhaven_tavern1"
-		},
-		{
-			"rewardType":"removeSpawnArea",
-			"rewardID":"brv_employee",
-			"mapName":"brimhaven_employee"
-		},
-		{
-			"rewardType":"questProgress",
-			"rewardID":"brv_employee",
-			"value":90
-		},
-		{
-			"rewardType":"spawnAll",
-			"rewardID":"brv_employee_wife",
-			"mapName":"brimhaven_employee"
-		},
-		{
-			"rewardType":"spawnAll",
-			"rewardID":"brv_employee2",
-			"mapName":"brimhaven_tavern1"
-		},
-		{
-			"rewardType":"removeQuestProgress",
-			"rewardID":"brv_nondisplay",
-			"value":83
-		},
-		{
-			"rewardType":"questProgress",
-			"rewardID":"brv_nondisplay",
-			"value":89
-		}
-	],
-	"switchToNPC":"brv_employer",
-    "message":"Wow, you got it.",
-    "replies":[
-      {
-        "text":"My arms are longer now...",
-		"nextPhraseID":"brv_employer_put_boulder_92"
-      }
-	]
-  },
-  {
-    "id":"brv_employer_put_boulder_92",
-    "message":"I am really impressed. You have done four times as much as Stebbarik. So tell him, that he could stay home this week and get cured again.",
-    "replies":[
-      {
-        "text":"He will be very relieved.",
-		"nextPhraseID":"X"
-      }
-	]
-  },
-  {
-    "id":"brv_fisher",
-    "message":"Hush! You are chasing the fish away!"
-  },
-  {
-    "id":"brv_flood_0",
-    "replies":[
-      {
-        "nextPhraseID":"brv_flood_0_10",
-        "requires":[
-          {
-            "requireType":"questProgress",
-            "requireID":"brv_draught",
-            "value":70,
-			"negate":true
-          }
+    },
+    {
+        "id":"brv_employer_02",
+        "message":"He has to work for me. I hope for him, that he will appear soon.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_employer_04"
+            }
         ]
-      }
-	]
-  },
-  {
-    "id":"brv_flood_0_10",
-    "message":"Oops - the water is pouring rather fast!",
-	"rewards":[
-		{
-			"rewardType":"questProgress",
-			"rewardID":"brv_draught",
-			"value":70
-		},
-		{
-			"rewardType":"questProgress",
-			"rewardID":"brv_nondisplay",
-			"value":71
-		},
-		{
-			"rewardType":"questProgress",
-			"rewardID":"brv_nondisplay",
-			"value":81
-		}
-	]
-  },
-  {
-    "id":"brv_flood_1",
-    "replies":[
-      {
-        "nextPhraseID":"brv_flood_1a"
-      }
-	]
-  },
-  {
-    "id":"brv_flood_1a",
-    "replies":[
-      {
-        "nextPhraseID":"brv_flood_1_10",
-        "requires":[
-          {
-            "requireType":"questProgress",
-            "requireID":"brv_nondisplay",
-            "value":71
-          },
-          {
-            "requireType":"questProgress",
-            "requireID":"brv_nondisplay",
-            "value":72,
-			"negate":true
-          }        ]
-      }
-	]
-  },
-  {
-    "id":"brv_flood_1_10",
-	"rewards":[
-		{
-			"rewardType":"questProgress",
-			"rewardID":"brv_nondisplay",
-			"value":72
-		},
-		{
-			"rewardType":"questProgress",
-			"rewardID":"brv_nondisplay",
-			"value":82
-		},
-		{
-			"rewardType":"removeQuestProgress",
-			"rewardID":"brv_nondisplay",
-			"value":81
-		}
-	]
-  },
-  {
-    "id":"brv_flood_2",
-    "replies":[
-      {
-        "nextPhraseID":"brv_flood_2_10",
-        "requires":[
-          {
-            "requireType":"questProgress",
-            "requireID":"brv_nondisplay",
-            "value":72
-          },
-          {
-            "requireType":"questProgress",
-            "requireID":"brv_nondisplay",
-            "value":73,
-			"negate":true
-          }
+    },
+    {
+        "id":"brv_employer_04",
+        "message":"You could do me a favour, if you'd find him."
+    },
+    {
+        "id":"brv_employer_10",
+        "message":"Have you seen this lazy bone, Stebbarik?",
+        "replies":[
+            {
+                "text":"Stebbarik is ill at home. He is very anxious that you might get angry.",
+                "nextPhraseID":"brv_employer_10_10"
+            }
         ]
-      }
-	]
-  },
-  {
-    "id":"brv_flood_2_10",
-	"rewards":[
-		{
-			"rewardType":"actorCondition",
-			"rewardID":"drowning",
-			"value":500
-		}
-	],
-    "replies":[
-      {
-        "nextPhraseID":"brv_flood_2a_10"
-      }
-	]
-  },
-  {
-    "id":"brv_flood_2a",
-    "replies":[
-      {
-        "nextPhraseID":"brv_flood_2a_10",
-        "requires":[
-          {
-            "requireType":"questProgress",
-            "requireID":"brv_nondisplay",
-            "value":72
-          },
-          {
-            "requireType":"questProgress",
-            "requireID":"brv_nondisplay",
-            "value":73,
-			"negate":true
-          }
+    },
+    {
+        "id":"brv_employer_10_10",
+        "message":"Ill? Rats! Who will repair the dam now? It must be done soon.",
+        "replies":[
+            {
+                "text":"If it is so important, maybe I can help?",
+                "nextPhraseID":"brv_employer_10_20"
+            }
         ]
-      }
-	]
-  },
-  {
-    "id":"brv_flood_2a_10",
-	"rewards":[
-		{
-			"rewardType":"questProgress",
-			"rewardID":"brv_nondisplay",
-			"value":73
-		},
-		{
-			"rewardType":"questProgress",
-			"rewardID":"brv_nondisplay",
-			"value":83
-		},
-		{
-			"rewardType":"removeQuestProgress",
-			"rewardID":"brv_nondisplay",
-			"value":82
-		}
-	]
-  },
-  {
-    "id":"brv_tavern1_guest",
-    "message":"I'm drinking because I hate myself..."
-  },
-  {
-    "id":"brv_tavern1_guest2",
-    "message":"I hate myself, because I'm drinking..."
-  },
-  {
-    "id":"brv_tavern1_landlord",
-    "message":"I'm coming, just a second..."
-  },
+    },
+    {
+        "id":"brv_employer_10_20",
+        "message":"You? A kid? It is too heavy work. We need 50 big boulders carried from the stock to the dam here.",
+        "replies":[
+            {
+                "text":"Sounds easy. Let me try it.",
+                "nextPhraseID":"brv_employer_10_30"
+            },
+            {
+                "text":"You are right. This is no work for me.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brv_employer_10_30",
+        "message":"OK. Try, if you want. The pile of boulders is just next to the wooden logs over there.",
+        "replies":[
+            {
+                "text":"Aye.",
+                "nextPhraseID":"brv_employer_10_40"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_employee",
+                "value":30
+            }
+        ]
+    },
+    {
+        "id":"brv_employer_10_40",
+        "message":"But beware, they are really heavy."
+    },
+    {
+        "id":"brv_employer_30",
+        "message":"Where are the boulders? I knew it would be too heavy for you.",
+        "replies":[
+            {
+                "text":"Just you wait.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brv_employer_40",
+        "message":"You have carried some boulders already - good. Just do the rest too.",
+        "replies":[
+            {
+                "text":"Aye.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brv_employer_90",
+        "message":"Thanks again for your good work. Are you sure you don't want a job?",
+        "replies":[
+            {
+                "text":"Certainly not. I am on a mission of Mikhail.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brv_employer_carry_boulder",
+        "replies":[
+            {
+                "nextPhraseID":"brv_employer_carry_boulder_8",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brv_boulder",
+                        "value":5
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_employer_carry_boulder_1"
+            }
+        ]
+    },
+    {
+        "id":"brv_employer_carry_boulder_1",
+        "replies":[
+            {
+                "nextPhraseID":"brv_employer_carry_boulder_1c",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brv_boulder",
+                        "value":1,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"hasActorCondition",
+                        "requireID":"fatigue1"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_employer_carry_boulder_1s",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brv_boulder",
+                        "value":1
+                    },
+                    {
+                        "requireType":"hasActorCondition",
+                        "requireID":"fatigue1",
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_employer_carry_boulder_2"
+            }
+        ]
+    },
+    {
+        "id":"brv_employer_carry_boulder_1c",
+        "replies":[
+            {
+                "nextPhraseID":"brv_employer_carry_boulder_2"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"fatigue1",
+                "value":-99
+            }
+        ]
+    },
+    {
+        "id":"brv_employer_carry_boulder_1s",
+        "replies":[
+            {
+                "nextPhraseID":"brv_employer_carry_boulder_2"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"fatigue1",
+                "value":99
+            }
+        ]
+    },
+    {
+        "id":"brv_employer_carry_boulder_2",
+        "replies":[
+            {
+                "nextPhraseID":"brv_employer_carry_boulder_2c",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brv_boulder",
+                        "value":2,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"hasActorCondition",
+                        "requireID":"fatigue2"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_employer_carry_boulder_2s",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brv_boulder",
+                        "value":2
+                    },
+                    {
+                        "requireType":"hasActorCondition",
+                        "requireID":"fatigue2",
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_employer_carry_boulder_3"
+            }
+        ]
+    },
+    {
+        "id":"brv_employer_carry_boulder_2c",
+        "replies":[
+            {
+                "nextPhraseID":"brv_employer_carry_boulder_3"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"fatigue2",
+                "value":-99
+            }
+        ]
+    },
+    {
+        "id":"brv_employer_carry_boulder_2s",
+        "replies":[
+            {
+                "nextPhraseID":"brv_employer_carry_boulder_3"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"fatigue2",
+                "value":99
+            }
+        ]
+    },
+    {
+        "id":"brv_employer_carry_boulder_3",
+        "replies":[
+            {
+                "nextPhraseID":"brv_employer_carry_boulder_3c",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brv_boulder",
+                        "value":3,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"hasActorCondition",
+                        "requireID":"fatigue3"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_employer_carry_boulder_3s",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brv_boulder",
+                        "value":3
+                    },
+                    {
+                        "requireType":"hasActorCondition",
+                        "requireID":"fatigue3",
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_employer_carry_boulder_4"
+            }
+        ]
+    },
+    {
+        "id":"brv_employer_carry_boulder_3c",
+        "replies":[
+            {
+                "nextPhraseID":"brv_employer_carry_boulder_4"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"fatigue3",
+                "value":-99
+            }
+        ]
+    },
+    {
+        "id":"brv_employer_carry_boulder_3s",
+        "replies":[
+            {
+                "nextPhraseID":"brv_employer_carry_boulder_4"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"fatigue3",
+                "value":99
+            }
+        ]
+    },
+    {
+        "id":"brv_employer_carry_boulder_4",
+        "replies":[
+            {
+                "nextPhraseID":"brv_employer_carry_boulder_4c",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brv_boulder",
+                        "value":4,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"hasActorCondition",
+                        "requireID":"fatigue4"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_employer_carry_boulder_4s",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brv_boulder",
+                        "value":4
+                    },
+                    {
+                        "requireType":"hasActorCondition",
+                        "requireID":"fatigue4",
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brv_employer_carry_boulder_4c",
+        "replies":[
+            {
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"fatigue4",
+                "value":-99
+            }
+        ]
+    },
+    {
+        "id":"brv_employer_carry_boulder_4s",
+        "replies":[
+            {
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"fatigue4",
+                "value":99
+            }
+        ]
+    },
+    {
+        "id":"brv_employer_carry_boulder_8",
+        "replies":[
+            {
+                "nextPhraseID":"brv_employer_carry_boulder_8",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brv_boulder",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_employer_carry_boulder_9"
+            }
+        ]
+    },
+    {
+        "id":"brv_employer_carry_boulder_9",
+        "message":"Breathing heavily under the big load, you collapse, losing all the boulders."
+    },
+    {
+        "id":"brv_employer_check_boulder",
+        "message":"You can't carry so many boulders."
+    },
+    {
+        "id":"brv_employer_check_boulder_2",
+        "message":"Hey, where are you going? Bring the boulders to the dam!",
+        "switchToNPC":"brv_employer"
+    },
+    {
+        "id":"brv_employer_get_boulder",
+        "replies":[
+            {
+                "nextPhraseID":"brv_employer_get_boulder_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_employee",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_employee",
+                        "value":90,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_employer_get_boulder_02"
+            }
+        ]
+    },
+    {
+        "id":"brv_employer_get_boulder_02",
+        "message":"Hands off! These boulders are needed for the dam!",
+        "switchToNPC":"brv_employer"
+    },
+    {
+        "id":"brv_employer_get_boulder_10",
+        "message":"Take a boulder?",
+        "replies":[
+            {
+                "text":"Ah, no. This would be too much.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brv_boulder",
+                        "value":4
+                    }
+                ]
+            },
+            {
+                "text":"Yes.",
+                "nextPhraseID":"brv_employer_get_boulder_20",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brv_boulder",
+                        "value":4,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"No.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brv_employer_get_boulder_20",
+        "message":"Uff, that's heavy!",
+        "replies":[
+            {
+                "text":"Take another one.",
+                "nextPhraseID":"brv_employer_get_boulder_20",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brv_boulder",
+                        "value":4,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"And now to the dam.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"brv_boulder",
+                "value":1
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"fatigue1",
+                "value":99
+            }
+        ]
+    },
+    {
+        "id":"brv_employer_put_boulder",
+        "replies":[
+            {
+                "nextPhraseID":"brv_employer_put_boulder_4",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brv_boulder",
+                        "value":4
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_employer_put_boulder_3",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brv_boulder",
+                        "value":3
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_employer_put_boulder_2",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brv_boulder",
+                        "value":2
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_employer_put_boulder_1",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brv_boulder",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brv_employer_put_boulder_1",
+        "message":"You throw the boulder into the water, just before the dam.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_employer_put_boulder_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"brv_boulder_count",
+                "value":1
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"fatigue1",
+                "value":-99
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"fatigue2",
+                "value":-99
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"fatigue3",
+                "value":-99
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"fatigue4",
+                "value":-99
+            }
+        ]
+    },
+    {
+        "id":"brv_employer_put_boulder_2",
+        "message":"You throw 2 boulders into the water, just before the dam.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_employer_put_boulder_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"brv_boulder_count",
+                "value":2
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"fatigue2",
+                "value":-99
+            }
+        ]
+    },
+    {
+        "id":"brv_employer_put_boulder_3",
+        "message":"You throw 3 boulders into the water, just before the dam.",
+        "replies":[
+            {
+                "text":"Uff.",
+                "nextPhraseID":"brv_employer_put_boulder_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"brv_boulder_count",
+                "value":3
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"fatigue3",
+                "value":-99
+            }
+        ]
+    },
+    {
+        "id":"brv_employer_put_boulder_4",
+        "message":"You throw 4 boulders into the water, just before the dam.",
+        "replies":[
+            {
+                "text":"Uff. They somehow seem to get heavier and heavier.",
+                "nextPhraseID":"brv_employer_put_boulder_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"brv_boulder_count",
+                "value":4
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"fatigue4",
+                "value":-99
+            }
+        ]
+    },
+    {
+        "id":"brv_employer_put_boulder_10",
+        "replies":[
+            {
+                "nextPhraseID":"brv_employer_put_boulder_90",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"brv_boulder_count",
+                        "value":25
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_employee",
+                        "value":90,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_employer_put_boulder_24",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"brv_boulder_count",
+                        "value":21
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_employee",
+                        "value":44,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_employer_put_boulder_23",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"brv_boulder_count",
+                        "value":16
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_employee",
+                        "value":43,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_employer_put_boulder_22",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"brv_boulder_count",
+                        "value":11
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_employee",
+                        "value":42,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_employer_put_boulder_21",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"brv_boulder_count",
+                        "value":6
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_employee",
+                        "value":41,
+                        "negate":true
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_employee",
+                "value":40
+            }
+        ]
+    },
+    {
+        "id":"brv_employer_put_boulder_21",
+        "message":"You have brought already more than 5 boulders.",
+        "switchToNPC":"brv_employer",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_employee",
+                "value":41
+            }
+        ]
+    },
+    {
+        "id":"brv_employer_put_boulder_22",
+        "message":"Over 10 boulders.",
+        "switchToNPC":"brv_employer",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_employee",
+                "value":42
+            }
+        ]
+    },
+    {
+        "id":"brv_employer_put_boulder_23",
+        "message":"At least 15 boulders now.",
+        "switchToNPC":"brv_employer",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_employee",
+                "value":43
+            }
+        ]
+    },
+    {
+        "id":"brv_employer_put_boulder_24",
+        "message":"Only a few boulders left.",
+        "switchToNPC":"brv_employer",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_employee",
+                "value":44
+            }
+        ]
+    },
+    {
+        "id":"brv_employer_put_boulder_90",
+        "message":"Wow, you got it.",
+        "switchToNPC":"brv_employer",
+        "replies":[
+            {
+                "text":"My arms are longer now...",
+                "nextPhraseID":"brv_employer_put_boulder_92"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"brv_employee_wife2",
+                "mapName":"brimhaven_tavern1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"brv_employee",
+                "mapName":"brimhaven_employee"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_employee",
+                "value":90
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"brv_employee_wife",
+                "mapName":"brimhaven_employee"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"brv_employee2",
+                "mapName":"brimhaven_tavern1"
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brv_nondisplay",
+                "value":83
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay",
+                "value":89
+            }
+        ]
+    },
+    {
+        "id":"brv_employer_put_boulder_92",
+        "message":"I am really impressed. You have done four times as much as Stebbarik. So tell him, that he could stay home this week and get cured again.",
+        "replies":[
+            {
+                "text":"He will be very relieved.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brv_fisher",
+        "message":"Hush! You are chasing the fish away!"
+    },
+    {
+        "id":"brv_flood_0",
+        "replies":[
+            {
+                "nextPhraseID":"brv_flood_0_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_draught",
+                        "value":70,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brv_flood_0_10",
+        "message":"Oops - the water is pouring rather fast!",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_draught",
+                "value":70
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay",
+                "value":71
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay",
+                "value":81
+            }
+        ]
+    },
+    {
+        "id":"brv_flood_1",
+        "replies":[
+            {
+                "nextPhraseID":"brv_flood_1a"
+            }
+        ]
+    },
+    {
+        "id":"brv_flood_1a",
+        "replies":[
+            {
+                "nextPhraseID":"brv_flood_1_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay",
+                        "value":71
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay",
+                        "value":72,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brv_flood_1_10",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay",
+                "value":72
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay",
+                "value":82
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brv_nondisplay",
+                "value":81
+            }
+        ]
+    },
+    {
+        "id":"brv_flood_2",
+        "replies":[
+            {
+                "nextPhraseID":"brv_flood_2_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay",
+                        "value":72
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay",
+                        "value":73,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brv_flood_2_10",
+        "replies":[
+            {
+                "nextPhraseID":"brv_flood_2a_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"drowning",
+                "value":500
+            }
+        ]
+    },
+    {
+        "id":"brv_flood_2a",
+        "replies":[
+            {
+                "nextPhraseID":"brv_flood_2a_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay",
+                        "value":72
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay",
+                        "value":73,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brv_flood_2a_10",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay",
+                "value":73
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay",
+                "value":83
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brv_nondisplay",
+                "value":82
+            }
+        ]
+    },
+    {
+        "id":"brv_tavern1_guest",
+        "message":"I'm drinking because I hate myself..."
+    },
+    {
+        "id":"brv_tavern1_guest2",
+        "message":"I hate myself, because I'm drinking..."
+    },
+    {
+        "id":"brv_tavern1_landlord",
+        "message":"I'm coming, just a second..."
+    },
     {
         "id":"anakis_start",
         "replies":[
@@ -1737,13 +1738,13 @@
             },
             {
                 "rewardType":"spawnAll",
-                "rewardID":"anakis_at_home",
+                "rewardID":"anakis",
                 "mapName":"brimhaven_anakis_house"
             },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"anakis",
-                "mapName":"brimhaven_anakis_house"
+                "mapName":"brimhaven7"
             }
         ]
     },
@@ -1764,13 +1765,13 @@
             },
             {
                 "rewardType":"spawnAll",
-                "rewardID":"anakis_at_home",
+                "rewardID":"anakis",
                 "mapName":"brimhaven_anakis_house"
             },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"anakis",
-                "mapName":"brimhaven_anakis_house"
+                "mapName":"brimhaven7"
             }
         ]
     },
@@ -1791,13 +1792,13 @@
             },
             {
                 "rewardType":"spawnAll",
-                "rewardID":"anakis_at_home",
+                "rewardID":"anakis",
                 "mapName":"brimhaven_anakis_house"
             },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"anakis",
-                "mapName":"brimhaven_anakis_house"
+                "mapName":"brimhaven7"
             }
         ]
     },
@@ -2509,7 +2510,7 @@
     },
     {
         "id":"basiliskcave2_turn_to_stone",
-        "message":"You see an old Basilisk. And he glances at you. \n\nWhen Suddenly you feel your movements getting slower and your heartbeat drop... \n...while you are slowly turning to stone.",
+        "message":"With a huge effort you go neaer to the Basilisk and he is looking right into your eyes.\n\nWhen you feel that can't move any more and your heartbeat drops... \n...while you are slowly turning to stone.",
         "rewards":[
             {
                 "rewardType":"actorCondition",
@@ -2617,6 +2618,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"quick_glance_hidden_position",
                 "value":99
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"quick_glance_hidden_position",
+                "value":98
             }
         ]
     },
@@ -2742,7 +2748,7 @@
             },
             {
                 "rewardType":"spawnAll",
-                "rewardID":"juttarka_at_home",
+                "rewardID":"juttarka",
                 "mapName":"brimhaven_anakis_house"
             }
         ]
@@ -2850,7 +2856,7 @@
                 ]
             },
             {
-                "nextPhraseID":"fangwurm_angry",
+                "nextPhraseID":"fangwurm_angry_2",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -2885,7 +2891,7 @@
                 ]
             },
             {
-                "nextPhraseID":"fangwurm_thank_killing_basilisk",
+                "nextPhraseID":"fangwurm_thank_killing_basilisk_2",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -2949,7 +2955,7 @@
     },
     {
         "id":"fangwurm_thank_rescuing_sister",
-        "message":"Thank you for rescuing Anakis' sister. May the shadow always be with you."
+        "message":"Juttarka told me, that you saved her life. Thank you. May the shadow always be with you."
     },
     {
         "id":"fangwurm_angry",
@@ -3008,6 +3014,11 @@
                         "requireType":"killedMonster",
                         "requireID":"old_basilisk",
                         "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"quick_glance",
+                        "value":20
                     }
                 ]
             },
@@ -3046,7 +3057,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"quick_glance",
-                        "value":10
+                        "value":20
                     },
                     {
                         "requireType":"questProgress",
@@ -3072,5 +3083,55 @@
     {
         "id":"fangwurm_info_basilisk",
         "message":"The Basilisk will turn you to stone when you go near him an your eyes meet its eyes. You can come back to me if you know what happened to Anakis' sister."
-    }  
+    },
+    {
+        "id":"fangwurm_angry_2",
+        "message":"Anakis told me that you took the blood for yourself instead of trying to help his sister. Please leave now."
+    },
+    {
+        "id":"fangwurm_thank_killing_basilisk_2",
+        "message":"Anakis told me that you killed the Basilisk. Thank you, but you should better have talked to me before killing it, because its magical blood is now dried up and vasted. May the shadow always be with you."
+    },
+    {
+        "id":"basiliskcave2_warn",
+        "message":"You see an old Basilisk at the end of the room that glances at you. With a feeling of deadly danger your movements gets slower the nearer you go. ",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"quick_glance_hidden_position",
+                "value":98
+            }
+        ]
+    },
+    {
+        "id":"basiliskcave2_check_warn",
+        "replies":[
+            {
+                "nextPhraseID":"basiliskcave2_warn",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"quick_glance_hidden_position",
+                        "value":98,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"wear",
+                        "requireID":"hand_mirror",
+                        "negate":true
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"old_basilisk",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brimhaven_church_guard",
+        "message":"Stop, you are not allowed to go any further."
+    }
 ]

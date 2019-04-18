@@ -6,7 +6,7 @@
         "moveCost":5,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_employee",
-		"phraseID":"brv_employee"
+        "phraseID":"brv_employee"
     },
     {
         "id":"brv_employee2",
@@ -15,7 +15,7 @@
         "moveCost":5,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_employee2",
-		"phraseID":"brv_employee2"
+        "phraseID":"brv_employee2"
     },
     {
         "id":"brv_employee_wife",
@@ -24,7 +24,7 @@
         "moveCost":5,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_employee_wife",
-		"phraseID":"brv_employee_wife"
+        "phraseID":"brv_employee_wife"
     },
     {
         "id":"brv_employee_wife2",
@@ -33,52 +33,52 @@
         "moveCost":5,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_employee_wife2",
-		"phraseID":"brv_employee_wife2"
+        "phraseID":"brv_employee_wife2"
     },
     {
         "id":"brv_employer",
         "name":"Gnossath",
-		"iconID":"monsters_ld1:10",
+        "iconID":"monsters_ld1:10",
         "moveCost":5,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_employer",
-		"phraseID":"brv_employer"
+        "phraseID":"brv_employer"
     },
     {
         "id":"brv_fisher",
         "name":"Fisherman",
-		"iconID":"monsters_ld2:115",
+        "iconID":"monsters_ld2:115",
         "moveCost":5,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_fisher",
-		"phraseID":"brv_fisher"
+        "phraseID":"brv_fisher"
     },
     {
         "id":"brv_tavern1_guest",
         "name":"Customer",
-		"iconID":"monsters_ld1:119",
+        "iconID":"monsters_ld1:119",
         "moveCost":5,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_tavern1_guest",
-		"phraseID":"brv_tavern1_guest"
+        "phraseID":"brv_tavern1_guest"
     },
     {
         "id":"brv_tavern1_guest2",
         "name":"Customer",
-		"iconID":"monsters_ld1:64",
+        "iconID":"monsters_ld1:64",
         "moveCost":5,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_tavern1_guest2",
-		"phraseID":"brv_tavern1_guest2"
+        "phraseID":"brv_tavern1_guest2"
     },
     {
         "id":"brv_tavern1_landlord",
         "name":"Rik",
-		"iconID":"monsters_ld1:20",
+        "iconID":"monsters_ld1:20",
         "moveCost":5,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_tavern1_landlord",
-		"phraseID":"brv_tavern1_landlord"
+        "phraseID":"brv_tavern1_landlord"
     },
     {
         "id":"old_basilisk",
@@ -126,5 +126,13 @@
         "iconID":"monsters_ld1:2",
         "unique":1,
         "phraseID":"fangwurm_start"
+    },
+    {
+        "id":"brimhaven_church_guard",
+        "name":"Church guard",
+        "iconID":"monsters_men:3",
+        "monsterClass":"humanoid",
+        "spawnGroup":"brimhaven_church_guard",
+        "phraseID":"brimhaven_church_guard"
     }
 ]

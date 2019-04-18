@@ -3,55 +3,115 @@
         "id":"brv_employee",
         "name":"Work for debts",
         "showInLog":1,
-        "stages":[	
-			{	"progress":10, 
-				"logText":"Stebbarik was ill at home in bed. He could not do his job and feared that he would lose his job. Because of his high debts, he feared that Gnossath would then take his house away.\nYou offered to do the work for Stebbarik." },
-			{ 	"progress":30, 
-				"logText":"Gnossath told you to carry 50 heavy boulders from the stock to the dam next to him." },
-			{	"progress":40, 
-				"logText":"You carried the first boulder to the dam." },
-			{	"progress":41, 
-				"logText":"You had already carried 5 boulders to the dam." },
-			{	"progress":42, 
-				"logText":"10 boulders." },
-			{	"progress":43, 
-				"logText":"15 boulders." },
-			{	"progress":44, 
-				"logText":"Only a few still missing..." },
-			{	"progress":90, 
-				"logText":"Finally - that was the last boulder! Gnossath was very pleased with your work.", 
-				"finishesQuest":1 }
+        "stages":[
+            {
+                "progress":10,
+                "logText":"Stebbarik was ill at home in bed. He could not do his job and feared that he would lose his job. Because of his high debts, he feared that Gnossath would then take his house away.\nYou offered to do the work for Stebbarik."
+            },
+            {
+                "progress":30,
+                "logText":"Gnossath told you to carry 50 heavy boulders from the stock to the dam next to him."
+            },
+            {
+                "progress":40,
+                "logText":"You carried the first boulder to the dam."
+            },
+            {
+                "progress":41,
+                "logText":"You had already carried 5 boulders to the dam."
+            },
+            {
+                "progress":42,
+                "logText":"10 boulders."
+            },
+            {
+                "progress":43,
+                "logText":"15 boulders."
+            },
+            {
+                "progress":44,
+                "logText":"Only a few still missing..."
+            },
+            {
+                "progress":90,
+                "logText":"Finally - that was the last boulder! Gnossath was very pleased with your work.",
+                "finishesQuest":1
+            }
         ]
     },
     {
         "id":"brv_draught",
         "name":"Water or food?",
         "showInLog":1,
-        "stages":[	
-			{	"progress":70, 
-				"logText":"Water came pouring through the hole in the dam. Much water!"  }
+        "stages":[
+            {
+                "progress":70,
+                "logText":"Water came pouring through the hole in the dam. Much water!"
+            }
         ]
     },
     {
         "id":"brv_nondisplay",
         "name":"brv_nondisplay",
         "showInLog":0,
-        "stages":[	
-			{	"progress":11, "logText":"11=1 Employee is at home" },
-			{	"progress":23, "logText":"- Employee Msg 23" },
-			{	"progress":22, "logText":"- Employee Msg 22" },
-			{	"progress":21, "logText":"- Employee Msg 21" },
-			{	"progress":23, "logText":"- Employee Msg 23" },
-			{	"progress":71, "logText":"71=Stage-1 flood" },
-			{	"progress":72, "logText":"72=stage-2 flood" },
-			{	"progress":73, "logText":"73=stage-3 flood" },
-			{	"progress":79, "logText":"79=End flood" },
-			{	"progress":80, "logText":"80=Start flood" },
-			{	"progress":81, "logText":"81=Stage-1 flood" },
-			{	"progress":82, "logText":"82=stage-2 flood" },
-			{	"progress":83, "logText":"83=stage-3 flood" },
-			{	"progress":89, "logText":"89=End flood" }
-		]
+        "stages":[
+            {
+                "progress":11,
+                "logText":"11=1 Employee is at home"
+            },
+            {
+                "progress":23,
+                "logText":"- Employee Msg 23"
+            },
+            {
+                "progress":22,
+                "logText":"- Employee Msg 22"
+            },
+            {
+                "progress":21,
+                "logText":"- Employee Msg 21"
+            },
+            {
+                "progress":23,
+                "logText":"- Employee Msg 23"
+            },
+            {
+                "progress":71,
+                "logText":"71=Stage-1 flood"
+            },
+            {
+                "progress":72,
+                "logText":"72=stage-2 flood"
+            },
+            {
+                "progress":73,
+                "logText":"73=stage-3 flood"
+            },
+            {
+                "progress":79,
+                "logText":"79=End flood"
+            },
+            {
+                "progress":80,
+                "logText":"80=Start flood"
+            },
+            {
+                "progress":81,
+                "logText":"81=Stage-1 flood"
+            },
+            {
+                "progress":82,
+                "logText":"82=stage-2 flood"
+            },
+            {
+                "progress":83,
+                "logText":"83=stage-3 flood"
+            },
+            {
+                "progress":89,
+                "logText":"89=End flood"
+            }
+        ]
     },
     {
         "id":"quick_glance",
@@ -211,6 +271,10 @@
                 "logText":"Position 44"
             },
             {
+                "progress":98,
+                "logText":"Was warned"
+            },
+            {
                 "progress":99,
                 "logText":"Walk again"
             },
@@ -219,5 +283,5 @@
                 "logText":"Anakis left"
             }
         ]
-    }	
+    }
 ]
