@@ -51,6 +51,33 @@
         ]
     },
     {
+        "id":"brv_school",
+        "name":"Lessons learned",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"You entered a classroom in Brimhaven's school. The teacher told you to sit down."
+            },
+            {
+                "progress":12,
+                "logText":"You noticed an evil looking statue in a corner. Who on earth puts such a thing into a school?"
+            },
+            {
+                "progress":20,
+                "logText":"You found a free place next to Golin."
+            },
+            {
+                "progress":30,
+                "logText":"The teacher was droning endlessly about Brimhaven history."
+            },
+            {
+                "progress":40,
+                "logText":"Then a practice lesson started."
+            }
+        ]
+    },
+    {
         "id":"brv_nondisplay",
         "name":"brv_nondisplay",
         "showInLog":0,
