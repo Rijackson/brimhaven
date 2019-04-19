@@ -211,6 +211,8 @@
     <property name="place" value="church"/>
    </properties>
   </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
   <object name="fangwurm" type="spawn" x="256" y="128" width="128" height="64">
    <properties>
     <property name="spawngroup" value="fangwurm"/>
@@ -226,8 +228,7 @@
    <properties>
     <property name="spawngroup" value="brimhaven_church_guard"/>
    </properties>
-  </object>
+  </object> 
  </objectgroup>
- <objectgroup name="Spawn"/>
  <objectgroup name="Keys"/>
 </map>
