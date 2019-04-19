@@ -1498,7 +1498,7 @@
     },
     {
         "id":"anakis_help_find_sister",
-        "message":"Hello my name is Anakis. I hope you can you help me. Yesterday my sister Juttarka went into that cave and did not come out yet.",
+        "message":"Hello my name is Anakis. I hope you can you help me. \n\nYesterday my sister Juttarka left the city to go up to this hill. She did not come home and now I am searching for her. I fear she went into that cave.",
         "replies":[
             {
                 "text":"I found a statue looking almost like a real woman. [Describe the statue to Anakis]",
@@ -2907,7 +2907,7 @@
     },
     {
         "id":"fangwurm_info_about_blood",
-        "message":"The Basilisks blood is magical. It can protect against damage if applied to the skin. Fresh and warm Basilisks blood might even heal a person turned to stone.\nBut I don't know about a way of killing a Basilisk.",
+        "message":"The Basilisks blood is magical. It can protect against damage if applied to the skin. Fresh and warm Basilisks blood might even heal a person turned to stone.\nBut how can you kill a Basilisk if you can't look at it? This is a strong defense.",
         "replies":[
             {
                 "text":"I already killed the Basilisk.",
@@ -3082,7 +3082,7 @@
     },
     {
         "id":"fangwurm_info_basilisk",
-        "message":"The Basilisk will turn you to stone when you go near him an your eyes meet its eyes. You can come back to me if you know what happened to Anakis' sister."
+        "message":"The Basilisk will turn you to stone when you go near him an your eyes meet its eyes. You should not look at it. Come back to me if you know what happened to Anakis' sister."
     },
     {
         "id":"fangwurm_angry_2",
