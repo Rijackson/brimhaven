@@ -1,0 +1,32 @@
+[
+    {
+        "id":"brv_teacher",
+        "message":"brv_teacher"
+    },
+    {
+        "id":"brv_pupil",
+        "message":"brv_pupil"
+    },
+    {
+        "id":"golin",
+        "message":"golin"
+    },
+    {
+        "id":"brv_school_statue",
+        "message":"brv_school_statue"
+    },
+    {
+        "id":"brv_sign_school",
+        "message":"School"
+    },
+    {
+        "id":"brv_school_emptyseat",
+		"switchToNPC":"brv_teacher",
+        "message":"No. That won't go. You can't get late to school and then sit in the last bench."
+    },
+    {
+        "id":"brv_school_weapons",
+		"switchToNPC":"brv_teacher",
+        "message":"Keep your hands off this box until I allow it."
+    }
+]
