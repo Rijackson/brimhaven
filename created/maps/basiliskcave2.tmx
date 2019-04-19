@@ -205,7 +205,7 @@
  </layer>
  <layer id="5" name="Walkable" width="23" height="18">
   <data encoding="base64" compression="zlib">
-   eJybKcvAMHMUY8XogNrmIvOp7e6hbDatwhxbnJICSDWb3PRAiruJNRtdLbIYLc2mJFyIDStqmDuK6YsBqQX1Rw==
+   eJybKcvAMHMUY8XogNrmIvOp7e6hbDatwhxbnJICSDWb3PRAiruJNRtdPTKflmZTEi7EhhU1zB3F9MUAS2rz2w==
   </data>
  </layer>
  <layer id="6" name="Walkable_StopWalking4" width="23" height="18" visible="0">
