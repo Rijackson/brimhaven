@@ -171,15 +171,6 @@
         }
     },
     {
-        "id":"rope_ladder",
-        "iconID":"items_misc_2:138",
-        "name":"Rope ladder",
-        "displaytype":"quest",
-        "hasManualPrice":1,
-        "baseMarketCost":350,
-        "category":"other"
-    },
-    {
         "id":"brv_boulder",
         "iconID":"items_japozero:576",
         "name":"Boulder",
@@ -238,10 +229,27 @@
                 "min":1,
                 "max":4
             },
+            "increaseAttackCost":4,
             "increaseAttackChance":3,
             "increaseCriticalSkill":0,
             "increaseBlockChance":0,
             "increaseDamageResistance":0
+        }
+    },
+    {
+        "id":"dagger_trident",
+        "iconID":"items_rijackson_1:13",
+        "name":"Trident dagger",
+        "displaytype":"ordinary",
+        "category":"dagger",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":1,
+                "max":2
+            },
+            "increaseAttackCost":4,
+            "increaseAttackChance":4,
+            "increaseBlockChance":9
         }
     }
 ]
