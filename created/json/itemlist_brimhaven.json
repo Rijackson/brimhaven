@@ -226,5 +226,22 @@
         "hasManualPrice":1,
         "baseMarketCost":0,
         "category":"flask"
+    },
+    {
+        "id":"kitchen_knife",
+        "iconID":"items_weapons_3:39",
+        "name":"Kitchen knife",
+        "displaytype":"ordinary",
+        "category":"dagger",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":1,
+                "max":3
+            },
+            "increaseAttackChance":3,
+            "increaseCriticalSkill":0,
+            "increaseBlockChance":0,
+            "increaseDamageResistance":0
+        }
     }
 ]

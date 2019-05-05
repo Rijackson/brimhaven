@@ -209,7 +209,13 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn"/>
+ <objectgroup name="Spawn">
+  <object name="arlish" type="spawn" x="32" y="128" width="160" height="64">
+   <properties>
+    <property name="spawngroup" value="arlish"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>
 </map>

@@ -134,5 +134,24 @@
         "monsterClass":"humanoid",
         "spawnGroup":"brimhaven_church_guard",
         "phraseID":"brimhaven_church_guard"
+    },
+    {
+        "id":"truric",
+        "name":"Truric",
+        "iconID":"monsters_ld1:86",
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none",
+        "spawnGroup":"truric",
+        "droplistID":"truric"
+    },
+    {
+        "id":"arlish",
+        "name":"Arlish",
+        "iconID":"monsters_ld1:164",
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none",
+        "spawnGroup":"arlish",
+        "phraseID":"arlish_0",
+        "droplistID":"arlish"
     }
 ]

@@ -3133,5 +3133,19 @@
     {
         "id":"brimhaven_church_guard",
         "message":"Stop, you are not allowed to go any further."
+    },
+    {
+        "id":"arlish_0",
+        "message":"Hello. I'm Arlish, the proprietor. This is a general store, so I sell some of this, some of that, and a little bit of the other. Would you like to see what I have?",
+        "replies":[
+            {
+                "text":"Yes, please show me.",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"No thanks.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]
