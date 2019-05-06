@@ -1,0 +1,9 @@
+[
+    {
+        "id":"dagger_parry",
+        "name":"Parrying dagger",
+        "actionType":"equip",
+        "size":"light",
+        "inventorySlot":"shield"
+    }
+]

@@ -142,6 +142,7 @@
         "monsterClass":"humanoid",
         "movementAggressionType":"none",
         "spawnGroup":"truric",
+        "phraseID":"truric_0",
         "droplistID":"truric"
     },
     {

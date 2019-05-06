@@ -3147,5 +3147,9 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"truric_0",
+        "message":"Welcome to my store."
     }
 ]
