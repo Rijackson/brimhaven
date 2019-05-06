@@ -241,7 +241,7 @@
         "iconID":"items_rijackson_1:13",
         "name":"Trident dagger",
         "displaytype":"ordinary",
-        "category":"dagger",
+        "category":"weapon_blocking",
         "equipEffect":{
             "increaseAttackDamage":{
                 "min":1,
