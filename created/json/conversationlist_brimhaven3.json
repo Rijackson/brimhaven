@@ -151,10 +151,8 @@
     },
     {
         "id":"blackjack_win",
-        "message":"",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"blackjack_win_1gold",
                 "requires":[
                     {
@@ -165,7 +163,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"blackjack_win_10gold",
                 "requires":[
                     {
@@ -176,7 +173,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"blackjack_win_100gold",
                 "requires":[
                     {
@@ -187,7 +183,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"blackjack_win_1000gold",
                 "requires":[
                     {
