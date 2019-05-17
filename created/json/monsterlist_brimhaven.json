@@ -154,5 +154,14 @@
         "spawnGroup":"arlish",
         "phraseID":"arlish_0",
         "droplistID":"arlish"
-    }
+    },
+    {
+        "id":"brv_blackjack_dealer",
+        "name":"Dealer",
+        "iconID":"monsters_ld1:130",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_blackjack_dealer",
+        "phraseID":"blackjack_bet"
+    }	
 ]

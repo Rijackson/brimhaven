@@ -77,7 +77,7 @@
     },
     {
         "id":"blackjack_rules",
-        "message":"We play with several 32 piece card sets from 7 to 10, boy (2 points), queen (3 points), king (4 points) and ace (11 points).\n\nYou can draw as many cards as you want. After each draw you can decide to draw another card or stop. You loose if you have drawn more than 21 points.\n\t\n\nAfter you stop the dealer will draw following the same rules. You win if you have more points as the dealer otherwise you loose.",
+        "message":"We play with several 32 piece card sets from 7 to 10, boy (2 points), queen (3 points), king (4 points) and ace (11 points).\n\nYou can draw as many cards as you want. After each draw you can decide to draw another card or stop. You loose if you have drawn more than 21 points.\n\t\n\nAfter you stop I will draw following the same rules. You win if you have more points than I have otherwise you loose.",
         "replies":[
             {
                 "text":"N",
@@ -1422,7 +1422,7 @@
     },
     {
         "id":"blackjack_loose_15",
-        "message":"The keeper has 15 points. You loose.",
+        "message":"I have 15 points. You loose.",
         "replies":[
             {
                 "text":"One more game.",
@@ -1432,7 +1432,7 @@
     },
     {
         "id":"blackjack_win_15",
-        "message":"The keeper has 15 points.",
+        "message":"I have 15 points.",
         "replies":[
             {
                 "text":"N",
@@ -1442,7 +1442,7 @@
     },
     {
         "id":"blackjack_loose_16",
-        "message":"The keeper has 16 points. You loose.",
+        "message":"I have 16 points. You loose.",
         "replies":[
             {
                 "text":"One more game.",
@@ -1452,7 +1452,7 @@
     },
     {
         "id":"blackjack_win_16",
-        "message":"The keeper has 16 points.",
+        "message":"I have 16 points.",
         "replies":[
             {
                 "text":"N",
@@ -1462,7 +1462,7 @@
     },
     {
         "id":"blackjack_loose_17",
-        "message":"The keeper has 17 points. You loose.",
+        "message":"I have 17 points. You loose.",
         "replies":[
             {
                 "text":"One more game.",
@@ -1472,7 +1472,7 @@
     },
     {
         "id":"blackjack_win_17",
-        "message":"The keeper has 17 points.",
+        "message":"I have 17 points.",
         "replies":[
             {
                 "text":"N",
@@ -1482,7 +1482,7 @@
     },
     {
         "id":"blackjack_loose_18",
-        "message":"The keeper has 18 points. You loose.",
+        "message":"I have 18 points. You loose.",
         "replies":[
             {
                 "text":"One more game.",
@@ -1492,7 +1492,7 @@
     },
     {
         "id":"blackjack_win_18",
-        "message":"The keeper has 18 points.",
+        "message":"I have 18 points.",
         "replies":[
             {
                 "text":"N",
@@ -1502,7 +1502,7 @@
     },
     {
         "id":"blackjack_loose_19",
-        "message":"The keeper has 19 points. You loose.",
+        "message":"I have 19 points. You loose.",
         "replies":[
             {
                 "text":"One more game.",
@@ -1512,7 +1512,7 @@
     },
     {
         "id":"blackjack_win_19",
-        "message":"The keeper has 19 points.",
+        "message":"I have 19 points.",
         "replies":[
             {
                 "text":"N",
@@ -1522,7 +1522,7 @@
     },
     {
         "id":"blackjack_loose_20",
-        "message":"The keeper has 20 points. You loose.",
+        "message":"I have 20 points. You loose.",
         "replies":[
             {
                 "text":"One more game.",
@@ -1532,7 +1532,7 @@
     },
     {
         "id":"blackjack_win_20",
-        "message":"The keeper has 20 points.",
+        "message":"I have 20 points.",
         "replies":[
             {
                 "text":"N",
@@ -1542,7 +1542,7 @@
     },
     {
         "id":"blackjack_loose_21",
-        "message":"The keeper has 21 points. You loose.",
+        "message":"I have 21 points. You loose.",
         "replies":[
             {
                 "text":"One more game.",
@@ -1552,7 +1552,7 @@
     },
     {
         "id":"blackjack_win_22",
-        "message":"The keeper has 22 points.",
+        "message":"I have 22 points.",
         "replies":[
             {
                 "text":"N",
@@ -1562,7 +1562,7 @@
     },
     {
         "id":"blackjack_win_23",
-        "message":"The keeper has 23 points.",
+        "message":"I have 23 points.",
         "replies":[
             {
                 "text":"N",
@@ -1572,7 +1572,7 @@
     },
     {
         "id":"blackjack_win_24",
-        "message":"The keeper has 24 points.",
+        "message":"I have 24 points.",
         "replies":[
             {
                 "text":"N",
@@ -1582,7 +1582,7 @@
     },
     {
         "id":"blackjack_win_25",
-        "message":"The keeper has 25 points.",
+        "message":"I have 25 points.",
         "replies":[
             {
                 "text":"N",
