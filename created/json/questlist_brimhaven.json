@@ -310,5 +310,27 @@
                 "logText":"Anakis left"
             }
         ]
+    },
+    {
+        "id":"blackjack",
+        "name":"blackjack",
+        "stages":[
+            {
+                "progress":1,
+                "logText":"1"
+            },
+            {
+                "progress":10,
+                "logText":"10"
+            },
+            {
+                "progress":20,
+                "logText":"1000"
+            },
+            {
+                "progress":1000,
+                "logText":"30"
+            }
+        ]
     }
 ]
