@@ -25,6 +25,10 @@
         "message":"No. That won't go. You can't get late to school and then sit in the last bench."
     },
     {
+        "id":"brv_school_seated",
+        "message":"brv_school_seated"
+    },
+    {
         "id":"brv_school_weapons",
 		"switchToNPC":"brv_teacher",
         "message":"Keep your hands off this box until I allow it."

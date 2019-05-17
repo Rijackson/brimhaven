@@ -2784,10 +2784,10 @@
     },
     {
         "id":"juttarka_thank",
-        "message":"Thank you for saving my life. Please come back to me when you are some years older..",
+        "message":"Thank you for saving my life. Please come back and visit me sometime in the future.",
         "replies":[
             {
-                "text":"It was a pleasure for me.",
+                "text":"No problem. It was my pleasure.",
                 "nextPhraseID":"X"
             }
         ]
@@ -2907,7 +2907,7 @@
     },
     {
         "id":"fangwurm_info_about_blood",
-        "message":"The Basilisks blood is magical. It can protect against damage if applied to the skin. Fresh and warm Basilisks blood might even heal a person turned to stone.\nBut how can you kill a Basilisk if you can't look at it? This is a strong defense.",
+        "message":"The Basilisks blood is has special properties. It can protect against damage if applied to the skin. Fresh, warm, Basilisks blood might even heal a person that has been turned to stone.\nBut how can you kill a Basilisk if you can't even look at it? It has a very strong defense.",
         "replies":[
             {
                 "text":"I already killed the Basilisk.",
@@ -3133,5 +3133,23 @@
     {
         "id":"brimhaven_church_guard",
         "message":"Stop, you are not allowed to go any further."
+    },
+    {
+        "id":"arlish_0",
+        "message":"Hello. I'm Arlish, the proprietor. This is a general store, so I sell some of this, some of that, and a little bit of the other. Would you like to see what I have?",
+        "replies":[
+            {
+                "text":"Yes, please show me.",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"No thanks.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"truric_0",
+        "message":"Welcome to my store."
     }
 ]

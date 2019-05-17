@@ -147,40 +147,40 @@
         "stages":[
             {
                 "progress":10,
-                "logText":"I talked to Anakis. He told me, that his sister Juttarka went into the cave and did not come out again."
+                "logText":"I talked to Anakis. He told me that his sister, Juttarka, went into the cave and did not come out again."
             },
             {
                 "progress":20,
-                "logText":"I agreed to help Anakis find his sister Juttarka."
+                "logText":"I agreed to help Anakis find his sister, Juttarka."
             },
             {
                 "progress":40,
-                "logText":"I found a stone statue looking almost like a real woman."
+                "logText":"I found a stone statue that looked almost like a real woman."
             },
             {
                 "progress":50,
-                "logText":"I told Anakis about the statue. He thinks that it is his sister Juttarka and thanks me for helping him.",
+                "logText":"I told Anakis about the statue. He thinks that it is his sister, Juttarka, and thanked me for helping him.",
                 "rewardExperience":100
             },
             {
                 "progress":60,
-                "logText":"Anakis asked me if I could take revenge for his sister."
+                "logText":"Anakis asked me if I could avenge his sister."
             },
             {
                 "progress":70,
-                "logText":"I agreed to take revenge for Anakis' sister Juttarka and kill the Basilisk."
+                "logText":"I agreed to avenge Anakis' sister, Juttarka, and kill the Basilisk."
             },
             {
                 "progress":75,
-                "logText":"I could talk to Fangwurm the priest of western Brimhaven if he has some information if it is possible to help Anakis' sister."
+                "logText":"I should talk to Fangwurm, the priest of west Brimhaven, to see if he has some information about how it may be possible to help Anakis' sister."
             },
             {
                 "progress":77,
-                "logText":"Fangwurm told me that the Basilisks blood is magical. It can protect against damage if applied to the skin. Fresh and warm Basilisks blood might even heal a person turned to stone.  "
+                "logText":"Fangwurm told me that the Basilisk's blood has special properties. It can protect against damage if applied to the skin. Fresh, warm, Basilisk's blood might even be able to heal a person that has been turned to stone.  "
             },
             {
                 "progress":78,
-                "logText":"The priest Fangwurm told me that the potion maker in Fallhaven sells special crystal vials that are resistent to blood of a Basilisk and needed to handle it."
+                "logText":"The priest Fangwurm told me that the potion maker in Fallhaven sells special crystal vials that are resistent to the blood of a Basilisk, and I will need one to handle it."
             },
             {
                 "progress":80,
@@ -193,7 +193,7 @@
             },
             {
                 "progress":90,
-                "logText":"I told Anakis about killing the Basilisk.",
+                "logText":"I told Anakis that I killed the Basilisk.",
                 "rewardExperience":1000,
                 "finishesQuest":1
             }

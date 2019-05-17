@@ -102,44 +102,48 @@
         }
     },
     {
-        "id":"stoutford_plate_mail1",
+        "id":"brimhaven_plate_mail1",
         "iconID":"items_japozero:169",
-        "name":"Stoutford's plate mail",
+        "name":"Brimhaven plate mail",
         "displaytype":"rare",
         "category":"plmail",
         "equipEffect":{
-            "increaseMaxHP":7,
-            "increaseBlockChance":28,
+            "increaseMaxHP":4,
+            "increaseMoveCost":-1,
+            "increaseAttackChance":-3,
+            "increaseBlockChance":14,
             "increaseDamageResistance":0
         }
     },
     {
-        "id":"stoutford_plate_mail2",
+        "id":"brimhaven_plate_mail2",
         "iconID":"items_japozero:175",
-        "name":"Stoutford's rigid plate mail",
+        "name":"Brimhaven rigid plate mail",
         "displaytype":"rare",
         "category":"plmail",
         "equipEffect":{
-            "increaseBlockChance":25,
-            "increaseDamageResistance":2
+            "increaseMoveCost":-1,
+            "increaseAttackChance":-6,
+            "increaseBlockChance":18,
+            "increaseDamageResistance":1
         }
     },
     {
-        "id":"stoutford_steel_helmet",
+        "id":"brimhaven_steel_helmet",
         "iconID":"items_armours:25",
-        "name":"Stoutford's steel helmet",
+        "name":"Brimhaven steel helmet",
         "displaytype":"ordinary",
         "category":"hd_mtl_hv",
         "equipEffect":{
-            "increaseMaxHP":10,
+            "increaseMaxHP":8,
             "increaseAttackChance":-5,
             "increaseBlockChance":7
         }
     },
     {
-        "id":"stoutford_engraved_steel_helmet",
+        "id":"brimhaven_engraved_steel_helmet",
         "iconID":"items_armours:25",
-        "name":"Stoutford's engraved steel helmet",
+        "name":"Brimhaven engraved steel helmet",
         "displaytype":"rare",
         "category":"hd_mtl_hv",
         "equipEffect":{
@@ -147,7 +151,8 @@
                 "min":0,
                 "max":0
             },
-            "increaseMaxHP":15,
+            "increaseMaxHP":10,
+            "increaseReequipCost":0,
             "increaseAttackChance":-4,
             "increaseBlockChance":7
         }
@@ -160,18 +165,10 @@
         "category":"feet_mtl_li",
         "equipEffect":{
             "increaseMaxHP":5,
+            "increaseReequipCost":-2,
             "increaseAttackChance":7,
             "increaseBlockChance":10
         }
-    },
-    {
-        "id":"rope_ladder",
-        "iconID":"items_misc_2:138",
-        "name":"Rope ladder",
-        "displaytype":"quest",
-        "hasManualPrice":1,
-        "baseMarketCost":350,
-        "category":"other"
     },
     {
         "id":"brv_boulder",
@@ -220,5 +217,40 @@
         "hasManualPrice":1,
         "baseMarketCost":0,
         "category":"flask"
-    }	
+    },
+    {
+        "id":"kitchen_knife",
+        "iconID":"items_weapons_3:39",
+        "name":"Kitchen knife",
+        "displaytype":"ordinary",
+        "category":"dagger",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":1,
+                "max":4
+            },
+            "increaseAttackCost":4,
+            "increaseAttackChance":3,
+            "increaseCriticalSkill":0,
+            "increaseBlockChance":0,
+            "increaseDamageResistance":0
+        }
+    },
+    {
+        "id":"dagger_trident",
+        "iconID":"items_rijackson_1:13",
+        "name":"Trident dagger",
+        "displaytype":"ordinary",
+        "category":"weapon_blocking",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":1,
+                "max":2
+            },
+            "increaseMoveCost":0,
+            "increaseAttackCost":0,
+            "increaseAttackChance":4,
+            "increaseBlockChance":9
+        }
+    }
 ]
