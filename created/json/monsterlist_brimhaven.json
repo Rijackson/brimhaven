@@ -161,7 +161,63 @@
         "iconID":"monsters_ld1:130",
         "unique":1,
         "monsterClass":"humanoid",
+        "movementAggressionType":"helpOthers",
         "spawnGroup":"brv_blackjack_dealer",
-        "phraseID":"blackjack_bet"
-    }	
+        "faction":"blackjack",
+        "phraseID":"blackjack_dealer"
+    },
+    {
+        "id":"brv_blackjack_gambler1",
+        "name":"Gambler",
+        "iconID":"monsters_ld1:133",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"helpOthers",
+        "spawnGroup":"brv_blackjack_gambler1",
+        "faction":"blackjack",
+        "phraseID":"blackjack_gambler1"
+    },
+    {
+        "id":"brv_tavern_west_waitress",
+        "name":"Waitress",
+        "iconID":"monsters_ld1:162",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_tavern_west_waitress",
+        "droplistID":"brv_tavern_west_waitress"
+    },
+    {
+        "id":"zimsko",
+        "name":"Zimsko",
+        "iconID":"monsters_men2:9",
+        "unique":1,
+        "spawnGroup":"zimsko"
+    },
+    {
+        "id":"brv_tavern_west_guard",
+        "name":"Guard",
+        "iconID":"monsters_rltiles1:69",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_tavern_west_guard"
+    },
+    {
+        "id":"brv_tavern_west_guest",
+        "name":"Guest",
+        "iconID":"monsters_ld1:231",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_tavern_west_guest"
+    },
+    {
+        "id":"brv_blackjack_gambler2",
+        "name":"Gambler",
+        "iconID":"monsters_rltiles1:64",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"helpOthers",
+        "spawnGroup":"brv_blackjack_gambler2",
+        "faction":"blackjack",
+        "phraseID":"blackjack_gambler2"
+    }
 ]

@@ -317,19 +317,67 @@
         "stages":[
             {
                 "progress":1,
-                "logText":"1"
+                "logText":"Bet 1"
             },
             {
                 "progress":10,
-                "logText":"10"
+                "logText":"Bet 10"
             },
             {
                 "progress":20,
-                "logText":"1000"
+                "logText":"Bet 100"
             },
             {
-                "progress":1000,
-                "logText":"30"
+                "progress":30,
+                "logText":"Bet 1000"
+            },
+            {
+                "progress":100,
+                "logText":"Seat taken"
+            }
+        ]
+    },
+    {
+        "id":"brv_blackjack",
+        "name":"Secret games",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"I heared noices from the backroom but I was not allowed to enter because I didn't know the password."
+            },
+            {
+                "progress":20,
+                "logText":"Zimsko told me about gambling in the backroom and that he lost a lot of money. He thinks that they are cheating."
+            },
+            {
+                "progress":30,
+                "logText":"I told Zimko that I want to find out more about the gambling and the told me the password."
+            },
+            {
+                "progress":40,
+                "logText":"With the password I was allowed to enter the backroom.",
+                "rewardExperience":500
+            },
+            {
+                "progress":50,
+                "logText":"After accusing the dealer of cheating a tavern browl started."
+            },
+            {
+                "progress":60,
+                "logText":"All people involved in the tavern brawl survived, but I am no longer allowed to enter the backroom."
+            },
+            {
+                "progress":70,
+                "logText":"I told Zimsko that I believe the gamblers are cheating.",
+                "rewardExperience":1000,
+                "finishesQuest":1
+            },
+            {
+                "progress":80,
+                "logText":"I told Zimsko that I believe the gamblers are not cheating.",
+                "rewardExperience":800,
+                "finishesQuest":1
             }
         ]
     }

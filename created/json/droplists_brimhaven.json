@@ -143,5 +143,42 @@
                 }
             }
         ]
+    },
+    {
+        "id":"brv_tavern_west_waitress",
+        "items":[
+            {
+                "itemID":"meat_cooked",
+                "chance":"100",
+                "quantity":{
+                    "min":10,
+                    "max":10
+                }
+            },
+            {
+                "itemID":"chkn_leg",
+                "chance":"100",
+                "quantity":{
+                    "min":15,
+                    "max":15
+                }
+            },
+            {
+                "itemID":"brv_brew",
+                "chance":"100",
+                "quantity":{
+                    "min":50,
+                    "max":50
+                }
+            },
+            {
+                "itemID":"mead",
+                "chance":"100",
+                "quantity":{
+                    "min":10,
+                    "max":10
+                }
+            }
+        ]
     }
 ]

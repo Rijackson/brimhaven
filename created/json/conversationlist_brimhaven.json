@@ -3151,5 +3151,46 @@
     {
         "id":"truric_0",
         "message":"Welcome to my store."
+    },
+    {
+        "id":"blackjack_gambler1",
+        "message":"What a bad day. I was loosing all the time."
+    },
+    {
+        "id":"blackjack_seat",
+        "message":"Welcome and start playing.",
+        "switchToNPC":"brv_blackjack_dealer",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"blackjack",
+                "value":100
+            }
+        ]
+    },
+    {
+        "id":"blackjack_gambler2",
+        "message":"I already made a fortune. Want to join us then take a seat on the empty chair."
+    },
+    {
+        "id":"blackjack_left_seat",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"blackjack",
+                "value":100
+            }
+        ]
+    },
+    {
+        "id":"blackjack_dealer",
+        "message":"Let us start the tavern brawl!",
+        "rewards":[
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"blackjack",
+                "value":-1
+            }
+        ]
     }
 ]

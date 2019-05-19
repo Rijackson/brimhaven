@@ -252,5 +252,17 @@
             "increaseAttackChance":4,
             "increaseBlockChance":9
         }
+    },
+    {
+        "id":"brv_brew",
+        "iconID":"items_misc_6:23",
+        "name":"Brimhaven brew",
+        "category":"drink",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":1,
+                "max":1
+            }
+        }
     }
 ]
