@@ -161,9 +161,8 @@
         "iconID":"monsters_ld1:130",
         "unique":1,
         "monsterClass":"humanoid",
-        "movementAggressionType":"helpOthers",
+        "movementAggressionType":"none",
         "spawnGroup":"brv_blackjack_dealer",
-        "faction":"blackjack",
         "phraseID":"blackjack_dealer"
     },
     {
@@ -172,9 +171,8 @@
         "iconID":"monsters_ld1:133",
         "unique":1,
         "monsterClass":"humanoid",
-        "movementAggressionType":"helpOthers",
+        "movementAggressionType":"none",
         "spawnGroup":"brv_blackjack_gambler1",
-        "faction":"blackjack",
         "phraseID":"blackjack_gambler1"
     },
     {
@@ -215,9 +213,35 @@
         "iconID":"monsters_rltiles1:64",
         "unique":1,
         "monsterClass":"humanoid",
-        "movementAggressionType":"helpOthers",
+        "movementAggressionType":"none",
         "spawnGroup":"brv_blackjack_gambler2",
-        "faction":"blackjack",
         "phraseID":"blackjack_gambler2"
+    },
+    {
+        "id":"brv_blackjack_dealer_evil",
+        "name":"Dealer",
+        "iconID":"monsters_ld1:130",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"wholeMap",
+        "spawnGroup":"brv_blackjack_dealer_evil"
+    },
+    {
+        "id":"brv_blackjack_gambler1_evil",
+        "name":"Gambler",
+        "iconID":"monsters_ld1:133",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"wholeMap",
+        "spawnGroup":"brv_blackjack_gambler1_evil"
+    },
+    {
+        "id":"brv_blackjack_gambler2_evil",
+        "name":"Gambler",
+        "iconID":"monsters_rltiles1:64",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"wholeMap",
+        "spawnGroup":"brv_blackjack_gambler2_evil"
     }
 ]

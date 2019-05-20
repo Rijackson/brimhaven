@@ -229,6 +229,25 @@
     <property name="spawngroup" value="brv_blackjack_gambler2"/>
    </properties>
   </object>
+  <object name="brv_blackjack_dealer_evil" type="spawn" x="96" y="96" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="brv_blackjack_dealer_evil"/>
+   </properties>
+  </object>
+  <object name="brv_blackjack_gambler1_evil" type="spawn" x="32" y="160" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="brv_blackjack_gambler1_evil"/>
+   </properties>
+  </object>
+  <object name="brv_blackjack_gambler2_evil" type="spawn" x="160" y="96" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="brv_blackjack_gambler2_evil"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys"/>
 </map>

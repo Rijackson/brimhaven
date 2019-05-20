@@ -3187,9 +3187,34 @@
         "message":"Let us start the tavern brawl!",
         "rewards":[
             {
-                "rewardType":"alignmentSet",
-                "rewardID":"blackjack",
-                "value":-1
+                "rewardType":"removeSpawnArea",
+                "rewardID":"brv_blackjack_dealer",
+                "mapName":"brimhaven_tavern_west_back"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"brv_blackjack_gambler1",
+                "mapName":"brimhaven_tavern_west_back"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"brv_blackjack_gambler2",
+                "mapName":"brimhaven_tavern_west_back"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"brv_blackjack_dealer_evil",
+                "mapName":"brimhaven_tavern_west_back"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"brv_blackjack_gambler1_evil",
+                "mapName":"brimhaven_tavern_west_back"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"brv_blackjack_gambler2_evil",
+                "mapName":"brimhaven_tavern_west_back"
             }
         ]
     }
