@@ -334,12 +334,32 @@
             {
                 "progress":100,
                 "logText":"Seat taken"
+            },
+            {
+                "progress":110,
+                "logText":"Started talking to Zimsko"
+            },
+            {
+                "progress":120,
+                "logText":"Bought Zimsko beer"
+            },
+            {
+                "progress":130,
+                "logText":"Zimsko talked about loosing money"
+            },
+            {
+                "progress":140,
+                "logText":"Played blackjack"
+            },
+            {
+                "progress":150,
+                "logText":"Allowed to enter backroom"
             }
         ]
     },
     {
         "id":"brv_blackjack",
-        "name":"Secret games",
+        "name":"Secret fairplay?",
         "showInLog":1,
         "stages":[
             {
@@ -352,7 +372,7 @@
             },
             {
                 "progress":30,
-                "logText":"I told Zimko that I want to find out more about the gambling and the told me the password."
+                "logText":"I told Zimsko that I want to find out more about the gambling and the told me the password to access the backroom."
             },
             {
                 "progress":40,
@@ -361,7 +381,7 @@
             },
             {
                 "progress":50,
-                "logText":"After accusing the dealer of cheating a tavern browl started."
+                "logText":"After accusing the dealer of cheating a tavern brawl started."
             },
             {
                 "progress":60,

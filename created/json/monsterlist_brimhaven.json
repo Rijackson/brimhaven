@@ -163,7 +163,7 @@
         "monsterClass":"humanoid",
         "movementAggressionType":"none",
         "spawnGroup":"brv_blackjack_dealer",
-        "phraseID":"blackjack_dealer"
+        "phraseID":"blackjack_dealer_select"
     },
     {
         "id":"brv_blackjack_gambler1",
@@ -182,6 +182,7 @@
         "unique":1,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_tavern_west_waitress",
+        "phraseID":"brv_tavern_west_waitress_select",
         "droplistID":"brv_tavern_west_waitress"
     },
     {
@@ -189,7 +190,8 @@
         "name":"Zimsko",
         "iconID":"monsters_men2:9",
         "unique":1,
-        "spawnGroup":"zimsko"
+        "spawnGroup":"zimsko",
+        "phraseID":"brv_zimko_select"
     },
     {
         "id":"brv_tavern_west_guard",
@@ -197,7 +199,8 @@
         "iconID":"monsters_rltiles1:69",
         "unique":1,
         "monsterClass":"humanoid",
-        "spawnGroup":"brv_tavern_west_guard"
+        "spawnGroup":"brv_tavern_west_guard",
+        "phraseID":"brv_tavern_west_guard_select"
     },
     {
         "id":"brv_tavern_west_guest",

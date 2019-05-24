@@ -3158,8 +3158,20 @@
     },
     {
         "id":"blackjack_seat",
-        "message":"Welcome and start playing.",
-        "switchToNPC":"brv_blackjack_dealer",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"blackjack_dealer_select",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_blackjack",
+                        "value":50,
+                        "negate":true
+                    }
+                ]
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -3170,7 +3182,7 @@
     },
     {
         "id":"blackjack_gambler2",
-        "message":"I already made a fortune. Want to join us then take a seat on the empty chair."
+        "message":"I already made a fortune. Want to join us then take a seat on the empty chair and talk to the dealer."
     },
     {
         "id":"blackjack_left_seat",
@@ -3183,7 +3195,7 @@
         ]
     },
     {
-        "id":"blackjack_dealer",
+        "id":"blackjack_dealer_40_2",
         "message":"Let us start the tavern brawl!",
         "rewards":[
             {
@@ -3215,6 +3227,291 @@
                 "rewardType":"spawnAll",
                 "rewardID":"brv_blackjack_gambler2_evil",
                 "mapName":"brimhaven_tavern_west_back"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_blackjack",
+                "value":50
+            }
+        ]
+    },
+    {
+        "id":"brv_tavern_west_backroom_5",
+        "replies":[
+            {
+                "nextPhraseID":"brv_tavern_west_guard_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_blackjack",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_tavern_west_backroom_6"
+            }
+        ]
+    },
+    {
+        "id":"brv_tavern_west_guard_10",
+        "message":"[You hear noices from the backroom...]\nStop! Tell me the password, if you want to enter.",
+        "switchToNPC":"brv_tavern_west_guard",
+        "replies":[
+            {
+                "text":"I don't know the password.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"[Tell him the password]",
+                "nextPhraseID":"brv_tavern_west_guard_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_blackjack",
+                        "value":30
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_blackjack",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"brv_tavern_west_guard_20",
+        "message":"I wish you good luck. [Laughs]",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"blackjack",
+                "value":150
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_blackjack",
+                "value":40
+            }
+        ]
+    },
+    {
+        "id":"brv_tavern_west_guard_select",
+        "replies":[
+            {
+                "nextPhraseID":"brv_tavern_west_guard_100",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_blackjack",
+                        "value":60
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_tavern_west_guard_90",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_blackjack",
+                        "value":50
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"brv_blackjack_dealer_evil",
+                        "value":1
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"brv_blackjack_gambler1_evil",
+                        "value":1
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"brv_blackjack_gambler1_evil",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_tavern_west_guard_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_blackjack",
+                        "value":40
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_tavern_west_backroom_5"
+            }
+        ]
+    },
+    {
+        "id":"brv_tavern_west_guard_100",
+        "message":"You are not welcome anymore."
+    },
+    {
+        "id":"brv_tavern_west_guard_90",
+        "message":"I heared you fighting in there. Luck for you that noone got killed. \nYou are not welcome anymore.",
+        "switchToNPC":"brv_tavern_west_guard",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_blackjack",
+                "value":60
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"blackjack",
+                "value":150
+            }
+        ]
+    },
+    {
+        "id":"brv_tavern_west_check_deny_backroom",
+        "replies":[
+            {
+                "nextPhraseID":"brv_tavern_west_guard_90",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"blackjack",
+                        "value":150
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_blackjack",
+                        "value":50
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"brv_blackjack_gambler2_evil",
+                        "value":1
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"brv_blackjack_gambler1_evil",
+                        "value":1
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"brv_blackjack_dealer_evil",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brv_tavern_west_backroom_6",
+        "replies":[
+            {
+                "nextPhraseID":"brv_tavern_west_guard_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_blackjack",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"blackjack_dealer_select",
+        "replies":[
+            {
+                "text":"",
+                "nextPhraseID":"blackjack_dealer_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"blackjack",
+                        "value":100,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"blackjack_dealer_30"
+            }
+        ]
+    },
+    {
+        "id":"blackjack_dealer_20",
+        "message":"Take a seat on the empty chair if you want to play a round.",
+        "switchToNPC":"brv_blackjack_dealer"
+    },
+    {
+        "id":"blackjack_dealer_30",
+        "message":"Do you want to play a round?",
+        "switchToNPC":"brv_blackjack_dealer",
+        "replies":[
+            {
+                "text":"Yes",
+                "nextPhraseID":"blackjack_dealer_40"
+            },
+            {
+                "text":"No",
+                "nextPhraseID":"blackjack_dealer_X"
+            }
+        ]
+    },
+    {
+        "id":"blackjack_dealer_40",
+        "message":"You loose",
+        "replies":[
+            {
+                "text":"Let's play another round.",
+                "nextPhraseID":"blackjack_dealer_40"
+            },
+            {
+                "text":"I have enough",
+                "nextPhraseID":"blackjack_dealer_X"
+            },
+            {
+                "text":"You are cheating. Give me my money back.",
+                "nextPhraseID":"blackjack_dealer_40_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_blackjack",
+                        "value":70,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_blackjack",
+                        "value":80,
+                        "negate":true
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"blackjack",
+                "value":140
+            }
+        ]
+    },
+    {
+        "id":"blackjack_dealer_40_1",
+        "message":"Who do you think you are calling me a cheater? Shut up or I will shut your mouth with my fist.",
+        "replies":[
+            {
+                "text":"Ok I am sorry.",
+                "nextPhraseID":"blackjack_dealer_30"
+            },
+            {
+                "text":"Let's fight it out. [Killing him in town is a bad idea. I try to only knock him out.]",
+                "nextPhraseID":"blackjack_dealer_40_2"
             }
         ]
     }
