@@ -3175,7 +3175,7 @@
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"blackjack",
+                "rewardID":"brv_blackjack_hidden",
                 "value":100
             }
         ]
@@ -3189,7 +3189,7 @@
         "rewards":[
             {
                 "rewardType":"removeQuestProgress",
-                "rewardID":"blackjack",
+                "rewardID":"brv_blackjack_hidden",
                 "value":100
             }
         ]
@@ -3288,7 +3288,7 @@
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"blackjack",
+                "rewardID":"brv_blackjack_hidden",
                 "value":150
             },
             {
@@ -3367,7 +3367,7 @@
             },
             {
                 "rewardType":"removeQuestProgress",
-                "rewardID":"blackjack",
+                "rewardID":"brv_blackjack_hidden",
                 "value":150
             }
         ]
@@ -3380,7 +3380,7 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"blackjack",
+                        "requireID":"brv_blackjack_hidden",
                         "value":150
                     },
                     {
@@ -3431,7 +3431,7 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"blackjack",
+                        "requireID":"brv_blackjack_hidden",
                         "value":100,
                         "negate":true
                     }
@@ -3454,25 +3454,25 @@
         "replies":[
             {
                 "text":"Yes",
-                "nextPhraseID":"blackjack_dealer_40"
+                "nextPhraseID":"blackjack_bet"
             },
             {
                 "text":"No",
-                "nextPhraseID":"blackjack_dealer_X"
+                "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"blackjack_dealer_40",
-        "message":"You loose",
+        "message":"Do you want to play another round?",
         "replies":[
             {
-                "text":"Let's play another round.",
-                "nextPhraseID":"blackjack_dealer_40"
+                "text":"Let's go on.",
+                "nextPhraseID":"blackjack_bet"
             },
             {
-                "text":"I have enough",
-                "nextPhraseID":"blackjack_dealer_X"
+                "text":"I have enough.",
+                "nextPhraseID":"X"
             },
             {
                 "text":"You are cheating. Give me my money back.",
@@ -3496,7 +3496,7 @@
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"blackjack",
+                "rewardID":"brv_blackjack_hidden",
                 "value":140
             }
         ]
@@ -3514,5 +3514,9 @@
                 "nextPhraseID":"blackjack_dealer_40_2"
             }
         ]
+    },
+    {
+        "id":"brv_tavern_west_guest",
+        "message":"Go away and let me eat."
     }
 ]

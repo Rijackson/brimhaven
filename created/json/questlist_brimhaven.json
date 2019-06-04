@@ -312,8 +312,8 @@
         ]
     },
     {
-        "id":"blackjack",
-        "name":"blackjack",
+        "id":"brv_blackjack_hidden",
+        "name":"brv_blackjack_hidden",
         "stages":[
             {
                 "progress":1,

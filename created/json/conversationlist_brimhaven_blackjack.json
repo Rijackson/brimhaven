@@ -7,7 +7,7 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"blackjack",
+                        "requireID":"brv_blackjack",
                         "value":50
                     }
                 ]
@@ -27,7 +27,7 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"blackjack",
+                        "requireID":"brv_blackjack_hidden",
                         "value":10
                     }
                 ]
@@ -47,38 +47,38 @@
         "message":"Please go away. I don't want you here in my tavern anymore."
     },
     {
-        "id":"brv_zimko_select",
+        "id":"brv_zimsko_select",
         "replies":[
             {
-                "nextPhraseID":"brv_zimko_5",
+                "nextPhraseID":"brv_zimsko_5",
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"blackjack",
+                        "requireID":"brv_blackjack_hidden",
                         "value":110
                     }
                 ]
             },
             {
-                "nextPhraseID":"brv_zimko_10"
+                "nextPhraseID":"brv_zimsko_10"
             }
         ]
     },
     {
-        "id":"brv_zimko_5",
+        "id":"brv_zimsko_5",
         "message":"You again",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brv_zimko_6"
+                "nextPhraseID":"brv_zimsko_6"
             }
         ]
     },
     {
-        "id":"brv_zimko_6",
+        "id":"brv_zimsko_6",
         "replies":[
             {
-                "nextPhraseID":"brv_zimko_80",
+                "nextPhraseID":"brv_zimsko_80",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -88,7 +88,7 @@
                 ]
             },
             {
-                "nextPhraseID":"brv_zimko_80",
+                "nextPhraseID":"brv_zimsko_80",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -98,7 +98,7 @@
                 ]
             },
             {
-                "nextPhraseID":"brv_zimko_40",
+                "nextPhraseID":"brv_zimsko_40",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -108,35 +108,35 @@
                 ]
             },
             {
-                "nextPhraseID":"brv_zimko_20_2",
+                "nextPhraseID":"brv_zimsko_20_2",
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"blackjack",
+                        "requireID":"brv_blackjack_hidden",
                         "value":120
                     }
                 ]
             },
             {
-                "nextPhraseID":"brv_zimko_10"
+                "nextPhraseID":"brv_zimsko_10"
             }
         ]
     },
     {
-        "id":"brv_zimko_10",
+        "id":"brv_zimsko_10",
         "message":"What do you want from me?",
         "replies":[
             {
                 "text":"I just want to talk a little bit.",
-                "nextPhraseID":"brv_zimko_10_1"
+                "nextPhraseID":"brv_zimsko_10_1"
             },
             {
                 "text":"I want to join you for a beer.",
-                "nextPhraseID":"brv_zimko_10_2"
+                "nextPhraseID":"brv_zimsko_10_2"
             },
             {
                 "text":"Do you know something about the backroom?",
-                "nextPhraseID":"brv_zimko_10_1",
+                "nextPhraseID":"brv_zimsko_10_1",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -149,22 +149,22 @@
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"blackjack",
+                "rewardID":"brv_blackjack_hidden",
                 "value":110
             }
         ]
     },
     {
-        "id":"brv_zimko_10_1",
+        "id":"brv_zimsko_10_1",
         "message":"I am very thirsty...",
         "replies":[
             {
                 "text":"Why don't you buy something for yourself?",
-                "nextPhraseID":"brv_zimko_10_2"
+                "nextPhraseID":"brv_zimsko_10_2"
             },
             {
                 "text":"Let's drink a beer together. I will pay. [Pay 2 gold]",
-                "nextPhraseID":"brv_zimko_20",
+                "nextPhraseID":"brv_zimsko_20",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -176,7 +176,7 @@
         ]
     },
     {
-        "id":"brv_zimko_10_2",
+        "id":"brv_zimsko_10_2",
         "message":"I lost all my money gambling and cant afford a beer.",
         "replies":[
             {
@@ -197,7 +197,7 @@
             },
             {
                 "text":"I will buy your beer. [Pay 2 gold]",
-                "nextPhraseID":"brv_zimko_20",
+                "nextPhraseID":"brv_zimsko_20",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -210,33 +210,33 @@
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"blackjack",
+                "rewardID":"brv_blackjack_hidden",
                 "value":130
             }
         ]
     },
     {
-        "id":"brv_zimko_20",
+        "id":"brv_zimsko_20",
         "replies":[
             {
-                "nextPhraseID":"brv_zimko_20_2"
+                "nextPhraseID":"brv_zimsko_20_2"
             }
         ],
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"blackjack",
+                "rewardID":"brv_blackjack_hidden",
                 "value":120
             }
         ]
     },
     {
-        "id":"brv_zimko_20_1",
+        "id":"brv_zimsko_20_1",
         "message":"Can I have one more beer?",
         "replies":[
             {
                 "text":"Here is one more beer. [Pay 2 gold]",
-                "nextPhraseID":"brv_zimko_20_2",
+                "nextPhraseID":"brv_zimsko_20_2",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -247,7 +247,7 @@
             },
             {
                 "text":"I am out of money",
-                "nextPhraseID":"brv_zimko_20_1",
+                "nextPhraseID":"brv_zimsko_20_1",
                 "requires":[
                     {
                         "requireType":"inventoryKeep",
@@ -259,7 +259,7 @@
             },
             {
                 "text":"[Lie] I am out of money",
-                "nextPhraseID":"brv_zimko_20_1",
+                "nextPhraseID":"brv_zimsko_20_1",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -270,11 +270,11 @@
             },
             {
                 "text":"No, you had enough.",
-                "nextPhraseID":"brv_zimko_20_1"
+                "nextPhraseID":"brv_zimsko_20_1"
             },
             {
                 "text":"Do you know something about the backroom?",
-                "nextPhraseID":"brv_zimko_30",
+                "nextPhraseID":"brv_zimsko_30",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -291,7 +291,7 @@
             },
             {
                 "text":"Where did you loose your money?",
-                "nextPhraseID":"brv_zimko_30",
+                "nextPhraseID":"brv_zimsko_30",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -301,14 +301,14 @@
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"blackjack",
+                        "requireID":"brv_blackjack_hidden",
                         "value":130
                     }
                 ]
             },
             {
                 "text":"I want to find out whats happening in the backroom but they want a password.",
-                "nextPhraseID":"brv_zimko_30_2",
+                "nextPhraseID":"brv_zimsko_30_2",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -330,7 +330,7 @@
             },
             {
                 "text":"I want to find out whats happening in the backroom.",
-                "nextPhraseID":"brv_zimko_30_1",
+                "nextPhraseID":"brv_zimsko_30_1",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -353,7 +353,7 @@
             },
             {
                 "text":"I want to talk to you about the gamblers.",
-                "nextPhraseID":"brv_zimko_40",
+                "nextPhraseID":"brv_zimsko_40",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -377,26 +377,26 @@
         ]
     },
     {
-        "id":"brv_zimko_20_2",
+        "id":"brv_zimsko_20_2",
         "message":"Thank you for the beer.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brv_zimko_20_1"
+                "nextPhraseID":"brv_zimsko_20_1"
             }
         ]
     },
     {
-        "id":"brv_zimko_30",
+        "id":"brv_zimsko_30",
         "message":"I lost all my money gambling in the backroom. I think they a are cheating.",
         "replies":[
             {
                 "text":"Oh, bad luck",
-                "nextPhraseID":"brv_zimko_20_1"
+                "nextPhraseID":"brv_zimsko_20_1"
             },
             {
                 "text":"I will go and play with them to find out if they are cheating.",
-                "nextPhraseID":"brv_zimko_30_1",
+                "nextPhraseID":"brv_zimsko_30_1",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -408,7 +408,7 @@
             },
             {
                 "text":"I want to find out whats happening in the backroom but they want a password.",
-                "nextPhraseID":"brv_zimko_30_2",
+                "nextPhraseID":"brv_zimsko_30_2",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -427,12 +427,12 @@
         ]
     },
     {
-        "id":"brv_zimko_30_1",
+        "id":"brv_zimsko_30_1",
         "message":"Thanks for trying to find out more. But you will need a password for entering the backroom. [He whispers the password in your ear.]",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brv_zimko_20_1"
+                "nextPhraseID":"brv_zimsko_20_1"
             }
         ],
         "rewards":[
@@ -444,12 +444,12 @@
         ]
     },
     {
-        "id":"brv_zimko_30_2",
+        "id":"brv_zimsko_30_2",
         "message":"Thanks for trying to find out more. The password for entering the backroom is... [he whispers the password in your ear.]",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brv_zimko_20_1"
+                "nextPhraseID":"brv_zimsko_20_1"
             }
         ],
         "rewards":[
@@ -461,20 +461,20 @@
         ]
     },
     {
-        "id":"brv_zimko_40",
+        "id":"brv_zimsko_40",
         "message":"Did you already find out if they are cheating?",
         "replies":[
             {
                 "text":"I did not find anything out yet",
-                "nextPhraseID":"brv_zimko_20_1"
+                "nextPhraseID":"brv_zimsko_20_1"
             },
             {
                 "text":"I gambled with them and it seems they are cheating.",
-                "nextPhraseID":"brv_zimko_40_2",
+                "nextPhraseID":"brv_zimsko_40_2",
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"blackjack",
+                        "requireID":"brv_blackjack_hidden",
                         "value":140
                     },
                     {
@@ -487,7 +487,7 @@
             },
             {
                 "text":"I gambled with them and it seems they are cheating. I even had a fight with them.",
-                "nextPhraseID":"brv_zimko_40_3",
+                "nextPhraseID":"brv_zimsko_40_3",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -498,11 +498,11 @@
             },
             {
                 "text":"I gambled with them and I think they are playing fair.",
-                "nextPhraseID":"brv_zimko_40_1",
+                "nextPhraseID":"brv_zimsko_40_1",
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"blackjack",
+                        "requireID":"brv_blackjack_hidden",
                         "value":140
                     },
                     {
@@ -516,12 +516,12 @@
         ]
     },
     {
-        "id":"brv_zimko_40_1",
+        "id":"brv_zimsko_40_1",
         "message":"I still believe they are cheating. Thanks anyway.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brv_zimko_20_1"
+                "nextPhraseID":"brv_zimsko_20_1"
             }
         ],
         "rewards":[
@@ -533,12 +533,12 @@
         ]
     },
     {
-        "id":"brv_zimko_40_2",
+        "id":"brv_zimsko_40_2",
         "message":"Thats what I thought. Thank you for your help.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brv_zimko_20_1"
+                "nextPhraseID":"brv_zimsko_20_1"
             }
         ],
         "rewards":[
@@ -550,7 +550,7 @@
         ]
     },
     {
-        "id":"brv_zimko_40_3",
+        "id":"brv_zimsko_40_3",
         "message":"Thats what I thought. Thank you for your help and the fight. Someone had to do it.",
         "rewards":[
             {
@@ -561,12 +561,12 @@
         ]
     },
     {
-        "id":"brv_zimko_80",
+        "id":"brv_zimsko_80",
         "message":"Thank you for your help with the gamblers.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brv_zimko_20_1"
+                "nextPhraseID":"brv_zimsko_20_1"
             }
         ]
     }

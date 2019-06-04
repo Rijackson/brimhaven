@@ -191,7 +191,7 @@
         "iconID":"monsters_men2:9",
         "unique":1,
         "spawnGroup":"zimsko",
-        "phraseID":"brv_zimko_select"
+        "phraseID":"brv_zimsko_select"
     },
     {
         "id":"brv_tavern_west_guard",
@@ -208,7 +208,8 @@
         "iconID":"monsters_ld1:231",
         "unique":1,
         "monsterClass":"humanoid",
-        "spawnGroup":"brv_tavern_west_guest"
+        "spawnGroup":"brv_tavern_west_guest",
+        "phraseID":"brv_tavern_west_guest"
     },
     {
         "id":"brv_blackjack_gambler2",

@@ -55,22 +55,22 @@
         "rewards":[
             {
                 "rewardType":"removeQuestProgress",
-                "rewardID":"blackjack",
+                "rewardID":"brv_blackjack_hidden",
                 "value":1
             },
             {
                 "rewardType":"removeQuestProgress",
-                "rewardID":"blackjack",
+                "rewardID":"brv_blackjack_hidden",
                 "value":10
             },
             {
                 "rewardType":"removeQuestProgress",
-                "rewardID":"blackjack",
+                "rewardID":"brv_blackjack_hidden",
                 "value":20
             },
             {
                 "rewardType":"removeQuestProgress",
-                "rewardID":"blackjack",
+                "rewardID":"brv_blackjack_hidden",
                 "value":30
             }
         ]
@@ -96,7 +96,7 @@
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"blackjack",
+                "rewardID":"brv_blackjack_hidden",
                 "value":1
             }
         ]
@@ -112,7 +112,7 @@
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"blackjack",
+                "rewardID":"brv_blackjack_hidden",
                 "value":10
             }
         ]
@@ -128,7 +128,7 @@
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"blackjack",
+                "rewardID":"brv_blackjack_hidden",
                 "value":20
             }
         ]
@@ -144,7 +144,7 @@
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"blackjack",
+                "rewardID":"brv_blackjack_hidden",
                 "value":30
             }
         ]
@@ -157,7 +157,7 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"blackjack",
+                        "requireID":"brv_blackjack_hidden",
                         "value":1
                     }
                 ]
@@ -167,7 +167,7 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"blackjack",
+                        "requireID":"brv_blackjack_hidden",
                         "value":10
                     }
                 ]
@@ -177,7 +177,7 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"blackjack",
+                        "requireID":"brv_blackjack_hidden",
                         "value":20
                     }
                 ]
@@ -187,7 +187,7 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"blackjack",
+                        "requireID":"brv_blackjack_hidden",
                         "value":30
                     }
                 ]
@@ -199,7 +199,7 @@
         "message":"You win 1 gold.",
         "replies":[
             {
-                "text":"One more game.",
+                "text":"I am lucky since I was a child.",
                 "nextPhraseID":"blackjack_bet"
             }
         ],
@@ -216,7 +216,7 @@
         "message":"You win 10 gold.",
         "replies":[
             {
-                "text":"One more game.",
+                "text":"One more game please.",
                 "nextPhraseID":"blackjack_bet"
             }
         ],
@@ -233,7 +233,7 @@
         "message":"You win 100 gold.",
         "replies":[
             {
-                "text":"One more game.",
+                "text":"I am a good player.",
                 "nextPhraseID":"blackjack_bet"
             }
         ],
@@ -264,7 +264,7 @@
     },
     {
         "id":"blackjack_draw_2",
-        "message":"You have 2 points.",
+        "message":"You have 2 points. Not that much.",
         "replies":[
             {
                 "text":"Give me one more card.",
@@ -278,7 +278,7 @@
     },
     {
         "id":"blackjack_draw_3",
-        "message":"You have 3 points.",
+        "message":"You have 3 points. Are you finished?",
         "replies":[
             {
                 "text":"Give me one more card.",
@@ -292,7 +292,7 @@
     },
     {
         "id":"blackjack_draw_4",
-        "message":"You have 4 points.",
+        "message":"You have 4 points. Do you risk to take another card?",
         "replies":[
             {
                 "text":"Give me one more card.",
@@ -306,7 +306,7 @@
     },
     {
         "id":"blackjack_draw_5",
-        "message":"You have 5 points.",
+        "message":"You have 5 points. I am impressed [laughs].",
         "replies":[
             {
                 "text":"Give me one more card.",
@@ -320,7 +320,7 @@
     },
     {
         "id":"blackjack_draw_6",
-        "message":"You have 6 points.",
+        "message":"You have 6 points. Was that your last card?",
         "replies":[
             {
                 "text":"Give me one more card.",
@@ -334,7 +334,7 @@
     },
     {
         "id":"blackjack_draw_7",
-        "message":"You have 7 points.",
+        "message":"You have 7 points. Do you want one more card?",
         "replies":[
             {
                 "text":"Give me one more card.",
@@ -348,7 +348,7 @@
     },
     {
         "id":"blackjack_draw_8",
-        "message":"You have 8 points.",
+        "message":"You have 8 points. Not that much.",
         "replies":[
             {
                 "text":"Give me one more card.",
@@ -362,7 +362,7 @@
     },
     {
         "id":"blackjack_draw_9",
-        "message":"You have 9 points.",
+        "message":"You have 9 points. Are you finished?",
         "replies":[
             {
                 "text":"Give me one more card.",
@@ -376,7 +376,7 @@
     },
     {
         "id":"blackjack_draw_10",
-        "message":"You have 10 points.",
+        "message":"You have 10 points. Do you risk to take another card? [Laughs]",
         "replies":[
             {
                 "text":"Give me one more card.",
@@ -390,7 +390,7 @@
     },
     {
         "id":"blackjack_draw_11",
-        "message":"You have 11 points.",
+        "message":"You have 11 points.  I am impressed [laughs].",
         "replies":[
             {
                 "text":"Give me one more card.",
@@ -404,7 +404,7 @@
     },
     {
         "id":"blackjack_draw_12",
-        "message":"You have 12 points.",
+        "message":"You have 12 points. Was that your last card?",
         "replies":[
             {
                 "text":"Give me one more card.",
@@ -418,7 +418,7 @@
     },
     {
         "id":"blackjack_draw_13",
-        "message":"You have 13 points.",
+        "message":"You have 13 points. Do you want one more card?",
         "replies":[
             {
                 "text":"Give me one more card.",
@@ -432,7 +432,7 @@
     },
     {
         "id":"blackjack_draw_14",
-        "message":"You have 14 points.",
+        "message":"You have 14 points. I would stop now.",
         "replies":[
             {
                 "text":"Give me one more card.",
@@ -446,7 +446,7 @@
     },
     {
         "id":"blackjack_draw_15",
-        "message":"You have 15 points.",
+        "message":"You have 15 points. Not that much.",
         "replies":[
             {
                 "text":"Give me one more card.",
@@ -460,7 +460,7 @@
     },
     {
         "id":"blackjack_draw_16",
-        "message":"You have 16 points.",
+        "message":"You have 16 points. Are you finished?",
         "replies":[
             {
                 "text":"Give me one more card.",
@@ -474,7 +474,7 @@
     },
     {
         "id":"blackjack_draw_17",
-        "message":"You have 17 points.",
+        "message":"You have 17 points. Do you risk to take another card?",
         "replies":[
             {
                 "text":"Give me one more card.",
@@ -488,7 +488,7 @@
     },
     {
         "id":"blackjack_draw_18",
-        "message":"You have 18 points.",
+        "message":"You have 18 points. I am impressed [laughs].",
         "replies":[
             {
                 "text":"Give me one more card.",
@@ -502,7 +502,7 @@
     },
     {
         "id":"blackjack_draw_19",
-        "message":"You have 19 points.",
+        "message":"You have 19 points. Was that your last card?",
         "replies":[
             {
                 "text":"Give me one more card.",
@@ -516,14 +516,14 @@
     },
     {
         "id":"blackjack_draw_20",
-        "message":"You have 20 points.",
+        "message":"You have 20 points. Do you want one more card?",
         "replies":[
             {
-                "text":"Give me one more card.",
+                "text":"Sounds stupid, but give me one more card.",
                 "nextPhraseID":"blackjack_draw_at_20"
             },
             {
-                "text":"I am finished",
+                "text":"Of course I am finished",
                 "nextPhraseID":"blackjack_finish_20"
             }
         ]
@@ -533,122 +533,122 @@
         "message":"You have 21 points.",
         "replies":[
             {
-                "text":"Give me one more card.",
+                "text":"I know what I do. Give me one more card.",
                 "nextPhraseID":"blackjack_draw_at_21"
             },
             {
-                "text":"I am finished",
+                "text":"Of course I am finished",
                 "nextPhraseID":"blackjack_finish_21"
             }
         ]
     },
     {
         "id":"blackjack_draw_22",
-        "message":"You have 22 points. You overdraw and loose.",
+        "message":"You have 22 points and overdraw. Bad luck for you.",
         "replies":[
             {
-                "text":"One more game.",
-                "nextPhraseID":"blackjack_bet"
+                "text":"N",
+                "nextPhraseID":"blackjack_dealer_40"
             }
         ]
     },
     {
         "id":"blackjack_draw_23",
-        "message":"You have 23 points. You overdraw and loose.",
+        "message":"You have 23 points and you overdraw. Next time you will be lucky.",
         "replies":[
             {
-                "text":"One more game.",
-                "nextPhraseID":"blackjack_bet"
+                "text":"N",
+                "nextPhraseID":"blackjack_dealer_40"
             }
         ]
     },
     {
         "id":"blackjack_draw_24",
-        "message":"You have 24 points. You overdraw and loose.",
+        "message":"You have 24 points and you overdraw. Don't give up.",
         "replies":[
             {
-                "text":"One more game.",
-                "nextPhraseID":"blackjack_bet"
+                "text":"N",
+                "nextPhraseID":"blackjack_dealer_40"
             }
         ]
     },
     {
         "id":"blackjack_draw_25",
-        "message":"You have 25 points. You overdraw and loose.",
+        "message":"You have 25 points and you overdraw. Double your bet and win back what you lost.",
         "replies":[
             {
-                "text":"One more game.",
-                "nextPhraseID":"blackjack_bet"
+                "text":"N",
+                "nextPhraseID":"blackjack_dealer_40"
             }
         ]
     },
     {
         "id":"blackjack_draw_26",
-        "message":"You have 26 points. You overdraw and loose.",
+        "message":"You have 26 points and you overdraw. Bad luck for you.",
         "replies":[
             {
-                "text":"One more game.",
-                "nextPhraseID":"blackjack_bet"
+                "text":"N",
+                "nextPhraseID":"blackjack_dealer_40"
             }
         ]
     },
     {
         "id":"blackjack_draw_27",
-        "message":"You have 27 points. You overdraw and loose.",
+        "message":"You have 27 points and you overdraw. Next game next chance for you.",
         "replies":[
             {
-                "text":"One more game.",
-                "nextPhraseID":"blackjack_bet"
+                "text":"N",
+                "nextPhraseID":"blackjack_dealer_40"
             }
         ]
     },
     {
         "id":"blackjack_draw_28",
-        "message":"You have 28 points. You overdraw and loose.",
+        "message":"You have 28 points and you overdraw. Next time you will be lucky.",
         "replies":[
             {
-                "text":"One more game.",
-                "nextPhraseID":"blackjack_bet"
+                "text":"N",
+                "nextPhraseID":"blackjack_dealer_40"
             }
         ]
     },
     {
         "id":"blackjack_draw_29",
-        "message":"You have 29 points. You overdraw and loose.",
+        "message":"You have 29 points and you overdraw. Don't give up.",
         "replies":[
             {
-                "text":"One more game.",
-                "nextPhraseID":"blackjack_bet"
+                "text":"N",
+                "nextPhraseID":"blackjack_dealer_40"
             }
         ]
     },
     {
         "id":"blackjack_draw_30",
-        "message":"You have 30 points. You overdraw and loose.",
+        "message":"You have 30 points and you overdraw. Next game next chance for you.",
         "replies":[
             {
-                "text":"One more game.",
-                "nextPhraseID":"blackjack_bet"
+                "text":"N",
+                "nextPhraseID":"blackjack_dealer_40"
             }
         ]
     },
     {
         "id":"blackjack_draw_31",
-        "message":"You have 31 points. You overdraw and loose.",
+        "message":"You have 31 points and you overdraw. Double your bet and win back what you lost.",
         "replies":[
             {
-                "text":"One more game.",
-                "nextPhraseID":"blackjack_bet"
+                "text":"N",
+                "nextPhraseID":"blackjack_dealer_40"
             }
         ]
     },
     {
         "id":"blackjack_draw_32",
-        "message":"You have 32 points. You overdraw and loose.",
+        "message":"You have 32 points and you overdraw. Bad luck for you.",
         "replies":[
             {
-                "text":"One more game.",
-                "nextPhraseID":"blackjack_bet"
+                "text":"N",
+                "nextPhraseID":"blackjack_dealer_40"
             }
         ]
     },
@@ -1417,17 +1417,17 @@
     },
     {
         "id":"blackjack_loose_15",
-        "message":"I have 15 points. You loose.",
+        "message":"I have 15 points. Bad luck for you.",
         "replies":[
             {
-                "text":"One more game.",
-                "nextPhraseID":"blackjack_bet"
+                "text":"N",
+                "nextPhraseID":"blackjack_dealer_40"
             }
         ]
     },
     {
         "id":"blackjack_win_15",
-        "message":"I have 15 points.",
+        "message":"I have 15 points. You have a lot of luck.",
         "replies":[
             {
                 "text":"N",
@@ -1437,17 +1437,17 @@
     },
     {
         "id":"blackjack_loose_16",
-        "message":"I have 16 points. You loose.",
+        "message":"I have 16 points and you loose. Next time you will be lucky.",
         "replies":[
             {
-                "text":"One more game.",
-                "nextPhraseID":"blackjack_bet"
+                "text":"N",
+                "nextPhraseID":"blackjack_dealer_40"
             }
         ]
     },
     {
         "id":"blackjack_win_16",
-        "message":"I have 16 points.",
+        "message":"I have 16 points. In my oppinion you are a bit too lucky.",
         "replies":[
             {
                 "text":"N",
@@ -1457,17 +1457,17 @@
     },
     {
         "id":"blackjack_loose_17",
-        "message":"I have 17 points. You loose.",
+        "message":"I have 17 points so you loose. Don't give up.",
         "replies":[
             {
-                "text":"One more game.",
-                "nextPhraseID":"blackjack_bet"
+                "text":"N",
+                "nextPhraseID":"blackjack_dealer_40"
             }
         ]
     },
     {
         "id":"blackjack_win_17",
-        "message":"I have 17 points.",
+        "message":"I have 17 points. You will take my last coin if you stay that lucky.",
         "replies":[
             {
                 "text":"N",
@@ -1477,17 +1477,17 @@
     },
     {
         "id":"blackjack_loose_18",
-        "message":"I have 18 points. You loose.",
+        "message":"I have 18 points and you looese. Next game next chance for you.",
         "replies":[
             {
-                "text":"One more game.",
-                "nextPhraseID":"blackjack_bet"
+                "text":"N",
+                "nextPhraseID":"blackjack_dealer_40"
             }
         ]
     },
     {
         "id":"blackjack_win_18",
-        "message":"I have 18 points.",
+        "message":"I have 18 points and you win. Give me a chance to win my money back.",
         "replies":[
             {
                 "text":"N",
@@ -1497,17 +1497,17 @@
     },
     {
         "id":"blackjack_loose_19",
-        "message":"I have 19 points. You loose.",
+        "message":"I have 19 points and you loose. Double your bet and win back what you lost.",
         "replies":[
             {
-                "text":"One more game.",
-                "nextPhraseID":"blackjack_bet"
+                "text":"N",
+                "nextPhraseID":"blackjack_dealer_40"
             }
         ]
     },
     {
         "id":"blackjack_win_19",
-        "message":"I have 19 points.",
+        "message":"I have 19 points. You have a lot of luck.",
         "replies":[
             {
                 "text":"N",
@@ -1517,17 +1517,17 @@
     },
     {
         "id":"blackjack_loose_20",
-        "message":"I have 20 points. You loose.",
+        "message":"I have 20 points. Bad luck for you.",
         "replies":[
             {
-                "text":"One more game.",
-                "nextPhraseID":"blackjack_bet"
+                "text":"N",
+                "nextPhraseID":"blackjack_dealer_40"
             }
         ]
     },
     {
         "id":"blackjack_win_20",
-        "message":"I have 20 points.",
+        "message":"I have 20 points. In my oppinion you are a bit too lucky.",
         "replies":[
             {
                 "text":"N",
@@ -1537,17 +1537,17 @@
     },
     {
         "id":"blackjack_loose_21",
-        "message":"I have 21 points. You loose.",
+        "message":"I have 21 points and you loose. Next time you will be lucky.",
         "replies":[
             {
-                "text":"One more game.",
-                "nextPhraseID":"blackjack_bet"
+                "text":"N",
+                "nextPhraseID":"blackjack_dealer_40"
             }
         ]
     },
     {
         "id":"blackjack_win_22",
-        "message":"I have 22 points.",
+        "message":"I have 22 points. You will take my last coin if you stay that lucky.",
         "replies":[
             {
                 "text":"N",
@@ -1557,7 +1557,7 @@
     },
     {
         "id":"blackjack_win_23",
-        "message":"I have 23 points.",
+        "message":"I have 23 points. Give me a chance to win my money back.",
         "replies":[
             {
                 "text":"N",
@@ -1567,7 +1567,7 @@
     },
     {
         "id":"blackjack_win_24",
-        "message":"I have 24 points.",
+        "message":"I have 24 points. You have a lot of luck.",
         "replies":[
             {
                 "text":"N",
@@ -1577,7 +1577,7 @@
     },
     {
         "id":"blackjack_win_25",
-        "message":"I have 25 points.",
+        "message":"I have 25 points. In my oppinion you are a bit too lucky.",
         "replies":[
             {
                 "text":"N",
