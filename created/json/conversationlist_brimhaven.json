@@ -1538,7 +1538,7 @@
     },
     {
         "id":"anakis_agreed_find_sister",
-        "message":"Thank you. My sister has long hair and is wearing a long skirt.\n\nPlease take care. Fangwurm the priest of western Brimhaven told us about a Basilisk in the cave that will turn you to stone when you go near him an your eyes meet its eyes.",
+        "message":"Thank you. My sister has long hair and is wearing a long skirt.\n\nPlease take care. Fangwurm the priest of western Brimhaven told us about a Basilisk in the cave that will turn you to stone when you go near him and your eyes meet its eyes.",
         "rewards":[
             {
                 "rewardType":"questProgress",

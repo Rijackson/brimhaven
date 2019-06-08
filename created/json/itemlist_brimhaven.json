@@ -264,5 +264,13 @@
                 "max":1
             }
         }
+    },
+    {
+        "id":"card_deck",
+        "iconID":"items_misc_2:15",
+        "name":"Cards of luck",
+        "hasManualPrice":1,
+        "baseMarketCost":500,
+        "category":"other"
     }
 ]
