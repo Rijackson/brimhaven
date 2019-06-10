@@ -214,7 +214,6 @@
   </object>
   <object id="7" name="brv_school_seated" type="script" x="224" y="128" width="32" height="32"/>
   <object id="8" name="brv_school_enter" type="script" x="384" y="192" width="96" height="32"/>
-  <object id="9" name="brv_school_statue" type="script" x="32" y="96" width="64" height="64"/>
   <object id="10" name="brv_school_walking" type="script" x="128" y="160" width="160" height="64"/>
   <object id="11" name="brv_school_weapons" type="container" x="224" y="192" width="32" height="32"/>
  </objectgroup>
@@ -242,9 +241,9 @@
   <object id="42" name="brv_school_emptyseat" type="key" x="416" y="128" width="32" height="32">
    <properties>
     <property name="phrase" value="brv_school_emptyseat"/>
-    <property name="requireId" value="base_nondisplay"/>
+    <property name="requireId" value="brv_school2"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="2"/>
+    <property name="requireValue" value="50"/>
    </properties>
   </object>
   <object id="6" name="brv_school_weapons" type="key" x="224" y="192" width="32" height="32">

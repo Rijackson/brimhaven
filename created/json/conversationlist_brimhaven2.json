@@ -314,6 +314,25 @@
     },
     {
         "id":"brv_school_history_50",
+		"replies":[
+            {
+                "nextPhraseID":"brv_school_history_50_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay2",
+                        "value":20,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_school_history_60"
+            }
+        ]
+    },
+    {
+        "id":"brv_school_history_50_1",
 		"switchToNPC":"golin",
         "message":"Psst...",
         "replies":[
@@ -331,9 +350,16 @@
         "id":"brv_school_history_52",
 		"switchToNPC":"brv_teacher",
         "message":"Be quiet, please. How can I concentrate if you are talking all the time? Where was I? I better start anew.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay2",
+                "value":20
+            }
+        ],
         "replies":[
             {
-                "text":"N",
+                "text":"Yes, sorry.",
 				"nextPhraseID":"brv_school_history_10"
             }
         ]
@@ -345,6 +371,14 @@
         "replies":[
             {
                 "text":"[whispering to Golin] What's up?",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay2",
+                        "value":20,
+						"negate":true
+                    }
+                ],
 				"nextPhraseID":"brv_school_history_52"
             },
             {
@@ -368,7 +402,7 @@
         "message":"At last...",
         "replies":[
             {
-                "text":"[Sigh] At last sounds good.",
+                "text":"[Sigh] 'At last' sounds good.",
 				"nextPhraseID":"brv_school_history_52"
             },
             {
@@ -379,7 +413,7 @@
     },
     {
         "id":"brv_school_history_100",
-        "message":"Now, any questions?",
+        "message":"OK now. Does anybody has a question?",
         "replies":[
             {
                 "text":"Yes, please. Who was Elythera?",
@@ -413,7 +447,7 @@
         ],
         "replies":[
             {
-                "text":"Finally. I thought she would never cease.",
+                "text":"Finally. I thought her talking would never cease.",
 				"nextPhraseID":"brv_school_practice_10"
             }
         ]
@@ -446,11 +480,23 @@
     },
     {
         "id":"brv_school_practice_12",
-        "message":"Of course. You mustn't hurt yourself."
+        "message":"Of course. You mustn't hurt yourself.",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"brv_school_practice_10"
+            }
+        ]
     },
     {
         "id":"brv_school_practice_14",
-        "message":"Of course not."
+        "message":"Of course not.",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"brv_school_practice_10"
+            }
+        ]
     },
     {
         "id":"brv_school_practice_16",
@@ -464,9 +510,24 @@
         ]
     },
     {
+        "id":"brv_school_practice_18",
+        "message":"Hurry now."
+    },
+    {
         "id":"brv_school_practice_20",
 		"switchToNPC":"brv_teacher",
-        "message":"OK, now listen everybody: We duel in pairs, the new kid first. Seek ye an opponent!",
+        "message":"You all have your gear? OK.",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"brv_school_practice_22"
+            }
+        ]
+    },
+    {
+        "id":"brv_school_practice_22",
+		"switchToNPC":"brv_teacher",
+        "message":"Now listen everybody: We duel in pairs, the new kid first. Seek ye an opponent!",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -477,12 +538,12 @@
         "replies":[
             {
                 "text":"Anybody?",
-				"nextPhraseID":"brv_school_practice_22"
+				"nextPhraseID":"brv_school_practice_24"
             }
         ]
     },
     {
-        "id":"brv_school_practice_22",
+        "id":"brv_school_practice_24",
         "message":"Just go ahead."
     },
     {

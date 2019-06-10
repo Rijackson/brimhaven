@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.2" orientation="orthogonal" renderorder="right-down" width="30" height="7" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="4">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="30" height="7" tilewidth="32" tileheight="32" infinite="0" nextobjectid="4">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -192,30 +192,30 @@
  <tileset firstgid="7833" name="map_tree_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_tree_1.png" width="512" height="256"/>
  </tileset>
- <layer id="1" name="Ground" width="30" height="7">
+ <layer name="Ground" width="30" height="7">
   <data encoding="base64" compression="zlib">
    eJyTlGNgkBzFo3gUU4QBTnYtHw==
   </data>
  </layer>
- <layer id="2" name="Objects" width="30" height="7">
+ <layer name="Objects" width="30" height="7">
   <data encoding="base64" compression="zlib">
    eJy1UkEOgzAMy2WwF3Arz99hhwEH+gK6F1DGc5ZqtbCiHJC2WbLcIMdNI269yKJ8KreqWRnr90QajTc5npVy4LkoG/IUxOrNpK3y6szS0tn2QKO5O/f+LMAYRIZw1Lb3Ho7sglnrifw2Y6U+rqF7+PgB+Ca6Z3Dy2YsZGY+aO1L+1om8lHsnPwPvgt9gZ8T+MCfv/9+aTnq9f+MbLXlvlzKPiw==
   </data>
  </layer>
- <layer id="3" name="Above" width="30" height="7">
+ <layer name="Above" width="30" height="7">
   <data encoding="base64" compression="zlib">
    eJxjYKAuWCaHKXYEKHYUizg2cASH/sEESPEPuXrxqQOJEzIHJg9TewyIr8mh6sVGE1JHSB7Z/mODLN5oCQA1BCjP
   </data>
  </layer>
- <layer id="4" name="Walkable" width="30" height="7">
+ <layer name="Walkable" width="30" height="7">
   <data encoding="base64" compression="zlib">
    eJzbKMbAsHEEYVwAmzp0Nj6Abj6x9mLTS6k6WthBbjiOFAwA6cZyRg==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup name="Mapevents">
   <object id="1" name="west" type="mapchange" x="0" y="64" width="32" height="96">
    <properties>
-    <property name="map" value="waytobrimhaven6a"/>
+    <property name="map" value="waytobrimhaven5"/>
     <property name="place" value="east"/>
    </properties>
   </object>
@@ -226,7 +226,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
+ <objectgroup name="Spawn">
   <object id="3" name="forestwolf2" type="spawn" x="96" y="64" width="800" height="96">
    <properties>
     <property name="quantity" value="5"/>
@@ -234,6 +234,6 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Keys"/>
- <objectgroup id="8" name="Replace"/>
+ <objectgroup name="Keys"/>
+ <objectgroup name="Replace"/>
 </map>

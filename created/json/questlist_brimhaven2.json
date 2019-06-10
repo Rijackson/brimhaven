@@ -42,6 +42,10 @@
             {
                 "progress":10,
                 "logText":"You run around in classroom."
+            },
+            {
+                "progress":20,
+                "logText":"Takled to Golin."
             }
         ]
     }
