@@ -12,12 +12,81 @@
         "message":"golin"
     },
     {
-        "id":"brv_school_statue",
-        "message":"brv_school_statue"
-    },
-    {
         "id":"brv_sign_school",
         "message":"School"
+    },
+    {
+        "id":"brv_school_enter",
+        "replies":[
+            {
+                "nextPhraseID":"brv_school_enter_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_school2",
+                        "value":10,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_school_enter_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay2",
+                        "value":10,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brv_school_enter_10",
+		"switchToNPC":"brv_teacher",
+        "message":"Look who we got there? A new kid? However, you are late for class. Sit down now, and be punctual next time.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_school2",
+                "value":10
+            }
+        ],
+        "replies":[
+            {
+                "text":"But...",
+				"nextPhraseID":"brv_school_enter_90"
+            }
+        ]
+    },
+    {
+        "id":"brv_school_enter_20",
+		"switchToNPC":"brv_teacher",
+        "message":"No walking around in my lessons! Please sit down.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay2",
+                "value":10
+            }
+        ],
+        "replies":[
+            {
+                "text":"But...",
+				"nextPhraseID":"brv_school_enter_90"
+            }
+        ]
+    },
+    {
+        "id":"brv_school_enter_90",
+        "message":"No talking, please.",
+        "replies":[
+            {
+                "text":"But...",
+				"nextPhraseID":"brv_school_enter_90"
+            }
+        ]
     },
     {
         "id":"brv_school_emptyseat",
@@ -25,12 +94,445 @@
         "message":"No. That won't go. You can't get late to school and then sit in the last bench."
     },
     {
-        "id":"brv_school_seated",
-        "message":"brv_school_seated"
+        "id":"brv_school_walking",
+        "replies":[
+            {
+                "nextPhraseID":"brv_school_enter"
+            }
+        ]
     },
     {
         "id":"brv_school_weapons",
 		"switchToNPC":"brv_teacher",
         "message":"Keep your hands off this box until I allow it."
+    },
+    {
+        "id":"brv_school_seated",
+        "replies":[
+            {
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_school2",
+                        "value":60
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_school_practice_20",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brv_school_sword",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brv_school_shield",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_school_practice_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_school2",
+                        "value":40
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_school_seated_30",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_school2",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_school_seated_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_school2",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_school_seated_10"
+            }
+        ]
+    },
+    {
+        "id":"brv_school_seated_10",
+        "message":"You sit next to a smug looking child at about your age.",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"brv_school_seated_12"
+            }
+        ]
+    },
+    {
+        "id":"brv_school_seated_12",
+		"switchToNPC":"golin",
+        "message":"Hi kid. I am Golin.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_school2",
+                "value":20
+            }
+        ],
+        "replies":[
+            {
+                "text":"[nod silently]",
+				"nextPhraseID":"brv_school_seated_20"
+            }
+        ]
+    },
+    {
+        "id":"brv_school_seated_14",
+		"switchToNPC":"brv_teacher",
+        "message":"No talking, please.",
+        "replies":[
+            {
+                "text":"But...",
+				"nextPhraseID":"brv_school_seated_14"
+            },
+            {
+                "text":"[nod silently]",
+				"nextPhraseID":"brv_school_seated_20"
+            }
+        ]
+    },
+    {
+        "id":"brv_school_seated_20",
+		"switchToNPC":"brv_teacher",
+        "message":"Very well, you have found a place after all. Now let us proceed with our history lesson.",
+        "replies":[
+            {
+                "text":"Please do.",
+				"nextPhraseID":"brv_school_seated_22"
+            },
+            {
+                "text":"[nod silently]",
+				"nextPhraseID":"brv_school_seated_30"
+            }
+        ]
+    },
+    {
+        "id":"brv_school_seated_22",
+        "message":"No talking, please.",
+        "replies":[
+            {
+                "text":"But...",
+				"nextPhraseID":"brv_school_seated_22"
+            },
+            {
+                "text":"[nod silently]",
+				"nextPhraseID":"brv_school_seated_30"
+            }
+        ]
+    },
+    {
+        "id":"brv_school_seated_30",
+        "message":"I will start from the beginning again, because it is so important. You can't listen to it often enough.",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"brv_school_history_10"
+            }
+        ]
+    },
+    {
+        "id":"brv_school_history_10",
+        "message":"In the beginning there was...",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_school2",
+                "value":30
+            }
+        ],
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"brv_school_history_20"
+            }
+        ]
+    },
+    {
+        "id":"brv_school_history_20",
+        "message":"Then ...",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"brv_school_history_30"
+            }
+        ]
+    },
+    {
+        "id":"brv_school_history_30",
+        "message":"After that ...",
+        "replies":[
+            {
+                "text":"Sigh.",
+				"nextPhraseID":"brv_school_history_32"
+            },
+            {
+                "text":"[keep silent]",
+				"nextPhraseID":"brv_school_history_40"
+            }
+        ]
+    },
+    {
+        "id":"brv_school_history_32",
+        "message":"What...? Don't interrupt me. Now I don't know where I was. I have to start from the beginning.",
+        "replies":[
+            {
+                "text":"Sorry.",
+				"nextPhraseID":"brv_school_history_10"
+            }
+        ]
+    },
+    {
+        "id":"brv_school_history_40",
+        "message":"Eventually ...",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"brv_school_history_50"
+            }
+        ]
+    },
+    {
+        "id":"brv_school_history_50",
+		"switchToNPC":"golin",
+        "message":"Psst...",
+        "replies":[
+            {
+                "text":"[keep silent]",
+				"nextPhraseID":"brv_school_history_60"
+            },
+            {
+                "text":"[whispering] What's up?",
+				"nextPhraseID":"brv_school_history_52"
+            }
+        ]
+    },
+    {
+        "id":"brv_school_history_52",
+		"switchToNPC":"brv_teacher",
+        "message":"Be quiet, please. How can I concentrate if you are talking all the time? Where was I? I better start anew.",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"brv_school_history_10"
+            }
+        ]
+    },
+    {
+        "id":"brv_school_history_60",
+		"switchToNPC":"brv_teacher",
+        "message":"We all see...",
+        "replies":[
+            {
+                "text":"[whispering to Golin] What's up?",
+				"nextPhraseID":"brv_school_history_52"
+            },
+            {
+                "text":"[keep silent]",
+				"nextPhraseID":"brv_school_history_70"
+            }
+        ]
+    },
+    {
+        "id":"brv_school_history_70",
+        "message":"After all...",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"brv_school_history_80"
+            }
+        ]
+    },
+    {
+        "id":"brv_school_history_80",
+        "message":"At last...",
+        "replies":[
+            {
+                "text":"[Sigh] At last sounds good.",
+				"nextPhraseID":"brv_school_history_52"
+            },
+            {
+                "text":"[keep silent]",
+				"nextPhraseID":"brv_school_history_100"
+            }
+        ]
+    },
+    {
+        "id":"brv_school_history_100",
+        "message":"Now, any questions?",
+        "replies":[
+            {
+                "text":"Yes, please. Who was Elythera?",
+				"nextPhraseID":"brv_school_history_110"
+            },
+            {
+                "text":"[keep silent]",
+				"nextPhraseID":"brv_school_history_200"
+            }
+        ]
+    },
+    {
+        "id":"brv_school_history_110",
+        "message":"Oh dear. Didn't you listen? Well, because you are new, I will tell you again.",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"brv_school_history_10"
+            }
+        ]
+    },
+    {
+        "id":"brv_school_history_200",
+        "message":"And now we get to a completely different thing. Let's have some practice with fighting.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_school2",
+                "value":40
+            }
+        ],
+        "replies":[
+            {
+                "text":"Finally. I thought she would never cease.",
+				"nextPhraseID":"brv_school_practice_10"
+            }
+        ]
+    },
+    {
+        "id":"brv_school_practice_10",
+		"switchToNPC":"brv_teacher",
+        "message":"Everybody get your practicing gear of the chest over there. Each of you take one wooden sword and one paper shield, please. Then sit down again.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_school2",
+                "value":50
+            }
+        ],
+        "replies":[
+            {
+                "text":"OK",
+				"nextPhraseID":"X"
+            },
+            {
+                "text":"Wooden weapons? Honestly?",
+				"nextPhraseID":"brv_school_practice_12"
+            },
+            {
+                "text":"May I use my own weapons?",
+				"nextPhraseID":"brv_school_practice_14"
+            }
+        ]
+    },
+    {
+        "id":"brv_school_practice_12",
+        "message":"Of course. You mustn't hurt yourself."
+    },
+    {
+        "id":"brv_school_practice_14",
+        "message":"Of course not."
+    },
+    {
+        "id":"brv_school_practice_16",
+		"switchToNPC":"brv_teacher",
+        "message":"Where is your weapon and shield?",
+        "replies":[
+            {
+                "text":"I still have to get it.",
+				"nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brv_school_practice_20",
+		"switchToNPC":"brv_teacher",
+        "message":"OK, now listen everybody: We duel in pairs, the new kid first. Seek ye an opponent!",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_school2",
+                "value":60
+            }
+        ],
+        "replies":[
+            {
+                "text":"Anybody?",
+				"nextPhraseID":"brv_school_practice_22"
+            }
+        ]
+    },
+    {
+        "id":"brv_school_practice_22",
+        "message":"Just go ahead."
+    },
+    {
+        "id":"brv_school_statue",
+        "replies":[
+            {
+                "nextPhraseID":"brv_school_statue_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_school2",
+                        "value":60
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_school_statue_10"
+            }
+        ]
+    },
+    {
+        "id":"brv_school_statue_10",
+		"switchToNPC":"none",
+        "message":"Who on earth puts such an ugly, hideous thing into a school?",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_school2",
+                "value":12
+            }
+        ]
+    },
+    {
+        "id":"brv_school_statue_20",
+        "message":"What do you want of me?",
+        "replies":[
+            {
+                "text":"Oh, you can talk?",
+				"nextPhraseID":"brv_school_statue_30"
+            }
+        ]
+    },
+    {
+        "id":"brv_school_statue_30",
+        "message":"Why should I not?",
+        "replies":[
+            {
+                "text":"N...",
+				"nextPhraseID":"brv_school_statue_30"
+            }
+        ]
     }
 ]

@@ -10,7 +10,7 @@
             },
             {
                 "progress":12,
-                "logText":"You noticed an evil looking statue in a corner. Who on earth puts such a thing into a school?"
+                "logText":"You noticed an evil looking statue in a corner. Who on earth puts such an ugly, hideous thing into a school?"
             },
             {
                 "progress":20,
@@ -23,6 +23,25 @@
             {
                 "progress":40,
                 "logText":"Then a practice lesson started."
+            },
+            {
+                "progress":50,
+                "logText":"Everyone should take a set of practicing weapons of the chest and sit down again."
+            },
+            {
+                "progress":60,
+                "logText":"You should seak a duelling partner."
+            }
+        ]
+    },
+    {
+        "id":"brv_nondisplay2",
+        "name":"brv_nondisplay2",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"You run around in classroom."
             }
         ]
     }

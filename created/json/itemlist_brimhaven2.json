@@ -1,0 +1,28 @@
+[
+    {
+        "id":"brv_school_sword",
+        "iconID":"items_weapons:15",
+        "name":"Wooden sword",
+        "baseMarketCost":78,
+        "category":"ssword",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":0,
+                "max":1
+            },
+            "increaseAttackCost":5,
+            "increaseAttackChance":0
+        }
+    },
+    {
+        "id":"brv_school_shield",
+        "iconID":"items_armours:0",
+        "name":"Paper shield",
+        "baseMarketCost":72,
+        "category":"buckler",
+        "equipEffect":{
+            "increaseAttackChance":-2,
+            "increaseBlockChance":-2
+        }
+    }
+]
