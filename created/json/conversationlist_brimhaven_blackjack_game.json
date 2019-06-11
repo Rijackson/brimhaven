@@ -15,6 +15,28 @@
                 ]
             },
             {
+                "text":"2 Gold",
+                "nextPhraseID":"blackjack_bet_2",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":2
+                    }
+                ]
+            },
+            {
+                "text":"5 Gold",
+                "nextPhraseID":"blackjack_bet_5",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":5
+                    }
+                ]
+            },
+            {
                 "text":"10 Gold",
                 "nextPhraseID":"blackjack_bet_10",
                 "requires":[
@@ -22,28 +44,6 @@
                         "requireType":"inventoryRemove",
                         "requireID":"gold",
                         "value":10
-                    }
-                ]
-            },
-            {
-                "text":"100 Gold",
-                "nextPhraseID":"blackjack_bet_100",
-                "requires":[
-                    {
-                        "requireType":"inventoryRemove",
-                        "requireID":"gold",
-                        "value":100
-                    }
-                ]
-            },
-            {
-                "text":"1000 Gold",
-                "nextPhraseID":"blackjack_bet_1000",
-                "requires":[
-                    {
-                        "requireType":"inventoryRemove",
-                        "requireID":"gold",
-                        "value":1000
                     }
                 ]
             },
@@ -102,7 +102,7 @@
         ]
     },
     {
-        "id":"blackjack_bet_10",
+        "id":"blackjack_bet_2",
         "replies":[
             {
                 "text":"",
@@ -118,7 +118,7 @@
         ]
     },
     {
-        "id":"blackjack_bet_100",
+        "id":"blackjack_bet_5",
         "replies":[
             {
                 "text":"",
@@ -134,7 +134,7 @@
         ]
     },
     {
-        "id":"blackjack_bet_1000",
+        "id":"blackjack_bet_10",
         "replies":[
             {
                 "text":"",
@@ -163,7 +163,7 @@
                 ]
             },
             {
-                "nextPhraseID":"blackjack_win_10gold",
+                "nextPhraseID":"blackjack_win_2gold",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -173,7 +173,7 @@
                 ]
             },
             {
-                "nextPhraseID":"blackjack_win_100gold",
+                "nextPhraseID":"blackjack_win_5gold",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -183,7 +183,7 @@
                 ]
             },
             {
-                "nextPhraseID":"blackjack_win_1000gold",
+                "nextPhraseID":"blackjack_win_10gold",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -212,8 +212,8 @@
         ]
     },
     {
-        "id":"blackjack_win_10gold",
-        "message":"You win 10 gold.",
+        "id":"blackjack_win_2gold",
+        "message":"You win 2 gold.",
         "replies":[
             {
                 "text":"One more game please.",
@@ -224,13 +224,13 @@
             {
                 "rewardType":"giveItem",
                 "rewardID":"gold",
-                "value":20
+                "value":4
             }
         ]
     },
     {
-        "id":"blackjack_win_100gold",
-        "message":"You win 100 gold.",
+        "id":"blackjack_win_5gold",
+        "message":"You win 5 gold.",
         "replies":[
             {
                 "text":"I am a good player.",
@@ -241,13 +241,13 @@
             {
                 "rewardType":"giveItem",
                 "rewardID":"gold",
-                "value":200
+                "value":10
             }
         ]
     },
     {
-        "id":"blackjack_win_1000gold",
-        "message":"You win 1000 gold.",
+        "id":"blackjack_win_10gold",
+        "message":"You win 10 gold.",
         "replies":[
             {
                 "text":"One more game.",
@@ -258,7 +258,7 @@
             {
                 "rewardType":"giveItem",
                 "rewardID":"gold",
-                "value":2000
+                "value":20
             }
         ]
     },

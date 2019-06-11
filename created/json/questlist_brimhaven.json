@@ -321,15 +321,15 @@
             },
             {
                 "progress":10,
-                "logText":"Bet 10"
+                "logText":"Bet 2"
             },
             {
                 "progress":20,
-                "logText":"Bet 100"
+                "logText":"Bet 5"
             },
             {
                 "progress":30,
-                "logText":"Bet 1000"
+                "logText":"Bet 10"
             },
             {
                 "progress":100,
