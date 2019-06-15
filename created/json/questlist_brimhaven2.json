@@ -31,6 +31,46 @@
             {
                 "progress":60,
                 "logText":"You should seak a duelling partner."
+            },
+            {
+                "progress":100,
+                "logText":"You started a fight with Golin."
+            },
+            {
+                "progress":102,
+                "logText":"You started a fight with Golin and killed him.",
+				"rewardExperience":500
+            },
+            {
+                "progress":110,
+                "logText":"You tried to fight a pupil, but they all ran away screaming."
+            },
+            {
+                "progress":120,
+                "logText":"You started a fight with the teacher."
+            },
+            {
+                "progress":122,
+                "logText":"You killed the teacher.",
+				"rewardExperience":1000
+            },
+            {
+                "progress":130,
+                "logText":"You feel the evil stare the mascot."
+            },
+            {
+                "progress":150,
+                "logText":"You started a fight the evil grinning mascot."
+            },
+            {
+                "progress":152,
+                "logText":"You killed the evil mascot.",
+				"rewardExperience":1000
+            },
+            {
+                "progress":200,
+                "logText":"The teacher thanked you for saving him.",
+				"rewardExperience":5000
             }
         ]
     },
@@ -45,7 +85,15 @@
             },
             {
                 "progress":20,
-                "logText":"Takled to Golin."
+                "logText":"Talked to Golin."
+            },
+            {
+                "progress":22,
+                "logText":"Killed Golin with school weapons."
+            },
+            {
+                "progress":30,
+                "logText":"Talked to the statue."
             }
         ]
     }

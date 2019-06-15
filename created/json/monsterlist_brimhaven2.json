@@ -1,11 +1,22 @@
 [
     {
+        "id":"brv_teacher_save",
+        "name":"Teacher",
+        "iconID":"monsters_demon2:0",
+        "moveCost":5,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_teacher",
+		"unique":1,
+        "phraseID":"brv_teacher"
+    },
+    {
         "id":"brv_teacher",
         "name":"Teacher",
         "iconID":"monsters_ld1:155",
         "moveCost":5,
         "monsterClass":"humanoid",
-        "spawnGroup":"brv_teacher",
+        "spawnGroup":"brv_teacher_save",
+		"unique":1,
         "phraseID":"brv_teacher"
     },
     {
@@ -15,6 +26,7 @@
         "moveCost":5,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_pupil",
+		"unique":1,
         "phraseID":"brv_pupil"
     },
     {
@@ -24,6 +36,7 @@
         "moveCost":5,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_pupil",
+		"unique":1,
         "phraseID":"brv_pupil"
     },
     {
@@ -33,6 +46,7 @@
         "moveCost":5,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_pupil",
+		"unique":1,
         "phraseID":"brv_pupil"
     },
     {
@@ -42,6 +56,7 @@
         "moveCost":5,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_pupil",
+		"unique":1,
         "phraseID":"brv_pupil"
     },
     {
@@ -51,6 +66,7 @@
         "moveCost":5,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_pupil",
+		"unique":1,
         "phraseID":"brv_pupil"
     },
     {
@@ -60,6 +76,7 @@
         "moveCost":5,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_pupil",
+		"unique":1,
         "phraseID":"brv_pupil"
     },
     {
@@ -69,6 +86,7 @@
         "moveCost":5,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_pupil",
+		"unique":1,
         "phraseID":"brv_pupil"
     },
     {
@@ -78,6 +96,7 @@
         "moveCost":5,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_pupil",
+		"unique":1,
         "phraseID":"brv_pupil"
     },
     {
@@ -87,6 +106,7 @@
         "moveCost":5,
         "monsterClass":"humanoid",
         "spawnGroup":"golin",
+		"unique":1,
         "phraseID":"golin"
     },
     {
@@ -96,6 +116,7 @@
         "moveCost":5,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_school_statue",
+		"unique":1,
         "phraseID":"brv_school_statue"
     }
 ]
