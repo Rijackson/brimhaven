@@ -1,13 +1,117 @@
 [
     {
-        "id":"brv_teacher_save",
-        "name":"Teacher",
+        "id":"brv_pupil1",
+        "name":"Pupil",
+        "iconID":"monsters_ld1:19",
+        "moveCost":5,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_school_pupil",
+		"unique":1,
+        "phraseID":"brv_school_pupil"
+    },
+    {
+        "id":"brv_pupil2",
+        "name":"Pupil",
+        "iconID":"monsters_ld1:34",
+        "moveCost":5,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_school_pupil",
+		"unique":1,
+        "phraseID":"brv_school_pupil"
+    },
+    {
+        "id":"brv_pupil3",
+        "name":"Pupil",
+        "iconID":"monsters_ld1:62",
+        "moveCost":5,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_school_pupil",
+		"unique":1,
+        "phraseID":"brv_school_pupil"
+    },
+    {
+        "id":"brv_pupil4",
+        "name":"Pupil",
+        "iconID":"monsters_ld1:63",
+        "moveCost":5,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_school_pupil",
+		"unique":1,
+        "phraseID":"brv_school_pupil"
+    },
+    {
+        "id":"brv_pupil5",
+        "name":"Pupil",
+        "iconID":"monsters_ld1:88",
+        "moveCost":5,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_school_pupil",
+		"unique":1,
+        "phraseID":"brv_school_pupil"
+    },
+    {
+        "id":"brv_pupil6",
+        "name":"Pupil",
+        "iconID":"monsters_ld1:229",
+        "moveCost":5,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_school_pupil",
+		"unique":1,
+        "phraseID":"brv_school_pupil"
+    },
+    {
+        "id":"brv_pupil7",
+        "name":"Pupil",
+        "iconID":"monsters_ld1:207",
+        "moveCost":5,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_school_pupil",
+		"unique":1,
+        "phraseID":"brv_school_pupil"
+    },
+    {
+        "id":"brv_pupil8",
+        "name":"Pupil",
+        "iconID":"monsters_ld1:17",
+        "moveCost":5,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_school_pupil",
+		"unique":1,
+        "phraseID":"brv_school_pupil"
+    },
+    {
+        "id":"brv_school_statue",
+        "name":"Statue",
+		"maxHP":320,
+		"maxAP":10,
+        "iconID":"monsters_rltiles2:130",
+        "moveCost":5,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_school_statue",
+		"unique":1,
+		"attackCost":4,
+		"attackChance":60,
+		"blockChance":150,
+		"damageResistance":8,
+		"attackDamage":{ "min":5, "max":14 }
+        "phraseID":"brv_school_statue"
+    },
+    {
+        "id":"brv_school_statue2",
+        "name":"Statue",
+		"maxHP":320,
+		"maxAP":10,
         "iconID":"monsters_demon2:0",
         "moveCost":5,
         "monsterClass":"humanoid",
-        "spawnGroup":"brv_teacher",
+        "movementAggressionType":"wholeMap",
+        "spawnGroup":"brv_school_statue2",
 		"unique":1,
-        "phraseID":"brv_teacher"
+		"attackCost":4,
+		"attackChance":60,
+		"blockChance":150,
+		"damageResistance":8,
+		"attackDamage":{ "min":5, "max":14 }
     },
     {
         "id":"brv_teacher",
@@ -16,107 +120,26 @@
         "moveCost":5,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_teacher_save",
+        "faction":"brv_school_duel",
 		"unique":1,
         "phraseID":"brv_teacher"
     },
     {
-        "id":"brv_pupil1",
-        "name":"Pupil",
-        "iconID":"monsters_ld1:19",
-        "moveCost":5,
-        "monsterClass":"humanoid",
-        "spawnGroup":"brv_pupil",
-		"unique":1,
-        "phraseID":"brv_pupil"
-    },
-    {
-        "id":"brv_pupil2",
-        "name":"Pupil",
-        "iconID":"monsters_ld1:34",
-        "moveCost":5,
-        "monsterClass":"humanoid",
-        "spawnGroup":"brv_pupil",
-		"unique":1,
-        "phraseID":"brv_pupil"
-    },
-    {
-        "id":"brv_pupil3",
-        "name":"Pupil",
-        "iconID":"monsters_ld1:62",
-        "moveCost":5,
-        "monsterClass":"humanoid",
-        "spawnGroup":"brv_pupil",
-		"unique":1,
-        "phraseID":"brv_pupil"
-    },
-    {
-        "id":"brv_pupil4",
-        "name":"Pupil",
-        "iconID":"monsters_ld1:63",
-        "moveCost":5,
-        "monsterClass":"humanoid",
-        "spawnGroup":"brv_pupil",
-		"unique":1,
-        "phraseID":"brv_pupil"
-    },
-    {
-        "id":"brv_pupil5",
-        "name":"Pupil",
-        "iconID":"monsters_ld1:88",
-        "moveCost":5,
-        "monsterClass":"humanoid",
-        "spawnGroup":"brv_pupil",
-		"unique":1,
-        "phraseID":"brv_pupil"
-    },
-    {
-        "id":"brv_pupil6",
-        "name":"Pupil",
-        "iconID":"monsters_ld1:229",
-        "moveCost":5,
-        "monsterClass":"humanoid",
-        "spawnGroup":"brv_pupil",
-		"unique":1,
-        "phraseID":"brv_pupil"
-    },
-    {
-        "id":"brv_pupil7",
-        "name":"Pupil",
-        "iconID":"monsters_ld1:207",
-        "moveCost":5,
-        "monsterClass":"humanoid",
-        "spawnGroup":"brv_pupil",
-		"unique":1,
-        "phraseID":"brv_pupil"
-    },
-    {
-        "id":"brv_pupil8",
-        "name":"Pupil",
-        "iconID":"monsters_ld1:17",
-        "moveCost":5,
-        "monsterClass":"humanoid",
-        "spawnGroup":"brv_pupil",
-		"unique":1,
-        "phraseID":"brv_pupil"
-    },
-    {
         "id":"golin",
         "name":"Golin",
+		"maxHP":80,
+		"maxAP":10,
         "iconID":"monsters_ld1:12",
         "moveCost":5,
         "monsterClass":"humanoid",
         "spawnGroup":"golin",
+        "faction":"brv_school_duel",
 		"unique":1,
+		"attackCost":4,
+		"attackChance":40,
+		"blockChance":120,
+		"damageResistance":5,
+		"attackDamage":{ "min":1, "max":4 }
         "phraseID":"golin"
-    },
-    {
-        "id":"brv_school_statue",
-        "name":"Statue",
-        "iconID":"monsters_rltiles2:130",
-        "moveCost":5,
-        "monsterClass":"humanoid",
-        "spawnGroup":"brv_school_statue",
-		"unique":1,
-        "phraseID":"brv_school_statue"
     }
 ]

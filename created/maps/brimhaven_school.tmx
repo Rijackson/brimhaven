@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="16" height="8" tilewidth="32" tileheight="32" infinite="0" nextobjectid="13">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="16" height="8" tilewidth="32" tileheight="32" infinite="0" nextobjectid="21">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -182,30 +182,30 @@
  </tileset>
  <layer name="Ground" width="16" height="8">
   <data encoding="base64" compression="zlib">
-   eJzbysnAsJVCfFGKPAzT/1CKPAzTf5JMTA39IH+Qq/8i1B/k6gfpfcpJOj6JxAYAfmRs5Q==
+   eJzbysnAsJVCfFGKPAzT/1CKPAzTfxIL3suCnz7Jian/AAt2s3BhmN9J0YOML0L9Qa5+kN6nnKTjk0hsACW1bJM=
   </data>
  </layer>
  <layer name="Objects" width="16" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYKAcSAkwMOzmY2DYw4cQ+y/DwMDJhGCDgDMThF0EpKexoZpxGqj3DJJ+flkGBkkmBBsEgpkQ7F40/ehgLwsDw1MW3DQ2cABJ/C5UHS4aG7iAQ5wQWMGPXTyDFcEOY8WuhlIAAFQEGpA=
+   eJxjYKAcSAkwMOzmY2DYw4cQ+y/DwMDJhGCDgDMThF0EpKexoZpxGqj3DJJ+flkGBkkmBBsEgpkQ7F40/ehAhZ+B4SkLA0MzlFaD0upQGhtYyI9g32WBqMNFYwMXcIiTCzJYEewwVtzqKAEA4hsX8Q==
   </data>
  </layer>
  <layer name="Above" width="16" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYBieQIUfQjdDaTUorc6PW89CPHL4wAwy9Q0GAAB2uAKI
+   eJxjYBgFlIIZ/JTpX0GhfkoAANUqAV8=
   </data>
  </layer>
  <layer name="Top" width="16" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYKAcHBYbfPpV+CF0M5RWg9Lq/Lj1L8QiR679pIBLFOqnBAAAp5YHBg==
+   eJxjYKAcHBYbHvoX8g+M/Zco1E8JAABVMwXW
   </data>
  </layer>
  <layer name="Walkable" width="16" height="8" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHGIY2wAJo6LhrHR+dTSTwwg5Ad0tfj0kxpeMDYATWNAhg==
+   eJzbKMbAsHGIY2wAJo6LhrHR+aQAfPZTWz82dZSEF4wNALVLO9w=
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup name="Mapevents" visible="0">
   <object id="1" name="entrance" type="mapchange" x="416" y="224" width="32" height="32">
    <properties>
     <property name="map" value="brimhaven2"/>
@@ -214,15 +214,15 @@
   </object>
   <object id="7" name="brv_school_seated" type="script" x="224" y="128" width="32" height="32"/>
   <object id="8" name="brv_school_enter" type="script" x="384" y="192" width="96" height="32"/>
-  <object id="10" name="brv_school_walking" type="script" x="160" y="128" width="32" height="96"/>
+  <object id="10" name="brv_school_walking" type="script" x="192" y="160" width="32" height="64"/>
   <object id="11" name="brv_school_weapons" type="container" x="224" y="192" width="32" height="32"/>
-  <object id="12" name="brv_school_check_duel" type="script" x="32" y="96" width="224" height="128">
+  <object id="12" name="brv_school_check_duel" type="script" x="32" y="96" width="448" height="128">
    <properties>
     <property name="when" value="always"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn">
+ <objectgroup name="Spawn" visible="0">
   <object id="2" name="brv_school_statue" type="spawn" x="32" y="96" width="32" height="32">
    <properties>
     <property name="spawngroup" value="brv_school_statue"/>
@@ -235,14 +235,21 @@
     <property name="spawngroup" value="golin"/>
    </properties>
   </object>
-  <object id="5" name="brv_pupil" type="spawn" x="288" y="96" width="160" height="64">
+  <object id="5" name="brv_school_pupil" type="spawn" x="288" y="96" width="160" height="64">
    <properties>
     <property name="quantity" value="5"/>
-    <property name="spawngroup" value="brv_pupil"/>
+    <property name="spawngroup" value="brv_school_pupil"/>
+   </properties>
+  </object>
+  <object id="13" name="brv_school_statue2" type="spawn" x="32" y="96" width="64" height="64">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="brv_school_statue2"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys">
+ <objectgroup name="Keys" visible="0">
   <object id="42" name="brv_school_emptyseat" type="key" x="416" y="128" width="32" height="32">
    <properties>
     <property name="phrase" value="brv_school_emptyseat"/>
@@ -257,6 +264,54 @@
     <property name="requireId" value="brv_school2"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="50"/>
+   </properties>
+  </object>
+  <object id="14" name="brv_school_dummy" type="key" x="96" y="128" width="32" height="64">
+   <properties>
+    <property name="phrase" value="brv_school_dummy"/>
+    <property name="requireId" value="base_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="2"/>
+   </properties>
+  </object>
+  <object id="16" name="brv_school_dummy2" type="key" x="384" y="96" width="32" height="64">
+   <properties>
+    <property name="phrase" value="brv_school_dummy"/>
+    <property name="requireId" value="base_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="2"/>
+   </properties>
+  </object>
+  <object id="17" name="brv_school_dummy3" type="key" x="320" y="96" width="32" height="64">
+   <properties>
+    <property name="phrase" value="brv_school_dummy"/>
+    <property name="requireId" value="base_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="2"/>
+   </properties>
+  </object>
+  <object id="18" name="brv_school_dummy4" type="key" x="256" y="96" width="32" height="64">
+   <properties>
+    <property name="phrase" value="brv_school_dummy"/>
+    <property name="requireId" value="base_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="2"/>
+   </properties>
+  </object>
+  <object id="19" name="brv_school_dummy5" type="key" x="192" y="96" width="32" height="64">
+   <properties>
+    <property name="phrase" value="brv_school_dummy"/>
+    <property name="requireId" value="base_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="2"/>
+   </properties>
+  </object>
+  <object id="20" name="brv_school_dummy6" type="key" x="32" y="192" width="32" height="32">
+   <properties>
+    <property name="phrase" value="brv_school_dummy"/>
+    <property name="requireId" value="base_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="2"/>
    </properties>
   </object>
  </objectgroup>

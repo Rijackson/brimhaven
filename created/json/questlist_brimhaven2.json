@@ -38,7 +38,11 @@
             },
             {
                 "progress":102,
-                "logText":"You started a fight with Golin and killed him.",
+                "logText":"You started a fight with Golin and killed him."
+            },
+            {
+                "progress":104,
+                "logText":"You started a fight with Golin, but you broke off the duel. Very good.",
 				"rewardExperience":500
             },
             {
@@ -51,8 +55,13 @@
             },
             {
                 "progress":122,
-                "logText":"You killed the teacher.",
+                "logText":"You started a fight with the teacher and killed her.",
 				"rewardExperience":1000
+            },
+            {
+                "progress":124,
+                "logText":"You started a fight with the teacher, but you broke off the duel. Very good.",
+				"rewardExperience":500
             },
             {
                 "progress":130,
@@ -71,6 +80,24 @@
                 "progress":200,
                 "logText":"The teacher thanked you for saving him.",
 				"rewardExperience":5000
+            },
+            {
+                "progress":210,
+                "logText":"You cheated with the duel. The teacher noticed it and banned you from school.",
+				"rewardExperience":500,
+                "finishesQuest":1
+            },
+            {
+                "progress":220,
+                "logText":"The teacher was very satisfied with your performance in the duel.",
+				"rewardExperience":500,
+                "finishesQuest":1
+            },
+            {
+                "progress":230,
+                "logText":"The teacher sent you away, because you killed Golin in the duel.",
+				"rewardExperience":500,
+                "finishesQuest":1
             }
         ]
     },
@@ -89,11 +116,19 @@
             },
             {
                 "progress":22,
-                "logText":"Killed Golin with school weapons."
+                "logText":"Duelled Golin with school weapons."
             },
             {
                 "progress":30,
                 "logText":"Talked to the statue."
+            },
+            {
+                "progress":40,
+                "logText":"Reward: ice"
+            },
+            {
+                "progress":50,
+                "logText":"Pupils ran out"
             }
         ]
     }

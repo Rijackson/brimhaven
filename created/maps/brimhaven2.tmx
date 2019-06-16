@@ -189,7 +189,7 @@
  </layer>
  <layer name="Above" width="30" height="28">
   <data encoding="base64" compression="zlib">
-   eJxj5GBAAYfFIDQjmjg2wESEGmIBzF5qqyUELpFgFilqKQWHROlnF7ngnjDtzLYUYGCwEkAVe8gOof+h2fuInXr2egLt9EKzF1deoGb6JwUgp39YmDxECwNcYcIsSH54Iad/WJighw2uMBEWpE54ofsTBnCVCaT6F1eaxpUGcJUJ+PyLzQ+wNI3uVlz+xQdw+RdfmY7uVmLKf0JmEAOoUZaTYwY1ynJ61gdDCdCyXkAG6HkDuV6A5YHZTNS3l5R8RC9AKA/YSdLG3tE8gAqoFc5GFJhDzbiOAZoVS6O0MxQAAPQzJeQ=
+   eJxj5GBAAYfFIDQjmjg2wESEGmIBzF5qqyUELpFgFilqKQWT+elnF7ngnjDtzLYUYGCwEkAVe8gOof+h2fuInXr2egLt9EKzF1deoGb6JwUgp39YmDxECwNcYcIsSH54Iad/WJighw2uMBEWpE54ofsTBnCVCaT6F1eaxpUGcJUJ+PyLzQ+wNI3uVlz+xQdw+RdfmY7uVmLKf0JmEAOoUZaTYwY1ynJ61gdDCdCyXkAG6HkDuV6A5YHZTNS3l5R8RC9AKA/YSdLG3tE8gAqoFc5GFJhDzbiOAZoVS6O0MxQAAJDzJa8=
   </data>
  </layer>
  <layer name="Walkable" width="30" height="28">
