@@ -180,5 +180,63 @@
                 }
             }
         ]
+    },
+    {
+        "id":"brv_dealer",
+        "items":[
+            {
+                "itemID":"card_deck",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":100,
+                    "max":200
+                }
+            },
+            {
+                "itemID":"dagger0",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"brv_gambler",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":50,
+                    "max":100
+                }
+            },
+            {
+                "itemID":"shirt1",
+                "chance":"50",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"dagger0",
+                "chance":"50",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     }
 ]

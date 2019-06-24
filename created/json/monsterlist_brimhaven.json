@@ -225,27 +225,63 @@
         "id":"brv_blackjack_dealer_evil",
         "name":"Dealer",
         "iconID":"monsters_ld1:130",
+        "maxHP":30,
+        "moveCost":5,
         "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"wholeMap",
-        "spawnGroup":"brv_blackjack_dealer_evil"
+        "attackDamage":{
+            "min":2,
+            "max":4
+        },
+        "spawnGroup":"brv_blackjack_dealer_evil",
+        "droplistID":"brv_dealer",
+        "attackCost":2,
+        "attackChance":80,
+        "criticalSkill":50,
+        "criticalMultiplier":2.0,
+        "blockChance":30,
+        "damageResistance":1
     },
     {
         "id":"brv_blackjack_gambler1_evil",
         "name":"Gambler",
         "iconID":"monsters_ld1:133",
+        "maxHP":25,
+        "moveCost":5,
         "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"wholeMap",
-        "spawnGroup":"brv_blackjack_gambler1_evil"
+        "attackDamage":{
+            "min":1,
+            "max":3
+        },
+        "spawnGroup":"brv_blackjack_gambler1_evil",
+        "droplistID":"brv_gambler",
+        "attackCost":3,
+        "attackChance":70,
+        "criticalSkill":10,
+        "criticalMultiplier":2.0,
+        "blockChance":40
     },
     {
         "id":"brv_blackjack_gambler2_evil",
         "name":"Gambler",
         "iconID":"monsters_rltiles1:64",
+        "maxHP":25,
+        "moveCost":5,
         "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"wholeMap",
-        "spawnGroup":"brv_blackjack_gambler2_evil"
+        "attackDamage":{
+            "min":1,
+            "max":5
+        },
+        "spawnGroup":"brv_blackjack_gambler2_evil",
+        "droplistID":"brv_gambler",
+        "attackCost":5,
+        "attackChance":80,
+        "blockChance":80,
+        "damageResistance":1
     }
 ]
