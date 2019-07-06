@@ -371,13 +371,64 @@
         }
     },
     {
-        "id":"jacket_quilted",
+        "id":"tunic_quilted",
         "iconID":"items_misc_2:215",
-        "name":"Quilted jacket",
+        "name":"Quilted tunic",
         "category":"bdy_clth",
         "equipEffect":{
             "increaseBlockChance":3,
             "increaseDamageResistance":1
+        }
+    },
+    {
+        "id":"hmr_bronze",
+        "iconID":"items_reterski_1:20",
+        "name":"Bronze warhammer",
+        "displaytype":"ordinary",
+        "category":"hammer",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":5,
+                "max":7
+            },
+            "increaseAttackCost":7,
+            "increaseAttackChance":15,
+            "increaseCriticalSkill":2,
+            "increaseBlockChance":-15,
+            "setCriticalMultiplier":2.0
+        }
+    },
+    {
+        "id":"maul",
+        "iconID":"items_misc_6:17",
+        "name":"Maul",
+        "displaytype":"ordinary",
+        "category":"hammer2h",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":7,
+                "max":11
+            },
+            "increaseAttackCost":8,
+            "increaseAttackChance":15,
+            "increaseBlockChance":3
+        }
+    },
+    {
+        "id":"claymore_steel",
+        "iconID":"items_misc_6:18",
+        "name":"Steel claymore",
+        "category":"2hsword",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":1,
+                "max":14
+            },
+            "increaseAttackCost":7,
+            "increaseAttackChance":17,
+            "increaseCriticalSkill":1,
+            "increaseBlockChance":-5,
+            "setCriticalMultiplier":1.5
         }
     }
 ]
