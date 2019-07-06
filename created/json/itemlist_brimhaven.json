@@ -272,5 +272,112 @@
         "hasManualPrice":1,
         "baseMarketCost":500,
         "category":"other"
+    },
+    {
+        "id":"eggs_duck",
+        "iconID":"items_consumables:20",
+        "name":"Duck eggs",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":15,
+        "category":"food",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":1,
+                    "duration":7,
+                    "chance":"100"
+                }
+            ]
+        }
+    },
+    {
+        "id":"tripe_boiled",
+        "iconID":"items_rijackson_1:14",
+        "name":"Boiled tripe",
+        "hasManualPrice":1,
+        "baseMarketCost":8,
+        "category":"food",
+        "description":"This looks disgusting, but cheap.",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":1,
+                    "duration":999,
+                    "chance":"100"
+                },
+                {
+                    "condition":"nausea",
+                    "magnitude":2,
+                    "duration":3,
+                    "chance":"3"
+                }
+            ]
+        }
+    },
+    {
+        "id":"pie_pork",
+        "iconID":"items_consumables:22",
+        "name":"Pork pie",
+        "hasManualPrice":1,
+        "baseMarketCost":67,
+        "category":"food",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":3,
+                    "duration":9,
+                    "chance":"100"
+                }
+            ]
+        }
+    },
+    {
+        "id":"biscuit_hard",
+        "iconID":"items_misc_2:226",
+        "name":"Hard biscuits",
+        "hasManualPrice":1,
+        "baseMarketCost":6,
+        "category":"food",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":2,
+                    "duration":11,
+                    "chance":"100"
+                }
+            ]
+        }
+    },
+    {
+        "id":"hammer_carpenter",
+        "iconID":"items_misc_2:187",
+        "name":"Carpenter's hammer",
+        "displaytype":"ordinary",
+        "category":"club",
+        "description":"When all you have is a hammer, every monster looks like a nail.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":1,
+                "max":1
+            },
+            "increaseAttackCost":4,
+            "increaseAttackChance":2,
+            "increaseBlockChance":1
+        }
+    },
+    {
+        "id":"jacket_quilted",
+        "iconID":"items_misc_2:215",
+        "name":"Quilted jacket",
+        "category":"bdy_clth",
+        "equipEffect":{
+            "increaseBlockChance":3,
+            "increaseDamageResistance":1
+        }
     }
 ]
