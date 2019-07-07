@@ -120,14 +120,6 @@
                     "min":1,
                     "max":2
                 }
-            },
-            {
-                "itemID":"eggs_duck",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":2
-                }
             }
         ]
     },

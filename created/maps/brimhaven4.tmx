@@ -47,7 +47,7 @@
   <image source="../drawable/map_entrance_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="1841" name="map_entrance_2" tilewidth="32" tileheight="32">
-  <image source="../../../../../Documents/ATCSWorkspace/brimhaven/altered/spritesheets/map_entrance_2.png" width="512" height="256"/>
+  <image source="../../../../../../ATCS Workspace/brimhaven/altered/spritesheets/map_entrance_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="1969" name="map_fence_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_fence_1.png" width="512" height="256"/>
@@ -95,7 +95,7 @@
   <image source="../drawable/map_indoor_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="3889" name="map_indoor_2" tilewidth="32" tileheight="32">
-  <image source="../../../../../Documents/ATCSWorkspace/brimhaven/altered/spritesheets/map_indoor_2.png" width="512" height="256"/>
+  <image source="../../../../../../ATCS Workspace/brimhaven/altered/spritesheets/map_indoor_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="4017" name="map_kitchen_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_kitchen_1.png" width="512" height="256"/>
@@ -107,7 +107,7 @@
   <image source="../drawable/map_pillar_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="4401" name="map_pillar_2" tilewidth="32" tileheight="32">
-  <image source="../../../../../Documents/ATCSWorkspace/brimhaven/altered/spritesheets/map_pillar_2.png" width="512" height="256"/>
+  <image source="../../../../../../ATCS Workspace/brimhaven/altered/spritesheets/map_pillar_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="4529" name="map_plant_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_plant_1.png" width="512" height="256"/>
@@ -122,7 +122,7 @@
   <image source="../drawable/map_rock_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="5041" name="map_roof_1" tilewidth="32" tileheight="32">
-  <image source="../../../../../Documents/ATCSWorkspace/brimhaven/altered/spritesheets/map_roof_1.png" width="512" height="256"/>
+  <image source="../../../../../../ATCS Workspace/brimhaven/altered/spritesheets/map_roof_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="5169" name="map_roof_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_roof_2.png" width="512" height="256"/>
@@ -204,7 +204,7 @@
  </layer>
  <layer name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <layer name="Objects_9" width="30" height="30" visible="0">
@@ -318,6 +318,12 @@
   <object name="tavern" type="mapchange" x="448" y="96" width="32" height="32">
    <properties>
     <property name="map" value="brimhaven_tavern_west"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
+  <object name="brimhaven_armor1" type="mapchange" x="800" y="320" width="32" height="32">
+   <properties>
+    <property name="map" value="brimhaven_armor1"/>
     <property name="place" value="entrance"/>
    </properties>
   </object>
