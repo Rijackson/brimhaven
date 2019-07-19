@@ -84,21 +84,21 @@
         "id":"old_basilisk",
         "name":"Old Basilisk",
         "iconID":"monsters_rltiles2:77",
-        "maxHP":60,
+        "maxHP":120,
         "unique":1,
         "monsterClass":"reptile",
         "attackDamage":{
-            "min":3,
-            "max":5
+            "min":5,
+            "max":8
         },
         "spawnGroup":"basiliskcave2_boss",
         "faction":"",
         "attackCost":3,
-        "attackChance":55,
-        "criticalSkill":10,
+        "attackChance":80,
+        "criticalSkill":20,
         "criticalMultiplier":2.0,
-        "blockChance":80,
-        "damageResistance":5,
+        "blockChance":130,
+        "damageResistance":8,
         "deathEffect":{
             
         }
