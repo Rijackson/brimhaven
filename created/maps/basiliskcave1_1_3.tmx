@@ -187,7 +187,7 @@
  </layer>
  <layer id="2" name="Objects" width="29" height="22">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFyECKiTbmCqGZuwaNf0MQQq9GEge5BaYOWRzdLHQA0/NICFV8EStxbsUG0M0iB8yGumsuE6oYiP9BELe+1Vj8ix5+MHPwAULyhOzG50ZigDMW+7G5+wYWewi5HVsYgQB6OC1GSwMgc3NYEXFDCljIimqvMxOmfSAQQ2a6w2YWKWpgbqNWnl6Nw3+E7CcEcqDhA4p3bHkEBIhNe+hxQgnA5RZcgBJ7saU/YssravmXFIAtj5ILtGUx8yW9AChuQX6BlQHoZTO9ACh9U1q+jgLiAQDE7i2Y
+   eJztlMsNgzAMhlEkBoBjpU7QMVijI7AR6qHlmA7EuRN0hMoCS4n7B5sEbnwXFJP4bVfVScjFHaO3FXrf4jw189cHcvKF74VyqUvCbz5tLH/VNl8RUlcOw+LXw8UyOn+b9DsP4pX5Yz1raP8122s+WuiAfeR3D+qk+Y5yRMg8jUI36x0ycvOsY7ud+7dH3DP7Dunacod922umfSI+zb4G15t2AJoRwtp7siYlpHxJUWIX9Z91X+0V7xamwl0QcrvOc4nm/miothyL3EU5OyEX6u/S/Xpi5wdb3Cyv
   </data>
  </layer>
  <layer id="3" name="Above" width="29" height="22">
@@ -195,9 +195,9 @@
    eJzNlLERgCAMADmWoHICN9CSlo7W1dxVU3DmcgRCQOU7FPKJCRozH/tijLfPOlh+nyY2jpk82/3cIc/BODfk5PKivnQmxXSVc47ZB2suLy5HLbHg8eSd5Dv0ArUHQX9akMyPxEPjlOZ1RG+AlcSBPGlfRvq4WHhORvoAWiMF6q35HLnnvc7SvcjtldyNmrOV3CxI0fxTE1Hp5eqX5tLSE20ub3J+8P+cnZ650/JHr2dxXlF2FDg=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="29" height="22">
+ <layer id="4" name="Walkable" width="29" height="22" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztkzEOACAIA/2Gg///pqshgkCLLpKwGOhRgn201n8+yV1odSxtNCI8q1e+oUxNx9plduYok6XBYDLvFa3L3rHU9NSgvFXPGxlu9E8xPHtupZJt9d7wnN05k/vCq7b/StbJ+2feYU7gdl5L
+   eJztkzEOQCEIQ72Gg/e/5l9/jDYtBV0kYTHQB6T20Vp/eSVXsavL0nZD4aHe+c1l7nTQLaMzq0xVA/W6TMdfLFOZLeLjWZOpcXl/PTYiXPVPZezMeKWSjXpP7By9eSaX5VcykRer8zHPMj8STV5L
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -214,7 +214,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
+ <objectgroup id="6" name="Spawn" visible="0">
   <object id="3" name="erumen_1" type="spawn" x="64" y="128" width="160" height="160">
    <properties>
     <property name="quantity" value="2"/>

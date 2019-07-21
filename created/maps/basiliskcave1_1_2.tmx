@@ -187,7 +187,7 @@
  </layer>
  <layer id="2" name="Objects" width="30" height="25">
   <data encoding="base64" compression="zlib">
-   eJztlc0NwjAMhatIHaA9IjEBY7AGI7AR4gA9NoJ1emYCRkBWZMVYtvPT5oDEJ0WCJOQ9O3bourY8XWOBSt2dsj5u4Pc9hAE8XJyzeI3x80w8cD+a7yObvwj7rkZs3B/1AyzDty/Ekzlp3QI8Wp4o9GzQXBL5RA77fD+5XmpI3X8LD6hZci+WvlRTiFfWrFqWtO99fl3wmpe0wRfWMnzX+odC+1fS1GJNAbGhD+lcC+/i79fAta1YauOUoP3Kz+WepN4+9WFY3DbID+fch7GGkjfIIqcveI9OxDvPa6kvTTuVH+2/yKpnfpeStnRuTkylbxzNm/UGwr5ULqg27IehnYmxTA3q+s9v8wFlnTxR
+   eJztlcENwjAMRatKHaA9IjEBY7AGI7AR4gA9NoJ1emYCRkBWZdVY9k/SNgcknhQJktb/O7HTqirLsy4ssFB356x3G/h9t9MgHvU8h3h18+9BeNB+PN9HNX8xnruC3LQ/6YcY229fTBBz1jqCPCJPEhmbNMfIfjKHfbqfVC9LiJ1/CQ+smXMuSN+qKSY4a6iWLe17k14XuuYtbfLFtUz/vf6RyP61NL1cY1Bu7MOKiwj1/P4atDbKZWmeFrJfdVztyertUzMNxG2D/dGcm2msIecOQqT0he7RXnjX+5rry9OO7Y/3LUL1rM/S0rbick7IU+4dJ/cN3YEp3ySpTc/T8GJyLn2Buv7z23wAmpU8UQ==
   </data>
  </layer>
  <layer id="3" name="Above" width="30" height="25">
@@ -195,9 +195,9 @@
    eJztlTEOgDAIRQ2XcPIE3kBHV7euvZp3VRJNLLYUW1AH31ZM+OVDsWns6bt4fIbwPEE8rq3rSf4WrnGMTYX3SOlKcRDeS8K4aQ6VuhLQk3N/pJqjgifYnzueIIvSLJVAa9aa65wm7Ykns1zbixipmXf7vKA+3qsFPR9yM491OwjPB9z75vzReGcuosvltXrbNC/1o3aPpaB5qR9P6d79XkpuB1npItwsW+5Gy5o4LGqS7kvtvfrmv+vn26yN+xaS
   </data>
  </layer>
- <layer id="4" name="Walkable" width="30" height="25">
+ <layer id="4" name="Walkable" width="30" height="25" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztlEEOwCAIBP2GB///zZ68NFEYWIxJS8JNdhYi9NFaL84Z1ZybuSQq+82Emks8WXqErZyPiks9VHAtfqROvUdkVkTnxB7NutPctwfCVcZKl/wjS5/WKrg7P56dpHpeZnTW1CtlRm+N5012j7K9kPui1PzzW/kAn+VkMw==
+   eJztlEEOwCAIBP2GB///zZ68NFEYWIxJS8JNdhYi9NFaL84Z1ZybuSQq+82Emks8WXqErZyPiks9VHAtfqROvUdkVkTnxB7NutPctwfCVcZKl/wjS5/WKrg7P56dpHpeZnTW1CtlRm+N5421Y1lu9m6QPry9/Pm9fAC5NWQz
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -214,7 +214,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
+ <objectgroup id="6" name="Spawn" visible="0">
   <object id="3" name="cavesnake2" type="spawn" x="320" y="320" width="352" height="352">
    <properties>
     <property name="quantity" value="4"/>
