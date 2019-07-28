@@ -30,7 +30,7 @@
             },
             {
                 "progress":60,
-                "logText":"You should seak a duelling partner."
+                "logText":"You should look for a dueling partner."
             },
             {
                 "progress":100,
@@ -73,13 +73,13 @@
             },
             {
                 "progress":152,
-                "logText":"You killed the evil mascot.",
-				"rewardExperience":1000
+                "logText":"You killed the evil mascot."
             },
             {
                 "progress":200,
-                "logText":"The teacher thanked you for saving him.",
-				"rewardExperience":5000
+                "logText":"The teacher thanked you for saving him. School would be over for you. You could go to the baker and get some ice cream for good performance.",
+				"rewardExperience":5000,
+                "finishesQuest":1
             },
             {
                 "progress":210,
@@ -89,8 +89,8 @@
             },
             {
                 "progress":220,
-                "logText":"The teacher was very satisfied with your performance in the duel.",
-				"rewardExperience":500,
+                "logText":"The teacher was very satisfied with your performance in the duel. School would be over for you. You could go to the baker and get some ice cream for good performance.",
+				"rewardExperience":1000,
                 "finishesQuest":1
             },
             {
@@ -116,7 +116,7 @@
             },
             {
                 "progress":22,
-                "logText":"Duelled Golin with school weapons."
+                "logText":"Dueled Golin with school weapons."
             },
             {
                 "progress":30,

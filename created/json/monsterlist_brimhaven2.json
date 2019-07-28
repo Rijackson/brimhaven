@@ -116,12 +116,19 @@
     {
         "id":"brv_teacher",
         "name":"Teacher",
+		"maxHP":150,
+		"maxAP":10,
         "iconID":"monsters_ld1:155",
         "moveCost":5,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_teacher_save",
-        "faction":"brv_school_duel",
+        "faction":"brv_fct_school_duel",
 		"unique":1,
+		"attackCost":4,
+		"attackChance":40,
+		"blockChance":130,
+		"damageResistance":5,
+		"attackDamage":{ "min":3, "max":7 }
         "phraseID":"brv_teacher"
     },
     {
@@ -133,8 +140,8 @@
         "moveCost":5,
         "monsterClass":"humanoid",
         "spawnGroup":"golin",
-        "faction":"brv_school_duel",
-		"unique":1,
+        "faction":"brv_fct_school_duel",
+		"unique":0,
 		"attackCost":4,
 		"attackChance":40,
 		"blockChance":120,
