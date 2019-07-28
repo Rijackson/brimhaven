@@ -149,10 +149,20 @@
                 "value":100
             },
 			{
-				"rewardType": "alignmentSet",
-				"rewardID": "brv_school_duel",
-				"value": 1
-			}
+				"rewardType":"alignmentSet",
+				"rewardID":"brv_fct_school_duel",
+				"value":10
+			},
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"golin",
+                "mapName":"brimhaven_school"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"golin",
+                "mapName":"brimhaven_school"
+            }
         ]
     },
     {
@@ -207,7 +217,8 @@
     },
     {
         "id":"brv_school_check_duel_20",
-        "rewards":[
+        "message":"When the little students see how you killed their teacher, a panic breaks out. Screaming, they all run out of the building. Just Golin remains.",
+         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"brv_school2",
@@ -219,10 +230,20 @@
                 "value":120
             },
 			{
-				"rewardType": "alignmentSet",
-				"rewardID": "brv_school_duel",
-				"value": 1
-			}
+				"rewardType":"alignmentSet",
+				"rewardID":"brv_fct_school_duel",
+				"value":10
+			},
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay2",
+                "value":50
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"brv_school_pupil",
+                "mapName":"brimhaven_school"
+            }
         ]
     },
     {
@@ -242,6 +263,16 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"brv_school2",
                 "value":120
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"brv_teacher",
+                "mapName":"brimhaven_school"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"brv_teacher",
+                "mapName":"brimhaven_school"
             }
         ]
     },
@@ -979,7 +1010,7 @@
         "message":"Of course I can talk. Why should I not? I am at school after all.",
         "replies":[
             {
-                "text":"I have no time for you now. I have to find a partner for duelling. Bye",
+                "text":"I have no time for you now. I have to find a partner for dueling. Bye",
 				"nextPhraseID":"X"
             },
             {
@@ -1010,14 +1041,14 @@
     },
     {
         "id":"brv_school_statue_50",
-        "message":"But you heard the teacher: You must go now and fight your duell.",
+        "message":"But you heard the teacher: You must go now and fight your duel.",
         "replies":[
             {
                 "text":"You are right. Bye.",
 				"nextPhraseID":"X"
             },
             {
-                "text":"Which duelling partner would you recommend?.",
+                "text":"Which dueling partner would you recommend?.",
 				"nextPhraseID":"brv_school_statue_52"
             }
         ]
@@ -1119,7 +1150,7 @@
         "message":"YOU FILTHY WORM! KNEEL IN THE DUST BEFORE YOUR MASTER!",
         "replies":[
             {
-                "text":"Now that's a worthy duelling partner at last!",
+                "text":"Now that's a worthy dueling partner at last!",
 				"nextPhraseID":"F"
             },
             {
@@ -1149,7 +1180,67 @@
         "id":"brv_teacher",
         "replies":[
             {
+                "nextPhraseID":"brv_teacher_230",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_school2",
+                        "value":230
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_teacher_220",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_school2",
+                        "value":220
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_teacher_210",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_school2",
+                        "value":210
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_teacher_200",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_school2",
+                        "value":200
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_teacher_150",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_school2",
+                        "value":150
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"brv_teacher_124",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_school2",
+                        "value":124
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_teacher_120",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -1159,17 +1250,7 @@
                 ]
             },
             {
-                "nextPhraseID":"brv_teacher_102",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brv_school2",
-                        "value":102
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"brv_teacher_100a",
+                "nextPhraseID":"brv_teacher_104a",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -1184,12 +1265,22 @@
                 ]
             },
             {
-                "nextPhraseID":"brv_teacher_100b",
+                "nextPhraseID":"brv_teacher_104b",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"brv_school2",
                         "value":104
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_teacher_102",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_school2",
+                        "value":102
                     }
                 ]
             },
@@ -1286,6 +1377,28 @@
     },
     {
         "id":"brv_teacher_60_20",
+        "replies":[
+            {
+                "nextPhraseID":"brv_teacher_60_22",
+                "requires":[
+                    {
+                        "requireType":"wear",
+                        "requireID":"brv_school2",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_teacher_60_24"
+            }
+        ]
+    },
+    {
+        "id":"brv_teacher_60_22",
+        "message":"But of course you have to use the school weapon set first.\nCome back when you are properly equipped."
+    },
+    {
+        "id":"brv_teacher_60_24",
         "message":"Let's see what you are able to!",
         "replies":[
             {
@@ -1302,97 +1415,6 @@
         ]
     },
     {
-        "id":"brv_teacher_100a",
-        "message":"Very, very good!",
-        "replies":[
-            {
-                "text":"N",
-				"nextPhraseID":"brv_teacher_100a_10"
-            }
-        ]
-    },
-    {
-        "id":"brv_teacher_100a_10",
-        "message":"You treated Golin in a great way, I couldn't have done it better!",
-        "replies":[
-            {
-                "text":"It was no big thing...",
-				"nextPhraseID":"brv_teacher_100a_20"
-            }
-        ]
-    },
-    {
-        "id":"brv_teacher_100a_20",
-        "message":"As a reward, you can get an ice cream from the baker. Tell him I sent you.",
-        "replies":[
-            {
-                "text":"Thank you!",
-				"nextPhraseID":"X"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"brv_nondisplay2",
-                "value":40
-            }
-        ]
-    },
-    {
-        "id":"brv_teacher_100a_30",
-        "message":"I can't teach you things that are new for you. Leave now, you don't need to come to school anymore.",
-        "replies":[
-            {
-                "text":"N",
-				"nextPhraseID":"X"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"brv_school2",
-                "value":220
-            }
-        ]
-    },
-    {
-        "id":"brv_teacher_100b",
-        "message":"I saw, that you cheated!",
-        "replies":[
-            {
-                "text":"N",
-				"nextPhraseID":"brv_teacher_100b_10"
-            }
-        ]
-    },
-    {
-        "id":"brv_teacher_100b_10",
-        "message":"You didn't use the harmless school gear. Golin could have get injured!",
-        "replies":[
-            {
-                "text":"Eh, yes...",
-				"nextPhraseID":"brv_teacher_100b_20"
-            }
-        ]
-    },
-    {
-        "id":"brv_teacher_100b_20",
-        "message":"I can not accept such a behaviour! You have to leave our school - now!",
-        "replies":[
-            {
-                "text":"N",
-				"nextPhraseID":"X"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"brv_school2",
-                "value":210
-            }
-        ]
-    },
-    {
         "id":"brv_teacher_102",
 		"switchToNPC":"brv_teacher",
         "message":"What have you done! You killed Golin! Murdered him!",
@@ -1405,6 +1427,16 @@
     },
     {
         "id":"brv_teacher_102_10",
+        "message":"You killed Golin! You actually killed him! I don't believe it!",
+        "replies":[
+            {
+                "text":"Now...",
+				"nextPhraseID":"brv_teacher_102_20"
+            }
+        ]
+    },
+    {
+        "id":"brv_teacher_102_20",
         "message":"I still can't believe it. Leave the school - now!",
         "replies":[
             {
@@ -1421,33 +1453,32 @@
         ]
     },
     {
-        "id":"brv_teacher_120",
-		"switchToNPC":"brv_teacher",
+        "id":"brv_teacher_104a",
         "message":"Very, very good!",
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"brv_teacher_120_10"
+				"nextPhraseID":"brv_teacher_104a_10"
             }
         ]
     },
     {
-        "id":"brv_teacher_120_10",
-        "message":"I couldn't have done it better!",
+        "id":"brv_teacher_104a_10",
+        "message":"You treated Golin in a great way, I couldn't have done it better!",
         "replies":[
             {
                 "text":"It was no big thing...",
-				"nextPhraseID":"brv_teacher_120_20"
+				"nextPhraseID":"brv_teacher_104a_20"
             }
         ]
     },
     {
-        "id":"brv_teacher_120_20",
+        "id":"brv_teacher_104a_20",
         "message":"As a reward, you can get an ice cream from the baker. Tell him I sent you.",
         "replies":[
             {
                 "text":"Thank you!",
-				"nextPhraseID":"brv_teacher_100_90"
+				"nextPhraseID":"X"
             }
         ],
         "rewards":[
@@ -1459,8 +1490,228 @@
         ]
     },
     {
+        "id":"brv_teacher_104a_30",
+        "message":"I can't teach you things that are new for you. Leave now, you don't need to come to school anymore.",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_school2",
+                "value":220
+            }
+        ]
+    },
+    {
+        "id":"brv_teacher_104b",
+        "message":"I saw, that you cheated!",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"brv_teacher_104b_10"
+            }
+        ]
+    },
+    {
+        "id":"brv_teacher_104b_10",
+        "message":"You didn't use the harmless school gear. Golin could have get injured!",
+        "replies":[
+            {
+                "text":"Eh, yes...",
+				"nextPhraseID":"brv_teacher_104b_20"
+            }
+        ]
+    },
+    {
+        "id":"brv_teacher_104b_20",
+        "message":"I can not accept such a behaviour! You have to leave our school - now!",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_school2",
+                "value":210
+            }
+        ]
+    },
+    {
+        "id":"brv_teacher_120",
+		"switchToNPC":"brv_teacher",
+        "message":"Enough - stop now! I have seen enough. You have an interesting fighting style.",
+        "replies":[
+            {
+                "text":"Thank you.",
+				"nextPhraseID":"brv_teacher_120_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_school2",
+                "value":124
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brv_school2",
+                "value":120
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"brv_teacher",
+                "mapName":"brimhaven_school"
+            }
+        ]
+    },
+    {
+        "id":"brv_teacher_120_10",
+		"switchToNPC":"brv_teacher",
+        "message":"I don't think that I could teach you anything new.",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"brv_teacher_124_20"
+            }
+        ]
+    },
+    {
+        "id":"brv_teacher_124",
+		"switchToNPC":"brv_teacher",
+        "message":"Very, very good!",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"brv_teacher_124_10"
+            }
+        ]
+    },
+    {
+        "id":"brv_teacher_124_10",
+        "message":"I couldn't have done it better!",
+        "replies":[
+            {
+                "text":"It was no big thing...",
+				"nextPhraseID":"brv_teacher_124_20"
+            }
+        ]
+    },
+    {
+        "id":"brv_teacher_124_20",
+        "message":"As a reward, you can get some ice cream from the baker. Tell him I sent you.",
+        "replies":[
+            {
+                "text":"Thank you!",
+				"nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_school2",
+                "value":220
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay2",
+                "value":40
+            }
+        ]
+    },
+    {
+        "id":"brv_teacher_150",
+        "message":"where... where am I? And you, kid? I have never seen you before. What are you doing in my class?",
+        "replies":[
+            {
+                "text":"Good morning! Do not worry about me, I'm gone immediately.",
+				"nextPhraseID":"X"
+            },
+            {
+                "text":"I just destroyed the evil statue in the corner.",
+				"nextPhraseID":"brv_teacher_150_10"
+            }
+        ]
+    },
+    {
+        "id":"brv_teacher_150_10",
+        "message":"The statue is gone? What a relief! I never had a good feeling about it.",
+        "replies":[
+            {
+                "text":"Yes, it seems that it has enchanted you all.",
+				"nextPhraseID":"brv_teacher_150_20"
+            }
+        ]
+    },
+    {
+        "id":"brv_teacher_150_20",
+        "message":"brv_teacher_150_20 tbc..."
+    },
+    {
+        "id":"brv_teacher_200",
+        "message":"Thank you again for saving me and my class. You are ever welcome here!"
+    },
+    {
+        "id":"brv_teacher_210",
+        "message":"I remember to have banned you from school! What are you doing here?"
+    },
+    {
+        "id":"brv_teacher_220",
+        "message":"Ah, my best student! Welcome back to my school."
+    },
+    {
+        "id":"brv_teacher_230",
+        "message":"Murderer! Out of my eyes!"
+    },
+    {
         "id":"golin",
         "replies":[
+            {
+                "nextPhraseID":"golin_220",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_school2",
+                        "value":220
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"golin_210",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_school2",
+                        "value":210
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"golin_200",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_school2",
+                        "value":200
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"golin_152",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_school2",
+                        "value":152
+                    }
+                ]
+            },
             {
                 "nextPhraseID":"golin_150",
                 "requires":[
@@ -1468,6 +1719,16 @@
                         "requireType":"questProgress",
                         "requireID":"brv_school2",
                         "value":150
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"golin_124",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_school2",
+                        "value":124
                     }
                 ]
             },
@@ -1604,7 +1865,17 @@
     {
         "id":"golin_100",
 		"switchToNPC":"golin",
-        "message":"Hey, you are not bad! We should stop here indeed. Otherwise you might get hurt - or me.",
+        "message":"Hey, you are not bad! We should stop here indeed. Otherwise you might get hurt.",
+        "replies":[
+            {
+                "text":"Sure.",
+				"nextPhraseID":"X"
+            },
+            {
+                "text":"Me? You will get hurt!",
+				"nextPhraseID":"golin_100_10"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -1615,17 +1886,21 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"brv_school2",
                 "value":100
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"golin",
+                "mapName":"brimhaven_school"
             }
         ]
     },
     {
+        "id":"golin_100_10",
+        "message":"Haha! Yes, me of course. Do not always be offended."
+    },
+    {
         "id":"golin_104",
-        "message":"104",
-        "replies":[
-            {
-                "nextPhraseID":"X"
-            }
-        ]
+        "message":"Practice session is over now. We won't duel anymore."
     },
     {
         "id":"golin_120",
@@ -1637,8 +1912,67 @@
         ]
     },
     {
+        "id":"golin_124",
+        "message":"124",
+        "replies":[
+            {
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
         "id":"golin_150",
-        "message":"150",
+        "message":"Wow, what is that for a beast? What did you do?",
+        "replies":[
+            {
+                "nextPhraseID":"I don't know either, but it looks like it wants to kill me."
+            }
+        ]
+    },
+    {
+        "id":"golin_152",
+        "message":"Wow, what was that for a beast? You were splendid!",
+        "replies":[
+            {
+                "text":"Thank you.",
+				"nextPhraseID":"golin_152_10"
+            },
+            {
+                "text":"Ouh, that was nothing special.",
+				"nextPhraseID":"golin_152_10"
+            }
+        ]
+    },
+    {
+        "id":"golin_152_10",
+        "message":"Now that the statue is gone, I feel like a great burden has fallen from my soul.",
+        "replies":[
+            {
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"golin_200",
+        "message":"200",
+        "replies":[
+            {
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"golin_210",
+        "message":"210",
+        "replies":[
+            {
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"golin_220",
+        "message":"220",
         "replies":[
             {
                 "nextPhraseID":"X"
