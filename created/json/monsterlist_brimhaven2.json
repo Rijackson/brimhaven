@@ -141,7 +141,7 @@
         "monsterClass":"humanoid",
         "spawnGroup":"golin",
         "faction":"brv_fct_school_duel",
-		"unique":0,
+		"unique":1,
 		"attackCost":4,
 		"attackChance":40,
 		"blockChance":120,

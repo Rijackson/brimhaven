@@ -47,7 +47,7 @@
                     },
                     {
                         "requireType":"killedMonster",
-                        "requireID":"brv_school_statue",
+                        "requireID":"brv_school_statue2",
                         "value":1
                     }
                 ]
@@ -148,11 +148,11 @@
                 "rewardID":"brv_school2",
                 "value":100
             },
-			{
-				"rewardType":"alignmentSet",
-				"rewardID":"brv_fct_school_duel",
-				"value":10
-			},
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"brv_fct_school_duel",
+                "value":10
+            },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"golin",
@@ -176,11 +176,11 @@
                         "requireID":"brv_school2",
                         "value":102
                     },
-					{
+                    {
                         "requireType":"questProgress",
                         "requireID":"brv_nondisplay2",
                         "value":50,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -218,7 +218,7 @@
     {
         "id":"brv_school_check_duel_20",
         "message":"When the little students see how you killed their teacher, a panic breaks out. Screaming, they all run out of the building. Just Golin remains.",
-         "rewards":[
+        "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"brv_school2",
@@ -229,11 +229,11 @@
                 "rewardID":"brv_school2",
                 "value":120
             },
-			{
-				"rewardType":"alignmentSet",
-				"rewardID":"brv_fct_school_duel",
-				"value":10
-			},
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"brv_fct_school_duel",
+                "value":10
+            },
             {
                 "rewardType":"questProgress",
                 "rewardID":"brv_nondisplay2",
@@ -295,14 +295,14 @@
         "id":"brv_school_dummy",
         "replies":[
             {
-				"nextPhraseID":"X"
+                "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"brv_school_emptyseat",
-		"switchToNPC":"brv_teacher",
-        "message":"No. That won't go. You can't get late to school and then sit in the last bench."
+        "message":"No. That won't go. You can't get late to school and then sit in the last bench.",
+        "switchToNPC":"brv_teacher"
     },
     {
         "id":"brv_school_enter",
@@ -314,7 +314,7 @@
                         "requireType":"questProgress",
                         "requireID":"brv_school2",
                         "value":10,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -325,13 +325,13 @@
                         "requireType":"questProgress",
                         "requireID":"brv_nondisplay2",
                         "value":10,
-						"negate":true
+                        "negate":true
                     },
                     {
                         "requireType":"questProgress",
                         "requireID":"brv_school2",
                         "value":60,
-						"negate":true
+                        "negate":true
                     }
                 ]
             }
@@ -339,37 +339,37 @@
     },
     {
         "id":"brv_school_enter_10",
-		"switchToNPC":"brv_teacher",
         "message":"Look who we got there? A new kid? However, you are late for class. Sit down now, and be punctual next time.",
+        "switchToNPC":"brv_teacher",
+        "replies":[
+            {
+                "text":"But...",
+                "nextPhraseID":"brv_school_enter_90"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"brv_school2",
                 "value":10
             }
-        ],
-        "replies":[
-            {
-                "text":"But...",
-				"nextPhraseID":"brv_school_enter_90"
-            }
         ]
     },
     {
         "id":"brv_school_enter_20",
-		"switchToNPC":"brv_teacher",
         "message":"No walking around in my lessons! Please sit down.",
+        "switchToNPC":"brv_teacher",
+        "replies":[
+            {
+                "text":"OK.",
+                "nextPhraseID":"brv_school_enter_90"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"brv_nondisplay2",
                 "value":10
-            }
-        ],
-        "replies":[
-            {
-                "text":"OK.",
-				"nextPhraseID":"brv_school_enter_90"
             }
         ]
     },
@@ -379,24 +379,24 @@
         "replies":[
             {
                 "text":"But...",
-				"nextPhraseID":"brv_school_enter_90"
+                "nextPhraseID":"brv_school_enter_90"
             }
         ]
     },
     {
         "id":"brv_school_history_10",
         "message":"In the beginning there was...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_school_history_20"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"brv_school2",
                 "value":30
-            }
-        ],
-        "replies":[
-            {
-                "text":"N",
-				"nextPhraseID":"brv_school_history_20"
             }
         ]
     },
@@ -406,7 +406,7 @@
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"brv_school_history_30"
+                "nextPhraseID":"brv_school_history_30"
             }
         ]
     },
@@ -416,11 +416,11 @@
         "replies":[
             {
                 "text":"Sigh.",
-				"nextPhraseID":"brv_school_history_32"
+                "nextPhraseID":"brv_school_history_32"
             },
             {
                 "text":"[keep silent]",
-				"nextPhraseID":"brv_school_history_40"
+                "nextPhraseID":"brv_school_history_40"
             }
         ]
     },
@@ -430,7 +430,7 @@
         "replies":[
             {
                 "text":"Sorry.",
-				"nextPhraseID":"brv_school_history_10"
+                "nextPhraseID":"brv_school_history_10"
             }
         ]
     },
@@ -440,13 +440,13 @@
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"brv_school_history_50"
+                "nextPhraseID":"brv_school_history_50"
             }
         ]
     },
     {
         "id":"brv_school_history_50",
-		"replies":[
+        "replies":[
             {
                 "nextPhraseID":"brv_school_history_50_1",
                 "requires":[
@@ -454,7 +454,7 @@
                         "requireType":"questProgress",
                         "requireID":"brv_nondisplay2",
                         "value":20,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -465,57 +465,57 @@
     },
     {
         "id":"brv_school_history_50_1",
-		"switchToNPC":"golin",
         "message":"Psst...",
+        "switchToNPC":"golin",
         "replies":[
             {
                 "text":"[keep silent]",
-				"nextPhraseID":"brv_school_history_60"
+                "nextPhraseID":"brv_school_history_60"
             },
             {
                 "text":"[whispering] What's up?",
-				"nextPhraseID":"brv_school_history_52"
+                "nextPhraseID":"brv_school_history_52"
             }
         ]
     },
     {
         "id":"brv_school_history_52",
-		"switchToNPC":"brv_teacher",
         "message":"Be quiet, please. How can I concentrate if you are talking all the time? Where was I? I better start anew.",
+        "switchToNPC":"brv_teacher",
+        "replies":[
+            {
+                "text":"Yes, sorry.",
+                "nextPhraseID":"brv_school_history_10"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"brv_nondisplay2",
                 "value":20
             }
-        ],
-        "replies":[
-            {
-                "text":"Yes, sorry.",
-				"nextPhraseID":"brv_school_history_10"
-            }
         ]
     },
     {
         "id":"brv_school_history_60",
-		"switchToNPC":"brv_teacher",
         "message":"We all see...",
+        "switchToNPC":"brv_teacher",
         "replies":[
             {
                 "text":"[whispering to Golin] What's up?",
+                "nextPhraseID":"brv_school_history_52",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"brv_nondisplay2",
                         "value":20,
-						"negate":true
+                        "negate":true
                     }
-                ],
-				"nextPhraseID":"brv_school_history_52"
+                ]
             },
             {
                 "text":"[keep silent]",
-				"nextPhraseID":"brv_school_history_70"
+                "nextPhraseID":"brv_school_history_70"
             }
         ]
     },
@@ -525,7 +525,7 @@
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"brv_school_history_80"
+                "nextPhraseID":"brv_school_history_80"
             }
         ]
     },
@@ -535,11 +535,11 @@
         "replies":[
             {
                 "text":"[Sigh] 'At last' sounds good.",
-				"nextPhraseID":"brv_school_history_52"
+                "nextPhraseID":"brv_school_history_52"
             },
             {
                 "text":"[keep silent]",
-				"nextPhraseID":"brv_school_history_100"
+                "nextPhraseID":"brv_school_history_100"
             }
         ]
     },
@@ -549,11 +549,11 @@
         "replies":[
             {
                 "text":"Yes, please. Who was Elythera?",
-				"nextPhraseID":"brv_school_history_110"
+                "nextPhraseID":"brv_school_history_110"
             },
             {
                 "text":"[keep silent]",
-				"nextPhraseID":"brv_school_history_200"
+                "nextPhraseID":"brv_school_history_200"
             }
         ]
     },
@@ -563,50 +563,50 @@
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"brv_school_history_10"
+                "nextPhraseID":"brv_school_history_10"
             }
         ]
     },
     {
         "id":"brv_school_history_200",
         "message":"And now we get to a completely different thing. Let's have some practice with fighting.",
+        "replies":[
+            {
+                "text":"Finally. I thought her talking would never cease.",
+                "nextPhraseID":"brv_school_practice_10"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"brv_school2",
                 "value":40
             }
-        ],
-        "replies":[
-            {
-                "text":"Finally. I thought her talking would never cease.",
-				"nextPhraseID":"brv_school_practice_10"
-            }
         ]
     },
     {
         "id":"brv_school_practice_10",
-		"switchToNPC":"brv_teacher",
         "message":"Everybody get your practicing gear of the chest over there. Each of you take one wooden sword and one paper shield, please. Then sit down again.",
+        "switchToNPC":"brv_teacher",
+        "replies":[
+            {
+                "text":"OK",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Wooden weapons? Honestly?",
+                "nextPhraseID":"brv_school_practice_12"
+            },
+            {
+                "text":"May I use my own weapons?",
+                "nextPhraseID":"brv_school_practice_14"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"brv_school2",
                 "value":50
-            }
-        ],
-        "replies":[
-            {
-                "text":"OK",
-				"nextPhraseID":"X"
-            },
-            {
-                "text":"Wooden weapons? Honestly?",
-				"nextPhraseID":"brv_school_practice_12"
-            },
-            {
-                "text":"May I use my own weapons?",
-				"nextPhraseID":"brv_school_practice_14"
             }
         ]
     },
@@ -616,7 +616,7 @@
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"brv_school_practice_10"
+                "nextPhraseID":"brv_school_practice_10"
             }
         ]
     },
@@ -626,18 +626,18 @@
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"brv_school_practice_10"
+                "nextPhraseID":"brv_school_practice_10"
             }
         ]
     },
     {
         "id":"brv_school_practice_16",
-		"switchToNPC":"brv_teacher",
         "message":"Where is your weapon and shield?",
+        "switchToNPC":"brv_teacher",
         "replies":[
             {
                 "text":"I still have to get it.",
-				"nextPhraseID":"X"
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -647,23 +647,23 @@
     },
     {
         "id":"brv_school_practice_20",
-		"switchToNPC":"brv_teacher",
         "message":"You all have your gear? OK.",
+        "switchToNPC":"brv_teacher",
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"brv_school_practice_22"
+                "nextPhraseID":"brv_school_practice_22"
             }
         ]
     },
     {
         "id":"brv_school_practice_22",
-		"switchToNPC":"brv_teacher",
         "message":"Listen everybody: Use the sword and shield of the school set. We duel in pairs, the new kid first.",
+        "switchToNPC":"brv_teacher",
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"brv_school_practice_24"
+                "nextPhraseID":"brv_school_practice_24"
             }
         ]
     },
@@ -673,7 +673,7 @@
         "replies":[
             {
                 "text":"Anybody?",
-				"nextPhraseID":"brv_school_practice_30"
+                "nextPhraseID":"brv_school_practice_30"
             }
         ]
     },
@@ -712,16 +712,16 @@
     },
     {
         "id":"brv_school_pupil_60_10",
-		"switchToNPC":"none",
         "message":"As you approach the little student, horror spreads on his face.",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"Don't panic. I'll go away again.",
-				"nextPhraseID":"X"
+                "nextPhraseID":"X"
             },
             {
                 "text":"Wait, I'll show you...",
-				"nextPhraseID":"brv_school_pupil_60_20"
+                "nextPhraseID":"brv_school_pupil_60_20"
             }
         ]
     },
@@ -856,74 +856,74 @@
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"brv_school_seated_12"
+                "nextPhraseID":"brv_school_seated_12"
             }
         ]
     },
     {
         "id":"brv_school_seated_12",
-		"switchToNPC":"golin",
         "message":"Hi kid. I am Golin.",
+        "switchToNPC":"golin",
+        "replies":[
+            {
+                "text":"Thanks, it's a pleasure.",
+                "nextPhraseID":"brv_school_seated_14"
+            },
+            {
+                "text":"[nod silently]",
+                "nextPhraseID":"brv_school_seated_20"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"brv_school2",
                 "value":20
             }
-        ],
-        "replies":[
-            {
-				"text":"Thanks, it's a pleasure.",
-                "nextPhraseID":"brv_school_seated_14"
-            },
-            {
-                "text":"[nod silently]",
-				"nextPhraseID":"brv_school_seated_20"
-            }
         ]
     },
     {
         "id":"brv_school_seated_14",
-		"switchToNPC":"brv_teacher",
         "message":"No talking, please.",
+        "switchToNPC":"brv_teacher",
         "replies":[
             {
                 "text":"But...",
-				"nextPhraseID":"brv_school_seated_14"
+                "nextPhraseID":"brv_school_seated_14"
             },
             {
                 "text":"[keep silent]",
-				"nextPhraseID":"brv_school_seated_20"
+                "nextPhraseID":"brv_school_seated_20"
             }
         ]
     },
     {
         "id":"brv_school_seated_20",
-		"switchToNPC":"brv_teacher",
         "message":"Very well, you have found a place after all. Now let us proceed with our history lesson.",
+        "switchToNPC":"brv_teacher",
         "replies":[
             {
                 "text":"Please do.",
-				"nextPhraseID":"brv_school_seated_22"
+                "nextPhraseID":"brv_school_seated_22"
             },
             {
                 "text":"[nod silently]",
-				"nextPhraseID":"brv_school_seated_30"
+                "nextPhraseID":"brv_school_seated_30"
             }
         ]
     },
     {
         "id":"brv_school_seated_22",
-		"switchToNPC":"brv_teacher",
         "message":"No talking, please.",
+        "switchToNPC":"brv_teacher",
         "replies":[
             {
                 "text":"But...",
-				"nextPhraseID":"brv_school_seated_22"
+                "nextPhraseID":"brv_school_seated_22"
             },
             {
                 "text":"[nod silently]",
-				"nextPhraseID":"brv_school_seated_30"
+                "nextPhraseID":"brv_school_seated_30"
             }
         ]
     },
@@ -933,7 +933,7 @@
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"brv_school_history_10"
+                "nextPhraseID":"brv_school_history_10"
             }
         ]
     },
@@ -957,8 +957,8 @@
     },
     {
         "id":"brv_school_statue_10",
-		"switchToNPC":"none",
         "message":"Who on earth puts such an ugly, hideous thing into a school?",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"Hey, I saw that! Your eyes have sparkled!",
@@ -968,6 +968,27 @@
                         "requireType":"questLatestProgress",
                         "requireID":"brv_school2",
                         "value":60
+                    }
+                ]
+            },
+            {
+                "text":"Am I mistaken or does the statue seem to be grinning?",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"brv_teacher",
+                        "value":1
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"golin",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay2",
+                        "value":50
                     }
                 ]
             }
@@ -989,19 +1010,19 @@
     },
     {
         "id":"brv_school_statue_20",
-		"switchToNPC":"brv_school_statue",
         "message":"Leave me alone! What do you want of me?",
+        "switchToNPC":"brv_school_statue",
+        "replies":[
+            {
+                "text":"Oh, you can talk?",
+                "nextPhraseID":"brv_school_statue_30"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"brv_nondisplay2",
                 "value":30
-            }
-        ],
-        "replies":[
-            {
-                "text":"Oh, you can talk?",
-				"nextPhraseID":"brv_school_statue_30"
             }
         ]
     },
@@ -1011,11 +1032,11 @@
         "replies":[
             {
                 "text":"I have no time for you now. I have to find a partner for dueling. Bye",
-				"nextPhraseID":"X"
+                "nextPhraseID":"X"
             },
             {
                 "text":"What can you tell me about this school?",
-				"nextPhraseID":"brv_school_statue_40"
+                "nextPhraseID":"brv_school_statue_40"
             }
         ]
     },
@@ -1025,7 +1046,7 @@
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"brv_school_statue_42"
+                "nextPhraseID":"brv_school_statue_42"
             }
         ]
     },
@@ -1035,7 +1056,7 @@
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"brv_school_statue_50"
+                "nextPhraseID":"brv_school_statue_50"
             }
         ]
     },
@@ -1045,11 +1066,11 @@
         "replies":[
             {
                 "text":"You are right. Bye.",
-				"nextPhraseID":"X"
+                "nextPhraseID":"X"
             },
             {
-                "text":"Which dueling partner would you recommend?.",
-				"nextPhraseID":"brv_school_statue_52"
+                "text":"Which dueling partner would you recommend?",
+                "nextPhraseID":"brv_school_statue_52"
             }
         ]
     },
@@ -1059,19 +1080,19 @@
         "replies":[
             {
                 "text":"OK, it is Golin then.",
-				"nextPhraseID":"X"
+                "nextPhraseID":"X"
             },
             {
                 "text":"Why not an easy prey? I will take one of the little ones.",
-				"nextPhraseID":"X"
+                "nextPhraseID":"X"
             },
             {
                 "text":"Maybe I should try the teacher?",
-				"nextPhraseID":"X"
+                "nextPhraseID":"X"
             },
             {
                 "text":"What about you?",
-				"nextPhraseID":"brv_school_statue_60"
+                "nextPhraseID":"brv_school_statue_60"
             }
         ]
     },
@@ -1081,15 +1102,15 @@
         "replies":[
             {
                 "text":"OK, OK, I was only joking.",
-				"nextPhraseID":"brv_school_statue_62"
+                "nextPhraseID":"brv_school_statue_62"
             },
             {
                 "text":"Mh, yes. Let's try, how long you might defend yourself.",
-				"nextPhraseID":"brv_school_statue_70"
+                "nextPhraseID":"brv_school_statue_70"
             },
             {
                 "text":"I'll take Golin. Shadow be with you!",
-				"nextPhraseID":"X"
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -1099,15 +1120,15 @@
         "replies":[
             {
                 "text":"Well, I better go now.",
-				"nextPhraseID":"X"
+                "nextPhraseID":"X"
             },
             {
                 "text":"You are much too sensitive. That was just fun.",
-				"nextPhraseID":"X"
+                "nextPhraseID":"X"
             },
             {
                 "text":"Maybe I should go and try the teacher?",
-				"nextPhraseID":"X"
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -1117,18 +1138,18 @@
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"brv_school_statue_80"
+                "nextPhraseID":"brv_school_statue_80"
             }
         ]
     },
     {
         "id":"brv_school_statue_80",
-		"switchToNPC":"none",
         "message":"Suddenly the small ugly figure begins to rize! Greater and greater, until it seems to almost fill the whole room.",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"Oops, what's that?",
-				"nextPhraseID":"brv_school_statue_82"
+                "nextPhraseID":"brv_school_statue_82"
             }
         ],
         "rewards":[
@@ -1141,21 +1162,26 @@
                 "rewardType":"spawnAll",
                 "rewardID":"brv_school_statue2",
                 "mapName":"brimhaven_school"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_school2",
+                "value":150
             }
         ]
     },
     {
         "id":"brv_school_statue_82",
-		"switchToNPC":"brv_school_statue2",
         "message":"YOU FILTHY WORM! KNEEL IN THE DUST BEFORE YOUR MASTER!",
+        "switchToNPC":"brv_school_statue2",
         "replies":[
             {
                 "text":"Now that's a worthy dueling partner at last!",
-				"nextPhraseID":"F"
+                "nextPhraseID":"F"
             },
             {
                 "text":"Eh, it was nice to have met you. I have to leave now... Bye.",
-				"nextPhraseID":"X"
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -1169,8 +1195,8 @@
     },
     {
         "id":"brv_school_weapons",
-		"switchToNPC":"brv_teacher",
-        "message":"Keep your hands off this box until I allow it."
+        "message":"Keep your hands off this box until I allow it.",
+        "switchToNPC":"brv_teacher"
     },
     {
         "id":"brv_sign_school",
@@ -1216,6 +1242,16 @@
                         "requireType":"questProgress",
                         "requireID":"brv_school2",
                         "value":200
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_teacher_152",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_school2",
+                        "value":152
                     }
                 ]
             },
@@ -1335,7 +1371,7 @@
         "replies":[
             {
                 "text":"Eh, really?",
-				"nextPhraseID":"brv_teacher_12_10"
+                "nextPhraseID":"brv_teacher_12_10"
             }
         ]
     },
@@ -1357,11 +1393,11 @@
         "replies":[
             {
                 "text":"I'd like to duel with you.",
-				"nextPhraseID":"brv_teacher_60_10"
+                "nextPhraseID":"brv_teacher_60_10"
             },
             {
                 "text":"No, madam.",
-				"nextPhraseID":"X"
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -1371,7 +1407,7 @@
         "replies":[
             {
                 "text":"Could we begin?",
-				"nextPhraseID":"brv_teacher_60_20"
+                "nextPhraseID":"brv_teacher_60_20"
             }
         ]
     },
@@ -1379,17 +1415,22 @@
         "id":"brv_teacher_60_20",
         "replies":[
             {
-                "nextPhraseID":"brv_teacher_60_22",
+                "nextPhraseID":"brv_teacher_60_24",
                 "requires":[
                     {
                         "requireType":"wear",
-                        "requireID":"brv_school2",
+                        "requireID":"brv_school_sword",
+                        "value":1
+                    },
+                    {
+                        "requireType":"wear",
+                        "requireID":"brv_school_shield",
                         "value":1
                     }
                 ]
             },
             {
-                "nextPhraseID":"brv_teacher_60_24"
+                "nextPhraseID":"brv_teacher_60_22"
             }
         ]
     },
@@ -1403,7 +1444,19 @@
         "replies":[
             {
                 "text":"Draw your weapon!",
-				"nextPhraseID":"F"
+                "nextPhraseID":"brv_teacher_60_26"
+            },
+            {
+                "text":"I changed my mind. Let me go for now.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brv_teacher_60_26",
+        "replies":[
+            {
+                "nextPhraseID":"F"
             }
         ],
         "rewards":[
@@ -1416,12 +1469,12 @@
     },
     {
         "id":"brv_teacher_102",
-		"switchToNPC":"brv_teacher",
         "message":"What have you done! You killed Golin! Murdered him!",
+        "switchToNPC":"brv_teacher",
         "replies":[
             {
                 "text":"It was not intentional.",
-				"nextPhraseID":"brv_teacher_102_10"
+                "nextPhraseID":"brv_teacher_102_10"
             }
         ]
     },
@@ -1431,7 +1484,7 @@
         "replies":[
             {
                 "text":"Now...",
-				"nextPhraseID":"brv_teacher_102_20"
+                "nextPhraseID":"brv_teacher_102_20"
             }
         ]
     },
@@ -1441,7 +1494,7 @@
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"X"
+                "nextPhraseID":"X"
             }
         ],
         "rewards":[
@@ -1458,7 +1511,7 @@
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"brv_teacher_104a_10"
+                "nextPhraseID":"brv_teacher_104a_10"
             }
         ]
     },
@@ -1468,7 +1521,7 @@
         "replies":[
             {
                 "text":"It was no big thing...",
-				"nextPhraseID":"brv_teacher_104a_20"
+                "nextPhraseID":"brv_teacher_104a_20"
             }
         ]
     },
@@ -1478,7 +1531,7 @@
         "replies":[
             {
                 "text":"Thank you!",
-				"nextPhraseID":"X"
+                "nextPhraseID":"X"
             }
         ],
         "rewards":[
@@ -1495,7 +1548,7 @@
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"X"
+                "nextPhraseID":"X"
             }
         ],
         "rewards":[
@@ -1512,7 +1565,7 @@
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"brv_teacher_104b_10"
+                "nextPhraseID":"brv_teacher_104b_10"
             }
         ]
     },
@@ -1522,7 +1575,7 @@
         "replies":[
             {
                 "text":"Eh, yes...",
-				"nextPhraseID":"brv_teacher_104b_20"
+                "nextPhraseID":"brv_teacher_104b_20"
             }
         ]
     },
@@ -1532,7 +1585,7 @@
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"X"
+                "nextPhraseID":"X"
             }
         ],
         "rewards":[
@@ -1545,12 +1598,12 @@
     },
     {
         "id":"brv_teacher_120",
-		"switchToNPC":"brv_teacher",
         "message":"Enough - stop now! I have seen enough. You have an interesting fighting style.",
+        "switchToNPC":"brv_teacher",
         "replies":[
             {
                 "text":"Thank you.",
-				"nextPhraseID":"brv_teacher_120_10"
+                "nextPhraseID":"brv_teacher_120_10"
             }
         ],
         "rewards":[
@@ -1573,23 +1626,23 @@
     },
     {
         "id":"brv_teacher_120_10",
-		"switchToNPC":"brv_teacher",
         "message":"I don't think that I could teach you anything new.",
+        "switchToNPC":"brv_teacher",
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"brv_teacher_124_20"
+                "nextPhraseID":"brv_teacher_124_20"
             }
         ]
     },
     {
         "id":"brv_teacher_124",
-		"switchToNPC":"brv_teacher",
         "message":"Very, very good!",
+        "switchToNPC":"brv_teacher",
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"brv_teacher_124_10"
+                "nextPhraseID":"brv_teacher_124_10"
             }
         ]
     },
@@ -1599,7 +1652,7 @@
         "replies":[
             {
                 "text":"It was no big thing...",
-				"nextPhraseID":"brv_teacher_124_20"
+                "nextPhraseID":"brv_teacher_124_20"
             }
         ]
     },
@@ -1609,7 +1662,7 @@
         "replies":[
             {
                 "text":"Thank you!",
-				"nextPhraseID":"X"
+                "nextPhraseID":"X"
             }
         ],
         "rewards":[
@@ -1627,31 +1680,75 @@
     },
     {
         "id":"brv_teacher_150",
+        "message":"Have you gone mad? Why did you release this monster?",
+        "replies":[
+            {
+                "text":"Instead of scolding you better think of anything helpful.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Mad yourself! Who brought this monster here?",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brv_teacher_152",
         "message":"where... where am I? And you, kid? I have never seen you before. What are you doing in my class?",
         "replies":[
             {
                 "text":"Good morning! Do not worry about me, I'm gone immediately.",
-				"nextPhraseID":"X"
+                "nextPhraseID":"X"
             },
             {
                 "text":"I just destroyed the evil statue in the corner.",
-				"nextPhraseID":"brv_teacher_150_10"
+                "nextPhraseID":"brv_teacher_152_10"
             }
         ]
     },
     {
-        "id":"brv_teacher_150_10",
-        "message":"The statue is gone? What a relief! I never had a good feeling about it.",
+        "id":"brv_teacher_152_10",
+        "message":"The statue is gone? What a relief - I don't know how to thank you! I never had a good feeling about it.",
         "replies":[
             {
                 "text":"Yes, it seems that it has enchanted you all.",
-				"nextPhraseID":"brv_teacher_150_20"
+                "nextPhraseID":"brv_teacher_152_20"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_school2",
+                "value":200
             }
         ]
     },
     {
-        "id":"brv_teacher_150_20",
-        "message":"brv_teacher_150_20 tbc..."
+        "id":"brv_teacher_152_20",
+        "message":"brv_teacher_152_20 tbc...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_teacher_152_90"
+            }
+        ]
+    },
+    {
+        "id":"brv_teacher_152_90",
+        "message":"As a reward, you can get some ice cream from the baker. Tell him I sent you.",
+        "replies":[
+            {
+                "text":"Thank you!",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay2",
+                "value":40
+            }
+        ]
     },
     {
         "id":"brv_teacher_200",
@@ -1733,6 +1830,16 @@
                 ]
             },
             {
+                "nextPhraseID":"golin_122",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_school2",
+                        "value":122
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"golin_120",
                 "requires":[
                     {
@@ -1773,6 +1880,16 @@
                 ]
             },
             {
+                "nextPhraseID":"golin_50",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_school2",
+                        "value":50
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"golin_40",
                 "requires":[
                     {
@@ -1802,18 +1919,28 @@
         "message":"Was about time. This is my favourite class.",
         "replies":[
             {
-				"text":"What will happen now?",
-                "nextPhraseID":"golin_42"
+                "text":"What will happen now?",
+                "nextPhraseID":"golin_40_10"
             }
         ]
     },
     {
-        "id":"golin_42",
+        "id":"golin_40_10",
         "message":"Listen, she is going to explain.",
         "replies":[
             {
-				"text":"N",
+                "text":"N",
                 "nextPhraseID":"brv_school_practice_10"
+            }
+        ]
+    },
+    {
+        "id":"golin_50",
+        "message":"I already have my exercise equipment.",
+        "replies":[
+            {
+                "text":"Hush, the teacher is talking again.",
+                "nextPhraseID":"brv_school_seated"
             }
         ]
     },
@@ -1822,7 +1949,7 @@
         "message":"You want to fight me?! Hahaha!",
         "replies":[
             {
-				"text":"What's so funny about it?",
+                "text":"What's so funny about it?",
                 "nextPhraseID":"golin_60_10"
             }
         ]
@@ -1832,7 +1959,7 @@
         "message":"Hahaha! Hahaha! Sorry  * snort * Pooh! You are really funny!",
         "replies":[
             {
-				"text":"Do you think?",
+                "text":"Do you think?",
                 "nextPhraseID":"golin_60_20"
             }
         ]
@@ -1842,7 +1969,7 @@
         "message":"[still giggling] If you insist - en Garde!",
         "replies":[
             {
-				"text":"Yes, en Garde!",
+                "text":"Yes, en Garde!",
                 "nextPhraseID":"golin_60_30"
             }
         ]
@@ -1864,16 +1991,16 @@
     },
     {
         "id":"golin_100",
-		"switchToNPC":"golin",
         "message":"Hey, you are not bad! We should stop here indeed. Otherwise you might get hurt.",
+        "switchToNPC":"golin",
         "replies":[
             {
                 "text":"Sure.",
-				"nextPhraseID":"X"
+                "nextPhraseID":"X"
             },
             {
                 "text":"Me? You will get hurt!",
-				"nextPhraseID":"golin_100_10"
+                "nextPhraseID":"golin_100_10"
             }
         ],
         "rewards":[
@@ -1907,25 +2034,48 @@
         "message":"120",
         "replies":[
             {
-                "nextPhraseID":"X"
+                "nextPhraseID":"Hey, do not run away! Finish your fight with the teacher."
+            }
+        ]
+    },
+    {
+        "id":"golin_122",
+        "message":"You killed the teacher! She was not very good, but she did not deserve such a death.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"golin_122_10"
+            }
+        ]
+    },
+    {
+        "id":"golin_122_10",
+        "message":"I will avenge her. Prepare to die!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"F"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"brv_fct_school_duel",
+                "value":-10
             }
         ]
     },
     {
         "id":"golin_124",
-        "message":"124",
-        "replies":[
-            {
-                "nextPhraseID":"X"
-            }
-        ]
+        "message":"Wow - you dared to fight the teacher. Awesome!"
     },
     {
         "id":"golin_150",
         "message":"Wow, what is that for a beast? What did you do?",
         "replies":[
             {
-                "nextPhraseID":"I don't know either, but it looks like it wants to kill me."
+                "text":"I don't know either, but it looks like it wants to kill me.",
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -1935,11 +2085,11 @@
         "replies":[
             {
                 "text":"Thank you.",
-				"nextPhraseID":"golin_152_10"
+                "nextPhraseID":"golin_152_10"
             },
             {
                 "text":"Ouh, that was nothing special.",
-				"nextPhraseID":"golin_152_10"
+                "nextPhraseID":"golin_152_10"
             }
         ]
     },
@@ -1948,35 +2098,21 @@
         "message":"Now that the statue is gone, I feel like a great burden has fallen from my soul.",
         "replies":[
             {
+                "text":"I found the statue in the corner awful right from the beginning.",
                 "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"golin_200",
-        "message":"200",
-        "replies":[
-            {
-                "nextPhraseID":"X"
-            }
-        ]
+        "message":"200 - The teacher thanked you for saving him. School would be over for you. You could go to the baker and get some ice cream for good performance."
     },
     {
         "id":"golin_210",
-        "message":"210",
-        "replies":[
-            {
-                "nextPhraseID":"X"
-            }
-        ]
+        "message":"What a pity you have to go."
     },
     {
         "id":"golin_220",
-        "message":"220",
-        "replies":[
-            {
-                "nextPhraseID":"X"
-            }
-        ]
+        "message":"Pity you are leaving. It was a nice break from the boring lessons."
     }
 ]
