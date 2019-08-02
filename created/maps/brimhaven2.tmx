@@ -189,7 +189,7 @@
  </layer>
  <layer id="3" name="Above" width="30" height="28">
   <data encoding="base64" compression="zlib">
-   eJxj5GBAAYfFIDQjmjg2wESEGmIBzF5qqyUELpFgFilqKQWT+elnF7ngnjDtzLYUYGCwEkAVe8gOof+h2fuInXr2egLt9EKzF1deoGb6JwUgp39YmDxECwNcYcIsSH54Iad/WJighw2uMBEWpE54ofsTBnCVCaT6F1eaxpUGcJUJ+PyLzQ+wNI3uVlz+xQdw+RdfmY7uVmLKf0JmEAOoUZaTYwY1ynJ61gdDCdCyXkAG6HkDuV6A5YHZTNS3l5R8RC9AKA/YSdLG3tE8gAqoFc5GFJhDzbiOAZoVS6O0MxQAAJDzJa8=
+   eJxj5GBAAYfFIDQjmjg2wESEGmIBzF5qqyUELpFgFilqKQWT+elnFzXAPWHqmmcpwMBgJYAq9pAdU90/oL2PsIiTCzyBdnqh2YsrL1Az/ZMCkNM/LEzQwwZXmDALkh9eyOkfFiboYYMrTIQFqRNe2NIACOAqE0jxLygN40rHuNIArjIBn3/R/QBKw/+g9qK7FZd/8QFc/sVXpqO7lZjyn5AZxABqlOXkmEGNspye9cFQANSuAwgBWN74h8VeWB6YzUR9e0nJR/QChPKAnSRt7B3NA6iAWuFsRIE51IzrGKBZsTRKO0MBAABB5Sex
   </data>
  </layer>
  <layer id="4" name="Walkable" width="30" height="28">
