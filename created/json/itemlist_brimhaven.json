@@ -430,5 +430,42 @@
             "increaseBlockChance":-5,
             "setCriticalMultiplier":1.5
         }
+    },
+    {
+        "id":"hat2enhanced",
+        "iconID":"items_armours:21",
+        "name":"Enhanced green hat",
+        "category":"hd_cloth",
+        "equipEffect":{
+            "increaseBlockChance":2,
+            "increaseDamageResistance":1
+        }
+    },
+    {
+        "id":"green_dress",
+        "iconID":"items_armours_3:4",
+        "name":"Green dress",
+        "hasManualPrice":1,
+        "baseMarketCost":100,
+        "category":"bdy_clth"
+    },
+    {
+        "id":"gloves4enhanced",
+        "iconID":"items_armours:36",
+        "name":"Enhanced snakeskin gloves",
+        "category":"hnd_cloth",
+        "equipEffect":{
+            "increaseMaxHP":2,
+            "increaseBlockChance":6
+        }
+    },
+    {
+        "id":"boots2enhanced",
+        "iconID":"items_armours:28",
+        "name":"Enhanced leather boots",
+        "category":"feet_lthr",
+        "equipEffect":{
+            "increaseBlockChance":6
+        }
     }
 ]

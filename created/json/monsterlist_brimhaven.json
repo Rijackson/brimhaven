@@ -283,5 +283,40 @@
         "attackChance":80,
         "blockChance":80,
         "damageResistance":1
+    },
+    {
+        "id":"brv_old_farmer",
+        "name":"Peasant grandfather",
+        "iconID":"monsters_karvis2:5"
+    },
+    {
+        "id":"brv_farmer_girl",
+        "name":"Peasant girl",
+        "iconID":"monsters_karvis2:0"
+    },
+    {
+        "id":"br_farmer",
+        "name":"Peasant",
+        "iconID":"monsters_karvis2:1"
+    },
+    {
+        "id":"brv_woodcutter",
+        "name":"Woodcutter",
+        "iconID":"monsters_tometik2:39"
+    },
+    {
+        "id":"brv_woodcraftsman",
+        "name":"Wood craftsman",
+        "iconID":"monsters_tometik2:63"
+    },
+    {
+        "id":"brv_laundry_worker",
+        "name":"Worker",
+        "iconID":"monsters_tometik2:62"
+    },
+    {
+        "id":"brv_laundry_boss",
+        "name":"Shop owner",
+        "iconID":"monsters_ld1:187"
     }
 ]
