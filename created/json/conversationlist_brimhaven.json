@@ -3721,10 +3721,10 @@
     },
     {
         "id":"brv_laundry_boss_4",
-        "message":"Improving a fine green hat costs 1397 gold, fine snakeskin gloves costs 640 gold and improving superior leather boots costs 432 gold.",
+        "message":"Improving a fine green hat costs 1,397 gold, fine snakeskin gloves costs 640 gold and improving superior leather boots costs 432 gold.",
         "replies":[
             {
-                "text":"I don't have any of this equipment. Can you sell something to me?",
+                "text":"I don't have any of this equipment. Can you sell something else to me?",
                 "nextPhraseID":"brv_laundry_boss_1",
                 "requires":[
                     {
@@ -3755,6 +3755,11 @@
                         "requireType":"inventoryRemove",
                         "requireID":"hat2",
                         "value":1
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":1397
                     }
                 ]
             },
@@ -3766,6 +3771,11 @@
                         "requireType":"inventoryRemove",
                         "requireID":"gloves4",
                         "value":1
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":640
                     }
                 ]
             },
@@ -3777,8 +3787,17 @@
                         "requireType":"inventoryRemove",
                         "requireID":"boots2",
                         "value":1
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":432
                     }
                 ]
+            },
+            {
+                "text":"I don't have the money to improve any equipment. Can you sell something else to me?",
+                "nextPhraseID":"brv_laundry_boss_1"
             }
         ]
     },
