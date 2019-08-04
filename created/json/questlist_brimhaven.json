@@ -400,5 +400,15 @@
                 "finishesQuest":1
             }
         ]
+    },
+    {
+        "id":"brv_nondisplay_multipurpose",
+        "name":"brv_nondisplay_multipurpose",
+        "stages":[
+            {
+                "progress":10,
+                "logText":"Knows about laundry offering upgrades"
+            }
+        ]
     }
 ]

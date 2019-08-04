@@ -3518,5 +3518,333 @@
     {
         "id":"brv_tavern_west_guest",
         "message":"Go away and let me eat."
+    },
+    {
+        "id":"brv_laundry_worker_0",
+        "message":"Hello, how can I help you?",
+        "replies":[
+            {
+                "text":"What are you working on?",
+                "nextPhraseID":"brv_laundry_worker_2"
+            },
+            {
+                "text":"Can you sell something to me?",
+                "nextPhraseID":"brv_laundry_worker_1"
+            }
+        ]
+    },
+    {
+        "id":"brv_laundry_worker_2",
+        "message":"Currently I am coloring some cloth, but we do everything related to cloth like repairing, custom tailoring or enhancing.",
+        "replies":[
+            {
+                "text":"Can you sell something to me?",
+                "nextPhraseID":"brv_laundry_worker_1"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay_multipurpose",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"brv_laundry_worker_1",
+        "message":"I am only working here. Please go to my boss overthere, she runs the business."
+    },
+    {
+        "id":"brv_woodcutter_0",
+        "message":"[Cutting wood]",
+        "replies":[
+            {
+                "text":"Hello",
+                "nextPhraseID":"brv_woodcutter_1"
+            }
+        ]
+    },
+    {
+        "id":"brv_woodcutter_1",
+        "message":"[Stops cutting wood] \n\nIf you want to buy some woodcraft then just go inside.\n\n[Continues cutting wood]",
+        "replies":[
+            {
+                "text":"Bye",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brv_woodcraftsman_0",
+        "message":"Hello, do you want to buy some woodcraft?",
+        "replies":[
+            {
+                "text":"Yes",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"No, I just want to look around.",
+                "nextPhraseID":"brv_woodcraftsman_2"
+            }
+        ]
+    },
+    {
+        "id":"brv_woodcraftsman_2",
+        "message":"Take your time."
+    },
+    {
+        "id":"brv_old_farmer_0",
+        "message":"What are you doing in my house?",
+        "replies":[
+            {
+                "text":"Nothing, sorry I will leave.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I am just looking around.",
+                "nextPhraseID":"brv_old_farmer_1"
+            },
+            {
+                "text":"Can I buy some of your food?",
+                "nextPhraseID":"brv_old_farmer_2"
+            }
+        ]
+    },
+    {
+        "id":"brv_old_farmer_1",
+        "message":"Please leave my house.",
+        "replies":[
+            {
+                "text":"Can I buy some of your food?",
+                "nextPhraseID":"brv_old_farmer_2"
+            }
+        ]
+    },
+    {
+        "id":"brv_old_farmer_2",
+        "message":"Normally we sell on the market. But ok. Let's trade.",
+        "replies":[
+            {
+                "text":"Thanks",
+                "nextPhraseID":"S"
+            }
+        ]
+    },
+    {
+        "id":"brv_farmer",
+        "message":"It is really warm today. Please let me finish my work before it gets too hot."
+    },
+    {
+        "id":"brv_farmer_girl_0",
+        "message":"[Working and singing]",
+        "replies":[
+            {
+                "text":"Hello",
+                "nextPhraseID":"brv_farmer_girl_1"
+            }
+        ]
+    },
+    {
+        "id":"brv_farmer_girl_1",
+        "message":"What a wonderful warm day.\n\n[Continues working and singing",
+        "replies":[
+            {
+                "text":"[Join her singing]",
+                "nextPhraseID":"brv_farmer_girl_2"
+            }
+        ]
+    },
+    {
+        "id":"brv_farmer_girl_2",
+        "message":"You are a funny person.\n\n[Laughs and continues working and singing]"
+    },
+    {
+        "id":"brv_laundry_boss_0",
+        "message":"Hello, what can I do for you?",
+        "replies":[
+            {
+                "text":"Can you sell something to me?",
+                "nextPhraseID":"brv_laundry_boss_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay_multipurpose",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I want to buy the dresses.",
+                "nextPhraseID":"S",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay_multipurpose",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"I want you to improve some of my cloth.",
+                "nextPhraseID":"brv_laundry_boss_4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay_multipurpose",
+                        "value":10
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brv_laundry_boss_1",
+        "message":"We are working on some nice green dresses. We can also repair and improve your cloth.",
+        "replies":[
+            {
+                "text":"I want to buy the dresses.",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"What cloth can be improved and how much does it cost?",
+                "nextPhraseID":"brv_laundry_boss_4"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay_multipurpose",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"brv_laundry_boss_4",
+        "message":"Improving a fine green hat costs 1397 gold, fine snakeskin gloves costs 640 gold and improving superior leather boots costs 432 gold.",
+        "replies":[
+            {
+                "text":"I don't have any of this equipment. Can you sell something to me?",
+                "nextPhraseID":"brv_laundry_boss_1",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"hat2",
+                        "value":1,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gloves4",
+                        "value":1,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"boots2",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Plaese improve my fine green hat.",
+                "nextPhraseID":"brv_laundry_boss_5",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"hat2",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Please improve my fine snakeskin gloves.",
+                "nextPhraseID":"brv_laundry_boss_6",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gloves4",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Please improve my superior leather boots.",
+                "nextPhraseID":"brv_laundry_boss_7",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"boots2",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brv_laundry_boss_5",
+        "message":"I will immediatelly give it to my worker. Please wait until he is finished. \n\n[You wait some time.] \n\nHere is your enhanced hat.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_laundry_boss_2"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"hat2enhanced",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"brv_laundry_boss_2",
+        "message":"What else can I do for you?",
+        "replies":[
+            {
+                "text":"I want you to improve some of my cloth.",
+                "nextPhraseID":"brv_laundry_boss_4"
+            },
+            {
+                "text":"Can you sell something to me?",
+                "nextPhraseID":"brv_laundry_boss_1"
+            }
+        ]
+    },
+    {
+        "id":"brv_laundry_boss_6",
+        "message":"I will immediatelly give it to my worker. Please wait until he is finished. \n\n[You wait some time.] \n\nHere are your enhanced gloves.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_laundry_boss_2"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gloves4enhanced",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"brv_laundry_boss_7",
+        "message":"I will immediatelly give it to my worker. Please wait until he is finished. \n\n[You wait some time.] \n\nHere are your enhanced boots.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_laundry_boss_2"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"boots2enhanced",
+                "value":1
+            }
+        ]
     }
 ]

@@ -287,36 +287,46 @@
     {
         "id":"brv_old_farmer",
         "name":"Peasant grandfather",
-        "iconID":"monsters_karvis2:5"
+        "iconID":"monsters_karvis2:5",
+        "phraseID":"brv_old_farmer_0",
+        "droplistID":"brv_farmer"
     },
     {
         "id":"brv_farmer_girl",
         "name":"Peasant girl",
-        "iconID":"monsters_karvis2:0"
+        "iconID":"monsters_karvis2:0",
+        "phraseID":"brv_farmer_girl_0"
     },
     {
-        "id":"br_farmer",
+        "id":"brv_farmer",
         "name":"Peasant",
-        "iconID":"monsters_karvis2:1"
+        "iconID":"monsters_karvis2:1",
+        "phraseID":"brv_farmer"
     },
     {
         "id":"brv_woodcutter",
         "name":"Woodcutter",
-        "iconID":"monsters_tometik2:39"
+        "iconID":"monsters_tometik2:39",
+        "phraseID":"brv_woodcutter_0"
     },
     {
         "id":"brv_woodcraftsman",
         "name":"Wood craftsman",
-        "iconID":"monsters_tometik2:63"
+        "iconID":"monsters_tometik2:63",
+        "phraseID":"brv_woodcraftsman_0",
+        "droplistID":"brv_woodcraft"
     },
     {
         "id":"brv_laundry_worker",
         "name":"Worker",
-        "iconID":"monsters_tometik2:62"
+        "iconID":"monsters_tometik2:62",
+        "phraseID":"brv_laundry_worker_0"
     },
     {
         "id":"brv_laundry_boss",
         "name":"Shop owner",
-        "iconID":"monsters_ld1:187"
+        "iconID":"monsters_ld1:187",
+        "phraseID":"brv_laundry_boss_0",
+        "droplistID":"brv_laundry"
     }
 ]
