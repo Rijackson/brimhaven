@@ -385,7 +385,7 @@
     },
     {
         "id":"brv_school_history_10",
-        "message":"In the beginning there was...",
+        "message":"In the glorious days of year 2177 the enslavement of men ended.",
         "replies":[
             {
                 "text":"N",
@@ -402,7 +402,7 @@
     },
     {
         "id":"brv_school_history_20",
-        "message":"Then ...",
+        "message":"Our redeemers fought a bloody war to make the world worthy for us again. For exchange and out of deepest respect, men helped to build up vast cities and many under ground.",                                                                              
         "replies":[
             {
                 "text":"N",
@@ -412,7 +412,7 @@
     },
     {
         "id":"brv_school_history_30",
-        "message":"After that ...",
+        "message":"Just imagine all those mighty churches and splendid palaces! It was a merry time, down under Mt.Galmore.",
         "replies":[
             {
                 "text":"Sigh.",
@@ -436,7 +436,7 @@
     },
     {
         "id":"brv_school_history_40",
-        "message":"Eventually ...",
+        "message":"One day, this treacherous liar, Elythara, appeared. Many men were betrayed by her blinding light. They believed in her false promises and were mislaid. A general distrust began, and it didn't take long until weapons were drawn. Brothers fought each other - the horrible War of Dawn began!",
         "replies":[
             {
                 "text":"N",
@@ -548,7 +548,7 @@
         "message":"OK now. Does anybody has a question?",
         "replies":[
             {
-                "text":"Yes, please. Who was Elythera?",
+                "text":"Yes, please. Who was Elythara?",
                 "nextPhraseID":"brv_school_history_110"
             },
             {
@@ -1527,7 +1527,7 @@
     },
     {
         "id":"brv_teacher_104a_20",
-        "message":"As a reward, you can get an ice cream from the baker. Tell him I sent you.",
+        "message":"As a reward, you can get yourself a cake from the baker. Tell him I sent you.",
         "replies":[
             {
                 "text":"Thank you!",
@@ -1658,7 +1658,7 @@
     },
     {
         "id":"brv_teacher_124_20",
-        "message":"As a reward, you can get some ice cream from the baker. Tell him I sent you.",
+        "message":"As a reward, you can get yourself a cake from the baker. Tell him I sent you.",
         "replies":[
             {
                 "text":"Thank you!",
@@ -1735,7 +1735,7 @@
     },
     {
         "id":"brv_teacher_152_90",
-        "message":"As a reward, you can get some ice cream from the baker. Tell him I sent you.",
+        "message":"As a reward, you can get yourself a cake from the baker. Tell him I sent you.",
         "replies":[
             {
                 "text":"Thank you!",
@@ -2105,7 +2105,7 @@
     },
     {
         "id":"golin_200",
-        "message":"200 - The teacher thanked you for saving him. School would be over for you. You could go to the baker and get some ice cream for good performance."
+        "message":"200 - The teacher thanked you for saving him. School would be over for you. You could go to the baker and get a cake for good performance."
     },
     {
         "id":"golin_210",

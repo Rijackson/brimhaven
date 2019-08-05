@@ -19,5 +19,18 @@
                 }
             }
         ]
+    },
+    {
+        "id":"brv_school_book",
+        "items":[
+            {
+                "itemID":"brv_school_book",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     }
 ]

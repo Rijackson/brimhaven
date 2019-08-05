@@ -77,7 +77,7 @@
             },
             {
                 "progress":200,
-                "logText":"The teacher thanked you for saving him. School would be over for you. You could go to the baker and get some ice cream for good performance.",
+                "logText":"The teacher thanked you for saving him. School would be over for you. You could go to the baker and get a cake for good performance.",
 				"rewardExperience":5000,
                 "finishesQuest":1
             },
@@ -89,7 +89,7 @@
             },
             {
                 "progress":220,
-                "logText":"The teacher was very satisfied with your performance in the duel. School would be over for you. You could go to the baker and get some ice cream for good performance.",
+                "logText":"The teacher was very satisfied with your performance in the duel. School would be over for you. You could go to the baker and get a cake for good performance.",
 				"rewardExperience":1000,
                 "finishesQuest":1
             },
@@ -124,7 +124,7 @@
             },
             {
                 "progress":40,
-                "logText":"Reward: ice"
+                "logText":"Reward: cake"
             },
             {
                 "progress":50,
