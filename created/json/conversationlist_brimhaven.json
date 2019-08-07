@@ -3092,7 +3092,7 @@
     },
     {
         "id":"brv_tavern_west_guard_10",
-        "message":"[You hear noices from the backroom...]\nStop! Tell me the password, if you want to enter.",
+        "message":"[You hear noises from the backroom...]\nStop! Tell me the password, if you want to enter.",
         "switchToNPC":"brv_tavern_west_guard",
         "replies":[
             {
