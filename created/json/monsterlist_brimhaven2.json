@@ -148,5 +148,24 @@
 		"damageResistance":5,
 		"attackDamage":{ "min":1, "max":4 }
         "phraseID":"golin"
+    },
+    {
+        "id":"brv_richman",
+        "name":"Alkapoan",
+        "iconID":"monsters_ld1:110",
+        "phraseID":"brv_richman",
+        "droplistID":"brv_richman"
+    },
+    {
+        "id":"brv_fish1",
+        "name":"Fish",
+        "iconID":"monsters_tometik2:30",
+        "monsterClass":"animal"
+    },
+    {
+        "id":"brv_fish2",
+        "name":"Fish",
+        "iconID":"monsters_tometik2:30",
+        "monsterClass":"animal"
     }
 ]

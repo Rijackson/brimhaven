@@ -163,6 +163,10 @@
         ]
     },
     {
+        "id":"brv_richman",
+        "message":"I do not remember inviting you to my house."
+    },
+    {
         "id":"brv_school_check_duel",
         "replies":[
             {
