@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextobjectid="22">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextobjectid="26">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -261,7 +261,7 @@
    eJxjYCAOHBbDz6c2gJl/aYDsxQYuo8k9ZqLMLmTz0P2JrAaXHLn24TMPV7jDwGoy/EyM+0H2riFgNjl2E2MvMYDadtM6HdPKXkr0o+cfetk72PQSEw60SB/EmDlQ9lKrjMNnL3oeJlTeUMteeoGPA2TvYAGE8tVOIQaGXULUt3ewh/s1voGx9wqV7UX2x2U6+mkw20vtMKYHGGpu7hKg3IybgqjmIWMQuC6IqecaFrGbWMRgAJsZhNyCbh8AE8Q5Vg==
   </data>
  </layer>
- <layer name="Top" width="30" height="30">
+ <layer name="Top" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYBhaYC7TQLtgFIyCoQtG88/wB4fFRu0dzvZeGiB7R8EoGAWjYBQMXwAA9UEFiw==
   </data>
@@ -287,16 +287,6 @@
   </data>
  </layer>
  <layer name="Walkable" width="30" height="30" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJztVEEKwCAM8xX7/xf84a6lGJNGNthoISA1LpltndcYs9FoNH4KFG/p5lzrPlffr+k6PXmqq4Si63iu+kD/yrzu7qpyH4yn1pT5PK0X8hZ1Ff9of/XdvFbOMt3ouep1xatqV/KOt8hXOKquGmpPMJ/53UH7mYPq7cRuxhlX7fWYd2bVnXX3rTjFDZYZASs=
-  </data>
- </layer>
- <layer name="Walkable_3" width="30" height="30" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJztVEEOwCAI8xX7/xf84a6EWCkl4WAgabJgZ6uA+1trDwaDwaNA0aXrc6Pb46XrvFYrq6v0ZFWXCUZX8Zz1gc4aeb3dVeY+Ih5b08hntV7Im9Vl/KP1077+m/k30rWes15PvKx2Jq94s3yGw+qywfZE5NO/O2jdc1C9lbjNeMRle93mlVlVZ119K6r4AZG+A4A=
-  </data>
- </layer>
- <layer name="Walkable_9" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJztVEEKwCAM8xX7/xf84a6lGJNGNthoISA1LpltndcYs9FoNH4KFG/p5lzrPlffr+k6PXmqq4Si63iu+kD/yrzu7qpyH4yn1pT5PK0X8hZ1Ff9of/XdvFbOMt3ouep1xatqV/KOt8hXOKquGmpPMJ/53UH7mYPq7cRuxhlX7fWYd2bVnXX3rTjFDZYZASs=
   </data>
@@ -331,6 +321,9 @@
   <object id="16" name="brv_flood_1a" type="script" x="416" y="352" width="64" height="64"/>
   <object id="11" name="brv_flood_2" type="script" x="288" y="576" width="64" height="64"/>
   <object id="15" name="brv_flood_2a" type="script" x="544" y="512" width="64" height="64"/>
+  <object id="22" name="brv_flood_2_warning" type="script" x="384" y="576" width="32" height="64"/>
+  <object id="24" name="brv_flood_key_set1" type="script" x="416" y="480" width="96" height="32"/>
+  <object id="25" name="brv_flood_key_set1a" type="script" x="416" y="416" width="64" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn" visible="0">
   <object id="65" name="brv_employer" type="spawn" x="416" y="320" width="32" height="32">
@@ -376,6 +369,15 @@
     <property name="requireValue" value="2"/>
    </properties>
   </object>
+  <object id="23" name="brv_flood_key" type="key" x="416" y="448" width="96" height="32">
+   <properties>
+    <property name="phrase" value="brv_flood_key"/>
+    <property name="requireId" value="brv_nondisplay"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="70"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Replace" visible="0">
   <object id="14" name="brv_nondisplay:81" type="replace" x="0" y="384" width="544" height="256">
@@ -406,7 +408,6 @@
     <property name="Ground" value="Ground_3"/>
     <property name="Objects" value="Objects_3"/>
     <property name="Top" value="Top_3"/>
-    <property name="Walkable" value="Walkable_3"/>
     <property name="requireId" value="brv_nondisplay"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="83"/>
@@ -418,7 +419,6 @@
     <property name="Ground" value="Ground_9"/>
     <property name="Objects" value="Objects_9"/>
     <property name="Top" value="Top_9"/>
-    <property name="Walkable" value="Walkable_9"/>
     <property name="requireId" value="brv_nondisplay"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="89"/>

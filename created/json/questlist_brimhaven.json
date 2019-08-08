@@ -5,6 +5,10 @@
         "showInLog":1,
         "stages":[
             {
+                "progress":1,
+                "logText":"The dam is very important for Brimhaven. It should be repaired."
+            },
+            {
                 "progress":10,
                 "logText":"Stebbarik was ill at home in bed. He could not do his job and feared that he would lose his job. Because of his high debts, he feared that Gnossath would then take his house away.\nYou offered to do the work for Stebbarik."
             },
@@ -63,6 +67,10 @@
             {
                 "progress":23,
                 "logText":"- Employee Msg 23"
+            },
+            {
+                "progress":70,
+                "logText":"70=passage to river closed"
             },
             {
                 "progress":71,

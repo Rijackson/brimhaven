@@ -272,13 +272,33 @@
                 ]
             },
             {
+                "nextPhraseID":"brv_employer_01",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_employee",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_employer_0"
+            }
+        ]
+    },
+    {
+        "id":"brv_employer_0",
+        "message":"Ahoy kid! I am Gnossath, warden of the great dam.",
+        "replies":[
+            {
+                "text":"TEST: Start brv_employee",
                 "nextPhraseID":"brv_employer_01"
             }
         ]
     },
     {
         "id":"brv_employer_01",
-        "message":"Hey, kid! I am waiting for Stebbarik. Have you seen him?",
+        "message":"Ahoy, kid! I am waiting for Stebbarik. Have you seen him?",
         "replies":[
             {
                 "text":"No. What do you want of him?",

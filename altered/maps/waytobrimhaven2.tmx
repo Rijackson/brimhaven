@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextobjectid="9">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextobjectid="14">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -239,16 +239,6 @@
    eJztlGEKwCAIhXeK3f8K3XDsxyAi872ntRh7IAOHfqZWOY+j/LaN3XqD+YipT621pxkxSA4kV4SN6Mtcy8fUnMW1co2k9Bg5s6fobFWN+rmCz9S0iu39Z+tTd8jKoexx60dq8/axjWHurXL/e7Er38dduF4sIzQenXUml9nJrPfK68Esfm/G9ZexDK5iVv7RTtd+lYvGW+eOsiO9Ws1t7QLBGpBl
   </data>
  </layer>
- <layer name="Walkable_3" width="30" height="30" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJztlGEKwCAIhTvF7n+Fbjj2YzAk8/k0F2MPZFDTz8zsR2v9t23s0hvMW5782FxHWuGDxEBiRdiIvszV1jw5Z3G1WDMxNUbObCl6t6xm9azge3KqYlv73vzYHtJiMH0s15HcrH6UPujMYN//iFs5H3fhWr4eof7oXWdyPT2ZNa+sGqzij+74+c14Vx4uY1p87R+5znJRf+3cUXakVtVcaSdhHZHz
-  </data>
- </layer>
- <layer name="Walkable_9" width="30" height="30" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJztlGEKwCAIhXeK3f8K3XDsxyAi872ntRh7IAOHfqZWOY+j/LaN3XqD+YipT621pxkxSA4kV4SN6Mtcy8fUnMW1co2k9Bg5s6fobFWN+rmCz9S0iu39Z+tTd8jKoexx60dq8/axjWHurXL/e7Er38dduF4sIzQenXUml9nJrPfK68Esfm/G9ZexDK5iVv7RTtd+lYvGW+eOsiO9Ws1t7QLBGpBl
-  </data>
- </layer>
  <objectgroup name="Mapevents" visible="0">
   <object id="1" name="west" type="mapchange" x="0" y="416" width="32" height="160">
    <properties>
@@ -268,6 +258,10 @@
     <property name="place" value="up"/>
    </properties>
   </object>
+  <object id="10" name="brv_flood_key_set1" type="script" x="128" y="608" width="96" height="32"/>
+  <object id="11" name="brv_flood_key_set1a" type="script" x="128" y="544" width="64" height="32"/>
+  <object id="12" name="brv_flood_key_set2" type="script" x="704" y="864" width="64" height="32"/>
+  <object id="13" name="brv_flood_key_set2a" type="script" x="736" y="800" width="64" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn" visible="0">
   <object id="4" name="erumen_1" type="spawn" x="192" y="448" width="320" height="416">
@@ -300,14 +294,23 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys" visible="0"/>
+ <objectgroup name="Keys" visible="0">
+  <object id="9" name="brv_flood_key" type="key" x="128" y="576" width="64" height="32">
+   <properties>
+    <property name="phrase" value="brv_flood_key"/>
+    <property name="requireId" value="brv_nondisplay"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="70"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Replace" visible="0">
   <object id="10" name="brv_nondisplay:83" type="replace" x="96" y="64" width="864" height="864">
    <properties>
     <property name="Above" value="Above_3"/>
     <property name="Ground" value="Ground_3"/>
     <property name="Objects" value="Objects_3"/>
-    <property name="Walkable" value="Walkable_3"/>
     <property name="requireId" value="brv_nondisplay"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="83"/>
@@ -318,7 +321,6 @@
     <property name="Above" value="Above_9"/>
     <property name="Ground" value="Ground_9"/>
     <property name="Objects" value="Objects_9"/>
-    <property name="Walkable" value="Walkable_9"/>
     <property name="requireId" value="brv_nondisplay"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="89"/>
