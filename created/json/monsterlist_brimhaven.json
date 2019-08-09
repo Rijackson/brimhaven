@@ -54,6 +54,25 @@
         "phraseID":"brv_fisher"
     },
     {
+        "id":"brv_fish1",
+        "name":"Fish",
+        "iconID":"monsters_tometik2:30",
+        "monsterClass":"animal"
+    },
+    {
+        "id":"brv_fish2",
+        "name":"Fish",
+        "iconID":"monsters_tometik2:30",
+        "monsterClass":"animal"
+    },
+    {
+        "id":"brv_richman",
+        "name":"Alkapoan",
+        "iconID":"monsters_ld1:110",
+        "phraseID":"brv_richman",
+        "droplistID":"brv_richman"
+    },
+    {
         "id":"brv_tavern1_guest",
         "name":"Customer",
         "iconID":"monsters_ld1:119",

@@ -32,18 +32,5 @@
                 }
             }
         ]
-    },
-    {
-        "id":"brv_richman",
-        "items":[
-            {
-                "itemID":"gold",
-                "chance":"100",
-                "quantity":{
-                    "min":2,
-                    "max":4
-                }
-            }
-        ]
     }
 ]

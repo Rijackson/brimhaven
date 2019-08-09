@@ -1,5 +1,72 @@
 [
     {
+        "id":"brv_flood",
+        "name":"Much water",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"You fond two not too bright brothers in a cellar of their house. They seemed to be talking about some sinister plan."
+            },
+            {
+                "progress":20,
+                "logText":"They were planning to destroy the great dam of Brimhaven. They just could not agree how they would do it."
+            },
+            {
+                "progress":30,
+                "logText":"They asked you to help them."
+            },
+            {
+                "progress":50,
+                "logText":"You agreed to destroy the dam for them."
+            },
+            {
+                "progress":52,
+                "logText":"They gave you a hand ax that could weaken the dam in a vulnerable place."
+            },
+            {
+                "progress":54,
+                "logText":"You found the weak spot in the dam and started hacking on the wood."
+            },
+            {
+                "progress":56,
+                "logText":"Water came pouring through the hole in the dam. Much water!"
+            },
+            {
+                "progress":70,
+                "logText":"You refused to destroy the dam for them."
+            },
+            {
+                "progress":72,
+                "logText":"With your knowledge, you were not allowed to leave. The two brothers attacked you."
+            },
+            {
+                "progress":100,
+                "logText":"You were arrested while leaving the city. Someone had destroyed the dam, and all suspects would have to be interrogated by the guard's captain."
+            },
+            {
+                "progress":110,
+                "logText":"You promised to track down the real perpetrators and have been released for the time being. However, you should not leave the city."
+            },
+            {
+                "progress":120,
+                "logText":"The two brothers did not know their client. But he seemed to have a lot of gold."
+            },
+            {
+                "progress":130,
+                "logText":"The rich man living up on the hill of Brimhaven seemed to know more than he admitted."
+            },
+            {
+                "progress":150,
+                "logText":"The rich man boasted that he had been bribed by the mayor of Loneford, for to sabotate the dam."
+            },
+            {
+                "progress":999,
+                "logText":"End"
+            }
+        ]
+    },
+    {
         "id":"brv_employee",
         "name":"Work for debts",
         "showInLog":1,
