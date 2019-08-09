@@ -180,12 +180,6 @@
  <tileset firstgid="7449" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_guynmart.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_trail_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="7705" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../altered/drawable/map_trail_1.png" width="512" height="256"/>
- </tileset>
  <layer name="Ground" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJy1lk1ugzAQhQk7uAKbXq1HaM5R9QJVj9BEiAOE7LrFXMGqegZWNYJRnMeMPeZn8UQ09sw3b2xQLnmWXQJqne4Quzr9FEvdIrW0Gusbp55Z47idi39v4LWeTyvsue/omVgm4JOYfcCzht0Cr589cj79uXPMFLYBXuy8bYSpPWvJm8TVMElb7tjeXDrXVPYWLt0Pc7Bnjptyrpj7eoozX8rpTrf58ntgIa6Z+8h9Oz3rPIuYFO+8ueI7akDYI8d9r7Lso3o8iftXTKJ453Fs/vzeIxd75Gb16Wp+VY8ncX+LSRTn/Gq5odxmFs7Zl+9XitsDuJKaYlkn1AfHHZzKUs+sGS7WxD5wTz1zh/k3KcT01QhcaUYNw/XFsWtv/zgf7IHrg+P6zLFOCncQcrleUJxPZMdyiIl9c3Fp75GKsdb2EsrjPO/t6egZrvHA7ZNy1/Qf62mvmWi8a+9Van5KnHvfpX5wTfN9iAn/G4TWKfYPcz3KZA==
