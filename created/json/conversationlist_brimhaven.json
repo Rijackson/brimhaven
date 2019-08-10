@@ -1197,7 +1197,7 @@
     },
     {
         "id":"brv_flood_key",
-		"message":"I can't swim."
+        "message":"I can't swim."
     },
     {
         "id":"brv_flood_key_set1",
@@ -4005,5 +4005,9 @@
                 "value":1
             }
         ]
+    },
+    {
+        "id":"thelry_0",
+        "message":"Hi kid. What can I do for you?"
     }
 ]

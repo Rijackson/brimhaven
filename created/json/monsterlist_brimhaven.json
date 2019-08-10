@@ -68,7 +68,7 @@
     {
         "id":"brv_richman",
         "name":"Alkapoan",
-        "iconID":"monsters_ld1:110",
+        "iconID":"monsters_tometik1:2",
         "phraseID":"brv_richman",
         "droplistID":"brv_richman"
     },
@@ -347,5 +347,15 @@
         "iconID":"monsters_ld1:187",
         "phraseID":"brv_laundry_boss_0",
         "droplistID":"brv_laundry"
+    },
+    {
+        "id":"thelry",
+        "name":"Thelry",
+        "iconID":"monsters_ld1:133",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"thelry",
+        "phraseID":"thelry_0",
+        "droplistID":"thelry"
     }
 ]
