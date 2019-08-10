@@ -480,7 +480,7 @@
     },
     {
         "id":"brv_school_history_52",
-        "message":"Be quiet, please. How can I concentrate if you are talking all the time? Where was I? I better start anew.",
+        "message":"Be quiet, please. How can I concentrate if you are talking all the time? Where was I? I had better start anew.",
         "switchToNPC":"brv_teacher",
         "replies":[
             {
