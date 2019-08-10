@@ -402,7 +402,7 @@
     },
     {
         "id":"brv_school_history_20",
-        "message":"Our redeemers fought a bloody war to make the world worthy for us again. For exchange and out of deepest respect, men helped to build up vast cities and many underground places.",
+        "message":"Our redeemers fought a bloody war to make the world worthy for us again. In exchange and out of deepest respect, men helped to build up vast cities and many underground places.",
         "replies":[
             {
                 "text":"N",
@@ -748,6 +748,7 @@
     },
     {
         "id":"brv_school_seated",
+        "switchToNPC":"brv_teacher",
         "replies":[
             {
                 "nextPhraseID":"X",
