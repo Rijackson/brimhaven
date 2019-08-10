@@ -10,7 +10,7 @@
             },
             {
                 "progress":12,
-                "logText":"You noticed an evil looking statue in a corner. Who on earth puts such an ugly, hideous thing into a school?"
+                "logText":"You noticed an evil looking statue in a corner. Who on earth puts such an ugly, hideous thing in a school?"
             },
             {
                 "progress":20,
@@ -26,7 +26,7 @@
             },
             {
                 "progress":50,
-                "logText":"Everyone should take a set of practicing weapons of the chest and sit down again."
+                "logText":"Everyone should take a set of practice weapons from the chest and sit down again."
             },
             {
                 "progress":60,
@@ -43,7 +43,7 @@
             {
                 "progress":104,
                 "logText":"You started a fight with Golin, but you broke off the duel. Very good.",
-				"rewardExperience":500
+                "rewardExperience":500
             },
             {
                 "progress":110,
@@ -56,20 +56,20 @@
             {
                 "progress":122,
                 "logText":"You started a fight with the teacher and killed her.",
-				"rewardExperience":1000
+                "rewardExperience":1000
             },
             {
                 "progress":124,
                 "logText":"You started a fight with the teacher, but you broke off the duel. Very good.",
-				"rewardExperience":500
+                "rewardExperience":500
             },
             {
                 "progress":130,
-                "logText":"You feel the evil stare the mascot."
+                "logText":"You feel the evil stare of the mascot."
             },
             {
                 "progress":150,
-                "logText":"The evil grinning mascot suddenly grew to incredible size and attacked you!"
+                "logText":"The evil grinning mascot suddenly grew to an incredible size and attacked you!"
             },
             {
                 "progress":152,
@@ -77,26 +77,26 @@
             },
             {
                 "progress":200,
-                "logText":"The teacher thanked you for saving him. School would be over for you. You could go to the baker and get a cake for good performance.",
-				"rewardExperience":5000,
+                "logText":"The teacher thanked you for saving him. School is over for you. You could go to the baker and get a cake for good performance.",
+                "rewardExperience":5000,
                 "finishesQuest":1
             },
             {
                 "progress":210,
-                "logText":"You cheated with the duel. The teacher noticed it and banned you from school.",
-				"rewardExperience":500,
+                "logText":"You cheated during the duel. The teacher noticed it and banned you from the school.",
+                "rewardExperience":500,
                 "finishesQuest":1
             },
             {
                 "progress":220,
-                "logText":"The teacher was very satisfied with your performance in the duel. School would be over for you. You could go to the baker and get a cake for good performance.",
-				"rewardExperience":1000,
+                "logText":"The teacher was very satisfied with your performance in the duel. School is over for you. You could go to the baker and get a cake for good performance.",
+                "rewardExperience":1000,
                 "finishesQuest":1
             },
             {
                 "progress":230,
                 "logText":"The teacher sent you away, because you killed Golin in the duel.",
-				"rewardExperience":500,
+                "rewardExperience":500,
                 "finishesQuest":1
             }
         ]

@@ -343,7 +343,7 @@
     },
     {
         "id":"brv_laundry_boss",
-        "name":"Shop owner",
+        "name":"Laundry owner",
         "iconID":"monsters_ld1:187",
         "phraseID":"brv_laundry_boss_0",
         "droplistID":"brv_laundry"

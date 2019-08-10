@@ -6,7 +6,7 @@
         "stages":[
             {
                 "progress":10,
-                "logText":"You fond two not too bright brothers in a cellar of their house. They seemed to be talking about some sinister plan."
+                "logText":"You found two not very bright brothers in a cellar of their house. They seemed to be talking about some sinister plan."
             },
             {
                 "progress":20,
@@ -22,7 +22,7 @@
             },
             {
                 "progress":52,
-                "logText":"They gave you a hand ax that could weaken the dam in a vulnerable place."
+                "logText":"They gave you a hand axe that could weaken the dam in a vulnerable place."
             },
             {
                 "progress":54,
@@ -30,7 +30,7 @@
             },
             {
                 "progress":56,
-                "logText":"Water came pouring through the hole in the dam. Much water!"
+                "logText":"Water came pouring through the hole in the dam. A lot of water!"
             },
             {
                 "progress":70,
@@ -38,7 +38,7 @@
             },
             {
                 "progress":72,
-                "logText":"With your knowledge, you were not allowed to leave. The two brothers attacked you."
+                "logText":"Given what you knew, you were not allowed to leave. The two brothers attacked you."
             },
             {
                 "progress":100,
@@ -50,7 +50,7 @@
             },
             {
                 "progress":120,
-                "logText":"The two brothers did not know their client. But he seemed to have a lot of gold."
+                "logText":"The two brothers did not know their patron, but he seemed to have a lot of gold."
             },
             {
                 "progress":130,
@@ -58,7 +58,7 @@
             },
             {
                 "progress":150,
-                "logText":"The rich man boasted that he had been bribed by the mayor of Loneford, for to sabotate the dam."
+                "logText":"The rich man boasted that he had been bribed by the mayor of Loneford to sabotate the dam."
             },
             {
                 "progress":999,
@@ -73,15 +73,15 @@
         "stages":[
             {
                 "progress":1,
-                "logText":"The dam is very important for Brimhaven. It should be repaired."
+                "logText":"The dam is very important to Brimhaven. It should be repaired."
             },
             {
                 "progress":10,
-                "logText":"Stebbarik was ill at home in bed. He could not do his job and feared that he would lose his job. Because of his high debts, he feared that Gnossath would then take his house away.\nYou offered to do the work for Stebbarik."
+                "logText":"Stebbarik was ill at home in bed. He could not work and feared that he would lose his job. Because of his high debts, he feared that Gnossath would then take his house away.\nYou offered to do the work for Stebbarik."
             },
             {
                 "progress":30,
-                "logText":"Gnossath told you to carry 25 heavy boulders from the stock to the dam next to him."
+                "logText":"Gnossath told you to carry 25 heavy boulders from the stock to the dam."
             },
             {
                 "progress":40,
@@ -89,19 +89,19 @@
             },
             {
                 "progress":41,
-                "logText":"You had already carried 5 boulders to the dam."
+                "logText":"You have carried 5 boulders to the dam."
             },
             {
                 "progress":42,
-                "logText":"10 boulders."
+                "logText":"You have moved 10 boulders."
             },
             {
                 "progress":43,
-                "logText":"15 boulders."
+                "logText":"You have moved15 boulders. You are getting tired!"
             },
             {
                 "progress":44,
-                "logText":"Only a few still missing..."
+                "logText":"Only a few to go..."
             },
             {
                 "progress":90,
@@ -396,33 +396,33 @@
     },
     {
         "id":"brv_blackjack",
-        "name":"Secret fairplay?",
+        "name":"Fair play?",
         "showInLog":1,
         "stages":[
             {
                 "progress":10,
-                "logText":"I heared noices from the backroom but I was not allowed to enter because I didn't know the password."
+                "logText":"I heared noices from the back room but I was not allowed to enter because I didn't know the password."
             },
             {
                 "progress":20,
-                "logText":"Zimsko told me about gambling in the backroom and that he lost a lot of money. He thinks that they are cheating."
+                "logText":"Zimsko told me about gambling in the back room and that he lost a lot of money. He thinks that they are cheating."
             },
             {
                 "progress":30,
-                "logText":"I told Zimsko that I want to find out more about the gambling and the told me the password to access the backroom."
+                "logText":"I told Zimsko that I want to find out more about the gambling and he told me the password to access the back room."
             },
             {
                 "progress":40,
-                "logText":"With the password I was allowed to enter the backroom.",
+                "logText":"With the password, I was allowed to enter the back room.",
                 "rewardExperience":500
             },
             {
                 "progress":50,
-                "logText":"After accusing the dealer of cheating a tavern brawl started."
+                "logText":"After I accused the dealer of cheating a tavern brawl started."
             },
             {
                 "progress":60,
-                "logText":"All people involved in the tavern brawl survived, but I am no longer allowed to enter the backroom."
+                "logText":"All the people involved in the tavern brawl survived, but I am no longer allowed to enter the back room."
             },
             {
                 "progress":70,

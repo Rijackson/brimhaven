@@ -22,7 +22,7 @@
         "message":"Welcome to my tavern. How can I help you?",
         "replies":[
             {
-                "text":"Do you know something about the backroom?",
+                "text":"Do you know something about the back room?",
                 "nextPhraseID":"brv_tavern_west_waitress_20",
                 "requires":[
                     {
@@ -33,7 +33,7 @@
                 ]
             },
             {
-                "text":"What do you offer",
+                "text":"What do you offer for trade?",
                 "nextPhraseID":"S"
             }
         ]
@@ -135,7 +135,7 @@
                 "nextPhraseID":"brv_zimsko_10_2"
             },
             {
-                "text":"Do you know something about the backroom?",
+                "text":"Do you know something about the back room?",
                 "nextPhraseID":"brv_zimsko_10_1",
                 "requires":[
                     {
@@ -177,7 +177,7 @@
     },
     {
         "id":"brv_zimsko_10_2",
-        "message":"I lost all my money gambling and cant afford a beer.",
+        "message":"I lost all my money gambling and can't afford a beer.",
         "replies":[
             {
                 "text":"Bad luck",
@@ -269,11 +269,11 @@
                 ]
             },
             {
-                "text":"No, you had enough.",
+                "text":"No, you have had enough.",
                 "nextPhraseID":"brv_zimsko_20_1"
             },
             {
-                "text":"Do you know something about the backroom?",
+                "text":"Do you know something about the back room?",
                 "nextPhraseID":"brv_zimsko_30",
                 "requires":[
                     {
@@ -307,7 +307,7 @@
                 ]
             },
             {
-                "text":"I want to find out whats happening in the backroom but they want a password.",
+                "text":"I want to find out whats happening in the back room but they want a password.",
                 "nextPhraseID":"brv_zimsko_30_2",
                 "requires":[
                     {
@@ -329,7 +329,7 @@
                 ]
             },
             {
-                "text":"I want to find out whats happening in the backroom.",
+                "text":"I want to find out whats happening in the back room.",
                 "nextPhraseID":"brv_zimsko_30_1",
                 "requires":[
                     {
@@ -407,7 +407,7 @@
                 ]
             },
             {
-                "text":"I want to find out whats happening in the backroom but they want a password.",
+                "text":"I want to find out whats happening in the back room but they want a password.",
                 "nextPhraseID":"brv_zimsko_30_2",
                 "requires":[
                     {
@@ -428,7 +428,7 @@
     },
     {
         "id":"brv_zimsko_30_1",
-        "message":"Thanks for trying to find out more. But you will need a password for entering the backroom. [He whispers the password in your ear.]",
+        "message":"Thanks for trying to find out more. But you will need a password for entering the back room. [He whispers the password in your ear.]",
         "replies":[
             {
                 "text":"N",
@@ -445,7 +445,7 @@
     },
     {
         "id":"brv_zimsko_30_2",
-        "message":"Thanks for trying to find out more. The password for entering the backroom is... [he whispers the password in your ear.]",
+        "message":"Thanks for trying to find out more. The password for entering the back room is... [he whispers the password in your ear.]",
         "replies":[
             {
                 "text":"N",

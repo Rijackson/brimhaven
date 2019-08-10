@@ -402,7 +402,7 @@
     },
     {
         "id":"brv_school_history_20",
-        "message":"Our redeemers fought a bloody war to make the world worthy for us again. For exchange and out of deepest respect, men helped to build up vast cities and many under ground.",                                                                              
+        "message":"Our redeemers fought a bloody war to make the world worthy for us again. For exchange and out of deepest respect, men helped to build up vast cities and many underground places.",
         "replies":[
             {
                 "text":"N",
@@ -436,7 +436,7 @@
     },
     {
         "id":"brv_school_history_40",
-        "message":"One day, this treacherous liar, Elythara, appeared. Many men were betrayed by her blinding light. They believed in her false promises and were mislaid. A general distrust began, and it didn't take long until weapons were drawn. Brothers fought each other - the horrible War of Dawn began!",
+        "message":"One day, this treacherous liar, Elythara, appeared. Many men were betrayed by her blinding light. They believed in her false promises and were misled. A general distrust began, and it didn't take long until weapons were drawn. Brothers fought each other - the horrible War of Dawn began!",
         "replies":[
             {
                 "text":"N",
@@ -545,7 +545,7 @@
     },
     {
         "id":"brv_school_history_100",
-        "message":"OK now. Does anybody has a question?",
+        "message":"OK now. Does anybody have a question?",
         "replies":[
             {
                 "text":"Yes, please. Who was Elythara?",
@@ -586,7 +586,7 @@
     },
     {
         "id":"brv_school_practice_10",
-        "message":"Everybody get your practicing gear of the chest over there. Each of you take one wooden sword and one paper shield, please. Then sit down again.",
+        "message":"Everybody get your practice gear of the chest over there. Each of you take one wooden sword and one paper shield, please. Then sit down again.",
         "switchToNPC":"brv_teacher",
         "replies":[
             {
@@ -727,7 +727,7 @@
     },
     {
         "id":"brv_school_pupil_60_20",
-        "message":"He jumped up and ran screaming out of the room. The other little students followed in panic.",
+        "message":"[He jumps up and runs screaming out of the room. The other little students follow in panic.]",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -852,7 +852,7 @@
     },
     {
         "id":"brv_school_seated_10",
-        "message":"You sit next to a smug looking child at about your age.",
+        "message":"[You sit next to a smug looking child that is about your age.]",
         "replies":[
             {
                 "text":"N",
@@ -961,7 +961,7 @@
         "switchToNPC":"none",
         "replies":[
             {
-                "text":"Hey, I saw that! Your eyes have sparkled!",
+                "text":"Hey, I saw that! Your eyes sparkled!",
                 "nextPhraseID":"brv_school_statue_12",
                 "requires":[
                     {
@@ -996,7 +996,7 @@
     },
     {
         "id":"brv_school_statue_12",
-        "message":"The statue showed no signs of movement.",
+        "message":"The statue shows no signs of movement.",
         "replies":[
             {
                 "text":"I will keep an eye on you!",
@@ -1098,14 +1098,14 @@
     },
     {
         "id":"brv_school_statue_60",
-        "message":"Me?? NO!! That'd be unfair!! I have done no harm! You're nasty! [The statue began to weep]",
+        "message":"Me?? NO! That'd be unfair! I have done no harm! You're nasty! [The statue begins to weep]",
         "replies":[
             {
                 "text":"OK, OK, I was only joking.",
                 "nextPhraseID":"brv_school_statue_62"
             },
             {
-                "text":"Mh, yes. Let's try, how long you might defend yourself.",
+                "text":"Um, yes. Let's try, and how long you might be able to defend yourself.",
                 "nextPhraseID":"brv_school_statue_70"
             },
             {
@@ -1116,7 +1116,7 @@
     },
     {
         "id":"brv_school_statue_62",
-        "message":"Do not scare me like that again!/n* sob *",
+        "message":"Do not scare me like that again! \n *sob*",
         "replies":[
             {
                 "text":"Well, I better go now.",
@@ -1134,7 +1134,7 @@
     },
     {
         "id":"brv_school_statue_70",
-        "message":"YOU! I HAVE ENOUGH NOW!",
+        "message":"YOU! I HAVE HAD ENOUGH NOW!",
         "replies":[
             {
                 "text":"N",
@@ -1144,7 +1144,7 @@
     },
     {
         "id":"brv_school_statue_80",
-        "message":"Suddenly the small ugly figure begins to rize! Greater and greater, until it seems to almost fill the whole room.",
+        "message":"Suddenly the small ugly figure begins to grow! Bigger and bigger, until it seems to almost fill the whole room.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -1385,7 +1385,7 @@
     },
     {
         "id":"brv_teacher_40",
-        "message":"Back to your seat, until I explained the rules!"
+        "message":"Back to your seat, while I explain the rules!"
     },
     {
         "id":"brv_teacher_60",
@@ -1403,7 +1403,7 @@
     },
     {
         "id":"brv_teacher_60_10",
-        "message":"What an interesting idea! No one ever asked me. Well, I shouldn't do it, I might hurt you. But it is tempting.",
+        "message":"What an interesting idea! Nobody ever asked me. Well, I shouldn't do it, I might hurt you. But it is tempting.",
         "replies":[
             {
                 "text":"Could we begin?",
@@ -1440,7 +1440,7 @@
     },
     {
         "id":"brv_teacher_60_24",
-        "message":"Let's see what you are able to!",
+        "message":"Let's see what you are able to do!",
         "replies":[
             {
                 "text":"Draw your weapon!",
@@ -1683,11 +1683,11 @@
         "message":"Have you gone mad? Why did you release this monster?",
         "replies":[
             {
-                "text":"Instead of scolding you better think of anything helpful.",
+                "text":"Instead of scolding me, it would be better if you could think of something helpful.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"Mad yourself! Who brought this monster here?",
+                "text":"You are mad yourself! Who brought this monster here?",
                 "nextPhraseID":"X"
             }
         ]
@@ -1697,7 +1697,7 @@
         "message":"where... where am I? And you, kid? I have never seen you before. What are you doing in my class?",
         "replies":[
             {
-                "text":"Good morning! Do not worry about me, I'm gone immediately.",
+                "text":"Good morning! Do not worry about me, I'll be gone immediately.",
                 "nextPhraseID":"X"
             },
             {
@@ -1711,7 +1711,7 @@
         "message":"The statue is gone? What a relief - I don't know how to thank you! I never had a good feeling about it.",
         "replies":[
             {
-                "text":"Yes, it seems that it has enchanted you all.",
+                "text":"Yes, it seems that it had enchanted you all.",
                 "nextPhraseID":"brv_teacher_152_20"
             }
         ],
@@ -1752,11 +1752,11 @@
     },
     {
         "id":"brv_teacher_200",
-        "message":"Thank you again for saving me and my class. You are ever welcome here!"
+        "message":"Thank you again for saving me and my class. You are always welcome here!"
     },
     {
         "id":"brv_teacher_210",
-        "message":"I remember to have banned you from school! What are you doing here?"
+        "message":"I remember that I  banned you from this school! What are you doing here?"
     },
     {
         "id":"brv_teacher_220",
@@ -1764,7 +1764,7 @@
     },
     {
         "id":"brv_teacher_230",
-        "message":"Murderer! Out of my eyes!"
+        "message":"Murderer! Out of my sight!"
     },
     {
         "id":"golin",
@@ -1916,7 +1916,7 @@
     },
     {
         "id":"golin_40",
-        "message":"Was about time. This is my favourite class.",
+        "message":"It's about time. This is my favourite class.",
         "replies":[
             {
                 "text":"What will happen now?",
@@ -2071,7 +2071,7 @@
     },
     {
         "id":"golin_150",
-        "message":"Wow, what is that for a beast? What did you do?",
+        "message":"Wow, what is that beast? What did you do?",
         "replies":[
             {
                 "text":"I don't know either, but it looks like it wants to kill me.",
@@ -2081,7 +2081,7 @@
     },
     {
         "id":"golin_152",
-        "message":"Wow, what was that for a beast? You were splendid!",
+        "message":"Wow, what is that beast? You were splendid!",
         "replies":[
             {
                 "text":"Thank you.",
