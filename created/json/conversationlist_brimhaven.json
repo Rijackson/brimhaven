@@ -4013,5 +4013,37 @@
     {
         "id":"thelry_0",
         "message":"Hi kid. What can I do for you?"
+    },
+    {
+        "id":"brv_brother1_watchdog",
+        "message":"Grrr.... Wouff"
+    },
+    {
+        "id":"brv_brother2_door1",
+        "message":"The door is locked.",
+        "replies":[
+            {
+                "text":"I try to use the key that I found in the house nearby to open the door.",
+                "nextPhraseID":"brv_brother2_door2",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brv_key_brother2",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brv_brother2_door2",
+        "message":"The key opens the door.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay_multipurpose",
+                "value":20
+            }
+        ]
     }
 ]

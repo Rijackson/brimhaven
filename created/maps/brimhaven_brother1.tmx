@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.2" orientation="orthogonal" renderorder="right-down" width="10" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="4">
+<map version="1.2" tiledversion="1.2.2" orientation="orthogonal" renderorder="right-down" width="10" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="4">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -180,24 +180,24 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer id="8" name="Ground" width="10" height="8">
+ <layer id="1" name="Ground" width="10" height="8">
   <data encoding="base64" compression="zlib">
    eJzbysnAsJVIfFEKP4apeyiFH8PU7UDDv5DwDk7c6tAxzG2E1F2E2k9IHUjNU07seAcaHwDHm0Je
   </data>
  </layer>
- <layer id="9" name="Objects" width="10" height="8">
+ <layer id="2" name="Objects" width="10" height="8">
   <data encoding="base64" compression="zlib">
    eJxjYMAOOtkwxZhlGRicmSA0DMxkg4ghA2GgvDgThL7LysCQCGSvBKoLZoKIwwAjEFuyMDAsBqp5ywqRTxSAmNfIj1AnCMScSPpuCCLsZBGD0CC9hUhqYGyQuDnQjgAgToaKmQLtahZAmAUDIHXzWFDdSAgAAF5WDts=
   </data>
  </layer>
- <layer id="10" name="Above" width="10" height="8">
+ <layer id="3" name="Above" width="10" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYCAeHBYbuuoE+RHsS0SaRwwAAI9uBUY=
+   eJxjYCAeHBYbHuouEamOGAAAhH0FJg==
   </data>
  </layer>
- <layer id="11" name="Walkable" width="10" height="8" visible="0">
+ <layer id="4" name="Walkable" width="10" height="8">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHEAMQigs2EAXR0uQIoactTici8IAwCspin7
+   eJzbKMbAsHEAMQigs2EAXR0uQIoaQurQ1eJzLwgDAHGoKTQ=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -207,7 +207,14 @@
     <property name="place" value="brother1"/>
    </properties>
   </object>
+  <object id="2" name="brv_brother1" type="container" x="32" y="192" width="32" height="32"/>
  </objectgroup>
- <objectgroup id="6" name="Spawn"/>
+ <objectgroup id="6" name="Spawn">
+  <object id="3" name="watchdog" type="spawn" x="256" y="128" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="brv_brother1_watchdog"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="7" name="Keys"/>
 </map>

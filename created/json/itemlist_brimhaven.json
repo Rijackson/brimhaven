@@ -467,5 +467,12 @@
         "equipEffect":{
             "increaseBlockChance":6
         }
+    },
+    {
+        "id":"brv_key_brother2",
+        "iconID":"items_japozero:384",
+        "name":"Key (found in run-down house East Brimhaven)",
+        "displaytype":"quest",
+        "category":"other"
     }
 ]

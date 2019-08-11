@@ -445,6 +445,10 @@
             {
                 "progress":10,
                 "logText":"Knows about laundry offering upgrades"
+            },
+            {
+                "progress":20,
+                "logText":"brother2_door_opened"
             }
         ]
     }

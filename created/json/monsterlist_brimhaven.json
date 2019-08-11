@@ -357,5 +357,11 @@
         "spawnGroup":"thelry",
         "phraseID":"thelry_0",
         "droplistID":"thelry"
+    },
+    {
+        "id":"brv_brother1_watchdog",
+        "name":"Watchdog",
+        "iconID":"monsters_rltiles2:108",
+        "phraseID":"brv_brother1_watchdog"
     }
 ]

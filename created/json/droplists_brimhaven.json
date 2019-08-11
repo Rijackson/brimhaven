@@ -511,5 +511,18 @@
                 }
             }
         ]
+    },
+    {
+        "id":"brv_brother1",
+        "items":[
+            {
+                "itemID":"brv_key_brother2",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     }
 ]

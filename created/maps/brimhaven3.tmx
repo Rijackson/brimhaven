@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="14">
+<map version="1.2" tiledversion="1.2.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="15">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -198,17 +198,22 @@
    eJxjYCANHBYjUQOVwGCx954wfex9yI7K/0fA3stAd8qxQzAlgJGDeDeBwCUax0swK3Y3MeFxJ6mAkwmVLwPkJ7NiV4svHT6TJYxJBTxQt+ELZ2LsJcduSgG17CWU5/DJL0WLW2xp+BE7dnn0PIcrT8L0X8YTR4TSML589xFHnv4EFf+IZi+6n9EBsWUpIXtBAN3PyHbzoLkDPQ0j57vZSGxcYYEcXuh+RrebHLBTFLs4oTyPD1gKMDBYCRC2WwbJ7ZHQsgcWXheR7IeFN8xeXH72BNrpRYS9IJABtS+TFcK+iMW/H5HsJWQ3DGDLa8iA2LoU5GdSyjFc6RbmHnx1KXJZQKqfcdmLL2/DAK76jBi7iTEfF9iFI82jA2x2nyJCrwyO8oCSdkMJMI2W4qifBxLgK/+J0RvOCMERjKTpoyQsSa07YIAa7XHk8KKnveT4eS6FdctAA2LTFwBwL2gg
   </data>
  </layer>
- <layer id="4" name="Top" width="30" height="30">
+ <layer id="4" name="Objects_brother2_open_door" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztzTENADAIADASkuFfKwZwsJeD1kAjgJ9+O2/WzgsAwB0DFrwBBA==
+  </data>
+ </layer>
+ <layer id="5" name="Top" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJxjYBgFgxFcEhtoFxAHHrHT1vzDAxQOQyX8R8EoGAWjYBSMAnLAQNWvo2AUjILBBwAxpARs
   </data>
  </layer>
- <layer id="5" name="Walkable" width="30" height="30" visible="0">
+ <layer id="6" name="Walkable" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJztk1EOgDAIQz3F7n+F3VB/TMxSoAWmPy7Zh1nXx7DMcRzz2sy6dXP07a+4Sn0/l/uHb3LXfHRxGT+LzWYZ9QxxLX+vHoXt+Vm+lVx4vmz9jCaTF/Y8k/+OujLcyvxUesXmScm4wkUMtDJcdM/TRmz0rcwSOle4zzssF7FXD6RT+oPqizwZbmYulLd0cCP2Tm50J8tl3uDxkUaptZI/5KH2lPVmfBh2lw+j93SVNzO9zvS8Yw6sfO3IwY5tMU+4KKbw
   </data>
  </layer>
- <objectgroup id="6" name="Mapevents">
+ <objectgroup id="7" name="Mapevents">
   <object id="1" name="west" type="mapchange" x="0" y="320" width="32" height="416">
    <properties>
     <property name="map" value="brimhaven1"/>
@@ -221,39 +226,49 @@
     <property name="place" value="south"/>
    </properties>
   </object>
-  <object id="5" name="north2" type="mapchange" x="64" y="0" width="352" height="32">
+  <object id="3" name="north2" type="mapchange" x="64" y="0" width="352" height="32">
    <properties>
     <property name="map" value="brimhaven7"/>
     <property name="place" value="south"/>
    </properties>
   </object>
-  <object id="3" name="brimhaven_employee" type="mapchange" x="832" y="416" width="32" height="32">
+  <object id="4" name="brimhaven_employee" type="mapchange" x="832" y="416" width="32" height="32">
    <properties>
     <property name="map" value="brimhaven_employee"/>
     <property name="place" value="entrance"/>
    </properties>
   </object>
-  <object id="6" name="tavern" type="mapchange" x="864" y="704" width="32" height="32">
+  <object id="5" name="tavern" type="mapchange" x="864" y="704" width="32" height="32">
    <properties>
     <property name="map" value="brimhaven_tavern1"/>
     <property name="place" value="entrance"/>
    </properties>
   </object>
-  <object id="12" name="brother1" type="mapchange" x="512" y="192" width="32" height="32">
+  <object id="6" name="brother1" type="mapchange" x="512" y="192" width="32" height="32">
    <properties>
     <property name="map" value="brimhaven_brother1"/>
     <property name="place" value="entrance"/>
    </properties>
   </object>
-  <object id="13" name="brother2" type="mapchange" x="672" y="224" width="32" height="32">
+  <object id="7" name="brother2" type="mapchange" x="672" y="224" width="32" height="32">
    <properties>
     <property name="map" value="brimhaven_brother2"/>
     <property name="place" value="entrance"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Spawn">
-  <object id="7" name="brv_fisher" type="spawn" x="608" y="736" width="96" height="192">
+ <objectgroup id="8" name="Replace">
+  <object id="8" name="brother2_door" type="replace" x="672" y="192" width="32" height="64">
+   <properties>
+    <property name="Objects" value="Objects_brother2_open_door"/>
+    <property name="requireId" value="brv_nondisplay_multipurpose"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="20"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="9" name="Spawn">
+  <object id="9" name="brv_fisher" type="spawn" x="608" y="736" width="96" height="192">
    <properties>
     <property name="spawngroup" value="brv_fisher"/>
    </properties>
@@ -269,8 +284,8 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Keys">
-  <object id="8" name="andor:1" type="key" x="608" y="896" width="64" height="32">
+ <objectgroup id="10" name="Keys">
+  <object id="12" name="andor:1" type="key" x="608" y="896" width="64" height="32">
    <properties>
     <property name="phrase" value="brv_fisher"/>
     <property name="requireId" value="andor"/>
@@ -278,12 +293,20 @@
     <property name="requireValue" value="1"/>
    </properties>
   </object>
-  <object id="9" name="andor:1b" type="key" x="640" y="736" width="64" height="32">
+  <object id="13" name="andor:1b" type="key" x="640" y="736" width="64" height="32">
    <properties>
     <property name="phrase" value="brv_fisher"/>
     <property name="requireId" value="andor"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object id="14" name="brother2_door" type="key" x="672" y="224" width="32" height="32">
+   <properties>
+    <property name="phrase" value="brv_brother2_door1"/>
+    <property name="requireId" value="brv_nondisplay_multipurpose"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="20"/>
    </properties>
   </object>
  </objectgroup>
