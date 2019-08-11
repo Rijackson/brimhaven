@@ -748,7 +748,6 @@
     },
     {
         "id":"brv_school_seated",
-        "switchToNPC":"brv_teacher",
         "replies":[
             {
                 "nextPhraseID":"X",
@@ -931,6 +930,7 @@
     {
         "id":"brv_school_seated_30",
         "message":"I will start from the beginning again, because it is so important. You can't listen to it often enough.",
+        "switchToNPC":"brv_teacher",
         "replies":[
             {
                 "text":"N",
