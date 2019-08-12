@@ -199,24 +199,24 @@
                 "itemID":"chkn_leg",
                 "chance":"100",
                 "quantity":{
-                    "min":15,
-                    "max":15
+                    "min":8,
+                    "max":8
                 }
             },
             {
                 "itemID":"brv_brew",
                 "chance":"100",
                 "quantity":{
-                    "min":50,
-                    "max":50
+                    "min":10,
+                    "max":10
                 }
             },
             {
                 "itemID":"mead",
                 "chance":"100",
                 "quantity":{
-                    "min":10,
-                    "max":10
+                    "min":5,
+                    "max":5
                 }
             },
             {
@@ -294,24 +294,24 @@
                 "itemID":"cheese",
                 "chance":"100",
                 "quantity":{
-                    "min":10,
-                    "max":10
+                    "min":5,
+                    "max":5
                 }
             },
             {
                 "itemID":"apple_green",
                 "chance":"100",
                 "quantity":{
-                    "min":50,
-                    "max":50
+                    "min":25,
+                    "max":25
                 }
             },
             {
                 "itemID":"apple_red",
                 "chance":"100",
                 "quantity":{
-                    "min":50,
-                    "max":50
+                    "min":25,
+                    "max":25
                 }
             },
             {
@@ -342,16 +342,16 @@
                 "itemID":"radish",
                 "chance":"100",
                 "quantity":{
-                    "min":80,
-                    "max":80
+                    "min":20,
+                    "max":20
                 }
             },
             {
                 "itemID":"strawberry",
                 "chance":"100",
                 "quantity":{
-                    "min":40,
-                    "max":40
+                    "min":25,
+                    "max":25
                 }
             }
         ]
