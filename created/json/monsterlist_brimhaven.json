@@ -363,5 +363,21 @@
         "name":"Watchdog",
         "iconID":"monsters_rltiles2:108",
         "phraseID":"brv_brother1_watchdog"
+    },
+    {
+        "id":"brv_alvies",
+        "name":"Alvies",
+        "iconID":"monsters_tometik7:47",
+        "unique":1,
+        "faction":"brv_brothers",
+        "phraseID":"brv_brothers_select"
+    },
+    {
+        "id":"brv_attohead",
+        "name":"Attohead",
+        "iconID":"monsters_tometik7:45",
+        "unique":1,
+        "faction":"brv_brothers",
+        "phraseID":"brv_brothers_select"
     }
 ]

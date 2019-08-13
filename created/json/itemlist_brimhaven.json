@@ -474,5 +474,19 @@
         "name":"Key (found in run-down house East Brimhaven)",
         "displaytype":"quest",
         "category":"other"
+    },
+    {
+        "id":"hand_axe",
+        "iconID":"items_weapons_3:35",
+        "name":"Hand Axe",
+        "displaytype":"ordinary",
+        "category":"axe",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":1,
+                "max":2
+            },
+            "increaseAttackChance":5
+        }
     }
 ]

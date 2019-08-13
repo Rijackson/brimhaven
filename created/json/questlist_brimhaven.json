@@ -449,6 +449,10 @@
             {
                 "progress":20,
                 "logText":"brother2_door_opened"
+            },
+            {
+                "progress":30,
+                "logText":"never true"
             }
         ]
     }

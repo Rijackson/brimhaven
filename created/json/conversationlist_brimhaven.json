@@ -4045,5 +4045,216 @@
                 "value":20
             }
         ]
+    },
+    {
+        "id":"brv_brothers_0",
+        "message":"\n[You eavesdrop on the middle of the conversation. ]\n\n... have to make sure noone finds out what we are going to do.",
+        "switchToNPC":"brv_alvies",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_brothers_1"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_flood",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"brv_brothers_1",
+        "message":"Some people will be really sad, but we will be rich my brother!",
+        "switchToNPC":"brv_attohead",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_brothers_2"
+            }
+        ]
+    },
+    {
+        "id":"brv_brothers_2",
+        "message":"A UH HUH HUH",
+        "switchToNPC":"brv_alvies",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_brothers_3"
+            }
+        ]
+    },
+    {
+        "id":"brv_brothers_3",
+        "message":"HEH HEH yEa",
+        "switchToNPC":"brv_attohead",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_brothers_4"
+            }
+        ]
+    },
+    {
+        "id":"brv_brothers_4",
+        "message":"\n[This spiteful laughter fits to those simple-minded looking guys. They continue talking more silently and you can't understand them anymore.]"
+    },
+    {
+        "id":"brv_brothers_6",
+        "message":"\n[Seems they still have not seen you, because they have their backs turned to you.] \n\nYour way of destroying the dam will not work. Better let us use a rope.",
+        "switchToNPC":"brv_alvies",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_brothers_7"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_flood",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"brv_brothers_7",
+        "message":"A rope to destroy the great Brimhaven dam? Are you kidding?",
+        "switchToNPC":"brv_attohead",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_brothers_8"
+            }
+        ]
+    },
+    {
+        "id":"brv_brothers_8",
+        "message":"\n[Accidently you make a noise and they turn there heads to you]\n\nHey, what are you doing down here?\n\nNo matter, we have to shut his mouth.",
+        "switchToNPC":"brv_attohead",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_brothers_9"
+            }
+        ]
+    },
+    {
+        "id":"brv_brothers_10",
+        "message":"Would you assist us in destroying the dam?",
+        "replies":[
+            {
+                "text":"Ok, I would like to help you destroy the dam.",
+                "nextPhraseID":"brv_brothers_12"
+            },
+            {
+                "text":"No, I will never do that!",
+                "nextPhraseID":"brv_brothers_11"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_flood",
+                "value":30
+            }
+        ]
+    },
+    {
+        "id":"brv_brothers_11",
+        "message":"Then we have to shut you up.",
+        "replies":[
+            {
+                "text":"Let's fight!",
+                "nextPhraseID":"F"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"brv_brothers",
+                "value":-1
+            }
+        ]
+    },
+    {
+        "id":"brv_brothers_12",
+        "message":"To not attract attention the best way to destroy the dam would be to take this small axe. Use it at the weak point of the dam in the dry river bed. ",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_flood",
+                "value":50
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_flood",
+                "value":52
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"hand_axe",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"brv_brother1_locked",
+        "message":"The hatch seems to be blocked and does not open."
+    },
+    {
+        "id":"brv_brothers_select",
+        "replies":[
+            {
+                "nextPhraseID":"brv_brothers_13",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_flood",
+                        "value":50
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_brothers_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_flood",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_brothers_8",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_flood",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_brothers_6"
+            }
+        ]
+    },
+    {
+        "id":"brv_brothers_13",
+        "message":"Go and destroy the dam."
+    },
+    {
+        "id":"brv_brothers_9",
+        "message":"Since he is already here, we could ask him if he helps us for saving his life.",
+        "switchToNPC":"brv_alvies",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_brothers_10"
+            }
+        ]
     }
 ]
