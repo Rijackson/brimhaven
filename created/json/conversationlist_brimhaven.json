@@ -1296,12 +1296,23 @@
         "id":"brv_flood_0",
         "replies":[
             {
-                "nextPhraseID":"brv_flood_0_10",
+                "nextPhraseID":"brv_flood_0_5",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"brv_flood",
                         "value":70,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_flood",
+                        "value":52
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_flood",
+                        "value":54,
                         "negate":true
                     }
                 ]
@@ -1310,12 +1321,12 @@
     },
     {
         "id":"brv_flood_0_10",
-        "message":"Oops - the water is pouring rather fast!",
+        "message":"Water comes pouring through the hole in the dam. A lot of water!",
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"brv_flood",
-                "value":70
+                "value":54
             },
             {
                 "rewardType":"questProgress",
@@ -1326,6 +1337,31 @@
                 "rewardType":"questProgress",
                 "rewardID":"brv_nondisplay",
                 "value":81
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_flood",
+                "value":56
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay",
+                "value":100
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"exit_guard",
+                "mapName":"brimhaven3"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"exit_guard1",
+                "mapName":"brimhaven4"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"exit_guard2",
+                "mapName":"brimhaven4"
             }
         ]
     },
@@ -4164,7 +4200,7 @@
     },
     {
         "id":"brv_brothers_11",
-        "message":"Then we have to shut you up.",
+        "message":"Then we have to shut you up and do it ourselves.",
         "replies":[
             {
                 "text":"Let's fight!",
@@ -4176,6 +4212,16 @@
                 "rewardType":"alignmentSet",
                 "rewardID":"brv_brothers",
                 "value":-1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_flood",
+                "value":70
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_flood",
+                "value":72
             }
         ]
     },
@@ -4254,6 +4300,83 @@
             {
                 "text":"N",
                 "nextPhraseID":"brv_brothers_10"
+            }
+        ]
+    },
+    {
+        "id":"brv_flood_0_5",
+        "message":"This seems to be the weak spot of the dam the brothers were talking about.",
+        "replies":[
+            {
+                "text":"Start hacking on the wood.",
+                "nextPhraseID":"brv_flood_0_10"
+            }
+        ]
+    },
+    {
+        "id":"brv_exit_forbidden_10",
+        "message":"Stop! All foreigners have to stay in town until we investigated who destroyed the great dam.",
+        "switchToNPC":"brv_exit_guard"
+    },
+    {
+        "id":"brv_flood_20_10",
+        "message":"Water comes pouring through a hole in the dam. A lot of water! If not the brothers then someone else destroyed the dam.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_flood",
+                "value":80
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay",
+                "value":71
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay",
+                "value":81
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay",
+                "value":100
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"exit_guard",
+                "mapName":"brimhaven3"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"exit_guard1",
+                "mapName":"brimhaven4"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"exit_guard2",
+                "mapName":"brimhaven4"
+            }
+        ]
+    },
+    {
+        "id":"brv_flood_20_5",
+        "replies":[
+            {
+                "nextPhraseID":"brv_flood_20_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_flood",
+                        "value":70
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_flood",
+                        "value":80,
+                        "negate":true
+                    }
+                ]
             }
         ]
     }

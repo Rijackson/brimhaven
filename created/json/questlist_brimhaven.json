@@ -41,6 +41,10 @@
                 "logText":"Given what you knew, you were not allowed to leave. The two brothers attacked you."
             },
             {
+                "progress":80,
+                "logText":"Someone else destroyed the dam and water came pouring through a hole in the dam. A lot of water!"
+            },
+            {
                 "progress":100,
                 "logText":"You were arrested while leaving the city. Someone had destroyed the dam, and all suspects would have to be interrogated by the guard's captain."
             },
@@ -174,6 +178,10 @@
             {
                 "progress":89,
                 "logText":"89=End flood"
+            },
+            {
+                "progress":100,
+                "logText":"Leaving Brimhaven is forbidden"
             }
         ]
     },
