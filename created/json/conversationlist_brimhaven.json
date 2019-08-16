@@ -1516,7 +1516,26 @@
     },
     {
         "id":"brv_richman",
-        "message":"I do not remember inviting you to my house."
+        "message":"I do not remember inviting you to my house.",
+        "replies":[
+            {
+                "text":"What do you know about the destruction of the dam?",
+                "nextPhraseID":"brv_richman_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_flood",
+                        "value":110
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_flood",
+                        "value":150,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
     },
     {
         "id":"brv_tavern1_guest",
@@ -4139,7 +4158,7 @@
     },
     {
         "id":"brv_brothers_6",
-        "message":"\n[Seems they still have not seen you, because they have their backs turned to you.] \n\nYour way of destroying the dam will not work. Better let us use a rope.",
+        "message":"\n[Seems they still have not seen you, because they have their backs turned to you.] \n\nYour way of destroying the dam will not work. Better let us use my idea.",
         "switchToNPC":"brv_alvies",
         "replies":[
             {
@@ -4157,7 +4176,7 @@
     },
     {
         "id":"brv_brothers_7",
-        "message":"A rope to destroy the great Brimhaven dam? Are you kidding?",
+        "message":"Your idea to destroy the great Brimhaven dam? Are you kidding?",
         "switchToNPC":"brv_attohead",
         "replies":[
             {
@@ -4253,6 +4272,16 @@
     {
         "id":"brv_brothers_select",
         "replies":[
+            {
+                "nextPhraseID":"brv_brothers_14",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_flood",
+                        "value":56
+                    }
+                ]
+            },
             {
                 "nextPhraseID":"brv_brothers_13",
                 "requires":[
@@ -4490,6 +4519,67 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"brv_richman",
                 "mapName":"brimhaven_house1"
+            }
+        ]
+    },
+    {
+        "id":"brv_brothers_14",
+        "message":"Great how you destroyed the dam!",
+        "replies":[
+            {
+                "text":"Can you tell me who is your patron?",
+                "nextPhraseID":"brv_brothers_15",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_flood",
+                        "value":110
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brv_brothers_15",
+        "message":"We don't know him by name. He looked very rich and I think he lives in the western town alone in a big house.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_flood",
+                "value":120
+            }
+        ]
+    },
+    {
+        "id":"brv_richman_10",
+        "message":"Nnnnnothing. Really, it is the truth!",
+        "replies":[
+            {
+                "text":"I don't believe you a word. I am sent by the captain of the guard. Tell me the truth!",
+                "nextPhraseID":"brv_richman_20"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_flood",
+                "value":130
+            }
+        ]
+    },
+    {
+        "id":"brv_richman_20",
+        "message":"I was bribed by the mayor of Loneford to sabotate the dam. Here are some letters I exchanged with them, that proof what I did. Leave me alone. I will wait here for the guards to arrest me.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_flood",
+                "value":150
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"alkapoans_letters",
+                "value":1
             }
         ]
     }
