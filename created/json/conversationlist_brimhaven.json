@@ -4316,7 +4316,20 @@
     {
         "id":"brv_exit_forbidden_10",
         "message":"Stop! All foreigners have to stay in town until we investigated who destroyed the great dam.",
-        "switchToNPC":"brv_exit_guard"
+        "switchToNPC":"brv_exit_guard",
+        "replies":[
+            {
+                "text":"Who gave this order?",
+                "nextPhraseID":"brv_exit_forbidden_20"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_flood",
+                "value":100
+            }
+        ]
     },
     {
         "id":"brv_flood_20_10",
@@ -4377,6 +4390,106 @@
                         "negate":true
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "id":"brv_exit_forbidden_20",
+        "message":"Mustura, the captain of the guard gave the order. Usually you can find her in front of the guard house in the center of the town nrth of the church. "
+    },
+    {
+        "id":"brv_guard_captain_10",
+        "message":"Always stay on the right side of the law.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_guard_captain_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay",
+                        "value":100
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brv_guard_captain_20",
+        "message":"Do you know anything about the destruction of the dam?",
+        "replies":[
+            {
+                "text":"[Lie] I have  idea, but I will try to help you.",
+                "nextPhraseID":"brv_guard_captain_40"
+            },
+            {
+                "text":"Alkapoan was the patron. Here are letters proofing his guilt. He is waiting at his home for you to undergo punishment.",
+                "nextPhraseID":"brv_guard_captain_30",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"alkapoans_letters",
+                        "value":1,
+                        "negate":false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brv_guard_captain_40",
+        "message":"Thank you. But beware you are not allowed to leave the town until we found out how destroyed the dam.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_flood",
+                "value":110
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_flood",
+                "value":100
+            }
+        ]
+    },
+    {
+        "id":"brv_guard_captain_30",
+        "message":"We will check this and if it is true then you can leave the town.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_flood",
+                "value":999
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brv_nondisplay",
+                "value":100
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"guard_captain",
+                "mapName":"brimhaven4"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"exit_guard1",
+                "mapName":"brimhaven4"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"exit_guard2",
+                "mapName":"brimhaven4"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"exit_guard",
+                "mapName":"brimhaven3"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"brv_richman",
+                "mapName":"brimhaven_house1"
             }
         ]
     }

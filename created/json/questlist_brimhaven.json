@@ -46,11 +46,11 @@
             },
             {
                 "progress":100,
-                "logText":"You were arrested while leaving the city. Someone had destroyed the dam, and all suspects would have to be interrogated by the guard's captain."
+                "logText":"You were not allowed to leave the city until it was investigated who destroyed the dam."
             },
             {
                 "progress":110,
-                "logText":"You promised to track down the real perpetrators and have been released for the time being. However, you should not leave the city."
+                "logText":"You promised to track down the real perpetrators. However, you should not leave the city."
             },
             {
                 "progress":120,

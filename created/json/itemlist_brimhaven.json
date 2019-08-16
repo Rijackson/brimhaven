@@ -488,5 +488,20 @@
             },
             "increaseAttackChance":5
         }
+    },
+    {
+        "id":"brv_richmans_coin_bag",
+        "iconID":"items_japozero:440",
+        "name":"Coin bag (with letters \"AL\" on it)",
+        "displaytype":"quest",
+        "category":"other",
+        "description":""
+    },
+    {
+        "id":"alkapoans_letters",
+        "iconID":"items_books:7",
+        "name":"Alkapoans's letters",
+        "displaytype":"quest",
+        "category":"other"
     }
 ]

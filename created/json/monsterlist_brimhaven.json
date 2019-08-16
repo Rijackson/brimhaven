@@ -369,21 +369,31 @@
         "name":"Alvies",
         "iconID":"monsters_tometik7:47",
         "unique":1,
+        "monsterClass":"humanoid",
         "faction":"brv_brothers",
-        "phraseID":"brv_brothers_select"
+        "phraseID":"brv_brothers_select",
+        "droplistID":"brv_brothers"
     },
     {
         "id":"brv_attohead",
         "name":"Attohead",
         "iconID":"monsters_tometik7:45",
         "unique":1,
+        "monsterClass":"humanoid",
         "faction":"brv_brothers",
-        "phraseID":"brv_brothers_select"
+        "phraseID":"brv_brothers_select",
+        "droplistID":"brv_brothers"
     },
     {
         "id":"brv_exit_guard",
         "name":"Guard",
         "iconID":"monsters_ld1:41",
         "phraseID":"brv_exit_forbidden_10"
+    },
+    {
+        "id":"brv_guard_captain",
+        "name":"Mustura",
+        "iconID":"monsters_ld2:49",
+        "phraseID":"brv_guard_captain_10"
     }
 ]

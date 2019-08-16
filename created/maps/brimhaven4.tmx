@@ -335,6 +335,11 @@
     <property name="spawngroup" value="brv_exit_guard"/>
    </properties>
   </object>
+  <object name="guard_captain" type="spawn" x="416" y="864" width="128" height="32">
+   <properties>
+    <property name="spawngroup" value="brv_guard_captain"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys">
   <object name="exit1" type="key" x="64" y="64" width="32" height="64">
