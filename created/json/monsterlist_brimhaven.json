@@ -368,21 +368,41 @@
         "id":"brv_alvies",
         "name":"Alvies",
         "iconID":"monsters_tometik7:47",
+        "maxHP":60,
+        "moveCost":5,
         "unique":1,
         "monsterClass":"humanoid",
+        "attackDamage":{
+            "min":2,
+            "max":12
+        },
         "faction":"brv_brothers",
         "phraseID":"brv_brothers_select",
-        "droplistID":"brv_brothers"
+        "droplistID":"brv_brothers",
+        "attackCost":5,
+        "attackChance":80,
+        "blockChance":40,
+        "damageResistance":2
     },
     {
         "id":"brv_attohead",
         "name":"Attohead",
         "iconID":"monsters_tometik7:45",
+        "maxHP":85,
+        "moveCost":5,
         "unique":1,
         "monsterClass":"humanoid",
+        "attackDamage":{
+            "min":4,
+            "max":9
+        },
         "faction":"brv_brothers",
         "phraseID":"brv_brothers_select",
-        "droplistID":"brv_brothers"
+        "droplistID":"brv_brothers",
+        "attackCost":5,
+        "attackChance":79,
+        "blockChance":44,
+        "damageResistance":1
     },
     {
         "id":"brv_exit_guard",

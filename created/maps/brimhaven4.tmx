@@ -323,13 +323,13 @@
   </object>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object name="exit_guard2" type="spawn" x="64" y="64" width="32" height="32">
+  <object name="exit_guard2" type="spawn" x="96" y="96" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
     <property name="spawngroup" value="brv_exit_guard"/>
    </properties>
   </object>
-  <object name="exit_guard1" type="spawn" x="64" y="480" width="32" height="32">
+  <object name="exit_guard1" type="spawn" x="96" y="480" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
     <property name="spawngroup" value="brv_exit_guard"/>
@@ -351,7 +351,7 @@
     <property name="requireValue" value="100"/>
    </properties>
   </object>
-  <object name="exit2" type="key" x="32" y="480" width="96" height="32">
+  <object name="exit2" type="key" x="32" y="480" width="64" height="32">
    <properties>
     <property name="phrase" value="brv_exit_forbidden_10"/>
     <property name="requireId" value="brv_nondisplay"/>

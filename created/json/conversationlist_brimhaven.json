@@ -4214,6 +4214,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"brv_flood",
                 "value":30
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"brv_employer",
+                "mapName":"brimhaven1"
             }
         ]
     },
@@ -4338,7 +4343,24 @@
         "replies":[
             {
                 "text":"Start hacking on the wood.",
-                "nextPhraseID":"brv_flood_0_10"
+                "nextPhraseID":"brv_flood_0_10",
+                "requires":[
+                    {
+                        "requireType":"wear",
+                        "requireID":"hand_axe"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brv_flood_0_7",
+                "requires":[
+                    {
+                        "requireType":"wear",
+                        "requireID":"hand_axe",
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -4519,6 +4541,11 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"brv_richman",
                 "mapName":"brimhaven_house1"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"brv_employer",
+                "mapName":"brimhaven1"
             }
         ]
     },
@@ -4582,5 +4609,9 @@
                 "value":1
             }
         ]
+    },
+    {
+        "id":"brv_flood_0_7",
+        "message":"But with your curently equipped gear you can't hack the wood effectively and without drawing too much attention."
     }
 ]
