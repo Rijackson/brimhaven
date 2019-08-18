@@ -1520,7 +1520,7 @@
         "replies":[
             {
                 "text":"What do you know about the destruction of the dam?",
-                "nextPhraseID":"brv_richman_10",
+                "nextPhraseID":"brv_richman_05",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -1534,6 +1534,10 @@
                         "negate":true
                     }
                 ]
+            },
+            {
+                "text":"I am sorry and will leave.",
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -4579,11 +4583,33 @@
     },
     {
         "id":"brv_richman_10",
-        "message":"Nnnnnothing. Really, it is the truth!",
+        "message":"I... I.... know nothing. Really, it is the truth!",
         "replies":[
             {
-                "text":"I don't believe you a word. I am sent by the captain of the guard. Tell me the truth!",
-                "nextPhraseID":"brv_richman_20"
+                "text":"I don't believe you a word. [Half-lie] The two brothers told me, that you paid them for destroying the dam.",
+                "nextPhraseID":"brv_richman_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_flood",
+                        "value":120
+                    }
+                ]
+            },
+            {
+                "text":"You may be right, sorry.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I found your coin bags and you paid the brothers for destroying the dam. [Show the coin bags]",
+                "nextPhraseID":"brv_richman_20",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brv_richmans_coin_bag",
+                        "value":1
+                    }
+                ]
             }
         ],
         "rewards":[
@@ -4596,7 +4622,13 @@
     },
     {
         "id":"brv_richman_20",
-        "message":"I was bribed by the mayor of Loneford to sabotate the dam. Here are some letters I exchanged with them, that proof what I did. Leave me alone. I will wait here for the guards to arrest me.",
+        "message":"[Breaks down]\n\nI was bribed by the mayor of Loneford to sabotate the dam. Here are some letters I exchanged with them, that proof what I did. Leave me alone. I will wait here for the guards to arrest me.",
+        "replies":[
+            {
+                "text":"You were honest to me so I will follow your wish. (And you can't escape from Brimhaven without me seeing you.)",
+                "nextPhraseID":"X"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -4613,5 +4645,19 @@
     {
         "id":"brv_flood_0_7",
         "message":"But with your curently equipped gear you can't hack the wood effectively and without drawing too much attention."
+    },
+    {
+        "id":"brv_richman_05",
+        "message":"It is very sad that the dam was destroyed. But I don't know anything.",
+        "replies":[
+            {
+                "text":"OK, thank you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Are you sure?",
+                "nextPhraseID":"brv_richman_10"
+            }
+        ]
     }
 ]
