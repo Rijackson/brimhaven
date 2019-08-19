@@ -1314,6 +1314,38 @@
                         "requireID":"brv_flood",
                         "value":54,
                         "negate":true
+                    },
+                    {
+                        "requireType":"wear",
+                        "requireID":"hand_axe",
+                        "negate":false
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_flood_0_7",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_flood",
+                        "value":70,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_flood",
+                        "value":50
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_flood",
+                        "value":54,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"wear",
+                        "requireID":"hand_axe",
+                        "negate":true
                     }
                 ]
             }
@@ -4348,23 +4380,7 @@
         "replies":[
             {
                 "text":"Start hacking on the wood.",
-                "nextPhraseID":"brv_flood_0_10",
-                "requires":[
-                    {
-                        "requireType":"wear",
-                        "requireID":"hand_axe"
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"brv_flood_0_7",
-                "requires":[
-                    {
-                        "requireType":"wear",
-                        "requireID":"hand_axe",
-                        "negate":true
-                    }
-                ]
+                "nextPhraseID":"brv_flood_0_10"
             }
         ]
     },
@@ -4649,7 +4665,7 @@
     },
     {
         "id":"brv_flood_0_7",
-        "message":"But with your curently equipped gear you can't hack the wood effectively and without drawing too much attention."
+        "message":"This seems to be the weak spot of the dam the brothers were talking about. But with your curently equipped gear you can't hack the wood effectively and without drawing too much attention."
     },
     {
         "id":"brv_richman_05",
@@ -4661,7 +4677,24 @@
             },
             {
                 "text":"Are you sure?",
-                "nextPhraseID":"brv_richman_10"
+                "nextPhraseID":"brv_richman_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_flood",
+                        "value":120
+                    }
+                ]
+            },
+            {
+                "text":"Are you sure?",
+                "nextPhraseID":"brv_richman_10",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brv_richmans_coin_bag"
+                    }
+                ]
             }
         ]
     },
