@@ -284,7 +284,7 @@
     <property name="spawngroup" value="brv_fish"/>
    </properties>
   </object>
-  <object name="exit_guard" type="spawn" x="832" y="224" width="32" height="32">
+  <object name="exit_guard" type="spawn" x="832" y="160" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
     <property name="spawngroup" value="brv_exit_guard"/>
@@ -316,7 +316,7 @@
     <property name="requireValue" value="20"/>
    </properties>
   </object>
-  <object name="block_exit" type="key" x="768" y="192" width="128" height="32">
+  <object name="block_exit" type="key" x="800" y="128" width="64" height="32">
    <properties>
     <property name="phrase" value="brv_exit_forbidden_10"/>
     <property name="requireId" value="brv_nondisplay"/>

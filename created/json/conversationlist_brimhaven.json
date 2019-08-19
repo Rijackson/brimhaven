@@ -1516,28 +1516,29 @@
     },
     {
         "id":"brv_richman",
-        "message":"I do not remember inviting you to my house.",
         "replies":[
             {
-                "text":"What do you know about the destruction of the dam?",
-                "nextPhraseID":"brv_richman_05",
+                "nextPhraseID":"brv_richman_25",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"brv_flood",
-                        "value":110
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brv_flood",
-                        "value":150,
-                        "negate":true
+                        "value":150
                     }
                 ]
             },
             {
-                "text":"I am sorry and will leave.",
-                "nextPhraseID":"X"
+                "nextPhraseID":"brv_richman_15",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_flood",
+                        "value":130
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_richman_01"
             }
         ]
     },
@@ -4356,7 +4357,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"brv_flood_0_7",
                 "requires":[
                     {
@@ -4454,18 +4454,19 @@
     },
     {
         "id":"brv_guard_captain_10",
-        "message":"Always stay on the right side of the law.",
         "replies":[
             {
-                "text":"N",
-                "nextPhraseID":"brv_guard_captain_20",
+                "nextPhraseID":"brv_guard_captain_25",
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"brv_nondisplay",
-                        "value":100
+                        "requireID":"brv_flood",
+                        "value":110
                     }
                 ]
+            },
+            {
+                "nextPhraseID":"brv_guard_captain_15"
             }
         ]
     },
@@ -4474,8 +4475,12 @@
         "message":"Do you know anything about the destruction of the dam?",
         "replies":[
             {
-                "text":"[Lie] I have  idea, but I will try to help you.",
+                "text":"[Lie] I have no idea, but I will try to help you.",
                 "nextPhraseID":"brv_guard_captain_40"
+            },
+            {
+                "text":"[Lie] The two brothers living in the north part of the eastern town destroyed the dam.",
+                "nextPhraseID":"brv_guard_captain_22"
             },
             {
                 "text":"Alkapoan was the patron. Here are letters proofing his guilt. He is waiting at his home for you to undergo punishment.",
@@ -4622,11 +4627,11 @@
     },
     {
         "id":"brv_richman_20",
-        "message":"[Breaks down]\n\nI was bribed by the mayor of Loneford to sabotate the dam. Here are some letters I exchanged with them, that proof what I did. Leave me alone. I will wait here for the guards to arrest me.",
+        "message":"[Breaks down]\n\nI was bribed by the mayor of Loneford to sabotate the dam. Here are some letters I exchanged with them, that proof what I did.",
         "replies":[
             {
                 "text":"You were honest to me so I will follow your wish. (And you can't escape from Brimhaven without me seeing you.)",
-                "nextPhraseID":"X"
+                "nextPhraseID":"brv_richman_25"
             }
         ],
         "rewards":[
@@ -4657,6 +4662,138 @@
             {
                 "text":"Are you sure?",
                 "nextPhraseID":"brv_richman_10"
+            }
+        ]
+    },
+    {
+        "id":"brv_richman_15",
+        "message":"You again. I already told you, that I know nothing about the destruction of the dam.",
+        "replies":[
+            {
+                "text":"I don't believe you a word. [Half-lie] The two brothers told me, that you paid them for destroying the dam.",
+                "nextPhraseID":"brv_richman_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_flood",
+                        "value":120
+                    }
+                ]
+            },
+            {
+                "text":"You may be right, sorry.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I found your coin bags and you paid the brothers for destroying the dam. [Show the coin bags]",
+                "nextPhraseID":"brv_richman_20",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brv_richmans_coin_bag",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brv_richman_25",
+        "message":"Leave me alone. I will wait here for the guards to arrest me."
+    },
+    {
+        "id":"brv_richman_01",
+        "message":"I do not remember inviting you to my house.",
+        "replies":[
+            {
+                "text":"What do you know about the destruction of the dam?",
+                "nextPhraseID":"brv_richman_05",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_flood",
+                        "value":110
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_flood",
+                        "value":150,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I am sorry and will leave.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brv_guard_captain_15",
+        "message":"Always stay on the right side of the law.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_guard_captain_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay",
+                        "value":100
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brv_guard_captain_22",
+        "message":"You are accusing poor but honest people. Do you have any proof?",
+        "replies":[
+            {
+                "text":"No, not yet, but I will try to help you.",
+                "nextPhraseID":"brv_guard_captain_23"
+            }
+        ]
+    },
+    {
+        "id":"brv_guard_captain_23",
+        "message":"Come back when you have a proof and until then stop accusing people. Until then you are not allowed to leave the city.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_flood",
+                "value":100
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_flood",
+                "value":110
+            }
+        ]
+    },
+    {
+        "id":"brv_guard_captain_25",
+        "message":"Hello again. Do you have found out, who destroyed the dam?",
+        "replies":[
+            {
+                "text":"No, not yet.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"[Lie] The two brothers living in the north part of the eastern town destroyed the dam.",
+                "nextPhraseID":"brv_guard_captain_22"
+            },
+            {
+                "text":"Alkapoan was the patron. Here are letters proofing his guilt. He is waiting at his home for you to undergo punishment.",
+                "nextPhraseID":"brv_guard_captain_30",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"alkapoans_letters",
+                        "value":1,
+                        "negate":false
+                    }
+                ]
             }
         ]
     }
