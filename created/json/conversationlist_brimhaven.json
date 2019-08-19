@@ -4692,7 +4692,8 @@
                 "requires":[
                     {
                         "requireType":"inventoryKeep",
-                        "requireID":"brv_richmans_coin_bag"
+                        "requireID":"brv_richmans_coin_bag",
+                        "value":1
                     }
                 ]
             }
