@@ -26,7 +26,8 @@
             },
             {
                 "progress":54,
-                "logText":"You found the weak spot in the dam and started hacking on the wood."
+                "logText":"You found the weak spot in the dam and started hacking on the wood.",
+                "rewardExperience":500
             },
             {
                 "progress":56,
@@ -65,8 +66,9 @@
                 "logText":"The rich man boasted that he had been bribed by the mayor of Loneford to sabotate the dam."
             },
             {
-                "progress":999,
+                "progress":200,
                 "logText":"You gave the letters as piece of evidence to the captain of the guard. Now it is up to them to look after the rich man. ",
+                "rewardExperience":1000,
                 "finishesQuest":1
             }
         ]
@@ -183,6 +185,14 @@
             {
                 "progress":100,
                 "logText":"Leaving Brimhaven is forbidden"
+            },
+            {
+                "progress":110,
+                "logText":"Alkapoan told about the captain"
+            },
+            {
+                "progress":120,
+                "logText":"captain told about burning the letters"
             }
         ]
     },

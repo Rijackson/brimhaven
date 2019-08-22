@@ -1550,6 +1550,16 @@
         "id":"brv_richman",
         "replies":[
             {
+                "nextPhraseID":"brv_guard_captain_and_rich_man",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_flood",
+                        "value":200
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"brv_richman_25",
                 "requires":[
                     {
@@ -4472,6 +4482,16 @@
         "id":"brv_guard_captain_10",
         "replies":[
             {
+                "nextPhraseID":"brv_guard_captain_and_rich_man",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_flood",
+                        "value":200
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"brv_guard_captain_25",
                 "requires":[
                     {
@@ -4535,7 +4555,7 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"brv_flood",
-                "value":999
+                "value":200
             },
             {
                 "rewardType":"removeQuestProgress",
@@ -4571,6 +4591,16 @@
                 "rewardType":"spawnAll",
                 "rewardID":"brv_employer",
                 "mapName":"brimhaven1"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"brv_guard_captain",
+                "mapName":"brimhaven_house1"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"brv_richman2",
+                "mapName":"brimhaven_house1"
             }
         ]
     },
@@ -4830,5 +4860,96 @@
                 ]
             }
         ]
+    },
+    {
+        "id":"brv_guard_captain_and_rich_man",
+        "replies":[
+            {
+                "nextPhraseID":"brv_guard_captain_and_rich_man_50",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay",
+                        "value":120
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_guard_captain_and_rich_man_40",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay",
+                        "value":110
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_guard_captain_and_rich_man_10"
+            }
+        ]
+    },
+    {
+        "id":"brv_guard_captain_and_rich_man_10",
+        "message":"[Laughs] You again",
+        "switchToNPC":"brv_richman",
+        "replies":[
+            {
+                "text":"Your laughter will die away. The captain is here and now you will get your deserved punishment!",
+                "nextPhraseID":"brv_guard_captain_and_rich_man_20"
+            }
+        ]
+    },
+    {
+        "id":"brv_guard_captain_and_rich_man_20",
+        "message":"Well...",
+        "switchToNPC":"brv_guard_captain",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_guard_captain_and_rich_man_30"
+            }
+        ]
+    },
+    {
+        "id":"brv_guard_captain_and_rich_man_30",
+        "message":"Let's see who is laughing in the end. The captain came for talking and not arresting. Now she owns a new horse and I will be earning a lot of money with the necessary repairing of the dam and later the food harvesting. I call this win win.",
+        "switchToNPC":"brv_richman",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_guard_captain_and_rich_man_40"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay",
+                "value":110
+            }
+        ]
+    },
+    {
+        "id":"brv_guard_captain_and_rich_man_40",
+        "message":"Alkapoans letters accidently fell into a fire and I am sure some bad unknown spies from Loneford destroyed the dam. Better you disapear soon or I might find some evidence that you are the bad spy from Loneford.",
+        "switchToNPC":"brv_guard_captain",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_guard_captain_and_rich_man_50"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay",
+                "value":120
+            }
+        ]
+    },
+    {
+        "id":"brv_guard_captain_and_rich_man_50",
+        "message":"Better you disapear soon or I might find some evidence that you are the bad spy from Loneford.",
+        "switchToNPC":"brv_guard_captain"
     }
 ]
