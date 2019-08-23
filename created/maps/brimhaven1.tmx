@@ -329,6 +329,7 @@
  <objectgroup name="Spawn" visible="0">
   <object name="brv_employer" type="spawn" x="416" y="320" width="32" height="32">
    <properties>
+    <property name="active" value="false"/>
     <property name="spawngroup" value="brv_employer"/>
    </properties>
   </object>

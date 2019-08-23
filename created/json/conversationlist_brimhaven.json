@@ -291,14 +291,14 @@
         "message":"Ahoy kid! I am Gnossath, warden of the great dam.",
         "replies":[
             {
-                "text":"TEST: Start brv_employee",
+                "text":"N",
                 "nextPhraseID":"brv_employer_01"
             }
         ]
     },
     {
         "id":"brv_employer_01",
-        "message":"Ahoy, kid! I am waiting for Stebbarik. Have you seen him?",
+        "message":"I am waiting for Stebbarik. Have you seen him?",
         "replies":[
             {
                 "text":"No. What do you want of him?",
@@ -1834,7 +1834,7 @@
     },
     {
         "id":"anakis_can_you_take_revenge",
-        "message":"Can you find the Basilisk and kill it? But take care that the same fate that happened to my sister does not befall you. ",
+        "message":"Can you find the Basilisk and kill it? But take care that the same fate that happened to my sister does not befall you.",
         "replies":[
             {
                 "text":"I already found the Basilisk and killed it.",
@@ -1965,7 +1965,7 @@
     },
     {
         "id":"anakis_thank_taking_revenge",
-        "message":"Thank you for taking revenge for Juttarka. I will go now and mourn for my sister. ",
+        "message":"Thank you for taking revenge for Juttarka. I will go now and mourn for my sister.",
         "replies":[
             {
                 "text":"N",
@@ -2019,7 +2019,7 @@
     },
     {
         "id":"anakis_sad_blood_not_use_for_sister",
-        "message":"Oh no. Why did you not even try to help her? Now i will go and mourn for my sister. ",
+        "message":"Oh no. Why did you not even try to help her? Now i will go and mourn for my sister.",
         "replies":[
             {
                 "text":"N",
@@ -3336,7 +3336,7 @@
     },
     {
         "id":"basiliskcave2_warn",
-        "message":"You see an old Basilisk at the end of the room that glances at you. With a feeling of deadly danger your movements gets slower the nearer you go. ",
+        "message":"You see an old Basilisk at the end of the room that glances at you. With a feeling of deadly danger your movements gets slower the nearer you go.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -4298,7 +4298,7 @@
     },
     {
         "id":"brv_brothers_12",
-        "message":"To not attract attention the best way to destroy the dam would be to take this small axe. Use it at the weak point of the dam in the dry river bed. ",
+        "message":"To not attract attention the best way to destroy the dam would be to take this small axe. Use it at the weak point of the dam in the dry river bed.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -4476,7 +4476,7 @@
     },
     {
         "id":"brv_exit_forbidden_20",
-        "message":"Mustura, the captain of the guard gave the order. Usually you can find her in front of the guard house in the center of the town north of the church. "
+        "message":"Mustura, the captain of the guard, gave the order. Usually you can find her in front of the guard house in the center of the town north of the church."
     },
     {
         "id":"brv_guard_captain_10",
@@ -4932,13 +4932,6 @@
     {
         "id":"brv_guard_captain_and_rich_man_40",
         "message":"Alkapoans letters accidently fell into a fire and I am sure some bad unknown spies from Loneford destroyed the dam. Better you disapear soon or I might find some evidence that you are the bad spy from Loneford.",
-        "switchToNPC":"brv_guard_captain",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"brv_guard_captain_and_rich_man_50"
-            }
-        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
