@@ -46,7 +46,7 @@
   <image source="../drawable/map_entrance_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="1841" name="map_entrance_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../altered/spritesheets/map_entrance_2.png" width="512" height="256"/>
+  <image source="../drawable/map_entrance_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="1969" name="map_fence_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_fence_1.png" width="512" height="256"/>
@@ -94,7 +94,7 @@
   <image source="../drawable/map_indoor_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="3889" name="map_indoor_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../altered/spritesheets/map_indoor_2.png" width="512" height="256"/>
+  <image source="../drawable/map_indoor_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="4017" name="map_kitchen_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_kitchen_1.png" width="512" height="256"/>
@@ -106,7 +106,7 @@
   <image source="../drawable/map_pillar_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="4401" name="map_pillar_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../altered/spritesheets/map_pillar_2.png" width="512" height="256"/>
+  <image source="../drawable/spritesheets/map_pillar_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="4529" name="map_plant_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_plant_1.png" width="512" height="256"/>
@@ -121,7 +121,7 @@
   <image source="../drawable/map_rock_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="5041" name="map_roof_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../altered/spritesheets/map_roof_1.png" width="512" height="256"/>
+  <image source="../drawable/spritesheets/map_roof_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="5169" name="map_roof_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_roof_2.png" width="512" height="256"/>
