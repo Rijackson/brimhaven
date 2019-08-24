@@ -4944,5 +4944,31 @@
         "id":"brv_guard_captain_and_rich_man_50",
         "message":"Better you disapear soon or I might find some evidence that you are the bad spy from Loneford.",
         "switchToNPC":"brv_guard_captain"
+    },
+    {
+        "id":"brv_prison_guard",
+        "replies":[
+            {
+                "nextPhraseID":"brv_prison_guard_10"
+            },
+            {
+                "nextPhraseID":"brv_prison_guard_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_flood",
+                        "value":200
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brv_prison_guard_20",
+        "message":"Are you looking for the captain? He is already away for a long time now arresting the destructor of the dam."
+    },
+    {
+        "id":"brv_prison_guard_10",
+        "message":"The prison is currently vacant and I hope you don't give me a reason to change this."
     }
 ]

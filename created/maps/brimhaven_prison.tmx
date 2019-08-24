@@ -208,7 +208,13 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn"/>
+ <objectgroup id="6" name="Spawn">
+  <object id="2" name="guard" type="spawn" x="32" y="192" width="160" height="32">
+   <properties>
+    <property name="spawngroup" value="brv_prison_guard"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="7" name="Keys"/>
  <objectgroup id="8" name="Replace"/>
 </map>
