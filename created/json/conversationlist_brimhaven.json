@@ -4970,5 +4970,53 @@
     {
         "id":"brv_prison_guard_10",
         "message":"The prison is currently vacant and I hope you don't give me a reason to change this."
+    },
+    {
+        "id":"brv2_grave_1",
+        "message":"Here lies Berri and his wife Dalyve."
+    },
+    {
+        "id":"brv2_grave_2",
+        "message":"RIP Boots. Died the thirteenth day of the twelveth month of ... [You can't read the year, because it's covered in moss] "
+    },
+    {
+        "id":"brv2_grave_3",
+        "message":"Here lies my wife. I bid her goodbye. She rests in peace, and now so do I."
+    },
+    {
+        "id":"brv2_grave_4",
+        "message":"The gravestone is old and worn. You can't make out what it says."
+    },
+    {
+        "id":"brv2_grave_5",
+        "message":"Here lies a stranger, who came to Brimhaven after being attacked. Alas, we could not save him."
+    },
+    {
+        "id":"brv2_grave_6",
+        "message":"The epitaph is in a language you can't read."
+    },
+    {
+        "id":"brv2_grave_7",
+        "message":"Zhyont. He never killed anyone that did not need killing."
+    },
+    {
+        "id":"brv2_grave_8",
+        "message":"Here lies Captain Fhoric. He died to protect our town, for which we will be forever grateful."
+    },
+    {
+        "id":"brv2_grave_9",
+        "message":"Here lies Connat, who spent his life complaining that he was dying. In the end, he was right."
+    },
+    {
+        "id":"brv2_grave_10",
+        "message":"Here lies Fredd. A big rock fell on his head. "
+    },
+    {
+        "id":"brv2_grave_11",
+        "message":"Unknown. Found outside of town, close to the road. RIP."
+    },
+    {
+        "id":"brv2_grave_12",
+        "message":"Here lies Reptt, the money lender, who never did collect his debt."
     }
 ]

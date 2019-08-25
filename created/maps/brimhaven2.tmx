@@ -198,7 +198,7 @@
    eJxjYBgc4LDYQLtgFIyCUTAKRsFgBwfFRuuL4QIuD1A8DlT6GbV31N7hZO9wBwAVOAli
   </data>
  </layer>
- <layer name="Walkable" width="30" height="28" visible="0">
+ <layer name="Walkable" width="30" height="28">
   <data encoding="base64" compression="zlib">
    eJztkkEOACEIA32F//+CP9yTiTEsVGjNHpaE6AEZih29tbHkGqP7iUbUR8X1Zpl3hGvVohxGrypTxYvYNxhMvW/vlEyLcco9zUiz5Vc219sBsiOlF27oVf3tz7W5jBmsngrufLOe+x2JvT67w2pk9Hp7OOmt0lv1UaSLzWXpzcyQ0YnO8zU/s/tGvIiN1FW8nPHgLR4jH6eyX2w=
   </data>
@@ -258,6 +258,18 @@
     <property name="place" value="entrance"/>
    </properties>
   </object>
+  <object name="brv2_grave_1" type="sign" x="384" y="608" width="32" height="32"/>
+  <object name="brv2_grave_2" type="sign" x="128" y="544" width="32" height="32"/>
+  <object name="brv2_grave_3" type="sign" x="192" y="608" width="32" height="32"/>
+  <object name="brv2_grave_4" type="sign" x="256" y="608" width="32" height="32"/>
+  <object name="brv2_grave_5" type="sign" x="192" y="544" width="32" height="32"/>
+  <object name="brv2_grave_6" type="sign" x="128" y="608" width="32" height="32"/>
+  <object name="brv2_grave_7" type="sign" x="128" y="672" width="32" height="32"/>
+  <object name="brv2_grave_8" type="sign" x="320" y="608" width="32" height="32"/>
+  <object name="brv2_grave_9" type="sign" x="192" y="672" width="32" height="32"/>
+  <object name="brv2_grave_10" type="sign" x="448" y="608" width="32" height="32"/>
+  <object name="brv2_grave_11" type="sign" x="256" y="672" width="32" height="32"/>
+  <object name="brv2_grave_12" type="sign" x="192" y="736" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="woodcutter" type="spawn" x="800" y="288" width="96" height="32">
