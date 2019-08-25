@@ -51,6 +51,22 @@
                         "value":1
                     }
                 ]
+            },
+            {
+                "nextPhraseID":"brv_school_check_duel_38",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_school2",
+                        "value":150
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay2",
+                        "value":50,
+						"negate":true
+                    }
+                ]
             }
         ]
     },
@@ -288,6 +304,22 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"brv_school2",
                 "value":150
+            }
+        ]
+    },
+    {
+        "id":"brv_school_check_duel_38",
+        "message":"A panic breaks out. Screaming, all the little students run out of the building. Just Golin remains.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay2",
+                "value":50
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"brv_school_pupil",
+                "mapName":"brimhaven_school"
             }
         ]
     },
@@ -948,6 +980,12 @@
                         "requireType":"questProgress",
                         "requireID":"brv_nondisplay2",
                         "value":30
+                    },
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"brv_school2",
+                        "value":60,
+						"negate":true
                     }
                 ]
             },
@@ -985,11 +1023,6 @@
                         "requireType":"killedMonster",
                         "requireID":"golin",
                         "value":1
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brv_nondisplay2",
-                        "value":50
                     }
                 ]
             }
@@ -1189,6 +1222,22 @@
     {
         "id":"brv_school_walking",
         "replies":[
+            {
+                "nextPhraseID":"brv_teacher_230",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_school2",
+                        "value":150
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay2",
+                        "value":50,
+						"negate":true
+                    }
+                ]
+            },
             {
                 "nextPhraseID":"brv_school_enter"
             }
@@ -1476,6 +1525,10 @@
             {
                 "text":"It was not intentional.",
                 "nextPhraseID":"brv_teacher_102_10"
+            },
+            {
+                "text":"He earned it.",
+                "nextPhraseID":"brv_teacher_102_10"
             }
         ]
     },
@@ -1484,7 +1537,15 @@
         "message":"You killed Golin! You actually killed him! I don't believe it!",
         "replies":[
             {
-                "text":"Now...",
+                "text":"Eh...",
+                "nextPhraseID":"brv_teacher_102_20"
+            },
+            {
+                "text":"It was an accident, tragic.",
+                "nextPhraseID":"brv_teacher_102_20"
+            },
+            {
+                "text":"Your little favourite provoced me.",
                 "nextPhraseID":"brv_teacher_102_20"
             }
         ]
@@ -1532,7 +1593,7 @@
         "replies":[
             {
                 "text":"Thank you!",
-                "nextPhraseID":"X"
+                "nextPhraseID":"brv_teacher_104a_30"
             }
         ],
         "rewards":[
@@ -1726,7 +1787,7 @@
     },
     {
         "id":"brv_teacher_152_20",
-        "message":"brv_teacher_152_20 tbc...",
+        "message":"I still can't believe it. How only could I let this ghastly mascot into here? Especially me as a learned teacher, I should have known better.",
         "replies":[
             {
                 "text":"N",
@@ -1736,7 +1797,7 @@
     },
     {
         "id":"brv_teacher_152_90",
-        "message":"As a reward, you can get yourself a cake from the baker. Tell him I sent you.",
+        "message":"We all owe our lives to you! As a reward, you can get yourself a cake from the baker. Tell him I sent you.",
         "replies":[
             {
                 "text":"Thank you!",
@@ -2106,7 +2167,17 @@
     },
     {
         "id":"golin_200",
-        "message":"200 - The teacher thanked you for saving him. School would be over for you. You could go to the baker and get a cake for good performance."
+        "message":"Wow, that was exciting!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"golin_200_10"
+            }
+        ]
+    },
+    {
+        "id":"golin_200_10",
+        "message":"I never liked this statue, but I never thought that it would be so evil."
     },
     {
         "id":"golin_210",
