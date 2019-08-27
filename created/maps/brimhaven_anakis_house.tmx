@@ -187,20 +187,20 @@
  </layer>
  <layer id="9" name="Objects" width="8" height="9">
   <data encoding="base64" compression="zlib">
-   eJxjYCAO/JGB4GlsDAxy/KhyTEDMIwvBy4Dyj4DyD5HUCAHxcVYE/xNQ7iOSvBIW+wxZEOxbQL23ofoPsGKqfQUUew0VvwClNZDk1yHpeQBknwdiC+zexAAA7PQRFQ==
+   eJxjYCAO/JGB4GlsDAxy/KhyTEDMIwvBy4Dyj4DyD5HUCAHxcVYE/xNQ7iOSvBIW+wxZEOxbQL23ofoPQOkFSPKvgGKvoeIXoLQGklnrkOx+AGSfB2IL3F5FAQAvnxG5
   </data>
  </layer>
  <layer id="10" name="Above" width="8" height="9">
   <data encoding="base64" compression="zlib">
-   eJxjYCAMDosRlt/OiuAzCpCuHx3Es6DK32ZFlV+AJv8aSX4/mlpC9uMDALddClg=
+   eJxjYCAMDosRlt/OiuAzCpCuHx3Es5Cvfz8rfnlSAAC5PAfk
   </data>
  </layer>
- <layer id="11" name="Walkable" width="8" height="9" visible="0">
+ <layer id="11" name="Walkable" width="8" height="9">
   <data encoding="base64" compression="zlib">
    eJzbKMbAsJFOGARwiaMDfPpxqUGWx2UHPnlsdgIAGe8sUA==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="1" name="entrance" type="mapchange" x="64" y="256" width="32" height="32">
    <properties>
     <property name="map" value="brimhaven4"/>
@@ -208,7 +208,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
+ <objectgroup id="6" name="Spawn" visible="0">
   <object id="2" name="anakis" type="spawn" x="64" y="96" width="96" height="64">
    <properties>
     <property name="active" value="false"/>

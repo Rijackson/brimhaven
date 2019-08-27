@@ -533,7 +533,7 @@
         "message":"[You have 21 points.] Do you want one more card?",
         "replies":[
             {
-                "text":"I know what I do. Give me one more card.",
+                "text":"I know what I am doing. Give me one more card.",
                 "nextPhraseID":"blackjack_draw_at_21"
             },
             {

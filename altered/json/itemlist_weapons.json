@@ -1,0 +1,17 @@
+[
+    {
+        "id":"axe1",
+        "iconID":"items_weapons:56",
+        "name":"Woodcutter's axe",
+        "baseMarketCost":24,
+        "category":"axe",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":6,
+                "max":12
+            },
+            "increaseAttackCost":7,
+            "increaseAttackChance":5
+        }
+    }
+]
