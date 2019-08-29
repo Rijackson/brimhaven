@@ -3995,6 +3995,23 @@
             },
             {
                 "text":"Plaese improve my fine green hat.",
+                "nextPhraseID":"brv_laundry_boss_5b",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"hat2",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":1397,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Plaese improve my fine green hat.",
                 "nextPhraseID":"brv_laundry_boss_5",
                 "requires":[
                     {
@@ -4006,6 +4023,23 @@
                         "requireType":"inventoryRemove",
                         "requireID":"gold",
                         "value":1397
+                    }
+                ]
+            },
+            {
+                "text":"Plaese improve my fine snakeskin gloves.",
+                "nextPhraseID":"brv_laundry_boss_6b",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gloves4",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":640,
+                        "negate":true
                     }
                 ]
             },
@@ -4026,6 +4060,23 @@
                 ]
             },
             {
+                "text":"Plaese improve my superior leather boots.",
+                "nextPhraseID":"brv_laundry_boss_7b",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"boots2",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":432,
+                        "negate":true
+                    }
+                ]
+            },
+            {
                 "text":"Please improve my superior leather boots.",
                 "nextPhraseID":"brv_laundry_boss_7",
                 "requires":[
@@ -4042,7 +4093,7 @@
                 ]
             },
             {
-                "text":"I don't have the money to improve any equipment. Can you sell me something else?",
+                "text":"Can you sell me something else?",
                 "nextPhraseID":"brv_laundry_boss_1"
             }
         ]
@@ -5018,5 +5069,35 @@
     {
         "id":"brv2_grave_12",
         "message":"Here lies Reptt, the money lender, who never did collect his debt."
+    },
+    {
+        "id":"brv_laundry_boss_7b",
+        "message":"You don't have the required 432 gold to improve your superior leather boots.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_laundry_boss_2"
+            }
+        ]
+    },
+    {
+        "id":"brv_laundry_boss_6b",
+        "message":"You don't have the required 640 gold to improve your fine snakeskin gloves.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_laundry_boss_2"
+            }
+        ]
+    },
+    {
+        "id":"brv_laundry_boss_5b",
+        "message":"You don't have the required 1,397 gold to improve your fine green hat.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_laundry_boss_2"
+            }
+        ]
     }
 ]
