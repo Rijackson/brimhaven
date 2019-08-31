@@ -35,6 +35,10 @@
             {
                 "text":"What do you offer for trade?",
                 "nextPhraseID":"S"
+            },
+            {
+                "text":"I am looking for my brother, Andor. He looks a bit like me.",
+                "nextPhraseID":"brv_tavern_west_waitress_11"
             }
         ]
     },

@@ -3026,10 +3026,10 @@
     },
     {
         "id":"juttarka_thank",
-        "message":"Thank you for saving my life. Please come back and visit me sometime in the future.",
+        "message":"Thank you for saving my life. Please come back and visit me sometime in the future when you are older.",
         "replies":[
             {
-                "text":"No problem. It was my pleasure.",
+                "text":"No problem. You might like my older brother Andor. It was my pleasure.",
                 "nextPhraseID":"X"
             }
         ]
@@ -3308,6 +3308,10 @@
                         "negate":true
                     }
                 ]
+            },
+            {
+                "text":"I am looking for my brother, Andor. He looks a bit like me.",
+                "nextPhraseID":"fangwurm_talking_1a"
             }
         ]
     },
@@ -3827,6 +3831,10 @@
             {
                 "text":"No, I just want to look around.",
                 "nextPhraseID":"brv_woodcraftsman_2"
+            },
+            {
+                "text":"I am looking for my brother, Andor. He looks a bit like me.",
+                "nextPhraseID":"brv_woodcraftsman_1"
             }
         ]
     },
@@ -3941,6 +3949,10 @@
                         "value":10
                     }
                 ]
+            },
+            {
+                "text":"I am looking for my brother, Andor. He looks a bit like me.",
+                "nextPhraseID":"brv_laundry_boss_0b"
             }
         ]
     },
@@ -5099,5 +5111,49 @@
                 "nextPhraseID":"brv_laundry_boss_2"
             }
         ]
+    },
+    {
+        "id":"brv_laundry_boss_0b",
+        "message":"Sorry. I haven't seen anyone that looks like you.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_laundry_boss_0"
+            }
+        ]
+    },
+    {
+        "id":"brv_tavern_west_waitress_11",
+        "message":"Let me think... ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_tavern_west_waitress_11b"
+            }
+        ]
+    },
+    {
+        "id":"brv_tavern_west_waitress_11b",
+        "message":"No, I am sorry.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_tavern_west_waitress_10"
+            }
+        ]
+    },
+    {
+        "id":"fangwurm_talking_1a",
+        "message":"Yes, I know someone looking almost like you, but he and his parents are from this town.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fangwurm_talking"
+            }
+        ]
+    },
+    {
+        "id":"brv_woodcraftsman_1",
+        "message":"I only know a girl looking like you. [Laughs]"
     }
 ]
