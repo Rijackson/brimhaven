@@ -5266,5 +5266,9 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"brv_bed",
+        "message":"The beds are not free!"
     }
 ]
