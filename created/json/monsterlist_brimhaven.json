@@ -421,5 +421,29 @@
         "name":"Guard",
         "iconID":"monsters_ld1:41",
         "phraseID":"brv_prison_guard"
+    },
+    {
+        "id":"quiet_thief",
+        "name":"Quiet thief",
+        "iconID":"monsters_rogue1:0",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none",
+        "droplistID":"quiet_thief"
+    },
+    {
+        "id":"melona",
+        "name":"Melona",
+        "iconID":"monsters_ld1:148",
+        "unique":1,
+        "movementAggressionType":"none",
+        "phraseID":"melona_0",
+        "droplistID":"melona"
+    },
+    {
+        "id":"brv_inn_guest",
+        "name":"Guest",
+        "iconID":"monsters_ld1:132",
+        "phraseID":"brv_inn_guest_0"
     }
 ]

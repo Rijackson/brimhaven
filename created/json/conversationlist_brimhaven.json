@@ -5155,5 +5155,116 @@
     {
         "id":"brv_woodcraftsman_1",
         "message":"I only know a girl looking like you. [Laughs]"
+    },
+    {
+        "id":"melona_0a",
+        "message":"What can I help you with?",
+        "replies":[
+            {
+                "text":"I'm hungry. Do you have any food to sell?",
+                "nextPhraseID":"melona_1"
+            },
+            {
+                "text":"I need somewhere to sleep. Do you have a bed available?",
+                "nextPhraseID":"melona_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":230,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I'm looking for my brother, Andor. He looks a bit like me.",
+                "nextPhraseID":"melona_3"
+            }
+        ]
+    },
+    {
+        "id":"melona_1",
+        "message":"Certainly. Please take a look at what I can offer.",
+        "replies":[
+            {
+                "text":"Thanks.",
+                "nextPhraseID":"S"
+            }
+        ]
+    },
+    {
+        "id":"melona_2",
+        "message":"Yes. It's 20gp. That may seem like a lot, but it's a one time payment. As long as a bed is free, in the future you can use it anytime you want.",
+        "replies":[
+            {
+                "text":"That's too expensive. Let's talk about something else.",
+                "nextPhraseID":"melona_0a"
+            },
+            {
+                "text":"I'll take it.",
+                "nextPhraseID":"melona_2a",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":20
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"melona_0",
+        "message":"Hello. I'm Melona, and I run this fine establishment.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"melona_0a"
+            }
+        ]
+    },
+    {
+        "id":"melona_3",
+        "message":"Sorry, I haven't seen anyone that looks like you.",
+        "replies":[
+            {
+                "text":"OK. Let's talk about something else.",
+                "nextPhraseID":"melona_0a"
+            }
+        ]
+    },
+    {
+        "id":"melona_2a",
+        "message":"Thank you for your patronage. You can use any available bed.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay_2",
+                "value":230
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":-20
+            }
+        ]
+    },
+    {
+        "id":"brv_inn_guest_0",
+        "message":"Do you mind not bumping into me kid. I've had a long day, and I don't need rude little children bumping into me.",
+        "replies":[
+            {
+                "text":"Sorry.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Maybe it was you that bumped into me!",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I'm a heavily armed little child, so maybe it's you that should not be rude to me!",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]

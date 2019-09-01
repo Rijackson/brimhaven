@@ -257,6 +257,12 @@
     <property name="place" value="entrance"/>
    </properties>
   </object>
+  <object name="inn" type="mapchange" x="192" y="704" width="32" height="32">
+   <properties>
+    <property name="map" value="brimhaven_inn_east"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Replace">
   <object name="brother2_door" type="replace" x="672" y="192" width="32" height="64">
