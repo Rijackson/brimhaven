@@ -522,7 +522,7 @@
     {
         "id":"dagger_assassin",
         "iconID":"items_reterski_1:14",
-        "name":"Assassin's dagger",
+        "name":"Assassin's blade",
         "displaytype":"extraordinary",
         "hasManualPrice":1,
         "baseMarketCost":3706,
@@ -552,6 +552,6 @@
         "hasManualPrice":1,
         "baseMarketCost":437,
         "category":"gem",
-        "description":"This gem is translucent, and you can see sparkling points lof light inside it."
+        "description":"This gem is translucent, and you can see sparkling points of light inside it. Marks and residue on one side indicate it was once mounted in something. "
     }
 ]

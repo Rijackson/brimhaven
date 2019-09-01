@@ -445,5 +445,13 @@
         "name":"Guest",
         "iconID":"monsters_ld1:132",
         "phraseID":"brv_inn_guest_0"
+    },
+    {
+        "id":"brv_metalsmith",
+        "name":"Edrin",
+        "iconID":"monsters_ld1:22",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none"
     }
 ]
