@@ -5297,5 +5297,45 @@
                 "nextPhraseID":"edrin_1"
             }
         ]
+    },
+    {
+        "id":"brv_villager1",
+        "message":"Hello"
+    },
+    {
+        "id":"brv_villager2",
+        "message":"If you want to make some money. Go to the tavern."
+    },
+    {
+        "id":"brv_villager3",
+        "message":"You are not from Brimhaven, are you? If you need a place to stay, visit the inn in the eastern part of the town. There are beds available for rent. But it is bit untidy there."
+    },
+    {
+        "id":"brv_villager4",
+        "message":"Excuse me, I have no time to talk."
+    },
+    {
+        "id":"brv_villager5",
+        "message":"Good day."
+    },
+    {
+        "id":"brv_villager6",
+        "message":"Don't get in my way. Are you one of this guys from the east side of the town without manners?"
+    },
+    {
+        "id":"brv_villager7",
+        "message":"I don't recognize you. Are you one of those people from the east part of the town, who send their cheap cloth wearing children to our school?"
+    },
+    {
+        "id":"brv_villager8",
+        "message":"You look a bit old for a pupil."
+    },
+    {
+        "id":"brv_villager9",
+        "message":"Hello. Great dam. Isn't it? We people from the west side of the town pay for the dam because the people from the east side can't afford it. "
+    },
+    {
+        "id":"brv_villager10",
+        "message":"Taking our good water? Go to the east side of the town. Oh, I forgot... you can't afford a well of your own."
     }
 ]

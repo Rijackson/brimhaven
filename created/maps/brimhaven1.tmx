@@ -326,11 +326,26 @@
   <object name="brv_flood_2a" type="script" x="736" y="640" width="32" height="256"/>
   <object name="brv_flood_2a" type="script" x="320" y="736" width="32" height="96"/>
  </objectgroup>
- <objectgroup name="Spawn" visible="0">
+ <objectgroup name="Spawn">
   <object name="brv_employer" type="spawn" x="416" y="320" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
     <property name="spawngroup" value="brv_employer"/>
+   </properties>
+  </object>
+  <object name="brv_villager9" type="spawn" x="544" y="576" width="128" height="64">
+   <properties>
+    <property name="spawngroup" value="brv_villager9"/>
+   </properties>
+  </object>
+  <object name="brv_villager5" type="spawn" x="192" y="672" width="128" height="224">
+   <properties>
+    <property name="spawngroup" value="brv_villager5"/>
+   </properties>
+  </object>
+  <object name="brv_villager1" type="spawn" x="608" y="768" width="128" height="128">
+   <properties>
+    <property name="spawngroup" value="brv_villager1"/>
    </properties>
   </object>
  </objectgroup>
