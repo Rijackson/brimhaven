@@ -305,7 +305,7 @@
                 {
                     "condition":"food",
                     "magnitude":1,
-                    "duration":999,
+                    "duration":9,
                     "chance":"100"
                 },
                 {
