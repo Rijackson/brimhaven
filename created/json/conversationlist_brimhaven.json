@@ -5205,7 +5205,7 @@
                 "nextPhraseID":"melona_2a",
                 "requires":[
                     {
-                        "requireType":"inventoryKeep",
+                        "requireType":"inventoryRemove",
                         "requireID":"gold",
                         "value":20
                     }
@@ -5241,11 +5241,6 @@
                 "rewardType":"questProgress",
                 "rewardID":"nondisplay_2",
                 "value":230
-            },
-            {
-                "rewardType":"giveItem",
-                "rewardID":"gold",
-                "value":-20
             }
         ]
     },
@@ -5270,5 +5265,37 @@
     {
         "id":"brv_bed",
         "message":"The beds are not free!"
+    },
+    {
+        "id":"edrin_0",
+        "message":"Hello, I'm Edrin, the Brimhaven metalsmith.",
+        "replies":[
+            {
+                "text":"What does a metalsmith do? Is that the same as a blacksmith?",
+                "nextPhraseID":"edrin_1"
+            },
+            {
+                "text":"I don't think that's what I'm looking for. Thanks anyway though.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I'm looking for my brother, Andor. Have you seen anyone around town that looks a bit like me?",
+                "nextPhraseID":"edrin_1a"
+            }
+        ]
+    },
+    {
+        "id":"edrin_1",
+        "message":"As a metalsmith I'm sort of like a blacksmith, but there is a difference. A blacksmith works with iron and steel, but a metalsmith works with many metals. I do work with iron and steel, but only for smaller, high quality objects. I also work with other metals, including precious metals, and even do fine inlay work, and finely jeweled metal items."
+    },
+    {
+        "id":"edrin_1a",
+        "message":"Well, yes, there was someone. He came to me to get a sword sharpened. I can't tell you any more than that though. ",
+        "replies":[
+            {
+                "text":"OK. Thanks. What was it you said you did again?",
+                "nextPhraseID":"edrin_1"
+            }
+        ]
     }
 ]

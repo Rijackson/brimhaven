@@ -452,6 +452,8 @@
         "iconID":"monsters_ld1:22",
         "unique":1,
         "monsterClass":"humanoid",
-        "movementAggressionType":"none"
+        "movementAggressionType":"none",
+        "phraseID":"edrin_0",
+        "droplistID":"edrin"
     }
 ]

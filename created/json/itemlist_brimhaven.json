@@ -534,6 +534,7 @@
                 "max":5
             },
             "increaseAttackCost":4,
+            "increaseAttackChance":20,
             "increaseCriticalSkill":5,
             "setCriticalMultiplier":1.5,
             "addedConditions":[
@@ -553,5 +554,75 @@
         "baseMarketCost":437,
         "category":"gem",
         "description":"This gem is translucent, and you can see sparkling points of light inside it. Marks and residue on one side indicate it was once mounted in something. "
+    },
+    {
+        "id":"letter_opener",
+        "iconID":"items_misc_2:35",
+        "name":"Fancy letter opener",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":986,
+        "category":"dagger",
+        "description":"It has a nice inlaid silver handle. Not much use in a fight though.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":1,
+                "max":1
+            },
+            "increaseAttackCost":4,
+            "increaseAttackChance":2
+        }
+    },
+    {
+        "id":"dagger_sharp_steel_superior",
+        "iconID":"items_misc_5:39",
+        "name":"Superior sharp steel dagger",
+        "displaytype":"ordinary",
+        "category":"dagger",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":3,
+                "max":6
+            },
+            "increaseAttackCost":4,
+            "increaseAttackChance":24
+        }
+    },
+    {
+        "id":"dagger_jeweled",
+        "iconID":"items_weapons_3:46",
+        "name":"Jeweled dagger",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":2942,
+        "category":"dagger",
+        "description":"A dagger that is meant to impress. Unless you are trying to impress an opponent in a fight.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":1,
+                "max":4
+            },
+            "increaseAttackCost":4,
+            "increaseAttackChance":19,
+            "increaseCriticalSkill":1,
+            "setCriticalMultiplier":1.1
+        }
+    },
+    {
+        "id":"scepter_inlaid",
+        "iconID":"items_misc_6:3",
+        "name":"Inlaid scepter",
+        "displaytype":"ordinary",
+        "baseMarketCost":712,
+        "category":"scepter",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":2,
+                "max":9
+            },
+            "increaseAttackCost":6,
+            "increaseAttackChance":14,
+            "increaseBlockChance":7
+        }
     }
 ]
