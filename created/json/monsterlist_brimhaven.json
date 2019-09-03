@@ -429,7 +429,35 @@
         "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"none",
+        "phraseID":"quiet_thief_0",
         "droplistID":"quiet_thief"
+    },
+    {
+        "id":"quiet_thief_1",
+        "name":"Quiet thief",
+        "iconID":"monsters_rogue1:0",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none",
+        "droplistID":"quiet_thief_1"
+    },
+    {
+        "id":"quiet_thief_2",
+        "name":"Quiet thief",
+        "iconID":"monsters_rogue1:0",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none",
+        "droplistID":"quiet_thief_2"
+    },
+    {
+        "id":"quiet_thief_3",
+        "name":"Quiet thief",
+        "iconID":"monsters_rogue1:0",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none",
+        "droplistID":"quiet_thief_3"
     },
     {
         "id":"melona",
