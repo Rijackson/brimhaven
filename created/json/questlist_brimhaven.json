@@ -474,5 +474,58 @@
                 "logText":"never true"
             }
         ]
+    },
+    {
+        "id":"brv_dagger",
+        "name":"A strange looking dagger",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"I asked Edrin about the strange looking dagger I purchased. He told me he recognizes it because he made it many years ago, and it used to have a gem mounted in the pommel. If I can find the gem he can remount it in the dagger, and the dagger will have special properties."
+            },
+            {
+                "progress":20,
+                "logText":"I asked Edrin about the strange looking gem I purchased, and whether he has any idea what it might have been mounted in. He told me he recognizes it, and it used to be mounted in the pommel of a dagger that he made many years ago. If I can find the dagger he can remount the gem, and the dagger will have special properties."
+            },
+            {
+                "progress":30,
+                "logText":"I asked the thief if the dagger he has originally had the gem I purchased in the pommel. His reply was \u201Cmaybe\u201D, and that the dagger was no longer available except at a \u201Cspecial\u201D price."
+            },
+            {
+                "progress":40,
+                "logText":"I asked the thief if the gem he has was originally in the pommel of the dagger I purchased. His reply was \u201Cmaybe\u201D, and that the gem was no longer available except at a \u201Cspecial\u201D price."
+            },
+            {
+                "progress":50,
+                "logText":"I showed the strange looking dagger and the strange looking gem to Edrin. He said they match, and he can repair the dagger by mounting the gem in the pommel again, to give the dagger back its special properties."
+            },
+            {
+                "progress":60,
+                "logText":"Edrin wants 350gp to repair the dagger. I told him I will come back later when I have more money."
+            },
+            {
+                "progress":70,
+                "logText":"Edrin wants 350gp to repair the dagger. I told him that was too expensive. I will keep the strange looking dagger and the strange looking gem.",
+                "rewardExperience":500,
+                "finishesQuest":1
+            },
+            {
+                "progress":80,
+                "logText":"Edrin wants 350gp to repair the dagger. I agreed. Edrin took the dagger and the gem and told me to come back later."
+            },
+            {
+                "progress":90,
+                "logText":"I collected the repaired dagger from Edrin.",
+                "rewardExperience":2000,
+                "finishesQuest":1
+            },
+            {
+                "progress":100,
+                "logText":"I collected the repaired dagger from Edrin.",
+                "rewardExperience":1000,
+                "finishesQuest":1
+            }
+        ]
     }
 ]

@@ -550,7 +550,7 @@
         "id":"quiet_thief",
         "items":[
             {
-                "itemID":"strange_knife",
+                "itemID":"strange_dagger",
                 "chance":"100",
                 "quantity":{
                     "min":1,
@@ -559,6 +559,62 @@
             },
             {
                 "itemID":"strange_gem",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"necklace_dexterity",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"ring_defender",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gloves_leather_attack",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"daggr_curv",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"ring_atkch1",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"hat_fine_leather",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"hat_fancy_green",
                 "chance":"100",
                 "quantity":{
                     "min":1,
@@ -640,7 +696,7 @@
                 }
             },
             {
-                "itemID":"dagger_sharp_steel_superior",
+                "itemID":"dagger_steel_superior",
                 "chance":"100",
                 "quantity":{
                     "min":1,

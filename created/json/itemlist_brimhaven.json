@@ -505,12 +505,12 @@
         "category":"other"
     },
     {
-        "id":"strange_knife",
+        "id":"strange_dagger",
         "iconID":"items_reterski_1:13",
-        "name":"A strange looking knife",
+        "name":"A strange looking dagger",
         "displaytype":"ordinary",
         "category":"dagger",
-        "description":"This knife has a strange looking hilt.",
+        "description":"This dagger has a strange looking hilt.",
         "equipEffect":{
             "increaseAttackDamage":{
                 "min":1,
@@ -574,9 +574,9 @@
         }
     },
     {
-        "id":"dagger_sharp_steel_superior",
+        "id":"dagger_steel_superior",
         "iconID":"items_misc_5:39",
-        "name":"Superior sharp steel dagger",
+        "name":"Superior steel dagger",
         "displaytype":"ordinary",
         "category":"dagger",
         "equipEffect":{
@@ -623,6 +623,17 @@
             "increaseAttackCost":6,
             "increaseAttackChance":14,
             "increaseBlockChance":7
+        }
+    },
+    {
+        "id":"hat_fancy_green",
+        "iconID":"items_rijackson_1:10",
+        "name":"Fancy green hat",
+        "displaytype":"ordinary",
+        "category":"hd_cloth",
+        "equipEffect":{
+            "increaseAttackChance":1,
+            "increaseBlockChance":3
         }
     }
 ]
