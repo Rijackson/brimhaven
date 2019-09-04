@@ -5427,8 +5427,22 @@
     },
     {
         "id":"quiet_thief_1_0",
-        "message":"Blah 1",
-        "switchToNPC":"quiet_thief_1"
+        "message":"Psst! Hey kid, you want to buy some nice stuff?",
+        "switchToNPC":"quiet_thief_1",
+        "replies":[
+            {
+                "text":"Maybe. Show me what you have.",
+                "nextPhraseID":"quiet_thief_1_1"
+            },
+            {
+                "text":"No thanks. I think maybe you don't actually own what you are selling.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Not right now.",
+                "nextPhraseID":"X"
+            }
+        ]
     },
     {
         "id":"quiet_thief_2_0",
@@ -5442,6 +5456,25 @@
     },
     {
         "id":"quiet_thief_0_0",
-        "message":"No blah"
+        "message":"Hello agaiin kid. Want another look at what I have to sell?",
+        "replies":[
+            {
+                "text":"Yes. Show me what you have.",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"Not right now.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"quiet_thief_1_1",
+        "message":"Keep your voice down! We don't want to attract any attention!",
+        "replies":[
+            {
+                "nextPhraseID":"S"
+            }
+        ]
     }
 ]
