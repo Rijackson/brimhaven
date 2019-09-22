@@ -333,19 +333,24 @@
     <property name="spawngroup" value="brv_employer"/>
    </properties>
   </object>
-  <object name="brv_villager9" type="spawn" x="544" y="576" width="128" height="64">
+  <object name="brv_villager11" type="spawn" x="544" y="576" width="128" height="64">
+   <properties>
+    <property name="spawngroup" value="brv_villager11"/>
+   </properties>
+  </object>
+  <object name="brv_villager12" type="spawn" x="192" y="704" width="128" height="128">
+   <properties>
+    <property name="spawngroup" value="brv_villager12"/>
+   </properties>
+  </object>
+  <object name="brv_villager9" type="spawn" x="608" y="768" width="128" height="128">
    <properties>
     <property name="spawngroup" value="brv_villager9"/>
    </properties>
   </object>
-  <object name="brv_villager5" type="spawn" x="192" y="672" width="128" height="224">
+  <object name="brv_villager13" type="spawn" x="192" y="736" width="64" height="64">
    <properties>
-    <property name="spawngroup" value="brv_villager5"/>
-   </properties>
-  </object>
-  <object name="brv_villager1" type="spawn" x="608" y="768" width="128" height="128">
-   <properties>
-    <property name="spawngroup" value="brv_villager1"/>
+    <property name="spawngroup" value="brv_villager13"/>
    </properties>
   </object>
  </objectgroup>

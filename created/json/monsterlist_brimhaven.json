@@ -563,5 +563,35 @@
         "monsterClass":"humanoid",
         "spawnGroup":"brv_villager10",
         "phraseID":"brv_villager10"
-    }
+    },
+    {
+        "id":"brv_villager11",
+        "name":"Commoner",
+        "iconID":"monsters_ld1:82",
+        "phraseID":"brv_villager11"
+    },
+    {
+        "id":"brv_villager12",
+        "name":"Mother",
+        "iconID":"monsters_ld1:188",
+        "phraseID":"brv_villager_12a"
+    },
+    {
+        "id":"brv_villager13",
+        "name":"Child",
+        "iconID":"monsters_ld1:156",
+        "phraseID":"brv_villager13"
+    },
+    {
+        "id":"brv_villager14",
+        "name":"Commoner",
+        "iconID":"monsters_tometik1:60",
+        "phraseID":"brv_villager14"
+    },
+    {
+        "id":"brv_villager15",
+        "name":"Commoner",
+        "iconID":"monsters_tometik6:10",
+        "phraseID":"brv_villager15"
+     }	
 ]

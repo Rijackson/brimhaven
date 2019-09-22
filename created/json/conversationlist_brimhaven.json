@@ -5476,5 +5476,44 @@
                 "nextPhraseID":"S"
             }
         ]
+    },
+    {
+        "id":"brv_villager11",
+        "message":"The people from the west forced us to support the dam, but we don't get any benefit from it and they took all the good land."
+    },
+    {
+        "id":"brv_villager13",
+        "message":"Mama!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_villager12b"
+            }
+        ]
+    },
+    {
+        "id":"brv_villager12b",
+        "message":"Stop talking to my daughter!",
+        "switchToNPC":"brv_villager12",
+        "replies":[
+            {
+                "text":"I am sorry.",
+                "nextPhraseID":"brv_villager_12a"
+            }
+        ]
+    },
+    {
+        "id":"brv_villager_12a",
+        "message":"I have to bring my daughter to the school. I can't let her cross this dangerous area on her own and thiose people from the west don't care at all."
+    },
+    {
+        "id":"brv_villager14",
+        "message":"Go out of my way. Do you think you are something better just because you are one of those rich guys from the western part of the town?"
+    },
+    {
+        "id":"brv_villager15",
+        "message":"If you need a place to sleep, visit the inn. There are beds available for rent."
     }
+
+
 ]
