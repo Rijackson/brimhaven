@@ -489,6 +489,10 @@
                 "logText":"I asked Edrin about the strange looking gem I purchased, and whether he has any idea what it might have been mounted in. He told me he recognizes it, and it used to be mounted in the pommel of a dagger that he made many years ago. If I can find the dagger he can remount the gem, and the dagger will have special properties."
             },
             {
+                "progress":25,
+                "logText":"I asked Edrin about the strange looking dagger and the strange looking gem I purchased. He told me he recognizes them because he made the dagger many years ago. The gem was originally mounted in the pommel, giving the dagger special properties. He offered to repair it for me."
+            },
+            {
                 "progress":30,
                 "logText":"I asked the thief if the dagger he has originally had the gem I purchased in the pommel. His reply was \u201Cmaybe\u201D, and that the dagger was no longer available except at a \u201Cspecial\u201D price."
             },

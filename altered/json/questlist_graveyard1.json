@@ -99,6 +99,14 @@
             {
                 "progress":230,
                 "logText":"bought Brimhaven bed"
+            },
+            {
+                "progress":240,
+                "logText":"purchased the strange looking dagger the hard way."
+            },
+            {
+                "progress":250,
+                "logText":"purchased the strange looking gem the hard way."
             }
         ]
     }

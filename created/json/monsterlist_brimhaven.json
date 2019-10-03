@@ -481,7 +481,7 @@
         "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"none",
-        "phraseID":"edrin_0",
+        "phraseID":"edrin_0_0",
         "droplistID":"edrin"
     },
     {
@@ -593,5 +593,5 @@
         "name":"Commoner",
         "iconID":"monsters_tometik6:10",
         "phraseID":"brv_villager15"
-     }	
+    }
 ]
