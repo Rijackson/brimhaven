@@ -5860,6 +5860,16 @@
     {
         "id":"edrin_4_1",
         "message":"I recognize these. I made the dagger, many years ago. See this recess in the pommel? The gem you have fits in that. It gave the dagger some special properties. If you wish I can repair it for you.",
+        "replies":[
+            {
+                "text":"How much will that cost?",
+                "nextPhraseID":"edrin_4_2"
+            },
+            {
+                "text":"I'll think about it.",
+                "nextPhraseID":"X"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -5914,5 +5924,62 @@
     {
         "id":"edrin_6_0",
         "message":"Blah Blah"
+    },
+    {
+        "id":"edrin_4_2",
+        "message":"The best I can offer is 800gp. The repair is quite delicate, and if done incorrectly it will just be a dagger with a gem in the pommel, and no more.",
+        "replies":[
+            {
+                "text":"That's expensive. I'll think about it.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"That's too expensive. I'll keep the dagger and the gem I have.",
+                "nextPhraseID":"edrin_4_3a"
+            },
+            {
+                "text":"OK. I agree. Here are the dagger and the gem.",
+                "nextPhraseID":"edrin_4_3b",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":800
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"strange_dagger",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"strange_gem",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"edrin_4_3a",
+        "message":"That is up to you, although I think you have made a mistake.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_dagger",
+                "value":70
+            }
+        ]
+    },
+    {
+        "id":"edrin_4_3b",
+        "message":"This will take me some time. Please come back later to collect the repaired dagger. ",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_dagger",
+                "value":80
+            }
+        ]
     }
 ]
