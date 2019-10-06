@@ -221,7 +221,7 @@
     <property name="when" value="always"/>
    </properties>
   </object>
-  <object id="24" name="brv_school_book" type="container" x="64" y="128" width="32" height="32"/>
+  <object id="24" name="book_world_history" type="container" x="64" y="128" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn" visible="0">
   <object id="2" name="brv_school_statue" type="spawn" x="32" y="96" width="32" height="32">

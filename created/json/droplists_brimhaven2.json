@@ -21,10 +21,10 @@
         ]
     },
     {
-        "id":"brv_school_book",
+        "id":"book_world_history",
         "items":[
             {
-                "itemID":"brv_school_book",
+                "itemID":"book_world_history",
                 "chance":"100",
                 "quantity":{
                     "min":1,
