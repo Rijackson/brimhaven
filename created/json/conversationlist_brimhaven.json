@@ -5882,6 +5882,35 @@
         "id":"edrin_0_0",
         "replies":[
             {
+                "text":"Have you repaired the dagger? ",
+                "nextPhraseID":"edrin_7_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":260
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":70,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":90,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":100,
+                        "negate":true
+                    }
+                ]
+            },
+            {
                 "text":"I brought a gem. I think it's the right one for the dagger we discussed.",
                 "nextPhraseID":"edrin_5_0",
                 "requires":[
@@ -5919,11 +5948,11 @@
     },
     {
         "id":"edrin_5_0",
-        "message":"Blah Blah 2"
+        "message":"When agree to repair dagger, set hidden quest stage!"
     },
     {
         "id":"edrin_6_0",
-        "message":"Blah Blah"
+        "message":"When agree to repair dagger, set hidden quest stage!"
     },
     {
         "id":"edrin_4_2",
@@ -5979,7 +6008,92 @@
                 "rewardType":"questProgress",
                 "rewardID":"brv_dagger",
                 "value":80
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"Dagger_repair"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay_2",
+                "value":260
             }
         ]
+    },
+    {
+        "id":"edrin_7_0",
+        "replies":[
+            {
+                "nextPhraseID":"edrin_7_1a",
+                "requires":[
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"Dagger_repair",
+                        "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":240,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":250,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"edrin_7_1b",
+                "requires":[
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"Dagger_repair",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"edrin_7_1c"
+            }
+        ]
+    },
+    {
+        "id":"edrin_7_1a",
+        "message":"Yes, it is done. Here is the repaired dagger.",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"dagger_assassin",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_dagger",
+                "value":90
+            }
+        ]
+    },
+    {
+        "id":"edrin_7_1b",
+        "message":"Yes, it is done. Here is the repaired dagger.",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"strange_dagger",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_dagger",
+                "value":100
+            }
+        ]
+    },
+    {
+        "id":"edrin_7_1c",
+        "message":"No, not yet. You must have patience. I told you this is a difficult repair."
     }
 ]
