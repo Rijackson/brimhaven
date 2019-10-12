@@ -508,7 +508,7 @@
         "id":"strange_dagger",
         "iconID":"items_reterski_1:13",
         "name":"A strange looking dagger",
-        "displaytype":"ordinary",
+        "displaytype":"quest",
         "category":"dagger",
         "description":"This dagger has a strange looking hilt.",
         "equipEffect":{
@@ -549,7 +549,7 @@
         "id":"strange_gem",
         "iconID":"items_misc_6:33",
         "name":"A strange looking gem",
-        "displaytype":"extraordinary",
+        "displaytype":"quest",
         "hasManualPrice":1,
         "baseMarketCost":437,
         "category":"gem",

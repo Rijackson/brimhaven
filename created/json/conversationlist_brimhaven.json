@@ -5194,7 +5194,7 @@
     },
     {
         "id":"melona_2",
-        "message":"Yes. It's 20gp. That may seem like a lot, but it's a one time payment. As long as a bed is free, in the future you can use it anytime you want.",
+        "message":"Yes. It's 20gp. That may seem like a lot, but it's a one time payment. As long as a bed is free, in the future you can use it any time you want.",
         "replies":[
             {
                 "text":"That's too expensive. Let's talk about something else.",
@@ -5289,36 +5289,6 @@
         "message":"As a metalsmith I'm sort of like a blacksmith, but there is a difference. A blacksmith works with iron and steel, but a metalsmith works with many metals. I do work with iron and steel, but only for smaller, high quality objects. I also work with other metals, including precious metals, and even do fine inlay work, and finely jeweled metal items.",
         "replies":[
             {
-                "text":"That's Interesting, but let's talk about something else.",
-                "nextPhraseID":"edrin_0_0"
-            },
-            {
-                "text":"I don't think I need the services of a metalsmith right now.",
-                "nextPhraseID":"X"
-            },
-            {
-                "text":"If you have those skills I would like you to look at something I purchased locally. A strange looking dagger.",
-                "nextPhraseID":"edrin_2_1",
-                "requires":[
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"strange_dagger",
-                        "value":1
-                    }
-                ]
-            },
-            {
-                "text":"If you have those skills I would like you to look at something I purchased locally. A strange looking gem.",
-                "nextPhraseID":"edrin_3_1",
-                "requires":[
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"strange_gem",
-                        "value":1
-                    }
-                ]
-            },
-            {
                 "text":"If you have those skills I would like you to look at two items I purchased locally. A strange looking dagger and a strange looking gem.",
                 "nextPhraseID":"edrin_4_1",
                 "requires":[
@@ -5349,8 +5319,104 @@
                         "requireID":"brv_dagger",
                         "value":80,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":70,
+                        "negate":true
                     }
                 ]
+            },
+            {
+                "text":"If you have those skills I would like you to look at something I purchased locally. A strange looking dagger.",
+                "nextPhraseID":"edrin_2_1",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"strange_dagger",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":70,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":50,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":25,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":80,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"If you have those skills I would like you to look at something I purchased locally. A strange looking gem.",
+                "nextPhraseID":"edrin_3_1",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"strange_gem",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":70,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":50,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":25,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":80,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"That's Interesting, but let's talk about something else.",
+                "nextPhraseID":"edrin_0_0"
+            },
+            {
+                "text":"I don't think I need the services of a metalsmith right now.",
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -5626,7 +5692,12 @@
         "message":"Keep your voice down! We don't want to attract any attention!",
         "replies":[
             {
+                "text":"OK. Don't worry. I can keep a secret.",
                 "nextPhraseID":"S"
+            },
+            {
+                "text":"It sounds like you want to do something illegal. I don't want trouble.",
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -5880,6 +5951,7 @@
     },
     {
         "id":"edrin_0_0",
+        "message":"Hello.",
         "replies":[
             {
                 "text":"Have you repaired the dagger? ",
@@ -5887,8 +5959,8 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"nondisplay_2",
-                        "value":260
+                        "requireID":"brv_dagger",
+                        "value":80
                     },
                     {
                         "requireType":"questProgress",
@@ -5918,6 +5990,46 @@
                         "requireType":"questProgress",
                         "requireID":"brv_dagger",
                         "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":25,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":70,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":80,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":90,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":100,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"strange_gem",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"strange_dagger",
+                        "value":1
                     }
                 ]
             },
@@ -5929,6 +6041,46 @@
                         "requireType":"questProgress",
                         "requireID":"brv_dagger",
                         "value":20
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":25,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":70,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":80,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":90,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":100,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"strange_dagger",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"strange_gem",
+                        "value":1
                     }
                 ]
             },
@@ -5948,11 +6100,45 @@
     },
     {
         "id":"edrin_5_0",
-        "message":"When agree to repair dagger, set hidden quest stage!"
+        "message":"Yes, that's the one that matches the dagger! Now I have both pieces, I can repair the dagger for you if you wish.",
+        "replies":[
+            {
+                "text":"How much will that cost?",
+                "nextPhraseID":"edrin_5_1"
+            },
+            {
+                "text":"I'll think about it.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_dagger",
+                "value":50
+            }
+        ]
     },
     {
         "id":"edrin_6_0",
-        "message":"When agree to repair dagger, set hidden quest stage!"
+        "message":"Yes, that's the one that matches the gem! Now I have both pieces, I can repair the dagger for you if you wish.",
+        "replies":[
+            {
+                "text":"How much will that cost?",
+                "nextPhraseID":"edrin_6_1"
+            },
+            {
+                "text":"I'll think about it",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_dagger",
+                "value":50
+            }
+        ]
     },
     {
         "id":"edrin_4_2",
@@ -5960,7 +6146,7 @@
         "replies":[
             {
                 "text":"That's expensive. I'll think about it.",
-                "nextPhraseID":"X"
+                "nextPhraseID":"edrin_4_3c"
             },
             {
                 "text":"That's too expensive. I'll keep the dagger and the gem I have.",
@@ -6012,11 +6198,6 @@
             {
                 "rewardType":"createTimer",
                 "rewardID":"Dagger_repair"
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"nondisplay_2",
-                "value":260
             }
         ]
     },
@@ -6095,5 +6276,160 @@
     {
         "id":"edrin_7_1c",
         "message":"No, not yet. You must have patience. I told you this is a difficult repair."
+    },
+    {
+        "id":"edrin_4_3c",
+        "message":"Feel free to come back when you decide.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_dagger",
+                "value":60
+            }
+        ]
+    },
+    {
+        "id":"edrin_5_1",
+        "message":"The best I can offer is 800gp. The repair is quite delicate, and if done incorrectly it will just be a dagger with a gem in the pommel, and no more.",
+        "replies":[
+            {
+                "text":"That's expensive. I'll think about it.",
+                "nextPhraseID":"edrin_5_2c"
+            },
+            {
+                "text":"That's too expensive. I'll keep the dagger and the gem I have.",
+                "nextPhraseID":"edrin_5_2a"
+            },
+            {
+                "text":"OK. I agree. Here are the dagger and the gem.",
+                "nextPhraseID":"edrin_5_2b",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":800
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"strange_dagger",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"strange_gem",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"edrin_6_1",
+        "message":"The best I can offer is 800gp. The repair is quite delicate, and if done incorrectly it will just be a dagger with a gem in the pommel, and no more.",
+        "replies":[
+            {
+                "text":"That's expensive. I'll think about it.",
+                "nextPhraseID":"edrin_6_2c"
+            },
+            {
+                "text":"That's too expensive. I'll keep the dagger and the gem I have.",
+                "nextPhraseID":"edrin_6_2a"
+            },
+            {
+                "text":"OK. I agree. Here are the dagger and the gem.",
+                "nextPhraseID":"edrin_6_2b",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":800
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"strange_dagger",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"strange_gem",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"edrin_5_2c",
+        "message":"Feel free to come back when you decide.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_dagger",
+                "value":60
+            }
+        ]
+    },
+    {
+        "id":"edrin_5_2a",
+        "message":"That is up to you, although I think you have made a mistake.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_dagger",
+                "value":70
+            }
+        ]
+    },
+    {
+        "id":"edrin_5_2b",
+        "message":"This will take me some time. Please come back later to collect the repaired dagger. ",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_dagger",
+                "value":80
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"Dagger_repair"
+            }
+        ]
+    },
+    {
+        "id":"edrin_6_2b",
+        "message":"This will take me some time. Please come back later to collect the repaired dagger.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_dagger",
+                "value":80
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"Dagger_repair"
+            }
+        ]
+    },
+    {
+        "id":"edrin_6_2a",
+        "message":"That is up to you, although I think you have made a mistake.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_dagger",
+                "value":70
+            }
+        ]
+    },
+    {
+        "id":"edrin_6_2c",
+        "message":"Feel free to come back when you decide.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_dagger",
+                "value":60
+            }
+        ]
     }
 ]
