@@ -193,7 +193,7 @@
  </layer>
  <layer name="Above" width="16" height="9">
   <data encoding="base64" compression="zlib">
-   eJxjYKAcHBYjTb2EAGX6QeAsP2X6SbG/iYUy/eTaT8heGLhEhP3EmkUqAAANqQiV
+   eJw7xsnAcAyKyQWHxUhTLyFAmX4QOMtPmX5S7G9ioUw/ufYTshcGLhFhP7FmkQoAeWULAg==
   </data>
  </layer>
  <layer name="Top" width="16" height="9">
@@ -203,7 +203,7 @@
  </layer>
  <layer name="Walkable" width="16" height="9">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHGYYFyAVH3o4tjUETKHFDfhMxdZHJ9fsJlPShjgMxefPACsnFJn
+   eJxjYECAjWJDG+MCpOpDF8emjpA5pLgJn7nI4vj8gs18UsIAn7n45AF2p1AS
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -255,6 +255,21 @@
   <object name="guest" type="spawn" x="224" y="128" width="96" height="96">
    <properties>
     <property name="spawngroup" value="brv_inn_guest"/>
+   </properties>
+  </object>
+  <object name="thief_1" type="spawn" x="0" y="0" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="quiet_thief_1"/>
+   </properties>
+  </object>
+  <object name="thief_2" type="spawn" x="32" y="0" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="quiet_thief_2"/>
+   </properties>
+  </object>
+  <object name="thief_3" type="spawn" x="64" y="0" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="quiet_thief_3"/>
    </properties>
   </object>
  </objectgroup>

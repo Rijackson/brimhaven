@@ -5366,6 +5366,12 @@
                         "requireID":"brv_dagger",
                         "value":20,
                         "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"strange_gem",
+                        "value":1,
+                        "negate":true
                     }
                 ]
             },
@@ -5406,6 +5412,12 @@
                         "requireType":"questProgress",
                         "requireID":"brv_dagger",
                         "value":10,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"strange_dagger",
+                        "value":1,
                         "negate":true
                     }
                 ]
@@ -5504,6 +5516,18 @@
                         "requireType":"questProgress",
                         "requireID":"brv_dagger",
                         "value":50,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":80,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":70,
                         "negate":true
                     }
                 ]
@@ -5690,6 +5714,7 @@
     {
         "id":"quiet_thief_1_1",
         "message":"Keep your voice down! We don't want to attract any attention!",
+        "switchToNPC":"quiet_thief_1",
         "replies":[
             {
                 "text":"OK. Don't worry. I can keep a secret.",
@@ -5828,7 +5853,7 @@
     },
     {
         "id":"quiet_thief_3_2",
-        "message":"Since you have the knife, and you have asked about the gem, I assume you want it. But when you want something enough, you are willing to pay more, right?",
+        "message":"Since you have the dagger, and you have asked about the gem, I assume you want it. But when you want something enough, you are willing to pay more, right?",
         "switchToNPC":"quiet_thief",
         "replies":[
             {
