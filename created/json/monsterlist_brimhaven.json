@@ -102,7 +102,7 @@
     {
         "id":"old_basilisk",
         "name":"Old Basilisk",
-        "iconID":"monsters_rltiles2:77",
+        "iconID":"monsters_giantbasilisk:0",
         "maxHP":120,
         "unique":1,
         "monsterClass":"reptile",

@@ -186,12 +186,12 @@
  </tileset>
  <layer name="Ground" width="23" height="18">
   <data encoding="base64" compression="zlib">
-   eJzNkzEOgCAMRQkb91+9Aujgrh4BvYLeww6Q1FoqTdA4vBgc3iftJ1hjAjATQiMWYCX4Bt4e2ICd0Mo9ujt/dwd79S3pHOE7MTuWkO4+pNnnrMjsWGJiMrCbzobuWCKiDNzBkltLzvCogzXuzvKUuoB7Irml3nBd+9LtBfdTj+mcaGa+m9Zbk5nPM/OP4+kNad6GFs3b0HK49zgBij42kQ==
+   eJzNkzEOgCAMRQ2b91+9AtXBHT0CegW9hx0gqbWgJWgcXggmvJr2F0zTADIxoBIzsjBsBW+PrMjGqOUe2yt/d4M5++Zw93g6YcY5cv8+hN7HWl6YcQ4n1KBu3hs+4xye1KAZTLm1xBqWZPCpuzNXUlmgOblzp7IjZe1Lty10g9AnXjO+TfW4ZHf420n4JnG3Q5rd0KLZDS17+x4HB9k2sg==
   </data>
  </layer>
  <layer name="Objects" width="23" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYBj6QJyJgUGIibpmrqGyecjAQIh2Zq+WReV/EKSdXcSYzUlCOMLCBRT2WzhR5cSRzIHFtSQTqjwXiXF2gwZhs1IQ4faTQP+cIiGuF7Gi8pHTIDXSTDWS+cjmYTN7Nj/5ZiMD9PRIKfgjiprudlPZ/FFAHwAAa7sRmw==
+   eJxjYBj6QJyJgUGIibpmrqGyecjAQIh2Zq+WReV/EKSdXcSYzUlCOMLCBRT2WzhR5cSRzIHFtSQTqjwXiXF2A+r+nVSMj5WCCLefFILgU0A8mwi3LWJF5SOnQVxp5hIJbq9GMh/ZPGqkx2pW7OLo6REGZvOTZ88fUdR0txuH+aNgcAMA2A4Uwg==
   </data>
  </layer>
  <layer name="Objects_RemoveStatue" width="23" height="18" visible="0">
@@ -201,12 +201,12 @@
  </layer>
  <layer name="Above" width="23" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYBi6YLcs7cxeTQezZzMxMMxloq7Z6OZRO4xg5oHoXUC8moruh4ULcthTy3xsZoPATiGgP4SINAOLW2DhgM1sGJiNxw/o8YVsB0o4kBmPuOKfGmbj0ocsji194wsPUu1ENp8Sc0cBfQEA/VIbiQ==
+   eJxjYBi6YLcs7cxeTQezZzMxMMxloq7Z6OZRO4xg5oHoXUC8moruh4ULcthTy3xsZoPATiGgP6CYoBlY3AILB2xmEwPQ4wvZDpRwIDMeccU/NczGpQ9ZnNrpG91OZPNnU9muUUA7AACazBsb
   </data>
  </layer>
  <layer name="Walkable" width="23" height="18">
   <data encoding="base64" compression="zlib">
-   eJybKcvAMHMUY8XogNrmIvOp7e6hbDatwhxbnJICSDWb3PRAiruJNRtdPTKflmZTEi7EhhU1zB3F9MUAS2rz2w==
+   eJybKcvAMHMUY8XogNrmIvOp7e6hbDatwhxbnJICSDWb3PRAiruJNRtdPTKfHD8TazYlbic2rCgxbxQPDAYAwzbxuQ==
   </data>
  </layer>
  <layer name="Walkable_StopWalking4" width="23" height="18" visible="0">
@@ -291,7 +291,7 @@
  </layer>
  <layer name="Walkable_WalkAgain" width="23" height="18" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AU0ALMlIXgkQyw+Z9aYYIevqPhPXQAAC1UBbE=
+   eJxjYBgFo2AU0ALMlIXgkQxo6X/08B0N76EDAL57BPs=
   </data>
  </layer>
  <objectgroup name="Replace" visible="0">
@@ -450,7 +450,7 @@
   <object name="basiliskcave2" type="container" x="672" y="352" width="32" height="32"/>
   <object name="basiliskcave2_2" type="container" x="672" y="320" width="32" height="32"/>
   <object name="basiliskcave_reset2" type="script" x="160" y="192" width="32" height="32"/>
-  <object name="basiliskcave2_check_heal_sister" type="script" x="288" y="352" width="32" height="32"/>
+  <object name="basiliskcave2_check_heal_sister" type="script" x="320" y="384" width="32" height="32"/>
   <object name="basiliskcave2_check_turn_to_stone4" type="script" x="224" y="288" width="32" height="32"/>
   <object name="basiliskcave2_check_turn_to_stone12" type="script" x="160" y="320" width="32" height="32"/>
   <object name="basiliskcave2_check_turn_to_stone13" type="script" x="192" y="320" width="32" height="32"/>
