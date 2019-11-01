@@ -101,7 +101,7 @@
     },
     {
         "id":"old_basilisk",
-        "name":"Old Basilisk",
+        "name":"Ancient Basilisk",
         "iconID":"monsters_giantbasilisk:0",
         "maxHP":120,
         "unique":1,
