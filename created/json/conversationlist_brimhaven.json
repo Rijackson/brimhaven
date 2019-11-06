@@ -6456,5 +6456,43 @@
                 "value":60
             }
         ]
+    },
+    {
+        "id":"brv_shop_guard",
+        "message":"I keep an eye on you."
+    },
+    {
+        "id":"brv_shop_owner_1",
+        "message":"May I help you?",
+        "replies":[
+            {
+                "text":"I am just checking things out.",
+                "nextPhraseID":"brv_shop_owner_2"
+            }
+        ]
+    },
+    {
+        "id":"brv_shop_owner_2",
+        "message":"Are you lookng for something in particular?",
+        "replies":[
+            {
+                "text":"[You take the necklace] How much is this?",
+                "nextPhraseID":"brv_shop_owner_3"
+            }
+        ]
+    },
+    {
+        "id":"brv_shop_owner_3",
+        "message":"I don't think this would fit you.",
+        "replies":[
+            {
+                "text":"Well, I didn't ask if it would fit. I asked how much it was.",
+                "nextPhraseID":"brv_shop_owner_4"
+            }
+        ]
+    },
+    {
+        "id":"brv_shop_owner_4",
+        "message":"It is very expensive. I don't think we have anything for you. You are obviously in the wrong place. Please leave."
     }
 ]

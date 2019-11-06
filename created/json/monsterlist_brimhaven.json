@@ -593,5 +593,17 @@
         "name":"Commoner",
         "iconID":"monsters_tometik6:10",
         "phraseID":"brv_villager15"
+    },
+    {
+        "id":"brv_shop_guard",
+        "name":"Guard",
+        "iconID":"monsters_rltiles3:14",
+        "phraseID":"brv_shop_guard"
+    },
+    {
+        "id":"brv_shop_owner",
+        "name":"Shop Owner",
+        "iconID":"monsters_tometik1:2",
+        "phraseID":"brv_shop_owner_1"
     }
 ]
