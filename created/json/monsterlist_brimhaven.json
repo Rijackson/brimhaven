@@ -604,6 +604,7 @@
         "id":"brv_shop_owner",
         "name":"Shop Owner",
         "iconID":"monsters_tometik1:2",
+        "unique":1,
         "phraseID":"brv_shop_owner_1"
     }
 ]
