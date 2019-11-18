@@ -193,6 +193,10 @@
             {
                 "progress":120,
                 "logText":"captain told about burning the letters"
+            },
+            {
+                "progress":130,
+                "logText":"showed money to shop owner"
             }
         ]
     },

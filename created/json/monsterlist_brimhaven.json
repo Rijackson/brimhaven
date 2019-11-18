@@ -598,13 +598,14 @@
         "id":"brv_shop_guard",
         "name":"Guard",
         "iconID":"monsters_rltiles3:14",
-        "phraseID":"brv_shop_guard"
+        "phraseID":"brv_shop_guard_select"
     },
     {
         "id":"brv_shop_owner",
         "name":"Shop Owner",
         "iconID":"monsters_tometik1:2",
         "unique":1,
-        "phraseID":"brv_shop_owner_1"
+        "phraseID":"brv_shop_owner_select",
+        "droplistID":"brv_jewelery"
     }
 ]

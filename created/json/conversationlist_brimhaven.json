@@ -6477,12 +6477,28 @@
         ]
     },
     {
-        "id":"brv_shop_guard",
-        "message":"I keep an eye on you."
+        "id":"brv_shop_guard_select",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_shop_guard_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay",
+                        "value":130
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brv_shop_guard_10"
+            }
+        ]
     },
     {
         "id":"brv_shop_owner_1",
-        "message":"May I help you?",
+        "message":"May I help you? [He looks down on you.]",
         "replies":[
             {
                 "text":"I am just checking things out.",
@@ -6495,7 +6511,7 @@
         "message":"Are you lookng for something in particular?",
         "replies":[
             {
-                "text":"[You take the necklace] How much is this?",
+                "text":"[You take a very expensive looking necklace] How much is this?",
                 "nextPhraseID":"brv_shop_owner_3"
             }
         ]
@@ -6512,6 +6528,74 @@
     },
     {
         "id":"brv_shop_owner_4",
-        "message":"It is very expensive. I don't think we have anything for you. You are obviously in the wrong place. Please leave."
+        "message":"It is very expensive. I don't think we have anything for you. You are obviously in the wrong place. Please leave.",
+        "replies":[
+            {
+                "text":"[You slowly pull out your coin bag and show him your gold.]",
+                "nextPhraseID":"brv_shop_owner_10",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":1000
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brv_shop_guard_20",
+        "message":"Hello again, Sir."
+    },
+    {
+        "id":"brv_shop_guard_10",
+        "message":"I will keep an eye on you."
+    },
+    {
+        "id":"brv_shop_owner_select",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_shop_owner_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay",
+                        "value":130
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brv_shop_owner_1"
+            }
+        ]
+    },
+    {
+        "id":"brv_shop_owner_20",
+        "message":"How can I serve you, Sir?",
+        "replies":[
+            {
+                "text":"Show me your wares.",
+                "nextPhraseID":"S"
+            }
+        ]
+    },
+    {
+        "id":"brv_shop_owner_10",
+        "message":"[His eyes widen.] Oh\nI was just kidding, child... I mean... Sir!",
+        "replies":[
+            {
+                "text":"Show me your wares, you worm.",
+                "nextPhraseID":"S"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay",
+                "value":130
+            }
+        ]
     }
 ]
