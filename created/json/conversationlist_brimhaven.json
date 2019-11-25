@@ -6578,6 +6578,17 @@
             {
                 "text":"Show me your wares.",
                 "nextPhraseID":"S"
+            },
+            {
+                "text":"I am looking for a necklace in our family colors red, green and white, that I would like to give as a present to my father.",
+                "nextPhraseID":"brv_shop_owner_30"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_present",
+                "value":10
             }
         ]
     },
@@ -6595,6 +6606,431 @@
                 "rewardType":"questProgress",
                 "rewardID":"brv_nondisplay",
                 "value":130
+            }
+        ]
+    },
+    {
+        "id":"brv_shop_owner_30",
+        "message":"No problem, Sir. I can arrange one for you. Just tell me how much you want to spend.",
+        "replies":[
+            {
+                "text":"I have to think about it.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Give me a necklace for 5 gold coins.",
+                "nextPhraseID":"brv_shop_owner_40_1",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":5
+                    }
+                ]
+            },
+            {
+                "text":"Give me a necklace for 500 gold coins.",
+                "nextPhraseID":"brv_shop_owner_40_2",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":500
+                    }
+                ]
+            },
+            {
+                "text":"Give me a necklace for 50,000 gold coins.",
+                "nextPhraseID":"brv_shop_owner_40_3",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":50000
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brv_shop_owner_40_3",
+        "message":"Take this wonderful necklace. Your father will be very happy.",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"necklace_for_father3",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_present",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"brv_shop_owner_40_2",
+        "message":"Here is the necklace.",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"necklace_for_father2",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_present",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"brv_shop_owner_40_1",
+        "message":"Take this... valuable necklace. Your father will be proud to wear it.",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"necklace_for_father1",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_present",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"mikhail_present_10",
+        "message":"I asked you to search for your brother Andor and you did not find out anything and instead you are bringing me a necklace? Go and search for your brother!",
+        "replies":[
+            {
+                "text":"Sorry father. I will go and search for Andor.",
+                "nextPhraseID":"mikhail_default"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_present",
+                "value":30
+            }
+        ]
+    },
+    {
+        "id":"mikhail_present_20",
+        "message":"Oh, you are such a good son.",
+        "replies":[
+            {
+                "text":"[Give him the cheap necklace]",
+                "nextPhraseID":"mikhail_present_20_1",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"necklace_for_father1",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"[Give him the necklace]",
+                "nextPhraseID":"mikhail_present_20_2",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"necklace_for_father2",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"[Give him the expensive necklace]",
+                "nextPhraseID":"mikhail_present_20_3",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"necklace_for_father3",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Maybe I promised too much.",
+                "nextPhraseID":"mikhail_default",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"necklace_for_father1",
+                        "value":1,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"necklace_for_father2",
+                        "value":1,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"necklace_for_father3",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mikhail_present_20_3",
+        "message":"Oh, where did you get the money to buy this? I better don't want to know...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mikhail_default"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_present",
+                "value":60
+            }
+        ]
+    },
+    {
+        "id":"mikhail_present_20_2",
+        "message":"Thank you my son for this wonderful necklace. Oh and it is in our family colors!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mikhail_default"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_present",
+                "value":50
+            }
+        ]
+    },
+    {
+        "id":"mikhail_present_20_1",
+        "message":"Hm, thank you. Looks like you spent all your pocketmoney for this.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mikhail_default"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_present",
+                "value":40
+            }
+        ]
+    },
+    {
+        "id":"mikhail_news_10",
+        "message":"Did you find out something?",
+        "replies":[
+            {
+                "text":"I asked around in Crossglen and they sent me to Fallhaven.",
+                "nextPhraseID":"mikhail_news_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "text":"Someone in Fallhaven told me that he met Andor and that he was searching for a man called Lodar.",
+                "nextPhraseID":"mikhail_news_30",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":30,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":55
+                    }
+                ]
+            },
+            {
+                "text":"I met a man called Lodar and he told me that Andor probably went to Nor City.",
+                "nextPhraseID":"mikhail_news_40",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":30,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":55,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":80
+                    }
+                ]
+            },
+            {
+                "text":"No I did not find out anything yet.",
+                "nextPhraseID":"mikhail_default",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":30,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":55,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":80,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mikhail_news_40",
+        "message":"Did you went to Nor City?",
+        "replies":[
+            {
+                "text":"No, not yet.",
+                "nextPhraseID":"mikhail_news_50"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay_multipurpose",
+                "value":40
+            }
+        ]
+    },
+    {
+        "id":"mikhail_news_30",
+        "message":"Did you find this Lodar?",
+        "replies":[
+            {
+                "text":"Yes, and he told me that Andor probably went to Nor City.",
+                "nextPhraseID":"mikhail_news_40",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":80
+                    }
+                ]
+            },
+            {
+                "text":"No, not yet.",
+                "nextPhraseID":"mikhail_news_50",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":80,
+                        "negate":true
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay_multipurpose",
+                "value":40
+            }
+        ]
+    },
+    {
+        "id":"mikhail_news_50",
+        "message":"Thank you my son. Keep on searching for Andor.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mikhail_default"
+            }
+        ]
+    },
+    {
+        "id":"mikhail_news_20",
+        "message":"Did you go the dangerous way to Fallhaven?",
+        "replies":[
+            {
+                "text":"Yes and someone in Fallhaven told me that he met Andor and that he was searching for a man called Lodar.",
+                "nextPhraseID":"mikhail_news_30",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":55
+                    }
+                ]
+            },
+            {
+                "text":"Then I met a man called Lodar and he told me that Andor probably went to Nor City.",
+                "nextPhraseID":"mikhail_news_40",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":55,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":80
+                    }
+                ]
+            },
+            {
+                "text":"Not yet.",
+                "nextPhraseID":"mikhail_news_50",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":80,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":55,
+                        "negate":true
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay_multipurpose",
+                "value":40
             }
         ]
     }

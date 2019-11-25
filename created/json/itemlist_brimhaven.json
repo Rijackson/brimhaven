@@ -738,5 +738,32 @@
                 "max":7
             }
         }
+    },
+    {
+        "id":"necklace_for_father1",
+        "iconID":"items_reterski_1:10",
+        "name":"Necklace for father (cheap)",
+        "displaytype":"quest",
+        "hasManualPrice":1,
+        "baseMarketCost":5,
+        "category":"neck"
+    },
+    {
+        "id":"necklace_for_father2",
+        "iconID":"items_reterski_1:11",
+        "name":"Necklace for father",
+        "displaytype":"quest",
+        "hasManualPrice":1,
+        "baseMarketCost":500,
+        "category":"neck"
+    },
+    {
+        "id":"necklace_for_father3",
+        "iconID":"items_reterski_1:9",
+        "name":"Necklace for father (expensive)",
+        "displaytype":"quest",
+        "hasManualPrice":1,
+        "baseMarketCost":50000,
+        "category":"neck"
     }
 ]
