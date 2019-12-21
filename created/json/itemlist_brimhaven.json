@@ -33,6 +33,7 @@
         "hasManualPrice":1,
         "baseMarketCost":6700,
         "category":"whip",
+        "description":"When you hold it, it almost feels like it's moving on it's own, as though it were alive.",
         "equipEffect":{
             "increaseAttackDamage":{
                 "min":2,
