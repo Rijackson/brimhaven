@@ -15,6 +15,8 @@
     <map id="blackwater_mountain30" x="114" y="407"/>
     <map id="blackwater_mountain32" x="83" y="409"/>
     <map id="blackwater_mountain40" x="71" y="389"/>
+    <map id="blackwater_mountain53" x="86" y="327"/>
+    <map id="blackwater_mountain54" x="117" y="321"/>	
     <map area="crossglen" id="crossglen" x="148" y="355"/>
     <map area="crossroads" id="crossroads" x="179" y="300"/>
     <map area="fallhaven" id="fallhaven_ne" x="241" y="382"/>
@@ -223,6 +225,8 @@
     <map id="guynmart_wood_13" x="70" y="222"/>
     <map id="guynmart_wood_14" x="54" y="222"/>
     <map id="waytolake12" x="678" y="174"/>
+    <map id="arulirmountain1" x="817" y="94"/>
+    <map id="arulirmountain2" x="848" y="96"/>	
     <map area="brimhaven_area" id="brimhaven1" x="426" y="259"/>
     <map id="brimhaven4" x="395" y="259"/>
     <map id="brimhaven2" x="395" y="290"/>
