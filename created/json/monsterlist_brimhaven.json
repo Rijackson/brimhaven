@@ -607,5 +607,15 @@
         "unique":1,
         "phraseID":"brv_shop_owner_select",
         "droplistID":"brv_jewelery"
+    },
+    {
+        "id":"elythom_roaming",
+        "name":"Knight of Elythom",
+        "iconID":"monsters_men:3",
+        "moveCost":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"protectSpawn",
+        "spawnGroup":"elythom_roaming",
+        "phraseID":"brv_elythom_roaming"
     }
 ]

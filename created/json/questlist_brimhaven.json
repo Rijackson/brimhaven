@@ -197,6 +197,14 @@
             {
                 "progress":130,
                 "logText":"showed money to shop owner"
+            },
+            {
+                "progress":140,
+                "logText":"Movement blocked by knights of elythom"
+            },
+            {
+                "progress":141,
+                "logText":"Has met the knights of elythom before"
             }
         ]
     },
