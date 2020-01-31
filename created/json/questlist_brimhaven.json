@@ -205,6 +205,10 @@
             {
                 "progress":141,
                 "logText":"Has met the knights of elythom before"
+            },
+            {
+                "progress":142,
+                "logText":"Confiscated bonemeals"
             }
         ]
     },

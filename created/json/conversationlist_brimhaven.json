@@ -7120,15 +7120,22 @@
             {
                 "nextPhraseID":"brv_elythom_remove_all_bonemeals_lodar"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay",
+                "value":142
+            }
         ]
     },
     {
         "id":"brv_wait_elythom",
-        "message":"[I better wait for the knights]"
+        "message":"[I better wait and talk to the knights what they did with my belongings]"
     },
     {
         "id":"brv_elythom_stop_hero",
-        "message":"Stop in the name of Feygard!",
+        "message":"Stop in the name of Feygard!\n\n[The knights approach and search your belongings]",
         "switchToNPC":"elythom_roaming",
         "rewards":[
             {
@@ -7162,7 +7169,7 @@
     },
     {
         "id":"brv_elythom_roaming_10",
-        "message":"You are carrying a lot of gear. Any disallowed substances?\n\n I will have to search you. \n\n[Searches your belongings]",
+        "message":"You are carrying a lot of gear. Any disallowed substances?\n\nYou have to wait while I check your belongings.",
         "replies":[
             {
                 "text":"N",
@@ -7172,7 +7179,7 @@
     },
     {
         "id":"brv_elythom_roaming_20",
-        "message":"You again. I will have to search you. \n\n[Searches your belongings]",
+        "message":"You again. \n\nYou have to wait while I check your belongings.",
         "replies":[
             {
                 "text":"N",
@@ -7196,8 +7203,7 @@
             },
             {
                 "rewardType":"removeSpawnArea",
-                "rewardID":"knights",
-                "mapName":"fields1"
+                "rewardID":"knights"
             }
         ]
     },
@@ -7205,14 +7211,40 @@
         "id":"brv_elythom_check_stop_hero",
         "replies":[
             {
-                "text":"N",
-                "nextPhraseID":"brv_elythom_stop_hero",
+                "nextPhraseID":"X",
                 "requires":[
                     {
                         "requireType":"random",
-                        "requireID":"50/100"
+                        "requireID":"99/100"
                     }
                 ]
+            },
+            {
+                "nextPhraseID":"brv_elythom_stop_hero",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"bonemeal_potion",
+                        "value":1,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"pot_bm_lodar",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_elythom_remove_all_bonemeals"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brv_nondisplay",
+                "value":142
             }
         ]
     },
@@ -7300,13 +7332,13 @@
                 ]
             },
             {
-                "nextPhraseID":"brv_elythom_bonemeals_removed"
+                "nextPhraseID":"brv_elythom_stop_hero"
             }
         ]
     },
     {
         "id":"brv_elythom_bonemeals_removed",
-        "message":"What's this? Smells like Bonemeal!\n\nBonemeal is illegal and forbidden by the law of Feygard. I will have to confiscate it.\n[Takes all your Bonemeals]\n\nKeep away from illegal stuff. Now go your way.",
+        "message":"What's this? Smells like Bonemeal!\n\nBonemeal is illegal and forbidden by the law of Feygard. I will have to confiscate it.\n[He gives you back all your belongings but keeps the Bonemeals]\n\nKeep away from illegal stuff. Now go your way.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -7331,21 +7363,15 @@
                 "nextPhraseID":"brv_elythom_roaming_100",
                 "requires":[
                     {
-                        "requireType":"inventoryKeep",
-                        "requireID":"bonemeal_potion",
-                        "value":1,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"pot_bm_lodar",
-                        "value":1,
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay",
+                        "value":142,
                         "negate":true
                     }
                 ]
             },
             {
-                "nextPhraseID":"brv_elythom_remove_all_bonemeals"
+                "nextPhraseID":"brv_elythom_bonemeals_removed"
             }
         ]
     }
