@@ -11,7 +11,8 @@
                 "max":12
             },
             "increaseAttackCost":7,
-            "increaseAttackChance":5
+            "increaseAttackChance":5,
+            "setDamageModifier":175
         }
     }
 ]

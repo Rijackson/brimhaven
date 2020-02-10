@@ -43,7 +43,8 @@
             "increaseAttackChance":10,
             "increaseCriticalSkill":5,
             "increaseBlockChance":8,
-            "setCriticalMultiplier":1.5
+            "setCriticalMultiplier":1.5,
+            "setDamageModifier":125
         },
         "hitEffect":{
             "conditionsTarget":[
@@ -70,7 +71,8 @@
             },
             "increaseAttackCost":5,
             "increaseAttackChance":5,
-            "increaseBlockChance":5
+            "increaseBlockChance":5,
+            "setDamageModifier":125
         }
     },
     {
@@ -396,7 +398,8 @@
             "increaseAttackChance":15,
             "increaseCriticalSkill":2,
             "increaseBlockChance":-15,
-            "setCriticalMultiplier":2.0
+            "setCriticalMultiplier":2.0,
+            "setDamageModifier":175
         }
     },
     {
@@ -429,7 +432,8 @@
             "increaseAttackChance":17,
             "increaseCriticalSkill":1,
             "increaseBlockChance":-5,
-            "setCriticalMultiplier":1.5
+            "setCriticalMultiplier":1.5,
+            "setDamageModifier":175
         }
     },
     {
@@ -487,6 +491,7 @@
                 "min":1,
                 "max":2
             },
+            "increaseAttackCost":4,
             "increaseAttackChance":5
         }
     },
@@ -623,7 +628,8 @@
             },
             "increaseAttackCost":6,
             "increaseAttackChance":14,
-            "increaseBlockChance":7
+            "increaseBlockChance":7,
+            "setDamageModifier":175
         }
     },
     {
