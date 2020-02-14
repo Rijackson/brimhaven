@@ -3358,7 +3358,7 @@
     },
     {
         "id":"basiliskcave2_warn",
-        "message":"You see an old Basilisk at the end of the room that glances at you. With a feeling of deadly danger your movements gets slower the nearer you go.",
+        "message":"You see an old Basilisk at the end of the room that glances at you. With a feeling of deadly danger your movements get slower the nearer you go.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -3622,7 +3622,7 @@
     },
     {
         "id":"brv_tavern_west_guard_90",
-        "message":"I heared you fighting in there. Lucky for you that no one got killed. \nYou are not welcome anymore.",
+        "message":"I heared you fighting in there. Lucky for you that noone got killed. \nYou are not welcome anymore.",
         "switchToNPC":"brv_tavern_west_guard",
         "rewards":[
             {
@@ -4232,7 +4232,7 @@
     },
     {
         "id":"brv_brothers_0",
-        "message":"\n[You eavesdrop on the middle of the conversation. ]\n\n... have to make sure no one finds out what we are going to do.",
+        "message":"\n[You eavesdrop on the middle of the conversation. ]\n\n... have to make sure noone finds out what we are going to do.",
         "switchToNPC":"brv_alvies",
         "replies":[
             {
@@ -5772,7 +5772,7 @@
     },
     {
         "id":"brv_villager_12a",
-        "message":"I have to bring my daughter to the school. I can't let her cross this dangerous area on her own and thiose people from the west don't care at all."
+        "message":"I have to bring my daughter to the school. I can't let her cross this dangerous area on her own and those people from the west don't care at all."
     },
     {
         "id":"brv_villager14",
