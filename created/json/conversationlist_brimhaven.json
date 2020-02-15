@@ -3167,7 +3167,7 @@
     },
     {
         "id":"fangwurm_info_about_blood",
-        "message":"The Basilisk's blood is has special properties. It can protect against damage if applied to the skin. Fresh, warm, Basilisks blood might even heal a person that has been turned to stone.\nBut how can you kill a Basilisk if you can't even look at it? It has a very strong defense.",
+        "message":"The Basilisk's blood has special properties. It can protect against damage if applied to the skin. Fresh, warm, Basilisks blood might even heal a person that has been turned to stone.\nBut how can you kill a Basilisk if you can't even look at it? It has a very strong defense.",
         "replies":[
             {
                 "text":"I already killed the Basilisk.",
@@ -3358,7 +3358,7 @@
     },
     {
         "id":"basiliskcave2_warn",
-        "message":"You see an old Basilisk at the end of the room that glances at you. With a feeling of deadly danger your movements gets slower the nearer you go.",
+        "message":"You see an old Basilisk at the end of the room that glances at you. With a feeling of deadly danger your movements get slower the nearer you go.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -4287,7 +4287,7 @@
     },
     {
         "id":"brv_brothers_6",
-        "message":"\n[Seems they still have not seen you, because they have their backs turned to you.] \n\nYour way of destroying the dam will not work. Better let us use my idea.",
+        "message":"\n[Seems they still have not seen you, because they have their backs turned to you.] \n\nYour way of destroying the dam will not work. Better that we use my idea.",
         "switchToNPC":"brv_alvies",
         "replies":[
             {
@@ -4316,7 +4316,7 @@
     },
     {
         "id":"brv_brothers_8",
-        "message":"\n[Accidently you make a noise and they turn there heads to you]\n\nHey, what are you doing down here?\n\nNo matter, we have to shut his mouth.",
+        "message":"\n[You accidently make a noise and they turn thier heads towards you]\n\nHey, what are you doing down here?\n\nNo matter, we have to shut his mouth.",
         "switchToNPC":"brv_attohead",
         "replies":[
             {
@@ -4330,7 +4330,7 @@
         "message":"Would you assist us in destroying the dam?",
         "replies":[
             {
-                "text":"Ok, I would like to help you destroy the dam.",
+                "text":"OK, I would like to help you destroy the dam.",
                 "nextPhraseID":"brv_brothers_12"
             },
             {
@@ -5772,11 +5772,11 @@
     },
     {
         "id":"brv_villager_12a",
-        "message":"I have to bring my daughter to the school. I can't let her cross this dangerous area on her own and thiose people from the west don't care at all."
+        "message":"I have to bring my daughter to the school. I can't let her cross this dangerous area on her own and those people from the west don't care at all."
     },
     {
         "id":"brv_villager14",
-        "message":"Go out of my way. Do you think you are something better just because you are one of those rich guys from the western part of the town?"
+        "message":"Get out of my way. Do you think you are something better just because you are one of those rich guys from the western part of the town?"
     },
     {
         "id":"brv_villager15",
