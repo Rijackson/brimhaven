@@ -42,6 +42,10 @@
                 "logText":"Given what you knew, you were not allowed to leave. The two brothers attacked you."
             },
             {
+                "progress":75,
+                "logText":"You found coin bags with the name \"Alkapoan\" written on it. Maybe this person paid the two brothers."
+            },
+            {
                 "progress":80,
                 "logText":"Someone else destroyed the dam and water came pouring through a hole in the dam. A lot of water!"
             },
@@ -55,15 +59,15 @@
             },
             {
                 "progress":120,
-                "logText":"The two brothers did not know their patron, but he seemed to have a lot of gold."
+                "logText":"The patron of the two brothers is a rich man living alone in a big house in the western part of the city."
             },
             {
                 "progress":130,
-                "logText":"The rich man living up on the hill of Brimhaven seemed to know more than he admitted."
+                "logText":"Alkapoan, the rich man living up on the hill of Brimhaven seemed to know more than he admitted."
             },
             {
                 "progress":150,
-                "logText":"The rich man boasted that he had been bribed by the mayor of Loneford to sabotate the dam."
+                "logText":"The rich man Alkapoan boasted that he had been bribed by the people of Loneford to sabotate the dam."
             },
             {
                 "progress":200,

@@ -4755,7 +4755,7 @@
     },
     {
         "id":"brv_richman_20",
-        "message":"[Breaks down]\n\nI was bribed by the mayor of Loneford to sabotate the dam. Here are some letters I exchanged with them, that proof what I did.",
+        "message":"[Breaks down]\n\nI was bribed by the people of Loneford to sabotate the dam. Here are some letters I exchanged with them, that proof what I did.",
         "replies":[
             {
                 "text":"You were honest to me so I will follow your wish. (And you can't escape from Brimhaven without me seeing you.)",
@@ -7372,6 +7372,31 @@
             },
             {
                 "nextPhraseID":"brv_elythom_bonemeals_removed"
+            }
+        ]
+    },
+    {
+        "id":"brv_brothers_check_coin_bag",
+        "replies":[
+            {
+                "nextPhraseID":"brv_brothers_found_coin_bag",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brv_richmans_coin_bag",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brv_brothers_found_coin_bag",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_flood",
+                "value":75
             }
         ]
     }

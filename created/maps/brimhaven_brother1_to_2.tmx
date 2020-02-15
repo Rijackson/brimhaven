@@ -214,6 +214,7 @@
     <property name="place" value="cave"/>
    </properties>
   </object>
+  <object name="brv_brothers_check_coin_bag" type="script" x="192" y="128" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="attohead" type="spawn" x="64" y="96" width="32" height="32">

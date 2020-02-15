@@ -498,7 +498,7 @@
     {
         "id":"brv_richmans_coin_bag",
         "iconID":"items_japozero:440",
-        "name":"Coin bag (with letters \"AL\" on it)",
+        "name":"Coin bag (with the name \"Alkapoan\" on it)",
         "displaytype":"quest",
         "category":"other",
         "description":""
