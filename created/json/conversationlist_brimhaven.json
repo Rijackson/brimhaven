@@ -3410,103 +3410,6 @@
             {
                 "text":"No thanks.",
                 "nextPhraseID":"X"
-            },
-            {
-                "text":"The teacher said that you would give me a cake.",
-                "nextPhraseID":"arlish_20",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brv_nondisplay2",
-                        "value":42
-                    }
-                ]
-            },
-            {
-                "text":"The teacher said that you would give me a cake.",
-                "nextPhraseID":"arlish_10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brv_nondisplay2",
-                        "value":40
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id":"arlish_10",
-        "message":"Sure. You must have done something very good. Wait a second...",
-        "replies":[
-            {
-                "text":"N"
-                "nextPhraseID":"arlish_12",
-            }
-        ]
-    },
-    {
-        "id":"arlish_12",
-        "message":"Shall I cut it for you?",
-        "replies":[
-            {
-                "text":"Yes, please."
-                "nextPhraseID":"arlish_16",
-            },
-            {
-                "text":"No, thank you. I prefer the cake as a whole."
-                "nextPhraseID":"arlish_14",
-            }
-        ]
-    },
-    {
-        "id":"arlish_14",
-        "message":"I'm afraid you'll get a stomachache if you eat the whole cake at once. But well - here you have it.",
-        "replies":[
-            {
-                "text":"Thank you."
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"giveItem",
-                "rewardID":"cake",
-                "value":1
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"brv_nondisplay2",
-                "value":42
-            }
-        ]
-    },
-    {
-        "id":"arlish_16",
-        "message":"Well, I'm cutting the cake into 8 large pieces. Let them taste you!",
-        "replies":[
-            {
-                "text":"Thank you."
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"giveItem",
-                "rewardID":"cake_piece",
-                "value":8
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"brv_nondisplay2",
-                "value":42
-            }
-        ]
-    },
-    {
-        "id":"arlish_20",
-        "message":"Yes, but only one.",
-        "replies":[
-            {
-                "text":"One could try..."
             }
         ]
     },
@@ -4852,7 +4755,7 @@
     },
     {
         "id":"brv_richman_20",
-        "message":"[Breaks down]\n\nI was bribed by the people of Loneford to sabotate the dam. Here are some letters I exchanged with them, that proof what I did.",
+        "message":"[Breaks down]\n\nI was bribed by the mayor of Loneford to sabotate the dam. Here are some letters I exchanged with them, that proof what I did.",
         "replies":[
             {
                 "text":"You were honest to me so I will follow your wish. (And you can't escape from Brimhaven without me seeing you.)",
@@ -5605,45 +5508,27 @@
                 "nextPhraseID":"quiet_thief_1_0",
                 "requires":[
                     {
-                        "requireType":"inventoryKeep",
-                        "requireID":"strange_dagger",
-                        "value":1,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"strange_gem",
-                        "value":1,
-                        "negate":true
-                    },
-                    {
                         "requireType":"questProgress",
-                        "requireID":"brv_dagger",
+                        "requireID":"brv_dagger_nondisplay",
                         "value":10,
                         "negate":true
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"brv_dagger",
+                        "requireID":"brv_dagger_nondisplay",
                         "value":20,
                         "negate":true
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"brv_dagger",
-                        "value":50,
+                        "requireID":"brv_dagger_nondisplay",
+                        "value":30,
                         "negate":true
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"brv_dagger",
-                        "value":80,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brv_dagger",
-                        "value":70,
+                        "requireID":"brv_dagger_nondisplay",
+                        "value":40,
                         "negate":true
                     }
                 ]
@@ -5652,20 +5537,20 @@
                 "nextPhraseID":"quiet_thief_2_0",
                 "requires":[
                     {
-                        "requireType":"inventoryKeep",
-                        "requireID":"strange_gem",
-                        "value":1
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger_nondisplay",
+                        "value":10
                     },
                     {
-                        "requireType":"inventoryKeep",
-                        "requireID":"strange_dagger",
-                        "value":1,
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger_nondisplay",
+                        "value":20,
                         "negate":true
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"brv_dagger",
-                        "value":10,
+                        "requireID":"brv_dagger_nondisplay",
+                        "value":30,
                         "negate":true
                     },
                     {
@@ -5681,8 +5566,8 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"nondisplay_2",
-                        "value":240,
+                        "requireID":"brv_dagger_nondisplay",
+                        "value":30,
                         "negate":true
                     },
                     {
@@ -5692,14 +5577,13 @@
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"brv_dagger",
-                        "value":10,
-                        "negate":true
+                        "requireID":"brv_dagger_nondisplay",
+                        "value":10
                     },
                     {
-                        "requireType":"inventoryKeep",
-                        "requireID":"strange_dagger",
-                        "value":1,
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger_nondisplay",
+                        "value":20,
                         "negate":true
                     }
                 ]
@@ -5708,20 +5592,20 @@
                 "nextPhraseID":"quiet_thief_3_0",
                 "requires":[
                     {
-                        "requireType":"inventoryKeep",
-                        "requireID":"strange_dagger",
-                        "value":1
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger_nondisplay",
+                        "value":20
                     },
                     {
-                        "requireType":"inventoryKeep",
-                        "requireID":"strange_gem",
-                        "value":1,
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger_nondisplay",
+                        "value":10,
                         "negate":true
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"brv_dagger",
-                        "value":20,
+                        "requireID":"brv_dagger_nondisplay",
+                        "value":40,
                         "negate":true
                     },
                     {
@@ -5737,8 +5621,8 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"nondisplay_2",
-                        "value":250,
+                        "requireID":"brv_dagger_nondisplay",
+                        "value":40,
                         "negate":true
                     },
                     {
@@ -5748,13 +5632,13 @@
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"brv_dagger",
+                        "requireID":"brv_dagger_nondisplay",
                         "value":20
                     },
                     {
-                        "requireType":"inventoryKeep",
-                        "requireID":"strange_gem",
-                        "value":1,
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger_nondisplay",
+                        "value":10,
                         "negate":true
                     }
                 ]
@@ -5957,8 +5841,8 @@
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"nondisplay_2",
-                "value":240
+                "rewardID":"brv_dagger_nondisplay",
+                "value":30
             },
             {
                 "rewardType":"giveItem",
@@ -6009,8 +5893,8 @@
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"nondisplay_2",
-                "value":250
+                "rewardID":"brv_dagger_nondisplay",
+                "value":40
             },
             {
                 "rewardType":"giveItem",
@@ -6355,14 +6239,14 @@
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"nondisplay_2",
-                        "value":240,
+                        "requireID":"brv_dagger_nondisplay",
+                        "value":30,
                         "negate":true
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"nondisplay_2",
-                        "value":250,
+                        "requireID":"brv_dagger_nondisplay",
+                        "value":40,
                         "negate":true
                     }
                 ]
@@ -7473,14 +7357,42 @@
         ]
     },
     {
-        "id":"brv_brothers_check_coin_bag",
+        "id":"brv_thief",
         "replies":[
             {
-                "nextPhraseID":"brv_brothers_found_coin_bag",
+                "text":"N",
+                "nextPhraseID":"brv_thief_1",
                 "requires":[
                     {
                         "requireType":"inventoryKeep",
-                        "requireID":"brv_richmans_coin_bag",
+                        "requireID":"strange_gem",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"strange_dagger",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brv_thief_2",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"strange_gem",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brv_thief_3",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"strange_dagger",
                         "value":1
                     }
                 ]
@@ -7488,12 +7400,37 @@
         ]
     },
     {
-        "id":"brv_brothers_found_coin_bag",
+        "id":"brv_thief_1",
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"brv_flood",
-                "value":75
+                "rewardID":"brv_dagger_nondisplay",
+                "value":10
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_dagger_nondisplay",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"brv_thief_2",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_dagger_nondisplay",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"brv_thief_3",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_dagger_nondisplay",
+                "value":20
             }
         ]
     }
