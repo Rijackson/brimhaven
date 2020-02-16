@@ -190,15 +190,15 @@
  </layer>
  <layer name="Objects" width="30" height="14">
   <data encoding="base64" compression="zlib">
-   eJyNVE9LQkEQH15YBlG+BZUXdesSBPlZutTVPEYEeYiI6Nzn6SMEmSlYBCVShwTNQk+dg2be7jDz9vnMHywzuzv/Z3abIcA4ApjgaiMPBmI0kL+J5I4pnb8hfY+s7FeYlontQPqcadPdE3rIV4zYvMf9LdKuk3l28nRPIP16ARKIgjTP8ozPUPQJ5EvL8N6nrLNmrN/lIGnX34+VzUk0+07XxQed77k8q0iP0c/2ptz/LAI8FOXMz2WsYtc2t7AOLczlLAdx//zeEA7R3yvKnaPMZWBzLOPawLWwJHnT2bTY+YzpzgrAAH19GJHhPq07WivY2SJouWFoZ4RwF9p5m4bJjHx96J6R36dSciajIK0zMJKTrlcrTNeA8qV5G6zaPfWKwL06CcQvvxUdk+b7Rma3rWrRyKgDo+z1inAV2Dl+cbolN1NHjnKcQ2V7hHy/aGPV8OeW614xEiuB6tpV9q5zEtOFi4vjJOxjXQ4Kopuwb8SW/9do7LoYep5ftveL9FHdfSt+mj3Ok+x1Qqvv/y+MkfpnWK+aBzjFVcdVy4ts658eEvS8Z/lkkM/OjNjmhf+Gsv4n/WcQsv77eSjjD2g6rAM=
+   eJyVVE9LQkEQH15YBlHuA5UXdesSBPlZutTVPEYEeYiI6Nzn6SMEmSlYBCVShwTNQk+dg2bcHWbevvesfrDM7O78n9ltGoBxBDDB1UYeQpiigfxVJHdM6fwF6WtkZT9MUmZqB5LnTJvuntBDvhKKzVvcXyPtOplHJ0/3BNKvFyCGKEjyLM94N6JPIF9ahvc+ZZ2V0PpdDOJ2/f1Y2ZxEs+90XXzQ+Y7Ls4r0EP1srsv91zzAXVHO/FzGKnZtcwPr0MJcTnIw7Z/fG8I++ntGuVOUOQ9sjmVca7jmFiRvOkuLnc+Ybi0BDNDXWygy3KdVR2sFO1sELTc0dkYIN8bOWxomM/L1oXtGfh9K8ZmMgqTOIJScdL1aJlkDypfmbbBs99QrAvfqKBC//FZ0TJrvhzK7bVWLRkYdGGWvV4SLwM7xk9MtuZk6cJTjHCrbI+T7RRurhj+3XPdKKLESqK5dZe8yJzGdubg4TsIu1mWvILox+6HY8v8ajW0XQ8/zy/a+kd6ru0/Fp9njPMlex1j9LIzUP8N61TzAMa46rlpeZFu/9JCQNe9pIJ8dk/z7/gv/DWX9T/rPIGT993+hjB9E4qoZ
   </data>
  </layer>
  <layer name="Above" width="30" height="14">
   <data encoding="base64" compression="zlib">
-   eJzFU0EOQDAQLBeOThIv4t9ewFkPvERENhi73V0k5tKm2d2Z6bQh/IPYPO+dC71mKXaOqTm4Jli9yEq9Joca4nrj14K+vp+99WvBCLyR8Uv7VG5bXgPjQQLnSfKbyo3y0rR59Fiyprws2jzQuDEvDpu2tgqhq67n57/khaWX03a+V+kd02zk0DLh6mlOqk8C9nIzcHbqb0bBlwcaxxfA+5dWrOe0ripqR/s=
+   eJzFU0EOQEAMXC4cnSRexL+9gLM98BIRaTDabbsO5rKyaTszOxrCP4hdfu9a6TVbdXIs3cW1wOlFUes1JdQQ1xe/Fozt++6rXwtm4I2MX/pO5XbkNTEeJHCeJL+p3CgvTZtHjyVrysuizQONG/PicGjrmxCG5nl/3yUvLL2ctvu7Sv8xzUYOLROunuak+iQt2MvNwNmp3YzgK2ePc/s8wPeXTqzntO5Nwknl
   </data>
  </layer>
- <layer name="Walkable" width="30" height="14" visible="0">
+ <layer name="Walkable" width="30" height="14">
   <data encoding="base64" compression="zlib">
    eJzbKMbAsHEUD1oMAoPJXnLdAwPEqCEWUCsMCZlHrp3UtJfYMEAWx2U2LeylVB+6e3HpQRcj1T5iAaFwJaSGWmmT3PQ3VDEARWj9aw==
   </data>

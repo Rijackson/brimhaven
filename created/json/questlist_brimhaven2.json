@@ -127,6 +127,10 @@
                 "logText":"Reward: cake"
             },
             {
+                "progress":42,
+                "logText":"Reward: cake got"
+            },
+            {
                 "progress":50,
                 "logText":"Pupils ran out"
             }

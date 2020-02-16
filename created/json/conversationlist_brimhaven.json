@@ -3410,6 +3410,103 @@
             {
                 "text":"No thanks.",
                 "nextPhraseID":"X"
+            },
+            {
+                "text":"The teacher said that you would give me a cake.",
+                "nextPhraseID":"arlish_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay2",
+                        "value":42
+                    }
+                ]
+            },
+            {
+                "text":"The teacher said that you would give me a cake.",
+                "nextPhraseID":"arlish_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay2",
+                        "value":40
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"arlish_10",
+        "message":"Sure. You must have done something very good. Wait a second...",
+        "replies":[
+            {
+                "text":"N"
+                "nextPhraseID":"arlish_12",
+            }
+        ]
+    },
+    {
+        "id":"arlish_12",
+        "message":"Shall I cut it for you?",
+        "replies":[
+            {
+                "text":"Yes, please."
+                "nextPhraseID":"arlish_16",
+            },
+            {
+                "text":"No, thank you. I prefer the cake as a whole."
+                "nextPhraseID":"arlish_14",
+            }
+        ]
+    },
+    {
+        "id":"arlish_14",
+        "message":"I'm afraid you'll get a stomachache if you eat the whole cake at once. But well - here you have it.",
+        "replies":[
+            {
+                "text":"Thank you."
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"cake",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay2",
+                "value":42
+            }
+        ]
+    },
+    {
+        "id":"arlish_16",
+        "message":"Well, I'm cutting the cake into 8 large pieces. Let them taste you!",
+        "replies":[
+            {
+                "text":"Thank you."
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"cake_piece",
+                "value":8
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay2",
+                "value":42
+            }
+        ]
+    },
+    {
+        "id":"arlish_20",
+        "message":"Yes, but only one.",
+        "replies":[
+            {
+                "text":"One could try..."
             }
         ]
     },

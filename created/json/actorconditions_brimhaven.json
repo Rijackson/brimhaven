@@ -118,5 +118,17 @@
             "increaseBlockChance":20,
             "increaseDamageResistance":3
         }
+    },
+    {
+        "id":"overeating",
+        "iconID":"actorconditions_japozero:36",
+        "name":"Overeating",
+        "category":"physical",
+        "roundEffect":{
+            "increaseCurrentHP":{
+                "min":-1,
+                "max":-1
+            }
+        }
     }
 ]
