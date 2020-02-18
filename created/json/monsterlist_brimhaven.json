@@ -424,7 +424,7 @@
     },
     {
         "id":"quiet_thief",
-        "name":"Quiet thief",
+        "name":"Shady thief",
         "iconID":"monsters_rogue1:0",
         "unique":1,
         "monsterClass":"humanoid",
@@ -434,7 +434,7 @@
     },
     {
         "id":"quiet_thief_1",
-        "name":"Quiet thief",
+        "name":"Shady thief",
         "iconID":"monsters_rogue1:0",
         "unique":1,
         "monsterClass":"humanoid",
@@ -443,7 +443,7 @@
     },
     {
         "id":"quiet_thief_2",
-        "name":"Quiet thief",
+        "name":"Shady thief",
         "iconID":"monsters_rogue1:0",
         "unique":1,
         "monsterClass":"humanoid",
@@ -452,7 +452,7 @@
     },
     {
         "id":"quiet_thief_3",
-        "name":"Quiet thief",
+        "name":"Shady thief",
         "iconID":"monsters_rogue1:0",
         "unique":1,
         "monsterClass":"humanoid",
