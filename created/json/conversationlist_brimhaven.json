@@ -3440,8 +3440,8 @@
         "message":"Sure. You must have done something very good. Wait a second...",
         "replies":[
             {
-                "text":"N"
-                "nextPhraseID":"arlish_12",
+                "text":"N",
+                "nextPhraseID":"arlish_12"
             }
         ]
     },
@@ -3450,12 +3450,12 @@
         "message":"Shall I cut it for you?",
         "replies":[
             {
-                "text":"Yes, please."
-                "nextPhraseID":"arlish_16",
+                "text":"Yes, please.",
+                "nextPhraseID":"arlish_16"
             },
             {
-                "text":"No, thank you. I prefer the cake as a whole."
-                "nextPhraseID":"arlish_14",
+                "text":"No, thank you. I prefer the cake as a whole.",
+                "nextPhraseID":"arlish_14"
             }
         ]
     },
@@ -3464,7 +3464,8 @@
         "message":"I'm afraid you'll get a stomachache if you eat the whole cake at once. But well - here you have it.",
         "replies":[
             {
-                "text":"Thank you."
+                "text":"Thank you.",
+                "nextPhraseID":"X"
             }
         ],
         "rewards":[
@@ -3485,7 +3486,8 @@
         "message":"Well, I'm cutting the cake into 8 large pieces. Let them taste you!",
         "replies":[
             {
-                "text":"Thank you."
+                "text":"Thank you.",
+                "nextPhraseID":"X"
             }
         ],
         "rewards":[
@@ -3506,7 +3508,8 @@
         "message":"Yes, but only one.",
         "replies":[
             {
-                "text":"One could try..."
+                "text":"One could try...",
+                "nextPhraseID":"X"
             }
         ]
     },

@@ -66,7 +66,7 @@
         }
     },
     {
-        "id":"cake_peace",
+        "id":"cake_piece",
         "iconID":"items_consumables:22",
         "name":"Piece of cake",
         "hasManualPrice":1,
