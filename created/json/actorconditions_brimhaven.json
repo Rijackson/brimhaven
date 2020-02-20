@@ -4,12 +4,12 @@
         "iconID":"actorconditions_1:68",
         "name":"Drowning",
         "category":"physical",
-		"roundEffect":{
-			"increaseCurrentHP":{
-				"min":-40,
-				"max":-80
-			}
-		}
+        "roundEffect":{
+            "increaseCurrentHP":{
+                "min":-80,
+                "max":-40
+            }
+        }
     },
     {
         "id":"entanglement",
@@ -26,64 +26,64 @@
         "iconID":"actorconditions_1:89",
         "name":"Fatigue",
         "category":"physical",
-		"roundEffect":{
-			"increaseCurrentHP":{
-				"min":-1,
-				"max":-1
-			},
-			"increaseCurrentAP":{
-				"min":-1,
-				"max":-1
-			}
-		}
+        "roundEffect":{
+            "increaseCurrentHP":{
+                "min":-1,
+                "max":-1
+            },
+            "increaseCurrentAP":{
+                "min":-1,
+                "max":-1
+            }
+        }
     },
     {
         "id":"fatigue2",
         "iconID":"actorconditions_1:89",
         "name":"Fatigue",
         "category":"physical",
-		"roundEffect":{
-			"increaseCurrentHP":{
-				"min":-2,
-				"max":-2
-			},
-			"increaseCurrentAP":{
-				"min":-1,
-				"max":-1
-			}
-		}
+        "roundEffect":{
+            "increaseCurrentHP":{
+                "min":-2,
+                "max":-2
+            },
+            "increaseCurrentAP":{
+                "min":-1,
+                "max":-1
+            }
+        }
     },
     {
         "id":"fatigue3",
         "iconID":"actorconditions_1:89",
         "name":"Fatigue",
         "category":"physical",
-		"roundEffect":{
-			"increaseCurrentHP":{
-				"min":-7,
-				"max":-7
-			},
-			"increaseCurrentAP":{
-				"min":-1,
-				"max":-1
-			}
-		}
+        "roundEffect":{
+            "increaseCurrentHP":{
+                "min":-7,
+                "max":-7
+            },
+            "increaseCurrentAP":{
+                "min":-1,
+                "max":-1
+            }
+        }
     },
     {
         "id":"fatigue4",
         "iconID":"actorconditions_1:89",
         "name":"Fatigue",
         "category":"physical",
-		"roundEffect":{
-			"increaseCurrentHP":{
-				"min":-20,
-				"max":-20
-			},
-			"increaseCurrentAP":{
-				"min":-1,
-				"max":-1
-			}
-		}
+        "roundEffect":{
+            "increaseCurrentHP":{
+                "min":-20,
+                "max":-20
+            },
+            "increaseCurrentAP":{
+                "min":-1,
+                "max":-1
+            }
+        }
     },
     {
         "id":"turn_to_stone",
