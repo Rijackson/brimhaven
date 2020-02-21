@@ -240,7 +240,7 @@
     <property name="requireValue" value="230"/>
    </properties>
   </object>
-  <object name="brv_thief" type="script" x="0" y="0" width="32" height="32">
+  <object name="brv_thief" type="script" x="192" y="96" width="128" height="96">
    <properties>
     <property name="when" value="always"/>
    </properties>

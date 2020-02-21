@@ -5608,45 +5608,27 @@
                 "nextPhraseID":"quiet_thief_1_0",
                 "requires":[
                     {
-                        "requireType":"inventoryKeep",
-                        "requireID":"strange_dagger",
-                        "value":1,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"strange_gem",
-                        "value":1,
-                        "negate":true
-                    },
-                    {
                         "requireType":"questProgress",
-                        "requireID":"brv_dagger",
+                        "requireID":"brv_dagger_nondisplay",
                         "value":10,
                         "negate":true
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"brv_dagger",
+                        "requireID":"brv_dagger_nondisplay",
                         "value":20,
                         "negate":true
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"brv_dagger",
-                        "value":50,
+                        "requireID":"brv_dagger_nondisplay",
+                        "value":30,
                         "negate":true
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"brv_dagger",
-                        "value":80,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brv_dagger",
-                        "value":70,
+                        "requireID":"brv_dagger_nondisplay",
+                        "value":40,
                         "negate":true
                     }
                 ]
@@ -5655,20 +5637,20 @@
                 "nextPhraseID":"quiet_thief_2_0",
                 "requires":[
                     {
-                        "requireType":"inventoryKeep",
-                        "requireID":"strange_gem",
-                        "value":1
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger_nondisplay",
+                        "value":10
                     },
                     {
-                        "requireType":"inventoryKeep",
-                        "requireID":"strange_dagger",
-                        "value":1,
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger_nondisplay",
+                        "value":20,
                         "negate":true
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"brv_dagger",
-                        "value":10,
+                        "requireID":"brv_dagger_nondisplay",
+                        "value":30,
                         "negate":true
                     },
                     {
@@ -5684,8 +5666,8 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"nondisplay_2",
-                        "value":240,
+                        "requireID":"brv_dagger_nondisplay",
+                        "value":30,
                         "negate":true
                     },
                     {
@@ -5695,14 +5677,13 @@
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"brv_dagger",
-                        "value":10,
-                        "negate":true
+                        "requireID":"brv_dagger_nondisplay",
+                        "value":10
                     },
                     {
-                        "requireType":"inventoryKeep",
-                        "requireID":"strange_dagger",
-                        "value":1,
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger_nondisplay",
+                        "value":20,
                         "negate":true
                     }
                 ]
@@ -5711,20 +5692,20 @@
                 "nextPhraseID":"quiet_thief_3_0",
                 "requires":[
                     {
-                        "requireType":"inventoryKeep",
-                        "requireID":"strange_dagger",
-                        "value":1
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger_nondisplay",
+                        "value":20
                     },
                     {
-                        "requireType":"inventoryKeep",
-                        "requireID":"strange_gem",
-                        "value":1,
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger_nondisplay",
+                        "value":10,
                         "negate":true
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"brv_dagger",
-                        "value":20,
+                        "requireID":"brv_dagger_nondisplay",
+                        "value":40,
                         "negate":true
                     },
                     {
@@ -5740,8 +5721,8 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"nondisplay_2",
-                        "value":250,
+                        "requireID":"brv_dagger_nondisplay",
+                        "value":40,
                         "negate":true
                     },
                     {
@@ -5751,13 +5732,13 @@
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"brv_dagger",
+                        "requireID":"brv_dagger_nondisplay",
                         "value":20
                     },
                     {
-                        "requireType":"inventoryKeep",
-                        "requireID":"strange_gem",
-                        "value":1,
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger_nondisplay",
+                        "value":10,
                         "negate":true
                     }
                 ]
@@ -5793,7 +5774,14 @@
         "replies":[
             {
                 "text":"Was the gem I purchased originally mounted in the pommel of the dagger you have?",
-                "nextPhraseID":"quiet_thief_2_1"
+                "nextPhraseID":"quiet_thief_2_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":20
+                    }
+                ]
             },
             {
                 "text":"Yes, I would like to take another look.",
@@ -5808,7 +5796,14 @@
         "replies":[
             {
                 "text":"Was the gem you have originally in the pommel of the dagger I purchased?",
-                "nextPhraseID":"quiet_thief_3_1"
+                "nextPhraseID":"quiet_thief_3_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":10
+                    }
+                ]
             },
             {
                 "text":"Yes, I would like to take another look.",
@@ -5960,8 +5955,8 @@
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"nondisplay_2",
-                "value":240
+                "rewardID":"brv_dagger_nondisplay",
+                "value":30
             },
             {
                 "rewardType":"giveItem",
@@ -6012,8 +6007,8 @@
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"nondisplay_2",
-                "value":250
+                "rewardID":"brv_dagger_nondisplay",
+                "value":40
             },
             {
                 "rewardType":"giveItem",
@@ -6358,14 +6353,14 @@
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"nondisplay_2",
-                        "value":240,
+                        "requireID":"brv_dagger_nondisplay",
+                        "value":30,
                         "negate":true
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"nondisplay_2",
-                        "value":250,
+                        "requireID":"brv_dagger_nondisplay",
+                        "value":40,
                         "negate":true
                     }
                 ]
@@ -7497,6 +7492,53 @@
                 "rewardType":"questProgress",
                 "rewardID":"brv_flood",
                 "value":75
+            }
+        ]
+    },
+    {
+        "id":"brv_thief",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_thief_1",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"strange_gem",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brv_thief_2",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"strange_dagger",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brv_thief_1",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_dagger_nondisplay",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"brv_thief_2",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_dagger_nondisplay",
+                "value":20
             }
         ]
     }
