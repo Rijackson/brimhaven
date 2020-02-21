@@ -57,13 +57,15 @@
         "id":"brv_fish1",
         "name":"Fish",
         "iconID":"monsters_tometik2:30",
-        "monsterClass":"animal"
+        "monsterClass":"animal",
+        "spawnGroup":"brv_fish"
     },
     {
         "id":"brv_fish2",
         "name":"Fish",
         "iconID":"monsters_tometik2:30",
-        "monsterClass":"animal"
+        "monsterClass":"animal",
+        "spawnGroup":"brv_fish"
     },
     {
         "id":"brv_richman",
