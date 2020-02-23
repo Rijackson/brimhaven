@@ -5925,6 +5925,10 @@
             {
                 "text":"How much are you asking?",
                 "nextPhraseID":"quiet_thief_2_3"
+            },
+            {
+                "text":"Can I see what else you have to sell.",
+                "nextPhraseID":"S"
             }
         ]
     },
@@ -5977,6 +5981,10 @@
             {
                 "text":"How much are you asking?",
                 "nextPhraseID":"quiet_thief_3_3"
+            },
+            {
+                "text":"Can I see what else you have to sell.",
+                "nextPhraseID":"S"
             }
         ]
     },
@@ -7524,6 +7532,19 @@
     },
     {
         "id":"brv_thief_1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_thief_1a",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"strange_dagger",
+                        "value":1
+                    }
+                ]
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -7534,11 +7555,44 @@
     },
     {
         "id":"brv_thief_2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_thief_2a",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"strange_gem",
+                        "value":1
+                    }
+                ]
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"brv_dagger_nondisplay",
                 "value":20
+            }
+        ]
+    },
+    {
+        "id":"brv_thief_1a",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_dagger_nondisplay",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"brv_thief_2a",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_dagger_nondisplay",
+                "value":10
             }
         ]
     }
