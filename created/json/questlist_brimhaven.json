@@ -255,6 +255,10 @@
                 "logText":"The priest Fangwurm told me that the potion maker in Fallhaven sells special crystal vials that are resistent to the blood of a Basilisk, and I will need one to handle it."
             },
             {
+                "progress":79,
+                "logText":"I should search the other rooms in this cave for a mirror that I can wear to protect me from the glance of the Basilisk. "
+            },
+            {
                 "progress":80,
                 "logText":"I killed the Basilisk."
             },
@@ -306,80 +310,12 @@
         "name":"quick_glance_hidden_position",
         "stages":[
             {
-                "progress":4,
-                "logText":"Position 4"
-            },
-            {
-                "progress":12,
-                "logText":"Position 12"
-            },
-            {
-                "progress":13,
-                "logText":"Position 13"
-            },
-            {
-                "progress":14,
-                "logText":"Position 14"
-            },
-            {
-                "progress":15,
-                "logText":"Position 15"
-            },
-            {
-                "progress":16,
-                "logText":"Position 16"
-            },
-            {
-                "progress":22,
-                "logText":"Position 22"
-            },
-            {
-                "progress":23,
-                "logText":"Position 23"
-            },
-            {
-                "progress":24,
-                "logText":"Position 24"
-            },
-            {
-                "progress":25,
-                "logText":"Position 25"
-            },
-            {
-                "progress":32,
-                "logText":"Position 32"
-            },
-            {
-                "progress":33,
-                "logText":"Position 33"
-            },
-            {
-                "progress":34,
-                "logText":"Position 34"
-            },
-            {
-                "progress":35,
-                "logText":"Position 35"
-            },
-            {
-                "progress":43,
-                "logText":"Position 43"
-            },
-            {
-                "progress":44,
-                "logText":"Position 44"
-            },
-            {
-                "progress":98,
-                "logText":"Was warned"
-            },
-            {
-                "progress":99,
-                "logText":"Walk again"
-            },
-            {
                 "progress":100,
                 "logText":"Anakis left"
+            },
+            {
+                "progress":110,
+                "logText":"Unprotected"
             }
         ]
     },

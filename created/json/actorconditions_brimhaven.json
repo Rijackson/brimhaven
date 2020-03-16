@@ -95,17 +95,7 @@
             "increaseCurrentHP":{
                 "min":-10,
                 "max":-10
-            },
-            "increaseCurrentAP":{
-                "min":-100,
-                "max":-100
             }
-        },
-        "abilityEffect":{
-            "increaseMoveCost":100,
-            "increaseUseItemCost":100,
-            "increaseReequipCost":100,
-            "increaseAttackCost":100
         }
     },
     {

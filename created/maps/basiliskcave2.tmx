@@ -209,91 +209,6 @@
    eJybKcvAMHMUY8XogNrmIvOp7e6hbDatwhxbnJICSDWb3PRAiruJNRtdPTKfHD8TazYlbic2rCgxbxQPDAYAwzbxuQ==
   </data>
  </layer>
- <layer name="Walkable_StopWalking4" width="23" height="18" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2DkgZmyCEwLs5FpaptNK3ePglFALwAAzI8FsQ==
-  </data>
- </layer>
- <layer name="Walkable_StopWalking12" width="23" height="18" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUUAPMlEVgWpiNTFPbbFq5exSMAmwAAO6xBbE=
-  </data>
- </layer>
- <layer name="Walkable_StopWalking13" width="23" height="18" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUUAvMlEVgWpiNTFPbbFq5exSMAnQAANfxBbE=
-  </data>
- </layer>
- <layer name="Walkable_StopWalking14" width="23" height="18" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUUBPMlEVgWpiNTFPbbFq5exSMAmQAAMExBbE=
-  </data>
- </layer>
- <layer name="Walkable_StopWalking15" width="23" height="18" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUUBvMlEVgWpiNTFPbbFq5exSMAhgAAKpxBbE=
-  </data>
- </layer>
- <layer name="Walkable_StopWalking16" width="23" height="18" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AU0ALMlEVgWpiNTFPbbFq5exSMAhAAAJOxBbE=
-  </data>
- </layer>
- <layer name="Walkable_StopWalking22" width="23" height="18" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUDHYwUxaBaWE2Mk1ts2nl7lEwdAEA41MFsQ==
-  </data>
- </layer>
- <layer name="Walkable_StopWalking23" width="23" height="18" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUDAUwUxaBaWE2Mk1ts2nl7lEwNAEAzJMFsQ==
-  </data>
- </layer>
- <layer name="Walkable_StopWalking24" width="23" height="18" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUDBUwUxaBaWE2Mk1ts2nl7lEw9AAAtdMFsQ==
-  </data>
- </layer>
- <layer name="Walkable_StopWalking25" width="23" height="18" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUDCUwUxaBaWE2Mk1ts2nl7lEwtAAAnxMFsQ==
-  </data>
- </layer>
- <layer name="Walkable_StopWalking32" width="23" height="18" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjGQwUxaBaWE2Mk1ts2nl7lFAWwAA1/UFsQ==
-  </data>
- </layer>
- <layer name="Walkable_StopWalking33" width="23" height="18" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjHQwUxaBaWE2Mk1ts2nl7lFAOwAAwTUFsQ==
-  </data>
- </layer>
- <layer name="Walkable_StopWalking34" width="23" height="18" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjAIGhpmyCEwLs5FpaptNK3ePAtoAAKp1BbE=
-  </data>
- </layer>
- <layer name="Walkable_StopWalking35" width="23" height="18" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjAIImCmLwLQwG5mmttm0cvcooD4AAJO1BbE=
-  </data>
- </layer>
- <layer name="Walkable_StopWalking43" width="23" height="18" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjALagZmyCEwLs5FpaptNK3ePdAAAtdcFsQ==
-  </data>
- </layer>
- <layer name="Walkable_StopWalking44" width="23" height="18" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjALagpmyCEwLs5FpaptNK3ePZAAAnxcFsQ==
-  </data>
- </layer>
- <layer name="Walkable_WalkAgain" width="23" height="18" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AU0ALMlIXgkQxo6X/08B0N76EDAL57BPs=
-  </data>
- </layer>
  <objectgroup name="Replace" visible="0">
   <object name="replace_remove_statue" type="replace" x="160" y="288" width="32" height="32">
    <properties>
@@ -301,142 +216,6 @@
     <property name="requireId" value="quick_glance_hidden_found_statue"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="20"/>
-   </properties>
-  </object>
-  <object name="replace_walkable4" type="replace" x="192" y="256" width="96" height="96">
-   <properties>
-    <property name="Walkable" value="Walkable_StopWalking4"/>
-    <property name="requireId" value="quick_glance_hidden_position"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="4"/>
-   </properties>
-  </object>
-  <object name="replace_walkable12" type="replace" x="128" y="288" width="96" height="96">
-   <properties>
-    <property name="Walkable" value="Walkable_StopWalking12"/>
-    <property name="requireId" value="quick_glance_hidden_position"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="12"/>
-   </properties>
-  </object>
-  <object name="replace_walkable13" type="replace" x="160" y="288" width="96" height="96">
-   <properties>
-    <property name="Walkable" value="Walkable_StopWalking13"/>
-    <property name="requireId" value="quick_glance_hidden_position"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="13"/>
-   </properties>
-  </object>
-  <object name="replace_walkable14" type="replace" x="192" y="288" width="96" height="96">
-   <properties>
-    <property name="Walkable" value="Walkable_StopWalking14"/>
-    <property name="requireId" value="quick_glance_hidden_position"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="14"/>
-   </properties>
-  </object>
-  <object name="replace_walkable15" type="replace" x="224" y="288" width="96" height="96">
-   <properties>
-    <property name="Walkable" value="Walkable_StopWalking15"/>
-    <property name="requireId" value="quick_glance_hidden_position"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="15"/>
-   </properties>
-  </object>
-  <object name="replace_walkable16" type="replace" x="256" y="288" width="96" height="96">
-   <properties>
-    <property name="Walkable" value="Walkable_StopWalking16"/>
-    <property name="requireId" value="quick_glance_hidden_position"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="16"/>
-   </properties>
-  </object>
-  <object name="replace_walkable22" type="replace" x="128" y="320" width="96" height="96">
-   <properties>
-    <property name="Walkable" value="Walkable_StopWalking22"/>
-    <property name="requireId" value="quick_glance_hidden_position"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="22"/>
-   </properties>
-  </object>
-  <object name="replace_walkable23" type="replace" x="160" y="320" width="96" height="96">
-   <properties>
-    <property name="Walkable" value="Walkable_StopWalking23"/>
-    <property name="requireId" value="quick_glance_hidden_position"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="23"/>
-   </properties>
-  </object>
-  <object name="replace_walkable24" type="replace" x="192" y="320" width="96" height="96">
-   <properties>
-    <property name="Walkable" value="Walkable_StopWalking24"/>
-    <property name="requireId" value="quick_glance_hidden_position"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="24"/>
-   </properties>
-  </object>
-  <object name="replace_walkable25" type="replace" x="224" y="320" width="96" height="96">
-   <properties>
-    <property name="Walkable" value="Walkable_StopWalking25"/>
-    <property name="requireId" value="quick_glance_hidden_position"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="25"/>
-   </properties>
-  </object>
-  <object name="replace_walkable32" type="replace" x="128" y="352" width="96" height="96">
-   <properties>
-    <property name="Walkable" value="Walkable_StopWalking32"/>
-    <property name="requireId" value="quick_glance_hidden_position"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="32"/>
-   </properties>
-  </object>
-  <object name="replace_walkable33" type="replace" x="160" y="352" width="96" height="96">
-   <properties>
-    <property name="Walkable" value="Walkable_StopWalking33"/>
-    <property name="requireId" value="quick_glance_hidden_position"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="33"/>
-   </properties>
-  </object>
-  <object name="replace_walkable34" type="replace" x="192" y="352" width="96" height="96">
-   <properties>
-    <property name="Walkable" value="Walkable_StopWalking34"/>
-    <property name="requireId" value="quick_glance_hidden_position"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="34"/>
-   </properties>
-  </object>
-  <object name="replace_walkable35" type="replace" x="224" y="352" width="96" height="96">
-   <properties>
-    <property name="Walkable" value="Walkable_StopWalking35"/>
-    <property name="requireId" value="quick_glance_hidden_position"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="35"/>
-   </properties>
-  </object>
-  <object name="replace_walkable43" type="replace" x="160" y="384" width="96" height="96">
-   <properties>
-    <property name="Walkable" value="Walkable_StopWalking43"/>
-    <property name="requireId" value="quick_glance_hidden_position"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="43"/>
-   </properties>
-  </object>
-  <object name="replace_walkable44" type="replace" x="192" y="384" width="96" height="96">
-   <properties>
-    <property name="Walkable" value="Walkable_StopWalking44"/>
-    <property name="requireId" value="quick_glance_hidden_position"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="44"/>
-   </properties>
-  </object>
-  <object name="replace_walkable_walkagain" type="replace" x="128" y="256" width="192" height="192">
-   <properties>
-    <property name="Walkable" value="Walkable_WalkAgain"/>
-    <property name="requireId" value="quick_glance_hidden_position"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="99"/>
    </properties>
   </object>
  </objectgroup>
@@ -449,30 +228,26 @@
   </object>
   <object name="basiliskcave2" type="container" x="672" y="352" width="32" height="32"/>
   <object name="basiliskcave2_2" type="container" x="672" y="320" width="32" height="32"/>
-  <object name="basiliskcave_reset2" type="script" x="160" y="192" width="32" height="32"/>
   <object name="basiliskcave2_check_heal_sister" type="script" x="320" y="384" width="32" height="32"/>
-  <object name="basiliskcave2_check_turn_to_stone4" type="script" x="224" y="288" width="32" height="32"/>
-  <object name="basiliskcave2_check_turn_to_stone12" type="script" x="160" y="320" width="32" height="32"/>
-  <object name="basiliskcave2_check_turn_to_stone13" type="script" x="192" y="320" width="32" height="32"/>
-  <object name="basiliskcave2_check_turn_to_stone14" type="script" x="224" y="320" width="32" height="32"/>
-  <object name="basiliskcave2_check_turn_to_stone15" type="script" x="256" y="320" width="32" height="32"/>
-  <object name="basiliskcave2_check_turn_to_stone16" type="script" x="288" y="320" width="32" height="32"/>
-  <object name="basiliskcave2_check_turn_to_stone22" type="script" x="160" y="352" width="32" height="32"/>
-  <object name="basiliskcave2_check_turn_to_stone23" type="script" x="192" y="352" width="32" height="32"/>
-  <object name="basiliskcave2_check_turn_to_stone24" type="script" x="224" y="352" width="32" height="32"/>
-  <object name="basiliskcave2_check_turn_to_stone25" type="script" x="256" y="352" width="32" height="32"/>
-  <object name="basiliskcave2_check_turn_to_stone32" type="script" x="160" y="384" width="32" height="32"/>
-  <object name="basiliskcave2_check_turn_to_stone33" type="script" x="192" y="384" width="32" height="32"/>
-  <object name="basiliskcave2_check_turn_to_stone34" type="script" x="224" y="384" width="32" height="32"/>
-  <object name="basiliskcave2_check_turn_to_stone35" type="script" x="256" y="384" width="32" height="32"/>
-  <object name="basiliskcave2_check_turn_to_stone43" type="script" x="192" y="416" width="32" height="32"/>
-  <object name="basiliskcave2_check_turn_to_stone44" type="script" x="224" y="416" width="32" height="32"/>
-  <object name="basiliskcave2_check_warn" type="script" x="128" y="288" width="32" height="32"/>
-  <object name="basiliskcave2_check_warn" type="script" x="192" y="256" width="64" height="64"/>
+  <object name="basiliskcave2_check_turntostone" type="script" x="160" y="320" width="96" height="128">
+   <properties>
+    <property name="when" value="round"/>
+   </properties>
+  </object>
+  <object name="basiliskcave2_remove_turntostone" type="script" x="128" y="288" width="32" height="96"/>
+  <object name="basiliskcave2_remove_turntostone" type="script" x="192" y="288" width="32" height="32"/>
+  <object name="basiliskcave2_check_turntostone" type="script" x="160" y="320" width="96" height="128">
+   <properties>
+    <property name="when" value="step"/>
+   </properties>
+  </object>
+  <object name="basiliskcave2_remove_turntostone" type="script" x="192" y="256" width="96" height="32"/>
+  <object name="basiliskcave2_check_turntostone" type="script" x="224" y="288" width="32" height="32"/>
  </objectgroup>
- <objectgroup name="Spawn" visible="0">
+ <objectgroup name="Spawn">
   <object name="basiliskcave2_boss" type="spawn" x="288" y="352" width="32" height="32">
    <properties>
+    <property name="ignoreAreas" value="true"/>
     <property name="spawngroup" value="basiliskcave2_boss"/>
    </properties>
   </object>
@@ -482,13 +257,22 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys" visible="0">
+ <objectgroup name="Keys">
   <object name="sister_statue" type="key" x="160" y="288" width="32" height="32">
    <properties>
     <property name="phrase" value="basiliskcave2_check_sister_statue"/>
     <property name="requireId" value="quick_glance_hidden_found_statue"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="20"/>
+   </properties>
+  </object>
+  <object name="blocked" type="key" x="256" y="320" width="32" height="96">
+   <properties>
+    <property name="phrase" value="basiliskcave2_blocked"/>
+    <property name="requireId" value="quick_glance_hidden_position"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="110"/>
    </properties>
   </object>
  </objectgroup>
