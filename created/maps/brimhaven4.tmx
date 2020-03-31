@@ -326,11 +326,6 @@
     <property name="place" value="entrance"/>
    </properties>
   </object>
-  <object id="16" name="brv_shop_guard" type="spawn" x="288" y="320" width="32" height="32">
-   <properties>
-    <property name="spawngroup" value="brv_shop_guard"/>
-   </properties>
-  </object>
   <object id="17" name="brv_elythom_check_stop_hero" type="script" x="416" y="544" width="96" height="96">
    <properties>
     <property name="when" value="enter"/>
@@ -338,6 +333,11 @@
   </object>
  </objectgroup>
  <objectgroup id="13" name="Spawn">
+  <object id="16" name="brv_shop_guard" type="spawn" x="288" y="320" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="brv_shop_guard"/>
+   </properties>
+  </object> 
   <object id="18" name="exit_guard2" type="spawn" x="32" y="64" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
