@@ -1833,6 +1833,14 @@
         "message":"Murderer! Out of my sight!"
     },
     {
+        "id":"brv_wh_boss",
+        "message":"They confiscated everything! I am ruined!"
+    },
+    {
+        "id":"brv_wh_worker",
+        "message":"Do you have some work for me to do?"
+    },
+    {
         "id":"golin",
         "replies":[
             {

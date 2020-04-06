@@ -132,6 +132,24 @@
         "phraseID":"brv_teacher"
     },
     {
+        "id":"brv_wh_boss",
+        "name":"Warehouse boss",
+        "iconID":"monsters_ld1:135",
+        "moveCost":5,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_wh_boss",
+        "phraseID":"brv_wh_boss"
+    },
+    {
+        "id":"brv_wh_worker",
+        "name":"Warehouse worker",
+        "iconID":"monsters_ld1:15",
+        "moveCost":5,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_wh_worker",
+        "phraseID":"brv_wh_worker"
+    },
+    {
         "id":"golin",
         "name":"Golin",
 		"maxHP":80,
