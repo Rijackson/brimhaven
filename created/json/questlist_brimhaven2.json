@@ -102,6 +102,63 @@
         ]
     },
     {
+        "id":"brv_wh",
+        "name":"Inventory",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"Facutloni asked you to help him c the magazin. You should check if there is a pair of every item."
+            },
+            {
+                "progress":100,
+                "logText":"You have found a pair of crystal globes."
+            },
+            {
+                "progress":101,
+                "logText":"You have found a pair of plush pillows."
+            },
+            {
+                "progress":102,
+                "logText":"You have found a pair of lyras."
+            },
+            {
+                "progress":103,
+                "logText":"You have found a pair of boots."
+            },
+            {
+                "progress":104,
+                "logText":"You have found a pair of chandeliers."
+            },
+            {
+                "progress":105,
+                "logText":"You have found a pair of mysterious green somethings."
+            },
+            {
+                "progress":106,
+                "logText":"You have found a pair of old, worn capes."
+            },
+            {
+                "progress":107,
+                "logText":"You have found a pair of pretty porcelain figures."
+            },
+            {
+                "progress":108,
+                "logText":"You have found a pair of striped hammers."
+            },
+            {
+                "progress":109,
+                "logText":"You have found a pair of dusty old books."
+            },
+            {
+                "progress":900,
+                "logText":"I found all the 10 pairs. Facutloni is very happy.",
+                "rewardExperience":2000,
+                "finishesQuest":1
+            }
+        ]
+    },
+    {
         "id":"brv_nondisplay2",
         "name":"brv_nondisplay2",
         "showInLog":1,

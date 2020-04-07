@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="26" height="14" tilewidth="32" tileheight="32" infinite="0" nextobjectid="4">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="27" height="14" tilewidth="32" tileheight="32" infinite="0" nextobjectid="65">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -180,41 +180,130 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer name="Ground" width="26" height="14">
+ <layer name="Ground" width="27" height="14">
   <data encoding="base64" compression="zlib">
-   eJzbysnAsJVO+KIUbTHMnodStMUwe87QGI/aM2rPcLUHlF9pbc9FaH6ltT0gO55yUgfDzMQlDwAhczM6
+   eJzbysnAsJWO+KIUA8MnGtMwux4C2dulaEvD7DoDxMelaEsj20VrjMuuT0RgUtXis4tQfJOqFpddxMQ3qWpx2UVsfA+1tEEruy5K0ceui9D4o4ddIHueclIPw8zFJQ8A9SpEzg==
   </data>
  </layer>
- <layer name="Objects" width="26" height="14">
+ <layer name="Objects" width="27" height="14">
   <data encoding="base64" compression="zlib">
-   eJxjYBhYsF+Gunxc4LwMdfmjYBSMglFAbwAADaUI3w==
+   eJxjYBgYsJEVQn9iReXD6Mus2NWhi+OSB4GJ/BD6IFSMiY2BgZ0JwYfRj1kx1cHEsamHmfMYyS5qAHEm6ppHTeBMB7ed4MMUI5QeOIHuWkhkWiEEkNMDcrzD4hubWvS0cBCLXdj8hQ+Qmg7oETcwEIxklzsLhN7NQlgfJxlujEQKy5ssEHybgF3xRMT1VVFMsUwkfS9ZIPg1ml2JUDW5QDoPiPOBeBGJZUALUH0rlcsNYgAAb2As4g==
   </data>
  </layer>
- <layer name="Above" width="26" height="14">
+ <layer name="Above" width="27" height="14">
   <data encoding="base64" compression="zlib">
-   eJxjYBgF5ILDYqP2jNozas9gt+cSneyhBwAAUlIIig==
+   eJxjYBgFowA32MFHup69bBBMrNqBAMPVX8MVNPND6IX82OVjWRkY4ljJM7sEqK8USe8lMfLMGcwAAFxxCgE=
   </data>
  </layer>
- <layer name="Walkable" width="26" height="14">
+ <layer name="Top" width="27" height="14">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHEUk4VpDUbtGbVn1J6hYw81yxRc8gCIul7X
+   eJxjYKAvOCw2ateoXaN2jdo1eO0ajgAAWZsJVA==
+  </data>
+ </layer>
+ <layer name="Walkable" width="27" height="14" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzbKMbAsHGYYxCgJU0PO9DtojXAZRex4U2KWmx6ydVPrFps/iKGJkUtPn/Ryi56AGzxTEt7SLGLXLcQSsvIZuNTQ649lGJC5gMA4z6beQ==
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object id="1" name="entrance" type="mapchange" x="576" y="416" width="64" height="32">
+  <object id="1" name="entrance" type="mapchange" x="608" y="416" width="64" height="32">
    <properties>
     <property name="map" value="brimhaven4"/>
     <property name="place" value="brimhaven_warehouse"/>
    </properties>
   </object>
+  <object id="41" name="brv_wh_sign" type="script" x="640" y="352" width="32" height="32"/>
  </objectgroup>
- <objectgroup name="Spawn">
-  <object id="2" name="brv_wh_boss" type="spawn" x="32" y="96" width="32" height="64">
+ <objectgroup name="Spawn" visible="0">
+  <object id="2" name="brv_wh_boss" type="spawn" x="32" y="320" width="64" height="64">
    <properties>
     <property name="spawngroup" value="brv_wh_boss"/>
    </properties>
   </object>
-  <object id="3" name="brv_wh_worker" type="spawn" x="128" y="160" width="608" height="192"/>
+  <object id="42" name="brv_wh_item_00" type="spawn" x="96" y="64" width="736" height="192"/>
+  <object id="43" name="brv_wh_item_01" type="spawn" x="96" y="64" width="736" height="192"/>
+  <object id="44" name="brv_wh_item_02" type="spawn" x="96" y="64" width="736" height="192"/>
+  <object id="45" name="brv_wh_item_03" type="spawn" x="96" y="64" width="736" height="192"/>
+  <object id="46" name="brv_wh_item_04" type="spawn" x="96" y="64" width="736" height="192"/>
+  <object id="47" name="brv_wh_item_05" type="spawn" x="96" y="64" width="736" height="192"/>
+  <object id="48" name="brv_wh_item_06" type="spawn" x="96" y="64" width="736" height="192"/>
+  <object id="49" name="brv_wh_item_07" type="spawn" x="96" y="64" width="736" height="192"/>
+  <object id="50" name="brv_wh_item_08" type="spawn" x="96" y="64" width="736" height="192"/>
+  <object id="51" name="brv_wh_item_09" type="spawn" x="96" y="64" width="736" height="192"/>
+  <object id="52" name="brv_wh_item_20" type="spawn" x="96" y="64" width="736" height="192"/>
+  <object id="53" name="brv_wh_item_21" type="spawn" x="96" y="64" width="736" height="192"/>
+  <object id="54" name="brv_wh_item_22" type="spawn" x="96" y="64" width="736" height="192"/>
+  <object id="55" name="brv_wh_item_23" type="spawn" x="96" y="64" width="736" height="192"/>
+  <object id="56" name="brv_wh_item_24" type="spawn" x="96" y="64" width="736" height="192"/>
+  <object id="57" name="brv_wh_item_25" type="spawn" x="96" y="64" width="736" height="192"/>
+  <object id="58" name="brv_wh_item_26" type="spawn" x="96" y="64" width="736" height="192"/>
+  <object id="59" name="brv_wh_item_27" type="spawn" x="96" y="64" width="736" height="192"/>
+  <object id="60" name="brv_wh_item_28" type="spawn" x="96" y="64" width="736" height="192"/>
+  <object id="61" name="brv_wh_item_29" type="spawn" x="96" y="64" width="736" height="192"/>
+  <object id="5" name="brv_wh_worker" type="spawn" x="96" y="256" width="736" height="96">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+   </properties>
+  </object>
+  <object id="62" name="brv_wh_worker2" type="spawn" x="96" y="96" width="736" height="128">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+   </properties>
+  </object>
+  <object id="63" name="brv_wh_worker3" type="spawn" x="416" y="96" width="128" height="320">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup name="Keys"/>
+ <objectgroup name="Keys" visible="0">
+  <object id="36" name="andor1_1" type="key" x="96" y="96" width="736" height="128">
+   <properties>
+    <property name="phrase" value="brv_wh_sign"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object id="37" name="andor1_2" type="key" x="96" y="256" width="736" height="64">
+   <properties>
+    <property name="phrase" value="brv_wh_sign"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object id="38" name="andor1_3" type="key" x="96" y="224" width="64" height="32">
+   <properties>
+    <property name="phrase" value="brv_wh_sign"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object id="39" name="andor1_4" type="key" x="448" y="224" width="64" height="32">
+   <properties>
+    <property name="phrase" value="brv_wh_sign"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object id="40" name="andor1_5" type="key" x="800" y="224" width="32" height="32">
+   <properties>
+    <property name="phrase" value="brv_wh_sign"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object id="64" name="brv_wh:10" type="key" x="64" y="256" width="768" height="32">
+   <properties>
+    <property name="phrase" value="brv_wh_sign"/>
+    <property name="requireId" value="brv_wh"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="10"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

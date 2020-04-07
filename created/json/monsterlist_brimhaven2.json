@@ -133,7 +133,7 @@
     },
     {
         "id":"brv_wh_boss",
-        "name":"Warehouse boss",
+        "name":"Facutloni",
         "iconID":"monsters_ld1:135",
         "moveCost":5,
         "monsterClass":"humanoid",
@@ -141,12 +141,210 @@
         "phraseID":"brv_wh_boss"
     },
     {
+        "id":"brv_wh_item_00",
+        "name":"Crystal globe",
+        "iconID":"items_japozero:227",
+        "moveCost":99,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_wh_item_00",
+        "phraseID":"brv_wh_item_00"
+    },
+    {
+        "id":"brv_wh_item_20",
+        "name":"Crystal globe",
+        "iconID":"items_japozero:227",
+        "moveCost":99,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_wh_item_20",
+        "phraseID":"brv_wh_item_20"
+    },
+    {
+        "id":"brv_wh_item_01",
+        "name":"Plush pillow",
+        "iconID":"items_misc:43",
+        "moveCost":99,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_wh_item_01",
+        "phraseID":"brv_wh_item_01"
+    },
+    {
+        "id":"brv_wh_item_21",
+        "name":"Plush pillow",
+        "iconID":"items_misc:43",
+        "moveCost":99,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_wh_item_21",
+        "phraseID":"brv_wh_item_21"
+    },
+    {
+        "id":"brv_wh_item_02",
+        "name":"Lyra",
+        "iconID":"items_japozero:368",
+        "moveCost":99,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_wh_item_02",
+        "phraseID":"brv_wh_item_02"
+    },
+    {
+        "id":"brv_wh_item_22",
+        "name":"Lyra",
+        "iconID":"items_japozero:368",
+        "moveCost":99,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_wh_item_22",
+        "phraseID":"brv_wh_item_22"
+    },
+    {
+        "id":"brv_wh_item_03",
+        "name":"yellow boot",
+        "iconID":"items_armours_3:38",
+        "moveCost":99,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_wh_item_03",
+        "phraseID":"brv_wh_item_03"
+    },
+    {
+        "id":"brv_wh_item_23",
+        "name":"yellow boot",
+        "iconID":"items_armours_3:38",
+        "moveCost":99,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_wh_item_23",
+        "phraseID":"brv_wh_item_23"
+    },
+    {
+        "id":"brv_wh_item_04",
+        "name":"Chandelier",
+        "iconID":"items_misc_2:238",
+        "moveCost":99,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_wh_item_04",
+        "phraseID":"brv_wh_item_04"
+    },
+    {
+        "id":"brv_wh_item_24",
+        "name":"Chandelier",
+        "iconID":"items_misc_2:238",
+        "moveCost":99,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_wh_item_24",
+        "phraseID":"brv_wh_item_24"
+    },
+    {
+        "id":"brv_wh_item_05",
+        "name":"Mysterious green something",
+        "iconID":"items_misc_2:95",
+        "moveCost":99,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_wh_item_05",
+        "phraseID":"brv_wh_item_05"
+    },
+    {
+        "id":"brv_wh_item_25",
+        "name":"Mysterious green something",
+        "iconID":"items_misc_2:95",
+        "moveCost":99,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_wh_item_25",
+        "phraseID":"brv_wh_item_25"
+    },
+    {
+        "id":"brv_wh_item_06",
+        "name":"Old, worn cape",
+        "iconID":"items_japozero:127",
+        "moveCost":99,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_wh_item_06",
+        "phraseID":"brv_wh_item_06"
+    },
+    {
+        "id":"brv_wh_item_26",
+        "name":"Old, worn cape",
+        "iconID":"items_japozero:127",
+        "moveCost":99,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_wh_item_26",
+        "phraseID":"brv_wh_item_26"
+    },
+    {
+        "id":"brv_wh_item_07",
+        "name":"Pretty porcelain figure",
+        "iconID":"items_misc_5:15",
+        "moveCost":99,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_wh_item_07",
+        "phraseID":"brv_wh_item_07"
+    },
+    {
+        "id":"brv_wh_item_27",
+        "name":"Pretty porcelain figure",
+        "iconID":"items_misc_5:15",
+        "moveCost":99,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_wh_item_27",
+        "phraseID":"brv_wh_item_27"
+    },
+    {
+        "id":"brv_wh_item_08",
+        "name":"Striped hammer",
+        "iconID":"items_japozero:74",
+        "moveCost":99,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_wh_item_08",
+        "phraseID":"brv_wh_item_08"
+    },
+    {
+        "id":"brv_wh_item_28",
+        "name":"Striped hammer",
+        "iconID":"items_japozero:74",
+        "moveCost":99,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_wh_item_28",
+        "phraseID":"brv_wh_item_28"
+    },
+    {
+        "id":"brv_wh_item_09",
+        "name":"Dusty old book",
+        "iconID":"items_books:1",
+        "moveCost":99,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_wh_item_09",
+        "phraseID":"brv_wh_item_09"
+    },
+    {
+        "id":"brv_wh_item_29",
+        "name":"Dusty old book",
+        "iconID":"items_books:1",
+        "moveCost":99,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_wh_item_29",
+        "phraseID":"brv_wh_item_29"
+    },
+    {
         "id":"brv_wh_worker",
         "name":"Warehouse worker",
         "iconID":"monsters_ld1:15",
-        "moveCost":5,
+        "moveCost":6,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_wh_worker",
+        "phraseID":"brv_wh_worker"
+    },
+    {
+        "id":"brv_wh_worker2",
+        "name":"Warehouse worker",
+        "iconID":"monsters_ld1:19",
+        "moveCost":3,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_wh_worker2",
+        "phraseID":"brv_wh_worker"
+    },
+    {
+        "id":"brv_wh_worker3",
+        "name":"Warehouse worker",
+        "iconID":"monsters_ld1:100",
+        "moveCost":5,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_wh_worker3",
         "phraseID":"brv_wh_worker"
     },
     {
