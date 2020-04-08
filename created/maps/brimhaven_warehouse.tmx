@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="27" height="14" tilewidth="32" tileheight="32" infinite="0" nextobjectid="65">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="27" height="14" tilewidth="32" tileheight="32" infinite="0" nextobjectid="74">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -180,29 +180,32 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7577" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_guynmart.png" width="512" height="256"/>
+ </tileset>
  <layer name="Ground" width="27" height="14">
   <data encoding="base64" compression="zlib">
-   eJzbysnAsJWO+KIUA8MnGtMwux4C2dulaEvD7DoDxMelaEsj20VrjMuuT0RgUtXis4tQfJOqFpddxMQ3qWpx2UVsfA+1tEEruy5K0ceui9D4o4ddIHueclIPw8zFJQ8A9SpEzg==
+   eJxjYCAObOWkDr4oxcDwicY0zK6HQPZ2KdrSMLvOAPFxKdrSyHbRGuOy6xMRmFS1+OwiFN+kqsVlFzHxTapaXHYRG99DLW3Qyq6LUvSx6yI0/uhhF8iep5zUwzBzcckDAKK3PWI=
   </data>
  </layer>
  <layer name="Objects" width="27" height="14">
   <data encoding="base64" compression="zlib">
-   eJxjYBgYsJEVQn9iReXD6Mus2NWhi+OSB4GJ/BD6IFSMiY2BgZ0JwYfRj1kx1cHEsamHmfMYyS5qAHEm6ppHTeBMB7ed4MMUI5QeOIHuWkhkWiEEkNMDcrzD4hubWvS0cBCLXdj8hQ+Qmg7oETcwEIxklzsLhN7NQlgfJxlujEQKy5ssEHybgF3xRMT1VVFMsUwkfS9ZIPg1ml2JUDW5QDoPiPOBeBGJZUALUH0rlcsNYgAAb2As4g==
+   eJxjYBgYsJEVQn9iReXD6Mus2NWhi+OSB4GJ/BD6IFSMiY2BgZ0JwYfRj1kx1cHEsamHmfMYyS5qAHEm6ppHTeBMB7ed4MMUI5QeOIHuWkhkWiEEkNMDcrzD4hubWvS0cBCLXdj8hQ+Qmg7oETcwEIxklzsLhN7NQlgfJxlujMQSlrcJ2BVPRFxfFWVgmCmLKpaJpO8lCwS/RrMrkRWiLxdI5wFxPhAvIrEMaAGqb6VyuUEMAAB3gyyU
   </data>
  </layer>
  <layer name="Above" width="27" height="14">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFowA32MFHup69bBBMrNqBAMPVX8MVNPND6IX82OVjWRkY4ljJM7sEqK8USe8lMfLMGcwAAFxxCgE=
+   eJzbysnAsJUIPApGJtjBR7qevWwQTKzagQDD1V/DFdxkgeCF/NjlY1kZGOJYyTO7BKivFEnvJTHyzBnMAAAdlRKV
   </data>
  </layer>
  <layer name="Top" width="27" height="14">
   <data encoding="base64" compression="zlib">
-   eJxjYKAvOCw2ateoXaN2jdo1eO0ajgAAWZsJVA==
+   eJxjYKAvOCwGoefI0pZGtovWNDL7Eo1pdHtpDcix6zIJei4T8BeheEbWQ4pabHaRE9/o9GU8apEBKfE9FNIGcr6jlV3N/BD2bhrbhQzW0NEuWgIAjTFE3g==
   </data>
  </layer>
- <layer name="Walkable" width="27" height="14" visible="0">
+ <layer name="Walkable" width="27" height="14">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHGYYxCgJU0PO9DtojXAZRex4U2KWmx6ydVPrFps/iKGJkUtPn/Ryi56AGzxTEt7SLGLXLcQSsvIZuNTQ649lGJC5gMA4z6beQ==
+   eJxjYCAObBQbuhjmflrR9LAD3S5aA1x2ERvepKjFppdc/cSqxeYvYmhS1OLzF63sogfAFs+0tIcUu8h1C6G0jGw2PjXk2kMpJmQ+AIPzk7M=
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -255,6 +258,16 @@
     <property name="ignoreAreas" value="true"/>
    </properties>
   </object>
+  <object id="65" name="brv_wh_item_40" type="spawn" x="0" y="0" width="32" height="32"/>
+  <object id="66" name="brv_wh_item_41" type="spawn" x="32" y="0" width="32" height="32"/>
+  <object id="67" name="brv_wh_item_42" type="spawn" x="64" y="0" width="32" height="32"/>
+  <object id="68" name="brv_wh_item_43" type="spawn" x="96" y="0" width="32" height="32"/>
+  <object id="69" name="brv_wh_item_44" type="spawn" x="128" y="0" width="32" height="32"/>
+  <object id="70" name="brv_wh_item_45" type="spawn" x="160" y="0" width="32" height="32"/>
+  <object id="71" name="brv_wh_item_46" type="spawn" x="192" y="0" width="32" height="32"/>
+  <object id="72" name="brv_wh_item_47" type="spawn" x="224" y="0" width="32" height="32"/>
+  <object id="73" name="brv_wh_item_48" type="spawn" x="256" y="0" width="32" height="32"/>
+  <object id="73" name="brv_wh_item_49" type="spawn" x="288" y="0" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="Keys" visible="0">
   <object id="36" name="andor1_1" type="key" x="96" y="96" width="736" height="128">

@@ -26,6 +26,76 @@
         }
     },
     {
+        "id":"brv_wh_item_00",
+        "iconID":"items_japozero:227",
+		"name":"Crystal globe",
+		"displaytype":"quest",
+        "category":"other"
+    },
+    {
+        "id":"brv_wh_item_01",
+        "name":"Plush pillow",
+        "iconID":"items_misc:43",
+		"displaytype":"quest",
+        "category":"other"
+    },
+    {
+        "id":"brv_wh_item_02",
+        "name":"Lyra",
+        "iconID":"items_japozero:368",
+		"displaytype":"quest",
+        "category":"other"
+    },
+    {
+        "id":"brv_wh_item_03",
+        "name":"yellow boot",
+        "iconID":"items_armours_3:38",
+		"displaytype":"quest",
+        "category":"other"
+    },
+    {
+        "id":"brv_wh_item_04",
+        "name":"Chandelier",
+        "iconID":"items_misc_2:238",
+		"displaytype":"quest",
+        "category":"other"
+    },
+    {
+        "id":"brv_wh_item_05",
+        "name":"Mysterious green something",
+        "iconID":"items_misc_2:95",
+		"displaytype":"quest",
+        "category":"other"
+    },
+    {
+        "id":"brv_wh_item_06",
+        "name":"Old, worn cape",
+        "iconID":"items_japozero:127",
+		"displaytype":"quest",
+        "category":"other"
+    },
+    {
+        "id":"brv_wh_item_07",
+        "name":"Pretty porcelain figure",
+        "iconID":"items_misc_5:15",
+		"displaytype":"quest",
+        "category":"other"
+    },
+    {
+        "id":"brv_wh_item_08",
+        "name":"Striped hammer",
+        "iconID":"items_japozero:74",
+		"displaytype":"quest",
+        "category":"other"
+    },
+    {
+        "id":"brv_wh_item_09",
+        "name":"Dusty old book",
+        "iconID":"items_books:1",
+		"displaytype":"quest",
+        "category":"other"
+    },
+    {
         "id":"book_world_history",
         "iconID":"items_books:0",
         "name":"World History",

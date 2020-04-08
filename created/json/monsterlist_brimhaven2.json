@@ -93,7 +93,7 @@
 		"attackChance":60,
 		"blockChance":150,
 		"damageResistance":8,
-		"attackDamage":{ "min":5, "max":14 }
+		"attackDamage":{ "min":5, "max":14 },
         "phraseID":"brv_school_statue"
     },
     {
@@ -128,7 +128,7 @@
 		"attackChance":40,
 		"blockChance":130,
 		"damageResistance":5,
-		"attackDamage":{ "min":3, "max":7 }
+		"attackDamage":{ "min":3, "max":7 },
         "phraseID":"brv_teacher"
     },
     {
@@ -142,26 +142,31 @@
     },
     {
         "id":"brv_wh_item_00",
-        "name":"Crystal globe",
-        "iconID":"items_japozero:227",
+        "name":"brv_wh_item_00",
+        "iconID":"items_japozero:0",
         "moveCost":99,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_wh_item_00",
         "phraseID":"brv_wh_item_00"
     },
     {
-        "id":"brv_wh_item_20",
-        "name":"Crystal globe",
-        "iconID":"items_japozero:227",
+        "id":"brv_wh_item_20", 
+        "name":"brv_wh_item_20",
+        "iconID":"items_japozero:0",
         "moveCost":99,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_wh_item_20",
         "phraseID":"brv_wh_item_20"
     },
     {
+        "id":"brv_wh_item_40",
+        "name":"Crystal globe",
+        "iconID":"items_japozero:227"
+    },
+    {
         "id":"brv_wh_item_01",
-        "name":"Plush pillow",
-        "iconID":"items_misc:43",
+        "name":"brv_wh_item_01",
+        "iconID":"items_japozero:16",
         "moveCost":99,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_wh_item_01",
@@ -169,17 +174,22 @@
     },
     {
         "id":"brv_wh_item_21",
-        "name":"Plush pillow",
-        "iconID":"items_misc:43",
+        "name":"brv_wh_item_21",
+        "iconID":"items_japozero:16",
         "moveCost":99,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_wh_item_21",
         "phraseID":"brv_wh_item_21"
     },
     {
+        "id":"brv_wh_item_41",
+        "name":"Plush pillow",
+        "iconID":"items_misc:43"
+    },
+    {
         "id":"brv_wh_item_02",
-        "name":"Lyra",
-        "iconID":"items_japozero:368",
+        "name":"brv_wh_item_02",
+        "iconID":"items_japozero:32",
         "moveCost":99,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_wh_item_02",
@@ -187,17 +197,22 @@
     },
     {
         "id":"brv_wh_item_22",
-        "name":"Lyra",
-        "iconID":"items_japozero:368",
+        "name":"brv_wh_item_22",
+        "iconID":"items_japozero:32",
         "moveCost":99,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_wh_item_22",
         "phraseID":"brv_wh_item_22"
     },
     {
+        "id":"brv_wh_item_42",
+        "name":"Lyra",
+        "iconID":"items_japozero:368"
+    },
+    {
         "id":"brv_wh_item_03",
-        "name":"yellow boot",
-        "iconID":"items_armours_3:38",
+        "name":"brv_wh_item_03",
+        "iconID":"items_japozero:64",
         "moveCost":99,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_wh_item_03",
@@ -205,17 +220,22 @@
     },
     {
         "id":"brv_wh_item_23",
-        "name":"yellow boot",
-        "iconID":"items_armours_3:38",
+        "name":"brv_wh_item_23",
+        "iconID":"items_japozero:64",
         "moveCost":99,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_wh_item_23",
         "phraseID":"brv_wh_item_23"
     },
     {
+        "id":"brv_wh_item_43",
+        "name":"yellow boot",
+        "iconID":"items_armours_3:38"
+    },
+    {
         "id":"brv_wh_item_04",
-        "name":"Chandelier",
-        "iconID":"items_misc_2:238",
+        "name":"brv_wh_item_04",
+        "iconID":"items_japozero:80",
         "moveCost":99,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_wh_item_04",
@@ -223,17 +243,22 @@
     },
     {
         "id":"brv_wh_item_24",
-        "name":"Chandelier",
-        "iconID":"items_misc_2:238",
+        "name":"brv_wh_item_24",
+        "iconID":"items_japozero:80",
         "moveCost":99,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_wh_item_24",
         "phraseID":"brv_wh_item_24"
     },
     {
+        "id":"brv_wh_item_44",
+        "name":"Chandelier",
+        "iconID":"items_misc_2:238"
+    },
+    {
         "id":"brv_wh_item_05",
-        "name":"Mysterious green something",
-        "iconID":"items_misc_2:95",
+        "name":"brv_wh_item_05",
+        "iconID":"items_japozero:96",
         "moveCost":99,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_wh_item_05",
@@ -241,17 +266,22 @@
     },
     {
         "id":"brv_wh_item_25",
-        "name":"Mysterious green something",
-        "iconID":"items_misc_2:95",
+        "name":"brv_wh_item_25",
+        "iconID":"items_japozero:96",
         "moveCost":99,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_wh_item_25",
         "phraseID":"brv_wh_item_25"
     },
     {
+        "id":"brv_wh_item_45",
+        "name":"Mysterious green something",
+        "iconID":"items_misc_2:95"
+    },
+    {
         "id":"brv_wh_item_06",
-        "name":"Old, worn cape",
-        "iconID":"items_japozero:127",
+        "name":"brv_wh_item_06",
+        "iconID":"items_japozero:112",
         "moveCost":99,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_wh_item_06",
@@ -259,17 +289,22 @@
     },
     {
         "id":"brv_wh_item_26",
-        "name":"Old, worn cape",
-        "iconID":"items_japozero:127",
+        "name":"brv_wh_item_26",
+        "iconID":"items_japozero:112",
         "moveCost":99,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_wh_item_26",
         "phraseID":"brv_wh_item_26"
     },
     {
+        "id":"brv_wh_item_46",
+        "name":"Old, worn cape",
+        "iconID":"items_japozero:127"
+    },
+    {
         "id":"brv_wh_item_07",
-        "name":"Pretty porcelain figure",
-        "iconID":"items_misc_5:15",
+        "name":"brv_wh_item_07",
+        "iconID":"items_japozero:128",
         "moveCost":99,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_wh_item_07",
@@ -277,17 +312,22 @@
     },
     {
         "id":"brv_wh_item_27",
-        "name":"Pretty porcelain figure",
-        "iconID":"items_misc_5:15",
+        "name":"brv_wh_item_27",
+        "iconID":"items_japozero:128",
         "moveCost":99,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_wh_item_27",
         "phraseID":"brv_wh_item_27"
     },
     {
+        "id":"brv_wh_item_47",
+        "name":"Pretty porcelain figure",
+        "iconID":"items_misc_5:15"
+    },
+    {
         "id":"brv_wh_item_08",
-        "name":"Striped hammer",
-        "iconID":"items_japozero:74",
+        "name":"brv_wh_item_08",
+        "iconID":"items_japozero:144",
         "moveCost":99,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_wh_item_08",
@@ -295,17 +335,22 @@
     },
     {
         "id":"brv_wh_item_28",
-        "name":"Striped hammer",
-        "iconID":"items_japozero:74",
+        "name":"brv_wh_item_28",
+        "iconID":"items_japozero:144",
         "moveCost":99,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_wh_item_28",
         "phraseID":"brv_wh_item_28"
     },
     {
+        "id":"brv_wh_item_48",
+        "name":"Striped hammer",
+        "iconID":"items_japozero:74"
+    },
+    {
         "id":"brv_wh_item_09",
-        "name":"Dusty old book",
-        "iconID":"items_books:1",
+        "name":"brv_wh_item_09",
+        "iconID":"items_japozero:160",
         "moveCost":99,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_wh_item_09",
@@ -313,12 +358,17 @@
     },
     {
         "id":"brv_wh_item_29",
-        "name":"Dusty old book",
-        "iconID":"items_books:1",
+        "name":"brv_wh_item_29",
+        "iconID":"items_japozero:160",
         "moveCost":99,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_wh_item_29",
         "phraseID":"brv_wh_item_29"
+    },
+    {
+        "id":"brv_wh_item_49",
+        "name":"Dusty old book",
+        "iconID":"items_books:1"
     },
     {
         "id":"brv_wh_worker",
@@ -362,7 +412,7 @@
 		"attackChance":40,
 		"blockChance":120,
 		"damageResistance":5,
-		"attackDamage":{ "min":1, "max":4 }
+		"attackDamage":{ "min":1, "max":4 },
         "phraseID":"golin"
     }
 ]

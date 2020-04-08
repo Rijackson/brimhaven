@@ -1869,7 +1869,7 @@
 				"nextPhraseID":"brv_wh_boss_20" 
 			},
             {
-				"text":"Insolence! Who do you think ou are?",
+				"text":"Insolence! Who do you think you are?",
 				"nextPhraseID":"X" 
 			},
             {
@@ -1890,7 +1890,7 @@
     },
     {
         "id":"brv_wh_boss_20",
-        "message":"I need someone to check, if all the items are still in the magazin.",
+        "message":"I need someone to check, if all the items are still in the storage.",
         "replies":[
             {
 				"text":"N",
@@ -1910,7 +1910,7 @@
     },
     {
         "id":"brv_wh_boss_24",
-        "message":"Each time you find a pair, take it out of the magazin!",
+        "message":"Each time you find a pair, take it out of the storage bin!",
         "replies":[
             {
 				"text":"N",
@@ -1925,6 +1925,10 @@
             {
 				"text":"OK. I'll be back in a minute.",
 				"nextPhraseID":"X" 
+			},
+            {
+				"text":"Eh, what do you want me to do exactly?",
+				"nextPhraseID":"brv_wh_boss_40" 
 			}
 		],
         "rewards":[
@@ -1936,12 +1940,94 @@
         ]
     },
     {
+        "id":"brv_wh_boss_40",
+        "message":"OK: Go to the storage and take out an item.",
+        "replies":[
+            {
+				"text":"N",
+				"nextPhraseID":"brv_wh_boss_42" 
+			}
+        ]
+    },
+    {
+        "id":"brv_wh_boss_42",
+        "message":"Then go and look for the another item of the same kind. So you'll have a pair of it.",
+        "replies":[
+            {
+				"text":"A pair.",
+				"nextPhraseID":"brv_wh_boss_44" 
+			}
+        ]
+    },
+    {
+        "id":"brv_wh_boss_44",
+        "message":"After that take another item, and look for the second one to get a pair again.",
+        "replies":[
+            {
+				"text":"N",
+				"nextPhraseID":"brv_wh_boss_46" 
+			}
+        ]
+    },
+    {
+        "id":"brv_wh_boss_46",
+        "message":"Do this for all pairs, until you have found every one.",
+        "replies":[
+            {
+				"text":"Sounds easy.",
+				"nextPhraseID":"brv_wh_boss_48" 
+			}
+        ]
+    },
+    {
+        "id":"brv_wh_boss_48",
+        "message":"If you have one item in hand, and in the next there is an item that doesn't match, then both items automatically go back to their bin.\nSo be sure to take the items in pairs.",
+        "replies":[
+            {
+				"text":"N",
+				"nextPhraseID":"brv_wh_boss_50" 
+			}
+        ]
+    },
+    {
+        "id":"brv_wh_boss_50",
+        "message":"Understood? Repeat it to me!",
+        "replies":[
+            {
+				"text":"I shall get the items, one by one.",
+				"nextPhraseID":"brv_wh_boss_52" 
+			},
+            {
+				"text":"Not necessary. I'll be back in a minute.",
+				"nextPhraseID":"X" 
+			}
+        ]
+    },
+    {
+        "id":"brv_wh_boss_52",
+        "message":"And?",
+        "replies":[
+            {
+				"text":"I shall find them in the right order: Pair after pair.",
+				"nextPhraseID":"brv_wh_boss_60" 
+			}
+        ]
+    },
+    {
+        "id":"brv_wh_boss_60",
+        "message":"OK. Hurry now."
+    },
+    {
         "id":"brv_wh_boss_10_10",
         "message":"How do you get on with the work?",
         "replies":[
             {
 				"text":"I'm not quite done yet. I just want to take a short break.",
 				"nextPhraseID":"brv_wh_boss_10_12" 
+			},
+            {
+				"text":"Please tell me again, what I should do.",
+				"nextPhraseID":"brv_wh_boss_40" 
 			},
             {
 				"text":"I found 10 pairs of each scrap item.",
@@ -1965,11 +2051,42 @@
     },
     {
         "id":"brv_wh_boss_10_20",
-        "message":"10 pairs! Great, that is correct. So everything is in order.",
         "replies":[
             {
-				"text":"That pleases me. How much do I actually get for this work?",
+                "requires":[	{ "requireType":"inventoryRemove", "requireID":"brv_wh_item_00", "value":2 },
+								{ "requireType":"inventoryRemove", "requireID":"brv_wh_item_01", "value":2 },
+								{ "requireType":"inventoryRemove", "requireID":"brv_wh_item_02", "value":2 },
+								{ "requireType":"inventoryRemove", "requireID":"brv_wh_item_03", "value":2 },
+								{ "requireType":"inventoryRemove", "requireID":"brv_wh_item_04", "value":2 },
+								{ "requireType":"inventoryRemove", "requireID":"brv_wh_item_05", "value":2 },
+								{ "requireType":"inventoryRemove", "requireID":"brv_wh_item_06", "value":2 },
+								{ "requireType":"inventoryRemove", "requireID":"brv_wh_item_07", "value":2 },
+								{ "requireType":"inventoryRemove", "requireID":"brv_wh_item_08", "value":2 },
+								{ "requireType":"inventoryRemove", "requireID":"brv_wh_item_09", "value":2 }],
 				"nextPhraseID":"brv_wh_boss_10_30" 
+			},
+            {
+				"nextPhraseID":"brv_wh_boss_10_22" 
+			}
+		]
+    },
+    {
+        "id":"brv_wh_boss_10_22",
+        "message":"10 pairs! Great - but where are they? I don't see them.",
+        "replies":[
+            {
+				"text":"Oh, I must have lost some. Wait a second...",
+				"nextPhraseID":"X" 
+			}
+		]
+    },
+    {
+        "id":"brv_wh_boss_10_30",
+        "message":"10 pairs - that is correct. So everything is in order.",
+        "replies":[
+            {
+				"text":"N",
+				"nextPhraseID":"brv_wh_boss_10_32" 
 			}
 		],
         "rewards":[
@@ -1981,12 +2098,33 @@
         ]
     },
     {
-        "id":"brv_wh_boss_10_30",
+        "id":"brv_wh_boss_10_32",
+        "message":"Good work! I am very pleased with you.",
+        "replies":[
+            {
+				"text":"I am glad. How much do I actually get for this work?",
+				"nextPhraseID":"brv_wh_boss_10_90" 
+			}
+		],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_wh",
+                "value":900
+            }
+        ]
+    },
+    {
+        "id":"brv_wh_boss_10_90",
         "message":"Good work gives good wages! Here you have 100 gold pieces.",
         "replies":[
             {
-				"text":"Thank you so much.",
+				"text":"Thank you.",
 				"nextPhraseID":"X" 
+			},
+            {
+				"text":"Old scrooge.",
+				"nextPhraseID":"brv_wh_boss_10_92" 
 			}
 		],
         "rewards":[
@@ -1998,30 +2136,38 @@
         ]
     },
     {
+        "id":"brv_wh_boss_10_92",
+        "message":"What?",
+        "replies":[
+            {
+				"text":"Thank you so much.",
+				"nextPhraseID":"X" 
+			}
+		]
+    },
+    {
         "id":"brv_wh_boss_900_10",
         "message":"I have no work for you at the moment."
     },
     {   
 		"id":"brv_wh_item_00",
+        "switchToNPC":"brv_wh_item_40",
         "replies":[
             { "nextPhraseID":"brv_wh_item_00_1",
               "requires":[{ "requireType":"factionScoreEquals", "requireID":"brv_wh_aln", "value":120 }] },
             { "nextPhraseID":"brv_wh_item_xx_2",
               "requires":[{ "requireType":"factionScoreEquals", "requireID":"brv_wh_aln", "value":100 }] },
-            { "nextPhraseID":"brv_wh_item_00_3",
+            { "nextPhraseID":"brv_wh_item_xx_3",
               "requires":[{ "requireType":"factionScore", "requireID":"brv_wh_aln", "value":1 }] },
             { "nextPhraseID":"brv_wh_item_00_4" }]
     },
     {   "id":"brv_wh_item_00_1",
-        "message":"You have found the second crystal globe!",
+        "message":"You have found the second crystal globe. Now that's a pair!",
         "rewards":[	{ "rewardType":"questProgress", "rewardID":"brv_wh", "value":100 },
+					{ "rewardType":"giveItem", "rewardID":"brv_wh_item_00", "value":2 },
 					{ "rewardType":"alignmentSet", "rewardID":"brv_wh_aln", "value":0 },
 					{ "rewardType":"removeSpawnArea", "rewardID":"brv_wh_item_00", "mapName":"brimhaven_warehouse" },
 					{ "rewardType":"removeSpawnArea", "rewardID":"brv_wh_item_20", "mapName":"brimhaven_warehouse" }]
-    },
-    {   "id":"brv_wh_item_00_3",
-        "message":"Here's a crystal globe. This is not what you're looking for.\nYou put both items back to their bin.",
-        "rewards":[	{ "rewardType":"alignmentSet", "rewardID":"brv_wh_aln", "value":0 }]
     },
     {   "id":"brv_wh_item_00_4",
         "message":"You take the item.",
@@ -2029,25 +2175,23 @@
     },
     {   
 		"id":"brv_wh_item_01",
+        "switchToNPC":"brv_wh_item_41",
         "replies":[
             { "nextPhraseID":"brv_wh_item_01_1",
               "requires":[{ "requireType":"factionScoreEquals", "requireID":"brv_wh_aln", "value":121 }] },
             { "nextPhraseID":"brv_wh_item_xx_2",
               "requires":[{ "requireType":"factionScoreEquals", "requireID":"brv_wh_aln", "value":101 }] },
-            { "nextPhraseID":"brv_wh_item_01_3",
+            { "nextPhraseID":"brv_wh_item_xx_3",
               "requires":[{ "requireType":"factionScore", "requireID":"brv_wh_aln", "value":1 }] },
             { "nextPhraseID":"brv_wh_item_01_4" }]
     },
     {   "id":"brv_wh_item_01_1",
         "message":"You have found the second plush pillow!",
         "rewards":[	{ "rewardType":"questProgress", "rewardID":"brv_wh", "value":101 },
+					{ "rewardType":"giveItem", "rewardID":"brv_wh_item_01", "value":2 },
 					{ "rewardType":"alignmentSet", "rewardID":"brv_wh_aln", "value":0 },
 					{ "rewardType":"removeSpawnArea", "rewardID":"brv_wh_item_01", "mapName":"brimhaven_warehouse" },
 					{ "rewardType":"removeSpawnArea", "rewardID":"brv_wh_item_21", "mapName":"brimhaven_warehouse" }]
-    },
-    {   "id":"brv_wh_item_01_3",
-        "message":"Here's a plush pillow. This is not what you're looking for.\nYou put both items back to their bin.",
-        "rewards":[	{ "rewardType":"alignmentSet", "rewardID":"brv_wh_aln", "value":0 }]
     },
     {   "id":"brv_wh_item_01_4",
         "message":"You take the item.",
@@ -2055,25 +2199,23 @@
     },
     {   
 		"id":"brv_wh_item_02",
+        "switchToNPC":"brv_wh_item_42",
         "replies":[
             { "nextPhraseID":"brv_wh_item_02_1",
               "requires":[{ "requireType":"factionScoreEquals", "requireID":"brv_wh_aln", "value":122 }] },
             { "nextPhraseID":"brv_wh_item_xx_2",
               "requires":[{ "requireType":"factionScoreEquals", "requireID":"brv_wh_aln", "value":102 }] },
-            { "nextPhraseID":"brv_wh_item_02_3",
+            { "nextPhraseID":"brv_wh_item_xx_3",
               "requires":[{ "requireType":"factionScore", "requireID":"brv_wh_aln", "value":1 }] },
             { "nextPhraseID":"brv_wh_item_02_4" }]
     },
     {   "id":"brv_wh_item_02_1",
         "message":"You have found the second lyra!",
         "rewards":[	{ "rewardType":"questProgress", "rewardID":"brv_wh", "value":102 },
+					{ "rewardType":"giveItem", "rewardID":"brv_wh_item_02", "value":2 },
 					{ "rewardType":"alignmentSet", "rewardID":"brv_wh_aln", "value":0 },
 					{ "rewardType":"removeSpawnArea", "rewardID":"brv_wh_item_02", "mapName":"brimhaven_warehouse" },
 					{ "rewardType":"removeSpawnArea", "rewardID":"brv_wh_item_22", "mapName":"brimhaven_warehouse" }]
-    },
-    {   "id":"brv_wh_item_02_3",
-        "message":"Here's a lyra. This is not what you're looking for.\nYou put both items back to their bin.",
-        "rewards":[	{ "rewardType":"alignmentSet", "rewardID":"brv_wh_aln", "value":0 }]
     },
     {   "id":"brv_wh_item_02_4",
         "message":"You take the item.",
@@ -2081,25 +2223,23 @@
     },
     {   
 		"id":"brv_wh_item_03",
+        "switchToNPC":"brv_wh_item_43",
         "replies":[
             { "nextPhraseID":"brv_wh_item_03_1",
               "requires":[{ "requireType":"factionScoreEquals", "requireID":"brv_wh_aln", "value":123 }] },
             { "nextPhraseID":"brv_wh_item_xx_2",
               "requires":[{ "requireType":"factionScoreEquals", "requireID":"brv_wh_aln", "value":103 }] },
-            { "nextPhraseID":"brv_wh_item_03_3",
+            { "nextPhraseID":"brv_wh_item_xx_3",
               "requires":[{ "requireType":"factionScore", "requireID":"brv_wh_aln", "value":1 }] },
             { "nextPhraseID":"brv_wh_item_03_4" }]
     },
     {   "id":"brv_wh_item_03_1",
         "message":"You have found the yellow boot!",
         "rewards":[	{ "rewardType":"questProgress", "rewardID":"brv_wh", "value":103 },
+					{ "rewardType":"giveItem", "rewardID":"brv_wh_item_03", "value":2 },
 					{ "rewardType":"alignmentSet", "rewardID":"brv_wh_aln", "value":0 },
 					{ "rewardType":"removeSpawnArea", "rewardID":"brv_wh_item_03", "mapName":"brimhaven_warehouse" },
 					{ "rewardType":"removeSpawnArea", "rewardID":"brv_wh_item_23", "mapName":"brimhaven_warehouse" }]
-    },
-    {   "id":"brv_wh_item_03_3",
-        "message":"Here's a yellow boot. This is not what you're looking for.\nYou put both items back to their bin.",
-        "rewards":[	{ "rewardType":"alignmentSet", "rewardID":"brv_wh_aln", "value":0 }]
     },
     {   "id":"brv_wh_item_03_4",
         "message":"You take the item.",
@@ -2107,25 +2247,23 @@
     },
     {   
 		"id":"brv_wh_item_04",
+        "switchToNPC":"brv_wh_item_44",
         "replies":[
             { "nextPhraseID":"brv_wh_item_04_1",
               "requires":[{ "requireType":"factionScoreEquals", "requireID":"brv_wh_aln", "value":124 }] },
             { "nextPhraseID":"brv_wh_item_xx_2",
               "requires":[{ "requireType":"factionScoreEquals", "requireID":"brv_wh_aln", "value":104 }] },
-            { "nextPhraseID":"brv_wh_item_04_3",
+            { "nextPhraseID":"brv_wh_item_xx_3",
               "requires":[{ "requireType":"factionScore", "requireID":"brv_wh_aln", "value":1 }] },
             { "nextPhraseID":"brv_wh_item_04_4" }]
     },
     {   "id":"brv_wh_item_04_1",
         "message":"You have found the second chandelier!",
         "rewards":[	{ "rewardType":"questProgress", "rewardID":"brv_wh", "value":104 },
+					{ "rewardType":"giveItem", "rewardID":"brv_wh_item_04", "value":2 },
 					{ "rewardType":"alignmentSet", "rewardID":"brv_wh_aln", "value":0 },
 					{ "rewardType":"removeSpawnArea", "rewardID":"brv_wh_item_04", "mapName":"brimhaven_warehouse" },
 					{ "rewardType":"removeSpawnArea", "rewardID":"brv_wh_item_24", "mapName":"brimhaven_warehouse" }]
-    },
-    {   "id":"brv_wh_item_04_3",
-        "message":"Here's a chandelier. This is not what you're looking for.\nYou put both items back to their bin.",
-        "rewards":[	{ "rewardType":"alignmentSet", "rewardID":"brv_wh_aln", "value":0 }]
     },
     {   "id":"brv_wh_item_04_4",
         "message":"You take the item.",
@@ -2133,25 +2271,23 @@
     },
     {   
 		"id":"brv_wh_item_05",
+        "switchToNPC":"brv_wh_item_45",
         "replies":[
             { "nextPhraseID":"brv_wh_item_05_1",
               "requires":[{ "requireType":"factionScoreEquals", "requireID":"brv_wh_aln", "value":125 }] },
             { "nextPhraseID":"brv_wh_item_xx_2",
               "requires":[{ "requireType":"factionScoreEquals", "requireID":"brv_wh_aln", "value":105 }] },
-            { "nextPhraseID":"brv_wh_item_05_3",
+            { "nextPhraseID":"brv_wh_item_xx_3",
               "requires":[{ "requireType":"factionScore", "requireID":"brv_wh_aln", "value":1 }] },
             { "nextPhraseID":"brv_wh_item_05_4" }]
     },
     {   "id":"brv_wh_item_05_1",
         "message":"You have found the second mysterious green something!",
         "rewards":[	{ "rewardType":"questProgress", "rewardID":"brv_wh", "value":105 },
+					{ "rewardType":"giveItem", "rewardID":"brv_wh_item_05", "value":2 },
 					{ "rewardType":"alignmentSet", "rewardID":"brv_wh_aln", "value":0 },
 					{ "rewardType":"removeSpawnArea", "rewardID":"brv_wh_item_05", "mapName":"brimhaven_warehouse" },
 					{ "rewardType":"removeSpawnArea", "rewardID":"brv_wh_item_25", "mapName":"brimhaven_warehouse" }]
-    },
-    {   "id":"brv_wh_item_05_3",
-        "message":"Here's a mysterious green something. This is not what you're looking for.\nYou put both items back to their bin.",
-        "rewards":[	{ "rewardType":"alignmentSet", "rewardID":"brv_wh_aln", "value":0 }]
     },
     {   "id":"brv_wh_item_05_4",
         "message":"You take the item.",
@@ -2159,25 +2295,23 @@
     },
     {   
 		"id":"brv_wh_item_06",
+        "switchToNPC":"brv_wh_item_46",
         "replies":[
             { "nextPhraseID":"brv_wh_item_06_1",
               "requires":[{ "requireType":"factionScoreEquals", "requireID":"brv_wh_aln", "value":126 }] },
             { "nextPhraseID":"brv_wh_item_xx_2",
               "requires":[{ "requireType":"factionScoreEquals", "requireID":"brv_wh_aln", "value":106 }] },
-            { "nextPhraseID":"brv_wh_item_06_3",
+            { "nextPhraseID":"brv_wh_item_xx_3",
               "requires":[{ "requireType":"factionScore", "requireID":"brv_wh_aln", "value":1 }] },
             { "nextPhraseID":"brv_wh_item_06_4" }]
     },
     {   "id":"brv_wh_item_06_1",
         "message":"You have found the second old, worn cape!",
         "rewards":[	{ "rewardType":"questProgress", "rewardID":"brv_wh", "value":106 },
+					{ "rewardType":"giveItem", "rewardID":"brv_wh_item_06", "value":2 },
 					{ "rewardType":"alignmentSet", "rewardID":"brv_wh_aln", "value":0 },
 					{ "rewardType":"removeSpawnArea", "rewardID":"brv_wh_item_06", "mapName":"brimhaven_warehouse" },
 					{ "rewardType":"removeSpawnArea", "rewardID":"brv_wh_item_26", "mapName":"brimhaven_warehouse" }]
-    },
-    {   "id":"brv_wh_item_06_3",
-        "message":"Here's a old, worn cape. This is not what you're looking for.\nYou put both items back to their bin.",
-        "rewards":[	{ "rewardType":"alignmentSet", "rewardID":"brv_wh_aln", "value":0 }]
     },
     {   "id":"brv_wh_item_06_4",
         "message":"You take the item.",
@@ -2185,25 +2319,23 @@
     },
     {   
 		"id":"brv_wh_item_07",
+        "switchToNPC":"brv_wh_item_47",
         "replies":[
             { "nextPhraseID":"brv_wh_item_07_1",
               "requires":[{ "requireType":"factionScoreEquals", "requireID":"brv_wh_aln", "value":127 }] },
             { "nextPhraseID":"brv_wh_item_xx_2",
               "requires":[{ "requireType":"factionScoreEquals", "requireID":"brv_wh_aln", "value":107 }] },
-            { "nextPhraseID":"brv_wh_item_07_3",
+            { "nextPhraseID":"brv_wh_item_xx_3",
               "requires":[{ "requireType":"factionScore", "requireID":"brv_wh_aln", "value":1 }] },
             { "nextPhraseID":"brv_wh_item_07_4" }]
     },
     {   "id":"brv_wh_item_07_1",
         "message":"You have found the second pretty porcelain figure!",
         "rewards":[	{ "rewardType":"questProgress", "rewardID":"brv_wh", "value":107 },
+					{ "rewardType":"giveItem", "rewardID":"brv_wh_item_07", "value":2 },
 					{ "rewardType":"alignmentSet", "rewardID":"brv_wh_aln", "value":0 },
 					{ "rewardType":"removeSpawnArea", "rewardID":"brv_wh_item_07", "mapName":"brimhaven_warehouse" },
 					{ "rewardType":"removeSpawnArea", "rewardID":"brv_wh_item_27", "mapName":"brimhaven_warehouse" }]
-    },
-    {   "id":"brv_wh_item_07_3",
-        "message":"Here's a pretty porcelain figure. This is not what you're looking for.\nYou put both items back to their bin.",
-        "rewards":[	{ "rewardType":"alignmentSet", "rewardID":"brv_wh_aln", "value":0 }]
     },
     {   "id":"brv_wh_item_07_4",
         "message":"You take the item.",
@@ -2211,25 +2343,23 @@
     },
     {   
 		"id":"brv_wh_item_08",
+        "switchToNPC":"brv_wh_item_48",
         "replies":[
             { "nextPhraseID":"brv_wh_item_08_1",
               "requires":[{ "requireType":"factionScoreEquals", "requireID":"brv_wh_aln", "value":128 }] },
             { "nextPhraseID":"brv_wh_item_xx_2",
               "requires":[{ "requireType":"factionScoreEquals", "requireID":"brv_wh_aln", "value":108 }] },
-            { "nextPhraseID":"brv_wh_item_08_3",
+            { "nextPhraseID":"brv_wh_item_xx_3",
               "requires":[{ "requireType":"factionScore", "requireID":"brv_wh_aln", "value":1 }] },
             { "nextPhraseID":"brv_wh_item_08_4" }]
     },
     {   "id":"brv_wh_item_08_1",
         "message":"You have found the second striped hammer!",
         "rewards":[	{ "rewardType":"questProgress", "rewardID":"brv_wh", "value":108 },
+					{ "rewardType":"giveItem", "rewardID":"brv_wh_item_08", "value":2 },
 					{ "rewardType":"alignmentSet", "rewardID":"brv_wh_aln", "value":0 },
 					{ "rewardType":"removeSpawnArea", "rewardID":"brv_wh_item_08", "mapName":"brimhaven_warehouse" },
 					{ "rewardType":"removeSpawnArea", "rewardID":"brv_wh_item_28", "mapName":"brimhaven_warehouse" }]
-    },
-    {   "id":"brv_wh_item_08_3",
-        "message":"Here's a striped hammer. This is not what you're looking for.\nYou put both items back to their bin.",
-        "rewards":[	{ "rewardType":"alignmentSet", "rewardID":"brv_wh_aln", "value":0 }]
     },
     {   "id":"brv_wh_item_08_4",
         "message":"You take the item.",
@@ -2237,25 +2367,23 @@
     },
     {   
 		"id":"brv_wh_item_09",
+        "switchToNPC":"brv_wh_item_49",
         "replies":[
             { "nextPhraseID":"brv_wh_item_09_1",
               "requires":[{ "requireType":"factionScoreEquals", "requireID":"brv_wh_aln", "value":129 }] },
             { "nextPhraseID":"brv_wh_item_xx_2",
               "requires":[{ "requireType":"factionScoreEquals", "requireID":"brv_wh_aln", "value":109 }] },
-            { "nextPhraseID":"brv_wh_item_09_3",
+            { "nextPhraseID":"brv_wh_item_xx_3",
               "requires":[{ "requireType":"factionScore", "requireID":"brv_wh_aln", "value":1 }] },
             { "nextPhraseID":"brv_wh_item_09_4" }]
     },
     {   "id":"brv_wh_item_09_1",
         "message":"You have found the second dusty old book!",
         "rewards":[	{ "rewardType":"questProgress", "rewardID":"brv_wh", "value":109 },
+					{ "rewardType":"giveItem", "rewardID":"brv_wh_item_09", "value":2 },
 					{ "rewardType":"alignmentSet", "rewardID":"brv_wh_aln", "value":0 },
 					{ "rewardType":"removeSpawnArea", "rewardID":"brv_wh_item_09", "mapName":"brimhaven_warehouse" },
 					{ "rewardType":"removeSpawnArea", "rewardID":"brv_wh_item_29", "mapName":"brimhaven_warehouse" }]
-    },
-    {   "id":"brv_wh_item_09_3",
-        "message":"Here's a dusty old book. This is not what you're looking for.\nYou put both items back to their bin.",
-        "rewards":[	{ "rewardType":"alignmentSet", "rewardID":"brv_wh_aln", "value":0 }]
     },
     {   "id":"brv_wh_item_09_4",
         "message":"You take the item.",
@@ -2263,12 +2391,13 @@
     },
     {   
 		"id":"brv_wh_item_20",
+        "switchToNPC":"brv_wh_item_40",
         "replies":[
             { "nextPhraseID":"brv_wh_item_00_1",
               "requires":[{ "requireType":"factionScoreEquals", "requireID":"brv_wh_aln", "value":100 }] },
             { "nextPhraseID":"brv_wh_item_xx_2",
               "requires":[{ "requireType":"factionScoreEquals", "requireID":"brv_wh_aln", "value":120 }] },
-            { "nextPhraseID":"brv_wh_item_00_3",
+            { "nextPhraseID":"brv_wh_item_xx_3",
               "requires":[{ "requireType":"factionScore", "requireID":"brv_wh_aln", "value":1 }] },
             { "nextPhraseID":"brv_wh_item_20_4" }]
     },
@@ -2278,12 +2407,13 @@
     },
     {   
 		"id":"brv_wh_item_21",
+        "switchToNPC":"brv_wh_item_41",
         "replies":[
             { "nextPhraseID":"brv_wh_item_01_1",
               "requires":[{ "requireType":"factionScoreEquals", "requireID":"brv_wh_aln", "value":101 }] },
             { "nextPhraseID":"brv_wh_item_xx_2",
               "requires":[{ "requireType":"factionScoreEquals", "requireID":"brv_wh_aln", "value":121 }] },
-            { "nextPhraseID":"brv_wh_item_01_3",
+            { "nextPhraseID":"brv_wh_item_xx_3",
               "requires":[{ "requireType":"factionScore", "requireID":"brv_wh_aln", "value":1 }] },
             { "nextPhraseID":"brv_wh_item_21_4" }]
     },
@@ -2293,12 +2423,13 @@
     },
     {   
 		"id":"brv_wh_item_22",
+        "switchToNPC":"brv_wh_item_42",
         "replies":[
             { "nextPhraseID":"brv_wh_item_02_1",
               "requires":[{ "requireType":"factionScoreEquals", "requireID":"brv_wh_aln", "value":102 }] },
             { "nextPhraseID":"brv_wh_item_xx_2",
               "requires":[{ "requireType":"factionScoreEquals", "requireID":"brv_wh_aln", "value":122 }] },
-            { "nextPhraseID":"brv_wh_item_02_3",
+            { "nextPhraseID":"brv_wh_item_xx_3",
               "requires":[{ "requireType":"factionScore", "requireID":"brv_wh_aln", "value":1 }] },
             { "nextPhraseID":"brv_wh_item_22_4" }]
     },
@@ -2308,12 +2439,13 @@
     },
     {   
 		"id":"brv_wh_item_23",
+        "switchToNPC":"brv_wh_item_43",
         "replies":[
             { "nextPhraseID":"brv_wh_item_03_1",
               "requires":[{ "requireType":"factionScoreEquals", "requireID":"brv_wh_aln", "value":103 }] },
             { "nextPhraseID":"brv_wh_item_xx_2",
               "requires":[{ "requireType":"factionScoreEquals", "requireID":"brv_wh_aln", "value":123 }] },
-            { "nextPhraseID":"brv_wh_item_03_3",
+            { "nextPhraseID":"brv_wh_item_xx_3",
               "requires":[{ "requireType":"factionScore", "requireID":"brv_wh_aln", "value":1 }] },
             { "nextPhraseID":"brv_wh_item_23_4" }]
     },
@@ -2323,12 +2455,13 @@
     },
     {   
 		"id":"brv_wh_item_24",
+        "switchToNPC":"brv_wh_item_44",
         "replies":[
             { "nextPhraseID":"brv_wh_item_04_1",
               "requires":[{ "requireType":"factionScoreEquals", "requireID":"brv_wh_aln", "value":104 }] },
             { "nextPhraseID":"brv_wh_item_xx_2",
               "requires":[{ "requireType":"factionScoreEquals", "requireID":"brv_wh_aln", "value":124 }] },
-            { "nextPhraseID":"brv_wh_item_04_3",
+            { "nextPhraseID":"brv_wh_item_xx_3",
               "requires":[{ "requireType":"factionScore", "requireID":"brv_wh_aln", "value":1 }] },
             { "nextPhraseID":"brv_wh_item_24_4" }]
     },
@@ -2338,12 +2471,13 @@
     },
     {   
 		"id":"brv_wh_item_25",
+        "switchToNPC":"brv_wh_item_45",
         "replies":[
             { "nextPhraseID":"brv_wh_item_05_1",
               "requires":[{ "requireType":"factionScoreEquals", "requireID":"brv_wh_aln", "value":105 }] },
             { "nextPhraseID":"brv_wh_item_xx_2",
               "requires":[{ "requireType":"factionScoreEquals", "requireID":"brv_wh_aln", "value":125 }] },
-            { "nextPhraseID":"brv_wh_item_05_3",
+            { "nextPhraseID":"brv_wh_item_xx_3",
               "requires":[{ "requireType":"factionScore", "requireID":"brv_wh_aln", "value":1 }] },
             { "nextPhraseID":"brv_wh_item_25_4" }]
     },
@@ -2353,12 +2487,13 @@
     },
     {   
 		"id":"brv_wh_item_26",
+        "switchToNPC":"brv_wh_item_46",
         "replies":[
             { "nextPhraseID":"brv_wh_item_06_1",
               "requires":[{ "requireType":"factionScoreEquals", "requireID":"brv_wh_aln", "value":106 }] },
             { "nextPhraseID":"brv_wh_item_xx_2",
               "requires":[{ "requireType":"factionScoreEquals", "requireID":"brv_wh_aln", "value":126 }] },
-            { "nextPhraseID":"brv_wh_item_06_3",
+            { "nextPhraseID":"brv_wh_item_xx_3",
               "requires":[{ "requireType":"factionScore", "requireID":"brv_wh_aln", "value":1 }] },
             { "nextPhraseID":"brv_wh_item_26_4" }]
     },
@@ -2368,12 +2503,13 @@
     },
     {   
 		"id":"brv_wh_item_27",
+        "switchToNPC":"brv_wh_item_47",
         "replies":[
             { "nextPhraseID":"brv_wh_item_07_1",
               "requires":[{ "requireType":"factionScoreEquals", "requireID":"brv_wh_aln", "value":107 }] },
             { "nextPhraseID":"brv_wh_item_xx_2",
               "requires":[{ "requireType":"factionScoreEquals", "requireID":"brv_wh_aln", "value":127 }] },
-            { "nextPhraseID":"brv_wh_item_07_3",
+            { "nextPhraseID":"brv_wh_item_xx_3",
               "requires":[{ "requireType":"factionScore", "requireID":"brv_wh_aln", "value":1 }] },
             { "nextPhraseID":"brv_wh_item_27_4" }]
     },
@@ -2383,12 +2519,13 @@
     },
     {   
 		"id":"brv_wh_item_28",
+        "switchToNPC":"brv_wh_item_48",
         "replies":[
             { "nextPhraseID":"brv_wh_item_08_1",
               "requires":[{ "requireType":"factionScoreEquals", "requireID":"brv_wh_aln", "value":108 }] },
             { "nextPhraseID":"brv_wh_item_xx_2",
               "requires":[{ "requireType":"factionScoreEquals", "requireID":"brv_wh_aln", "value":128 }] },
-            { "nextPhraseID":"brv_wh_item_08_3",
+            { "nextPhraseID":"brv_wh_item_xx_3",
               "requires":[{ "requireType":"factionScore", "requireID":"brv_wh_aln", "value":1 }] },
             { "nextPhraseID":"brv_wh_item_28_4" }]
     },
@@ -2398,12 +2535,13 @@
     },
     {   
 		"id":"brv_wh_item_29",
+        "switchToNPC":"brv_wh_item_49",
         "replies":[
             { "nextPhraseID":"brv_wh_item_09_1",
               "requires":[{ "requireType":"factionScoreEquals", "requireID":"brv_wh_aln", "value":109 }] },
             { "nextPhraseID":"brv_wh_item_xx_2",
               "requires":[{ "requireType":"factionScoreEquals", "requireID":"brv_wh_aln", "value":129 }] },
-            { "nextPhraseID":"brv_wh_item_09_3",
+            { "nextPhraseID":"brv_wh_item_xx_3",
               "requires":[{ "requireType":"factionScore", "requireID":"brv_wh_aln", "value":1 }] },
             { "nextPhraseID":"brv_wh_item_29_4" }]
     },
@@ -2413,6 +2551,10 @@
     },
     {   "id":"brv_wh_item_xx_2",
         "message":"You put it back to its former place.",
+        "rewards":[	{ "rewardType":"alignmentSet", "rewardID":"brv_wh_aln", "value":0 }]
+    },
+    {   "id":"brv_wh_item_xx_3",
+        "message":"No, this is not what you're looking for.\nYou put both items back to their bin.",
         "rewards":[	{ "rewardType":"alignmentSet", "rewardID":"brv_wh_aln", "value":0 }]
     },
     {
