@@ -32,18 +32,5 @@
                 }
             }
         ]
-    },
-    {
-        "id":"gapfiller5_mushrooms",
-        "items":[
-            {
-                "itemID":"mushroom",
-                "chance":"100",
-                "quantity":{
-                    "min":2,
-                    "max":5
-                }
-            }
-        ]
     }
 ]
