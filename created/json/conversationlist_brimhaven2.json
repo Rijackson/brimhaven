@@ -2149,6 +2149,44 @@
         "id":"brv_wh_boss_900_10",
         "message":"I have no work for you at the moment."
     },
+    {
+        "id":"brv_wh_enforce_spawn",
+        "replies":[
+            {
+				"nextPhraseID":"brv_wh_enforce_spawn_10",
+                "requires":[	
+					{ 
+						"requireType":"questProgress", 
+						"requireID":"brv_wh", 
+						"value":10,
+						"negate":true
+					}
+				] 
+			}
+		]
+    },
+    {   "id":"brv_wh_enforce_spawn_10",
+        "rewards":[	{ "rewardType":"spawnAll", "rewardID":"brv_wh_item_00", "mapName":"brimhaven_warehouse" },
+					{ "rewardType":"spawnAll", "rewardID":"brv_wh_item_01", "mapName":"brimhaven_warehouse" },
+					{ "rewardType":"spawnAll", "rewardID":"brv_wh_item_02", "mapName":"brimhaven_warehouse" },
+					{ "rewardType":"spawnAll", "rewardID":"brv_wh_item_03", "mapName":"brimhaven_warehouse" },
+					{ "rewardType":"spawnAll", "rewardID":"brv_wh_item_04", "mapName":"brimhaven_warehouse" },
+					{ "rewardType":"spawnAll", "rewardID":"brv_wh_item_05", "mapName":"brimhaven_warehouse" },
+					{ "rewardType":"spawnAll", "rewardID":"brv_wh_item_06", "mapName":"brimhaven_warehouse" },
+					{ "rewardType":"spawnAll", "rewardID":"brv_wh_item_07", "mapName":"brimhaven_warehouse" },
+					{ "rewardType":"spawnAll", "rewardID":"brv_wh_item_08", "mapName":"brimhaven_warehouse" },
+					{ "rewardType":"spawnAll", "rewardID":"brv_wh_item_09", "mapName":"brimhaven_warehouse" },
+					{ "rewardType":"spawnAll", "rewardID":"brv_wh_item_20", "mapName":"brimhaven_warehouse" },
+					{ "rewardType":"spawnAll", "rewardID":"brv_wh_item_21", "mapName":"brimhaven_warehouse" },
+					{ "rewardType":"spawnAll", "rewardID":"brv_wh_item_22", "mapName":"brimhaven_warehouse" },
+					{ "rewardType":"spawnAll", "rewardID":"brv_wh_item_23", "mapName":"brimhaven_warehouse" },
+					{ "rewardType":"spawnAll", "rewardID":"brv_wh_item_24", "mapName":"brimhaven_warehouse" },
+					{ "rewardType":"spawnAll", "rewardID":"brv_wh_item_25", "mapName":"brimhaven_warehouse" },
+					{ "rewardType":"spawnAll", "rewardID":"brv_wh_item_26", "mapName":"brimhaven_warehouse" },
+					{ "rewardType":"spawnAll", "rewardID":"brv_wh_item_27", "mapName":"brimhaven_warehouse" },
+					{ "rewardType":"spawnAll", "rewardID":"brv_wh_item_28", "mapName":"brimhaven_warehouse" },
+					{ "rewardType":"spawnAll", "rewardID":"brv_wh_item_29", "mapName":"brimhaven_warehouse" }]
+    },
     {   
 		"id":"brv_wh_item_00",
         "switchToNPC":"brv_wh_item_40",
