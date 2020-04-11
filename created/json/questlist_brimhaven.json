@@ -214,7 +214,7 @@
     },
     {
         "id":"quick_glance",
-        "name":"A Quick Glance",
+        "name":"A quick glance",
         "showInLog":1,
         "stages":[
             {
@@ -506,19 +506,19 @@
             },
             {
                 "progress":40,
-                "logText":"Your father didn't seem very hyppy about the cheap necklace.",
+                "logText":"Your father didn't seem very happy with the cheap necklace.",
                 "rewardExperience":50,
                 "finishesQuest":1
             },
             {
                 "progress":50,
-                "logText":"Your father was very happy about the nice necklace.",
+                "logText":"Your father was very happy with the nice necklace.",
                 "rewardExperience":500,
                 "finishesQuest":1
             },
             {
                 "progress":60,
-                "logText":"Your father was disapointed about your prententious necklace.",
+                "logText":"Your father was disapointed with your prententious necklace.",
                 "rewardExperience":50,
                 "finishesQuest":1
             }
