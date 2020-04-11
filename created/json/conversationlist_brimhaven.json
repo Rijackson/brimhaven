@@ -2739,7 +2739,21 @@
     },
     {
         "id":"truric_0",
-        "message":"Welcome to my store."
+        "message":"Hello. I am Truric. Welcome to my store.",
+        "replies":[
+            {
+                "text":"Thanks, but I need to go. This isn't what I was looking for.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"What do you sell?",
+                "nextPhraseID":"truric_1_0"
+            },
+            {
+                "text":"I am looking for my brother, Andor. He looks a bit like me. Have you seen anyone like that recently?",
+                "nextPhraseID":"truric_2_0"
+            }
+        ]
     },
     {
         "id":"blackjack_gambler1",
@@ -6817,6 +6831,58 @@
                 "rewardType":"questProgress",
                 "rewardID":"brv_dagger_nondisplay",
                 "value":10
+            }
+        ]
+    },
+    {
+        "id":"truric_1_0",
+        "message":"I am a weaponsmith. I have a good selection at the moment. Would you like to take a look?",
+        "replies":[
+            {
+                "text":"Yes, please show me what you have.",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"No thanks. I need to move on.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Not now. I wanted to ask you about something else. I am looking for my brother Andor. He looks a bit like me. Have you seen him?",
+                "nextPhraseID":"truric_2_0"
+            }
+        ]
+    },
+    {
+        "id":"truric_2_0",
+        "message":"No, sorry, but I haven't. I spend most of my time indoors working on my trade though. He could have passed though town without me noticing. ",
+        "replies":[
+            {
+                "text":"Do you get many travelers here?",
+                "nextPhraseID":"truric_2_1"
+            }
+        ]
+    },
+    {
+        "id":"truric_2_1",
+        "message":"We get quite a few, yes. We are not on the main road, but many paths pass through Brimhaven. ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"truric_2_2"
+            }
+        ]
+    },
+    {
+        "id":"truric_2_2",
+        "message":"Few stay here though. We only have a few beds available at the inn on the east side of town. ",
+        "replies":[
+            {
+                "text":"OK. Thanks for the information. I need to go.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"OK. Thanks for the information. What do you sell?",
+                "nextPhraseID":"truric_1_0"
             }
         ]
     }
