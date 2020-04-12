@@ -619,5 +619,16 @@
         "movementAggressionType":"protectSpawn",
         "spawnGroup":"elythom_roaming",
         "phraseID":"brv_elythom_roaming"
+    },
+    {
+        "id":"brv_eagle",
+        "name":"Eagle",
+        "iconID":"monsters_rltiles4:1"
+    },
+    {
+        "id":"brv_fortune_teller",
+        "name":"Pangitain",
+        "iconID":"monsters_ld1:59",
+        "unique":1
     }
 ]
