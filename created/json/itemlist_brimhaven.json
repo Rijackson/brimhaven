@@ -656,7 +656,7 @@
         "id":"expensive_necklace",
         "iconID":"items_jewelry:8",
         "name":"Diamond Necklace",
-        "displaytype":"extraordinary",
+        "displaytype":"rare",
         "hasManualPrice":1,
         "baseMarketCost":100000,
         "category":"neck"
@@ -771,6 +771,15 @@
         "displaytype":"quest",
         "hasManualPrice":1,
         "baseMarketCost":50000,
+        "category":"neck"
+    },
+    {
+        "id":"very_expensive_necklace",
+        "iconID":"items_jewelry:8",
+        "name":"Impressive Diamond Necklace",
+        "displaytype":"extraordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":500000,
         "category":"neck"
     }
 ]

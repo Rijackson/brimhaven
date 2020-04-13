@@ -1002,6 +1002,14 @@
                     "min":2,
                     "max":2
                 }
+            },
+            {
+                "itemID":"very_expensive_necklace",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
             }
         ]
     },
