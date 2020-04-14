@@ -223,6 +223,11 @@
    </properties>
   </object>
   <object id="5" name="brv_tavern1_guest2" type="spawn" x="96" y="96" width="32" height="32"/>
+  <object name="burhczyd10" type="spawn" x="128" y="256" width="32" height="32">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys" visible="0"/>
 </map>
