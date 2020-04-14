@@ -1,3 +1,4 @@
+[
     {
         "id":"commandername",
         "name":"commandername",
@@ -22,3 +23,4 @@
         "spawnGroup":"elythom_knight2",
         "phraseID":"elythom_knight2"
     }
+]
