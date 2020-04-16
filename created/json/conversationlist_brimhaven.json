@@ -3939,7 +3939,7 @@
                 "nextPhraseID":"brv_guard_captain_22"
             },
             {
-                "text":"Alkapoan was the patron. Here are letters proofing his guilt. He is waiting at his home for you to undergo punishment.",
+                "text":"Alkapoan was the patron. Here are letters proving his guilt. He is waiting at his home for you to undergo punishment.",
                 "nextPhraseID":"brv_guard_captain_30",
                 "requires":[
                     {
@@ -4093,7 +4093,7 @@
     },
     {
         "id":"brv_richman_20",
-        "message":"[Breaks down]\n\nI was bribed by the people of Loneford to sabotate the dam. Here are some letters I exchanged with them, that proof what I did.",
+        "message":"[Breaks down]\n\nI was bribed by the people of Loneford to sabotate the dam. Here are some letters I exchanged with them, that prove what I did.",
         "replies":[
             {
                 "text":"You were honest to me so I will follow your wish. (And you can't escape from Brimhaven without me seeing you.)",
@@ -4268,7 +4268,7 @@
                 "nextPhraseID":"brv_guard_captain_22"
             },
             {
-                "text":"Alkapoan was the patron. Here are letters proofing his guilt. He is waiting at his home for you to undergo punishment.",
+                "text":"Alkapoan was the patron. Here are letters proving his guilt. He is waiting at his home for you to undergo punishment.",
                 "nextPhraseID":"brv_guard_captain_30",
                 "requires":[
                     {
@@ -4352,6 +4352,7 @@
     {
         "id":"brv_guard_captain_and_rich_man_40",
         "message":"Alkapoans letters accidently fell into a fire and I am sure some bad unknown spies from Loneford destroyed the dam. Better you disapear soon or I might find some evidence that you are the bad spy from Loneford.",
+        "switchToNPC":"brv_guard_captain",
         "rewards":[
             {
                 "rewardType":"questProgress",

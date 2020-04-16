@@ -1,0 +1,26 @@
+[
+    {
+        "id":"burhczyd10",
+        "name":"Burhczyd",
+        "iconID":"monsters_ld2:8",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "phraseID":"burhczyd10"
+    },
+    {
+        "id":"burhczyd11",
+        "name":"Burhczyd",
+        "iconID":"monsters_ld2:8",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "phraseID":"burhczyd11"
+    },
+    {
+        "id":"burhczyd12",
+        "name":"Burhczyd",
+        "iconID":"monsters_ld2:8",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "phraseID":"burhczyd12"
+    }
+]

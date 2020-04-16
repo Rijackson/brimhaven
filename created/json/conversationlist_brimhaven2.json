@@ -986,9 +986,15 @@
                         "value":30
                     },
                     {
-                        "requireType":"questLatestProgress",
+                        "requireType":"questProgress",
                         "requireID":"brv_school2",
-                        "value":60,
+                        "value":100,
+						"negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_school2",
+                        "value":120,
 						"negate":true
                     }
                 ]
@@ -1029,6 +1035,10 @@
                         "value":1
                     }
                 ]
+            },
+            {
+                "text":"I had better leave it alone.",
+                "nextPhraseID":"X"
             }
         ]
     },
