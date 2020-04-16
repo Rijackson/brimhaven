@@ -1,26 +1,10 @@
 [
     {
-        "id":"commandername",
-        "name":"commandername",
+        "id":"walpot",
+        "name":"Walpot",
         "iconID":"monsters_men2:6",
         "monsterClass":"humanoid",
-        "spawnGroup":"commandername",
+        "spawnGroup":"walpot",
         "phraseID":"commandername"
-    },
-    {
-        "id":"elythom_kn1",
-        "name":"Knight of Elythom",
-        "iconID":"monsters_men:3",
-        "monsterClass":"humanoid",
-        "spawnGroup":"elythom_knight1",
-        "phraseID":"elythom_knight1"
-    },
-    {
-        "id":"elythom_kn2",
-        "name":"Knight of Elythom",
-        "iconID":"monsters_men:3",
-        "monsterClass":"humanoid",
-        "spawnGroup":"elythom_knight2",
-        "phraseID":"elythom_knight2"
     }
 ]
