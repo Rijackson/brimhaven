@@ -611,14 +611,14 @@
         "droplistID":"brv_jewelery"
     },
     {
-        "id":"elythom_roaming",
-        "name":"Knight of Elythom",
+        "id":"patrol_roaming",
+        "name":"Feygard soldier",
         "iconID":"monsters_men:3",
         "moveCost":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"protectSpawn",
-        "spawnGroup":"elythom_roaming",
-        "phraseID":"brv_elythom_roaming"
+        "spawnGroup":"patrol_roaming",
+        "phraseID":"brv_patrol_roaming"
     },
     {
         "id":"brv_eagle",

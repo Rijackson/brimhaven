@@ -258,7 +258,7 @@
     <property name="place" value="south"/>
    </properties>
   </object>
-  <object name="brv_elythom_check_stop_hero" type="script" x="192" y="224" width="544" height="448">
+  <object name="brv_patrol_check_stop_hero" type="script" x="192" y="224" width="544" height="448">
    <properties>
     <property name="when" value="enter"/>
    </properties>
@@ -291,14 +291,14 @@
     <property name="active" value="false"/>
     <property name="ignoreAreas" value="true"/>
     <property name="quantity" value="6"/>
-    <property name="spawngroup" value="elythom_roaming"/>
+    <property name="spawngroup" value="patrol_roaming"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup name="Keys">
   <object name="stop_hero" type="key" x="160" y="192" width="608" height="512">
    <properties>
-    <property name="phrase" value="brv_wait_elythom"/>
+    <property name="phrase" value="brv_wait_patrol"/>
     <property name="requireId" value="brv_nondisplay"/>
     <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>

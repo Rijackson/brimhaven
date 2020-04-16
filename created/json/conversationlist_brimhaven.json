@@ -6377,10 +6377,10 @@
         ]
     },
     {
-        "id":"brv_elythom_remove_all_bonemeals",
+        "id":"brv_patrol_remove_all_bonemeals",
         "replies":[
             {
-                "nextPhraseID":"brv_elythom_remove_all_bonemeals",
+                "nextPhraseID":"brv_patrol_remove_all_bonemeals",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -6390,7 +6390,7 @@
                 ]
             },
             {
-                "nextPhraseID":"brv_elythom_remove_all_bonemeals",
+                "nextPhraseID":"brv_patrol_remove_all_bonemeals",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -6400,7 +6400,7 @@
                 ]
             },
             {
-                "nextPhraseID":"brv_elythom_remove_all_bonemeals",
+                "nextPhraseID":"brv_patrol_remove_all_bonemeals",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -6410,7 +6410,7 @@
                 ]
             },
             {
-                "nextPhraseID":"brv_elythom_remove_all_bonemeals",
+                "nextPhraseID":"brv_patrol_remove_all_bonemeals",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -6420,7 +6420,7 @@
                 ]
             },
             {
-                "nextPhraseID":"brv_elythom_remove_all_bonemeals",
+                "nextPhraseID":"brv_patrol_remove_all_bonemeals",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -6430,7 +6430,7 @@
                 ]
             },
             {
-                "nextPhraseID":"brv_elythom_remove_all_bonemeals",
+                "nextPhraseID":"brv_patrol_remove_all_bonemeals",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -6440,7 +6440,7 @@
                 ]
             },
             {
-                "nextPhraseID":"brv_elythom_remove_all_bonemeals",
+                "nextPhraseID":"brv_patrol_remove_all_bonemeals",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -6450,7 +6450,7 @@
                 ]
             },
             {
-                "nextPhraseID":"brv_elythom_remove_all_bonemeals",
+                "nextPhraseID":"brv_patrol_remove_all_bonemeals",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -6460,7 +6460,7 @@
                 ]
             },
             {
-                "nextPhraseID":"brv_elythom_remove_all_bonemeals_lodar"
+                "nextPhraseID":"brv_patrol_remove_all_bonemeals_lodar"
             }
         ],
         "rewards":[
@@ -6472,13 +6472,13 @@
         ]
     },
     {
-        "id":"brv_wait_elythom",
+        "id":"brv_wait_patrol",
         "message":"[I better wait and talk to the knights what they did with my belongings]"
     },
     {
-        "id":"brv_elythom_stop_hero",
+        "id":"brv_patrol_stop_hero",
         "message":"Stop in the name of Feygard!\n\n[The knights approach and search your belongings]",
-        "switchToNPC":"elythom_roaming",
+        "switchToNPC":"patrol_roaming",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -6492,10 +6492,10 @@
         ]
     },
     {
-        "id":"brv_elythom_roaming",
+        "id":"brv_patrol_roaming",
         "replies":[
             {
-                "nextPhraseID":"brv_elythom_roaming_20",
+                "nextPhraseID":"brv_patrol_roaming_20",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -6505,32 +6505,32 @@
                 ]
             },
             {
-                "nextPhraseID":"brv_elythom_roaming_10"
+                "nextPhraseID":"brv_patrol_roaming_10"
             }
         ]
     },
     {
-        "id":"brv_elythom_roaming_10",
+        "id":"brv_patrol_roaming_10",
         "message":"You are carrying a lot of gear. Any disallowed substances?\n\nYou have to wait while I check your belongings.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brv_elythom_roaming_11"
+                "nextPhraseID":"brv_patrol_roaming_11"
             }
         ]
     },
     {
-        "id":"brv_elythom_roaming_20",
+        "id":"brv_patrol_roaming_20",
         "message":"You again. \n\nYou have to wait while I check your belongings.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brv_elythom_roaming_11"
+                "nextPhraseID":"brv_patrol_roaming_11"
             }
         ]
     },
     {
-        "id":"brv_elythom_roaming_100",
+        "id":"brv_patrol_roaming_100",
         "message":"Everything is ok. Stay clean.",
         "rewards":[
             {
@@ -6550,7 +6550,7 @@
         ]
     },
     {
-        "id":"brv_elythom_check_stop_hero",
+        "id":"brv_patrol_check_stop_hero",
         "replies":[
             {
                 "nextPhraseID":"X",
@@ -6562,7 +6562,7 @@
                 ]
             },
             {
-                "nextPhraseID":"brv_elythom_stop_hero",
+                "nextPhraseID":"brv_patrol_stop_hero",
                 "requires":[
                     {
                         "requireType":"inventoryKeep",
@@ -6579,7 +6579,7 @@
                 ]
             },
             {
-                "nextPhraseID":"brv_elythom_remove_all_bonemeals"
+                "nextPhraseID":"brv_patrol_remove_all_bonemeals"
             }
         ],
         "rewards":[
@@ -6591,10 +6591,10 @@
         ]
     },
     {
-        "id":"brv_elythom_remove_all_bonemeals_lodar",
+        "id":"brv_patrol_remove_all_bonemeals_lodar",
         "replies":[
             {
-                "nextPhraseID":"brv_elythom_remove_all_bonemeals_lodar",
+                "nextPhraseID":"brv_patrol_remove_all_bonemeals_lodar",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -6604,7 +6604,7 @@
                 ]
             },
             {
-                "nextPhraseID":"brv_elythom_remove_all_bonemeals_lodar",
+                "nextPhraseID":"brv_patrol_remove_all_bonemeals_lodar",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -6614,7 +6614,7 @@
                 ]
             },
             {
-                "nextPhraseID":"brv_elythom_remove_all_bonemeals_lodar",
+                "nextPhraseID":"brv_patrol_remove_all_bonemeals_lodar",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -6624,7 +6624,7 @@
                 ]
             },
             {
-                "nextPhraseID":"brv_elythom_remove_all_bonemeals_lodar",
+                "nextPhraseID":"brv_patrol_remove_all_bonemeals_lodar",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -6634,7 +6634,7 @@
                 ]
             },
             {
-                "nextPhraseID":"brv_elythom_remove_all_bonemeals_lodar",
+                "nextPhraseID":"brv_patrol_remove_all_bonemeals_lodar",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -6644,7 +6644,7 @@
                 ]
             },
             {
-                "nextPhraseID":"brv_elythom_remove_all_bonemeals_lodar",
+                "nextPhraseID":"brv_patrol_remove_all_bonemeals_lodar",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -6654,7 +6654,7 @@
                 ]
             },
             {
-                "nextPhraseID":"brv_elythom_remove_all_bonemeals_lodar",
+                "nextPhraseID":"brv_patrol_remove_all_bonemeals_lodar",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -6664,7 +6664,7 @@
                 ]
             },
             {
-                "nextPhraseID":"brv_elythom_remove_all_bonemeals_lodar",
+                "nextPhraseID":"brv_patrol_remove_all_bonemeals_lodar",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -6674,12 +6674,12 @@
                 ]
             },
             {
-                "nextPhraseID":"brv_elythom_stop_hero"
+                "nextPhraseID":"brv_patrol_stop_hero"
             }
         ]
     },
     {
-        "id":"brv_elythom_bonemeals_removed",
+        "id":"brv_patrol_bonemeals_removed",
         "message":"What's this? Smells like Bonemeal!\n\nBonemeal is illegal and forbidden by the law of Feygard. I will have to confiscate it.\n[He gives you back all your belongings but keeps the Bonemeals]\n\nKeep away from illegal stuff. Now go your way.",
         "rewards":[
             {
@@ -6699,10 +6699,10 @@
         ]
     },
     {
-        "id":"brv_elythom_roaming_11",
+        "id":"brv_patrol_roaming_11",
         "replies":[
             {
-                "nextPhraseID":"brv_elythom_roaming_100",
+                "nextPhraseID":"brv_patrol_roaming_100",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -6713,7 +6713,7 @@
                 ]
             },
             {
-                "nextPhraseID":"brv_elythom_bonemeals_removed"
+                "nextPhraseID":"brv_patrol_bonemeals_removed"
             }
         ]
     },

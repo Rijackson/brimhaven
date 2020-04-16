@@ -225,7 +225,7 @@
   </object>
   <object name="sign_rbfcr6" type="sign" x="480" y="704" width="32" height="32"/>
   <object name="sign_rbfcr6_grave1" type="sign" x="256" y="288" width="32" height="32"/>
-  <object name="brv_elythom_check_stop_hero" type="script" x="256" y="608" width="288" height="256">
+  <object name="brv_patrol_check_stop_hero" type="script" x="256" y="608" width="288" height="256">
    <properties>
     <property name="when" value="enter"/>
    </properties>
@@ -275,14 +275,14 @@
     <property name="active" value="false"/>
     <property name="ignoreAreas" value="true"/>
     <property name="quantity" value="6"/>
-    <property name="spawngroup" value="elythom_roaming"/>
+    <property name="spawngroup" value="patrol_roaming"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup name="Keys">
   <object name="stop_hero" type="key" x="224" y="576" width="352" height="352">
    <properties>
-    <property name="phrase" value="brv_wait_elythom"/>
+    <property name="phrase" value="brv_wait_patrol"/>
     <property name="requireId" value="brv_nondisplay"/>
     <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>

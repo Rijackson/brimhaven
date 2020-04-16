@@ -262,7 +262,7 @@
   <object name="sign_crossroadshouse" type="sign" x="672" y="352" width="32" height="32"/>
   <object name="sign_crossroads_s" type="sign" x="608" y="480" width="32" height="32"/>
   <object name="sign_crossroads_n" type="sign" x="640" y="128" width="32" height="32"/>
-  <object name="brv_elythom_check_stop_hero" type="script" x="352" y="448" width="480" height="64">
+  <object name="brv_patrol_check_stop_hero" type="script" x="352" y="448" width="480" height="64">
    <properties>
     <property name="when" value="enter"/>
    </properties>
@@ -323,14 +323,14 @@
     <property name="active" value="false"/>
     <property name="ignoreAreas" value="true"/>
     <property name="quantity" value="6"/>
-    <property name="spawngroup" value="elythom_roaming"/>
+    <property name="spawngroup" value="patrol_roaming"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup name="Keys">
   <object name="stop_hero" type="key" x="320" y="416" width="512" height="128">
    <properties>
-    <property name="phrase" value="brv_wait_elythom"/>
+    <property name="phrase" value="brv_wait_patrol"/>
     <property name="requireId" value="brv_nondisplay"/>
     <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>
