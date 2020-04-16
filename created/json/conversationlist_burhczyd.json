@@ -253,6 +253,11 @@
                 "mapName":"brimhaven_tavern1"
             },
             {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"burhczyd10e",
+                "mapName":"brimhaven_tavern1"
+            },
+            {
                 "rewardType":"removeQuestProgress",
                 "rewardID":"quest_burhczyd_nd",
                 "value":610
@@ -330,3 +335,9 @@
         ]
     }
 ]
+,
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"burhczyd1",
+                "mapName":"crossglen_hall"
+            }

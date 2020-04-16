@@ -8,6 +8,14 @@
         "phraseID":"burhczyd10"
     },
     {
+        "id":"burhczyd10e",
+        "name":"Burhczyd",
+        "iconID":"monsters_men:3",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "phraseID":"burhczyd10e"
+    },
+    {
         "id":"burhczyd11",
         "name":"Burhczyd",
         "iconID":"monsters_ld2:8",
