@@ -867,6 +867,54 @@
                 ]
             },
             {
+                "nextPhraseID":"burhczydx_10_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"quest_burhczyd_nd",
+                        "value":610
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"quest_burhczyd_nd",
+                        "value":710,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"burhczydx_10_11",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"quest_burhczyd_nd",
+                        "value":611
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"quest_burhczyd_nd",
+                        "value":711,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"burhczydx_10_12",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"quest_burhczyd_nd",
+                        "value":612
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"quest_burhczyd_nd",
+                        "value":712,
+                        "negate":true
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"burhczydx_50"
             }
         ]

@@ -52,17 +52,17 @@
             {
                 "progress":100,
                 "logText":"You've talked with a knight of Elythom who happened to be an old acquaintance - Burhczyd. He had to hide from the Elythom, because he had borrowed something of value from their leader.",
-                "rewardExperience":10000
+                "rewardExperience":20000
             },
             {
                 "progress":110,
                 "logText":"You've met Burhczyd 11",
-                "rewardExperience":10000
+                "rewardExperience":30000
             },
             {
                 "progress":120,
                 "logText":"You've met Burhczyd 12",
-                "rewardExperience":10000
+                "rewardExperience":40000
             }
         ]
     },

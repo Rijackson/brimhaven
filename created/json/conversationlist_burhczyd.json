@@ -240,6 +240,73 @@
         ]
     },
     {
+        "id":"burhczyd_check10",
+        "replies":[
+            {
+                "nextPhraseID":"burhczyd_check10_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"quest_burhczyd_nd",
+                        "value":710,
+						"negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"quest_burhczyd",
+                        "value":100
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"burhczyd_check10_9",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"quest_burhczyd_nd",
+                        "value":710,
+						"negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"quest_burhczyd",
+                        "value":90
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"burhczyd_check10_9",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"burhczyd10",
+                "mapName":"brimhaven_tavern1"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"burhczyd10e",
+                "mapName":"brimhaven_tavern1"
+            }
+        ]
+    },
+    {
+        "id":"burhczyd_check10_10",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"burhczyd10e",
+                "mapName":"brimhaven_tavern1"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"burhczyd10",
+                "mapName":"brimhaven_tavern1"
+            }
+        ]
+    },
+    {
         "id":"burhczydx_10_10",
         "replies":[
             {
@@ -335,9 +402,3 @@
         ]
     }
 ]
-,
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"burhczyd1",
-                "mapName":"crossglen_hall"
-            }
