@@ -936,6 +936,11 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"quest_burhczyd_nd",
                 "value":61
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"quest_burhczyd_nd",
+                "value":91
             }
         ]
     },
@@ -956,6 +961,11 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"quest_burhczyd_nd",
                 "value":62
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"quest_burhczyd_nd",
+                "value":92
             }
         ]
     },
@@ -976,6 +986,11 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"quest_burhczyd_nd",
                 "value":63
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"quest_burhczyd_nd",
+                "value":93
             }
         ]
     },
@@ -996,6 +1011,11 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"quest_burhczyd_nd",
                 "value":64
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"quest_burhczyd_nd",
+                "value":94
             }
         ]
     },
@@ -1016,6 +1036,11 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"quest_burhczyd_nd",
                 "value":65
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"quest_burhczyd_nd",
+                "value":95
             }
         ]
     },
@@ -1036,6 +1061,11 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"quest_burhczyd_nd",
                 "value":66
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"quest_burhczyd_nd",
+                "value":96
             }
         ]
     },
@@ -1056,6 +1086,11 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"quest_burhczyd_nd",
                 "value":67
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"quest_burhczyd_nd",
+                "value":97
             }
         ]
     },
@@ -1076,6 +1111,11 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"quest_burhczyd_nd",
                 "value":68
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"quest_burhczyd_nd",
+                "value":98
             }
         ]
     },
@@ -1096,6 +1136,11 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"quest_burhczyd_nd",
                 "value":69
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"quest_burhczyd_nd",
+                "value":99
             }
         ]
     },
@@ -2391,6 +2436,12 @@
                 "nextPhraseID":"burhczydx_8a_5_81a",
                 "requires":[
                     {
+                        "requireType":"questProgress",
+                        "requireID":"quest_burhczyd_nd",
+                        "value":81,
+						"negate":true
+                    },
+                    {
                         "requireType":"inventoryRemove",
                         "requireID":"gold",
                         "value":100
@@ -2423,6 +2474,12 @@
             {
                 "nextPhraseID":"burhczydx_8a_5_82a",
                 "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"quest_burhczyd_nd",
+                        "value":82,
+						"negate":true
+                    },
                     {
                         "requireType":"inventoryRemove",
                         "requireID":"necklace_undead",
@@ -2457,6 +2514,12 @@
                 "nextPhraseID":"burhczydx_8a_5_83a",
                 "requires":[
                     {
+                        "requireType":"questProgress",
+                        "requireID":"quest_burhczyd_nd",
+                        "value":83,
+						"negate":true
+                    },
+                    {
                         "requireType":"inventoryRemove",
                         "requireID":"ring_mikhail",
                         "value":1
@@ -2490,6 +2553,12 @@
                 "nextPhraseID":"burhczydx_8a_5_84a",
                 "requires":[
                     {
+                        "requireType":"questProgress",
+                        "requireID":"quest_burhczyd_nd",
+                        "value":84,
+						"negate":true
+                    },
+                    {
                         "requireType":"inventoryRemove",
                         "requireID":"gem2",
                         "value":1
@@ -2522,6 +2591,12 @@
             {
                 "nextPhraseID":"burhczydx_8a_5_85a",
                 "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"quest_burhczyd_nd",
+                        "value":85,
+						"negate":true
+                    },
                     {
                         "requireType":"inventoryRemove",
                         "requireID":"dagger_shadow_priests",
@@ -2817,7 +2892,7 @@
             {
                 "rewardType":"removeQuestProgress",
                 "rewardID":"quest_burhczyd_nd",
-                "value":84
+                "value":83
             }
         ]
     },

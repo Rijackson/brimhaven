@@ -16,8 +16,16 @@
         "phraseID":"burhczyd11"
     },
     {
-        "id":"burhczyd1e",
+        "id":"burhczyd12",
         "name":"Burhczyd",
+        "iconID":"monsters_ld2:8",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "phraseID":"burhczyd12"
+    },
+    {
+        "id":"burhczyd1e",
+        "name":"Knight of Elythom",
         "iconID":"monsters_men:3",
         "unique":1,
         "monsterClass":"humanoid",
@@ -25,7 +33,7 @@
     },
     {
         "id":"burhczyd2e",
-        "name":"Burhczyd",
+        "name":"Knight of Elythom",
         "iconID":"monsters_men:3",
         "unique":1,
         "monsterClass":"humanoid",
@@ -33,7 +41,7 @@
     },
     {
         "id":"burhczyd3e",
-        "name":"Burhczyd",
+        "name":"Knight of Elythom",
         "iconID":"monsters_men:3",
         "unique":1,
         "monsterClass":"humanoid",
@@ -41,7 +49,7 @@
     },
     {
         "id":"burhczyd4e",
-        "name":"Burhczyd",
+        "name":"Knight of Elythom",
         "iconID":"monsters_men:3",
         "unique":1,
         "monsterClass":"humanoid",
@@ -49,7 +57,7 @@
     },
     {
         "id":"burhczyd5e",
-        "name":"Burhczyd",
+        "name":"Knight of Elythom",
         "iconID":"monsters_men:3",
         "unique":1,
         "monsterClass":"humanoid",
@@ -57,7 +65,7 @@
     },
     {
         "id":"burhczyd6e",
-        "name":"Burhczyd",
+        "name":"Knight of Elythom",
         "iconID":"monsters_men:3",
         "unique":1,
         "monsterClass":"humanoid",
@@ -65,7 +73,7 @@
     },
     {
         "id":"burhczyd7e",
-        "name":"Burhczyd",
+        "name":"Knight of Elythom",
         "iconID":"monsters_men:3",
         "unique":1,
         "monsterClass":"humanoid",
@@ -73,7 +81,7 @@
     },
     {
         "id":"burhczyd8e",
-        "name":"Burhczyd",
+        "name":"Knight of Elythom",
         "iconID":"monsters_men:3",
         "unique":1,
         "monsterClass":"humanoid",
@@ -81,7 +89,7 @@
     },
     {
         "id":"burhczyd9e",
-        "name":"Burhczyd",
+        "name":"Knight of Elythom",
         "iconID":"monsters_men:3",
         "unique":1,
         "monsterClass":"humanoid",
@@ -89,7 +97,7 @@
     },
     {
         "id":"burhczyd10e",
-        "name":"Burhczyd",
+        "name":"Knight of Elythom",
         "iconID":"monsters_men:3",
         "unique":1,
         "monsterClass":"humanoid",
@@ -97,7 +105,7 @@
     },
     {
         "id":"burhczyd11e",
-        "name":"Burhczyd",
+        "name":"Knight of Elythom",
         "iconID":"monsters_men:3",
         "unique":1,
         "monsterClass":"humanoid",
@@ -105,7 +113,7 @@
     },
     {
         "id":"burhczyd12e",
-        "name":"Burhczyd",
+        "name":"Knight of Elythom",
         "iconID":"monsters_men:3",
         "unique":1,
         "monsterClass":"humanoid",

@@ -190,6 +190,54 @@
             {
                 "progress":85,
                 "logText":"85=dagger_shadow_priests"
+            },
+            {
+                "progress":91,
+                "logText":"91=finished merchant Crossglen"
+            },
+            {
+                "progress":92,
+                "logText":"92=finished merchant Fallhaven"
+            },
+            {
+                "progress":93,
+                "logText":"93=finished merchant Loneford"
+            },
+            {
+                "progress":94,
+                "logText":"94=finished merchant Vilegard"
+            },
+            {
+                "progress":95,
+                "logText":"95=finished merchant Stoutford"
+            },
+            {
+                "progress":99,
+                "logText":"99=finished merchant BWM"
+            },
+            {
+                "progress":97,
+                "logText":"97=finished merchant Remgard"
+            },
+            {
+                "progress":98,
+                "logText":"98=finished merchant WoodSettlement"
+            },
+            {
+                "progress":99,
+                "logText":"99=finished merchant Prim"
+            },
+            {
+                "progress":910,
+                "logText":"910=finished merchant Brimhaven"
+            },
+            {
+                "progress":911,
+                "logText":"911=finished merchant ..."
+            },
+            {
+                "progress":912,
+                "logText":"912=finished merchant ..."
             }
         ]
     }
