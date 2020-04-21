@@ -212,7 +212,20 @@
    eJxTFGdgUBzFVMPIABsflx5sbGxmogNs6gjpQVdHjF247CHWLmLtwaePWLOJjR9sZpDjLlLsIdf/pIgTK0+KPbjSK6H0TEoY0cseWgB62kMPDAAFxy0R
   </data>
  </layer>
- <objectgroup name="Mapevents"/>
+ <objectgroup name="Mapevents">
+  <object name="west" type="mapchange" x="0" y="288" width="32" height="64">
+   <properties>
+    <property name="map" value="brimhaven_temple2"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" x="0" y="0" width="32" height="32">
+   <properties>
+    <property name="map" value="brimhaven_temple4"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Spawn">
   <object name="walpot" type="spawn" x="192" y="128" width="224" height="96">
    <properties>

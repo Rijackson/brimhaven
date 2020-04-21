@@ -212,7 +212,20 @@
    eJxTFGdgUBzFVMMgQCkflxitAL3sooc9xITlaPwMnD3DOX6Gmz30wACsqShB
   </data>
  </layer>
- <objectgroup name="Mapevents"/>
+ <objectgroup name="Mapevents">
+  <object name="up" type="mapchange" x="0" y="0" width="32" height="32">
+   <properties>
+    <property name="map" value="brimhaven_temple4"/>
+    <property name="place" value="down"/>
+   </properties>
+  </object>
+  <object name="down" type="mapchange" x="0" y="0" width="32" height="32">
+   <properties>
+    <property name="map" value="brimhaven_temple6"/>
+    <property name="place" value="up"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Spawn">
   <object name="temple_knight" type="spawn" x="32" y="96" width="736" height="320">
    <properties>
