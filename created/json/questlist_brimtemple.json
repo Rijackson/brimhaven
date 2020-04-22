@@ -5,12 +5,12 @@
         "stages":[
             {
                 "progress":10,
-                "logText":"Petted temple cat"
+                "logText":"Petted temple cat",
                 "rewardExperience":25
             },
             {
                 "progress":20,
-                "logText":"Fed temple cat"
+                "logText":"Fed temple cat",
                 "rewardExperience":50
             }
         ]
