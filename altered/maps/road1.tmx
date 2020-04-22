@@ -183,9 +183,6 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_tree_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../../../../../andors-trail/AndorsTrail/res/drawable/map_tree_1.png" width="512" height="256"/>
- </tileset>
  <layer name="Ground" width="25" height="25">
   <data encoding="base64" compression="zlib">
    eJy7J8nA8A6IN3Ki4s1QjCwGUncPSe09SYQYMo0sj6yPWHvAWJhEjMV9hOw4KEwaRg4HDPfisMdEmoHBFIjNpAn7AaQWPWyJscMZqM8FiF2lCfvBWRoz7oj1C7qfsGEzJD/gi3dCdsD8xMwOoZExyJ9BrLjTJSn2UAsPFzvIsQdfHFPDHkJplVh7iLGPHH/gsode6WEo24WvjKOWXfQoGyhJN6N4FFOCAVqdySY=
@@ -216,9 +213,9 @@
    eJxjYBgFo2AUDAawUWzo2wEynx7+GAWjYBSMglHAwAAA3vsDHQ==
   </data>
  </layer>
- <layer name="Above_replace2" width="25" height="25" visible="0">
+ <layer name="Above_replace2" width="25" height="25">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjALqgEOyA+2CUTAKRsEoGDkAAMnvAOA=
+   eJxjYBgFo2AUjALqgFuSA+2CUTAKRsEoGDkAADcSAPQ=
   </data>
  </layer>
  <layer name="Walkable_replace2" width="25" height="25" visible="0">
