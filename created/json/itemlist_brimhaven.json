@@ -415,7 +415,8 @@
             },
             "increaseAttackCost":8,
             "increaseAttackChance":15,
-            "increaseBlockChance":3
+            "increaseBlockChance":3,
+            "setNonWeaponDamageModifier":200
         }
     },
     {
@@ -629,7 +630,7 @@
             "increaseAttackCost":6,
             "increaseAttackChance":14,
             "increaseBlockChance":7,
-            "setNonWeaponDamageModifier":175
+            "setNonWeaponDamageModifier":130
         }
     },
     {
