@@ -395,6 +395,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"brv_employee",
                 "value":30
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"Mapevents_boulders",
+                "mapName":"brimhaven1"
             }
         ]
     },
@@ -1162,6 +1167,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"brv_employee",
                 "value":90
+            },
+            {
+                "rewardType":"deactivateMapObjectGroup",
+                "rewardID":"Mapevents_boulders",
+                "mapName":"brimhaven1"
             },
             {
                 "rewardType":"spawnAll",

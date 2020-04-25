@@ -306,11 +306,6 @@
    </properties>
   </object>
   <object name="brv_employer_put_boulder" type="script" x="448" y="320" width="32" height="32"/>
-  <object name="brv_employer_carry_boulder" type="script" x="32" y="320" width="896" height="608">
-   <properties>
-    <property name="when" value="step"/>
-   </properties>
-  </object>
   <object name="brv_flood_0" type="script" x="480" y="448" width="32" height="32"/>
   <object name="brv_flood_1" type="script" x="416" y="512" width="96" height="64"/>
   <object name="brv_flood_1a" type="script" x="416" y="352" width="64" height="64"/>
@@ -325,6 +320,16 @@
   <object name="brv_flood_1a" type="script" x="576" y="768" width="32" height="64"/>
   <object name="brv_flood_2a" type="script" x="736" y="640" width="32" height="256"/>
   <object name="brv_flood_2a" type="script" x="320" y="736" width="32" height="96"/>
+ </objectgroup>
+ <objectgroup name="Mapevents_boulders">
+  <properties>
+   <property name="active" value="false"/>
+  </properties>
+  <object name="brv_employer_carry_boulder" type="script" x="32" y="320" width="896" height="608">
+   <properties>
+    <property name="when" value="step"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="brv_employer" type="spawn" x="416" y="320" width="32" height="32">
