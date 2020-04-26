@@ -2977,6 +2977,7 @@
     },
     {
         "id":"brv_tavern_west_check_deny_backroom",
+        "switchToNPC":"brv_tavern_west_guard",
         "replies":[
             {
                 "nextPhraseID":"brv_tavern_west_guard_90",
@@ -6884,6 +6885,302 @@
             {
                 "text":"OK. Thanks for the information. What do you sell?",
                 "nextPhraseID":"truric_1_0"
+            }
+        ]
+    },
+    {
+        "id":"brv_eagle",
+        "message":"Rrrrrraaaaaaa",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_fortune_stop_talking_eagle"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_stop_talking_eagle",
+        "message":"Stop annoying my pet!",
+        "switchToNPC":"brv_fortune_teller"
+    },
+    {
+        "id":"brv_fortune_choice",
+        "message":"Anything more where can I help you?",
+        "replies":[
+            {
+                "text":"Please tell me something that you can see about me or my brother Andor. [Give him 100 gold coins]",
+                "nextPhraseID":"brv_fortune_fortunes",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":100
+                    }
+                ]
+            },
+            {
+                "text":"I don't have 100 gold coins to pay you.",
+                "nextPhraseID":"brv_fortune_end_10"
+            },
+            {
+                "text":"Maybe I can help you.",
+                "nextPhraseID":"brv_fortune_300"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_andor_10",
+        "message":"I see you talking to your brother, somewhere far from here.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_fortune_choice"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_andor_20",
+        "message":"He bounded with dark forces.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_fortune_choice"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_andor_30",
+        "message":"He is now in a big city",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_fortune_andor_31"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_andor_31",
+        "message":"He needs your help. Something horrible ... argh.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_fortune_andor_35"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_andor_35",
+        "message":"I can't see anything. My view seems to be blocked.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_fortune_choice"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_hero_10",
+        "message":"I see you walking up a path on a mountain. Beware! There is something wating for you ahead. I see you being attacked by monsters and they kill you.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_fortune_choice"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_hero_20",
+        "message":"I see you frozen to stone on a pederstral admist many flowers. Or is it a statue with your looks?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_fortune_choice"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_hero_30",
+        "message":"I see a thief. He will take something from you.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_fortune_choice"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_hero_40",
+        "message":"I can see you in a prison cell but I cannot be sure where it is.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_fortune_choice"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_hero_50",
+        "message":"I can see you talking to some nobles in a big city. Feygard or Nor City, I think.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_fortune_choice"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_hero_60",
+        "message":"I see a terrible daemon It attacks you!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_fortune_choice"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_hero_70",
+        "message":"I see a forest glade by a lake. There are many giants, but they are slow and you easily move between them.\nome to your him.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_fortune_choice"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_hero_130",
+        "message":"I see a man pacing up and down in a little house. He seems to be waiting for someone.",
+        "replies":[
+            {
+                "text":"That must be my father Mikhail, he is waiting for me and my brother!",
+                "nextPhraseID":"brv_fortune_hero_131"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_hero_131",
+        "message":"Then go and get your brother and go home to him.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_fortune_choice"
+            }
+        ]
+    },
+    {
+        "id":"brv_playing_children",
+        "message":"Don't disturb our game. Go away!",
+        "switchToNPC":"brv_playing_child1",
+        "replies":[
+            {
+                "text":"I am sorry.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"What are you playing?",
+                "nextPhraseID":"brv_playing_children_10"
+            }
+        ]
+    },
+    {
+        "id":"brv_playing_children_10",
+        "message":"We are practicing 'Ba game'.\n\nOnce a year the west and the east part of the town play against ech other. It can be very cruel."
+    },
+    {
+        "id":"brv_ball",
+        "message":"(This looks like a ball made of leather)",
+        "replies":[
+            {
+                "text":"[Kick the ball as hard as possible]",
+                "nextPhraseID":"brv_ball_10"
+            }
+        ]
+    },
+    {
+        "id":"brv_ball_10",
+        "message":"(You miss the ball and fall on your back)\n\nYou kick like a baby. Ha, ha ",
+        "switchToNPC":"brv_playing_child1"
+    },
+    {
+        "id":"brv_fortune_fortunes",
+        "message":"TODO"
+    },
+    {
+        "id":"brv_fortune_end_10",
+        "message":"Then goodbye. I know you will come back some time."
+    },
+    {
+        "id":"brv_fortune_300",
+        "message":"Yes, that would be good. I already have an idea. But not now. Please come back later and ask me again.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_fortune_choice"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_back",
+        "message":"Welcome back.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_fortune_choice"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune",
+        "message":"Welcome to my house. Please come in.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_fortune_10"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_20",
+        "message":"I can see what others can't see.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_fortune_10"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_30",
+        "message":"Wait",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_fortune_40"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_40",
+        "message":"I feel that you are on a search... at the beginning of a long and dangerous search for a relative of you.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_fortune_40"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_10",
+        "message":"What is leading you to me? It looks like you could need my help.",
+        "replies":[
+            {
+                "text":"What help do you offer?",
+                "nextPhraseID":"brv_fortune_20"
+            },
+            {
+                "text":"I am searching...",
+                "nextPhraseID":"brv_fortune_30"
             }
         ]
     }

@@ -47,7 +47,7 @@
   <image source="../drawable/map_entrance_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="1841" name="map_entrance_2" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_entrance_2.png" width="512" height="256"/>
+  <image source="../../altered/spritesheets/map_entrance_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="1969" name="map_fence_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_fence_1.png" width="512" height="256"/>
@@ -95,7 +95,7 @@
   <image source="../drawable/map_indoor_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="3889" name="map_indoor_2" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_indoor_2.png" width="512" height="256"/>
+  <image source="../../altered/spritesheets/map_indoor_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="4017" name="map_kitchen_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_kitchen_1.png" width="512" height="256"/>
@@ -107,7 +107,7 @@
   <image source="../drawable/map_pillar_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="4401" name="map_pillar_2" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_pillar_2.png" width="512" height="256"/>
+  <image source="../../altered/spritesheets/map_pillar_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="4529" name="map_plant_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_plant_1.png" width="512" height="256"/>
@@ -122,7 +122,7 @@
   <image source="../drawable/map_rock_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="5041" name="map_roof_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_roof_1.png" width="512" height="256"/>
+  <image source="../../altered/spritesheets/map_roof_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="5169" name="map_roof_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_roof_2.png" width="512" height="256"/>
@@ -209,7 +209,7 @@
    eJxjYBgFgxFcEhtoFxAHHrHT1vzDAxQOQyX8R8EoIBUMVJ4a7OC46EC7YBSMAvqC0bJgFIyCUQADABloBiE=
   </data>
  </layer>
- <layer name="Walkable" width="30" height="30" visible="0">
+ <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJztk1EOgDAIQz3F7n+F3VB/TMxSoAWmPy7hw4z1AZY5jmNewZw7b46++Iqr1PdzuX/4Jnf1RxeX0bPYrJfRzBDX0vfqUdienqVb8YWny9bP5GT8wt5n/N9RV4Zb2Z/KrFg/KR5XuIiBToaL3nm5ERt9K7uE7hXu8w3LRexVA+Up80H1RZpKH8peKL10cCP2Tm70JstlevD4KEepteI/pKHOlNVmdBh2lw6T7+VVemZmnZl5xx5Y/trhgx1hMU/J8qe3
   </data>
@@ -329,6 +329,32 @@
     <property name="spawngroup" value="brv_villager4"/>
    </properties>
   </object>
+  <object name="brv_ball" type="spawn" x="768" y="768" width="160" height="160">
+   <properties>
+    <property name="spawngroup" value="brv_ball"/>
+   </properties>
+  </object>
+  <object name="brv_playing_child2" type="spawn" x="768" y="768" width="160" height="160">
+   <properties>
+    <property name="spawngroup" value="brv_playing_child2"/>
+   </properties>
+  </object>
+  <object name="brv_playing_child3" type="spawn" x="768" y="768" width="160" height="160">
+   <properties>
+    <property name="spawngroup" value="brv_playing_child3"/>
+   </properties>
+  </object>
+  <object name="brv_playing_child1" type="spawn" x="800" y="928" width="32" height="32">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="brv_playing_child1"/>
+   </properties>
+  </object>
+  <object name="brv_playing_child4" type="spawn" x="768" y="768" width="160" height="160">
+   <properties>
+    <property name="spawngroup" value="brv_playing_child4"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys">
   <object name="andor:1" type="key" x="608" y="896" width="64" height="32">
@@ -362,6 +388,15 @@
     <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="100"/>
+   </properties>
+  </object>
+  <object name="block_playing_children" type="key" x="768" y="928" width="96" height="32">
+   <properties>
+    <property name="phrase" value="brv_playing_children"/>
+    <property name="requireId" value="brv_nondisplay"/>
+    <property name="requireNegation" value="false"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="143"/>
    </properties>
   </object>
  </objectgroup>
