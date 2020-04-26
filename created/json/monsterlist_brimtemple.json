@@ -41,29 +41,64 @@
     },
     {
         "id":"templecat1",
-        "name":"Temple cat",
+        "name":"Fertigern",
         "iconID":"monsters_ld2:102",
+        "maxAP":1,
+        "moveCost":2,
         "unique":1,
         "monsterClass":"animal",
         "spawnGroup":"templecat1",
-        "phraseID":"templecatmeow"
+        "phraseID":"templecatmeow",
+        "attackCost":1
     },
     {
         "id":"templecat2",
-        "name":"Temple cat",
+        "name":"Fertigern",
         "iconID":"monsters_ld2:102",
         "unique":1,
         "monsterClass":"animal",
+        "movementAggressionType":"wholeMap",
         "spawnGroup":"templecat2",
-        "phraseID":"templecatmeow"
+        "phraseID":"templecatpurr"
     },
     {
         "id":"templecat3",
-        "name":"Temple cat",
+        "name":"Fertigern",
         "iconID":"monsters_ld2:102",
         "unique":1,
         "monsterClass":"animal",
+        "movementAggressionType":"wholeMap",
         "spawnGroup":"templecat3",
-        "phraseID":"templecatmeow"
+        "phraseID":"templecatpurr"
+    },
+    {
+        "id":"templecat4",
+        "name":"Fertigern",
+        "iconID":"monsters_ld2:102",
+        "unique":1,
+        "monsterClass":"animal",
+        "movementAggressionType":"wholeMap",
+        "spawnGroup":"templecat4",
+        "phraseID":"templecatpurr"
+    },
+    {
+        "id":"templecat5",
+        "name":"Fertigern",
+        "iconID":"monsters_ld2:102",
+        "unique":1,
+        "monsterClass":"animal",
+        "movementAggressionType":"wholeMap",
+        "spawnGroup":"templecat5",
+        "phraseID":"templecatpurr"
+    },
+    {
+        "id":"templecat6",
+        "name":"Fertigern",
+        "iconID":"monsters_ld2:102",
+        "unique":1,
+        "monsterClass":"animal",
+        "movementAggressionType":"wholeMap",
+        "spawnGroup":"templecat6",
+        "phraseID":"templecatalert"
     }
 ]
