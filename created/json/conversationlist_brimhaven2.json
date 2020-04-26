@@ -64,7 +64,7 @@
                         "requireType":"questProgress",
                         "requireID":"brv_nondisplay2",
                         "value":50,
-						"negate":true
+                        "negate":true
                     }
                 ]
             }

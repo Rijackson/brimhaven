@@ -1,5 +1,5 @@
-[ 
-   {
+[
+    {
         "id":"templecatmeow",
         "message":"Meow ... Meow.",
         "replies":[
@@ -17,7 +17,7 @@
             },
             {
                 "text":"[You stroke the cat]",
-                "nextPhraseID":"templecatmeow_2",
+                "nextPhraseID":"templecatmeow_1",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -51,7 +51,7 @@
             }
         ]
     },
-   {
+    {
         "id":"templecatmeow_1",
         "message":"Purrrrrrrr",
         "rewards":[
@@ -62,9 +62,9 @@
             }
         ]
     },
-   {
+    {
         "id":"templecatmeow_2",
-        "message":"[The cat rubs against your leg and starts following you.  I'm glad I'm not allergic!]",
+        "message":"[The cat rubs against your leg and starts following you.  You think 'I'm glad I'm not allergic!']",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -72,5 +72,33 @@
                 "value":20
             }
         ]
+    },
+    {
+        "id":"templecatpurr",
+        "message":"Purrrr"
+    },
+    {
+        "id":"templecatalert",
+        "message":"[Fertigern is silent and alert, looking right through you]"
+    },
+    {
+        "id":"walpot_begin",
+        "message":"You look too young to become a Knight of Elythom."
+    },
+    {
+        "id":"acacius_begin",
+        "message":"My cat seems to be watching you."
+    },
+    {
+        "id":"galla_begin",
+        "message":"No more town kids trying to beg food!"
+    },
+    {
+        "id":"temple_guard",
+        "message":"What are you doing in here, young one?"
+    },
+    {
+        "id":"temple_knight",
+        "message":"Darn town brats..."
     }
 ]

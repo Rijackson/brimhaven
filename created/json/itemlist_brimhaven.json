@@ -44,7 +44,7 @@
             "increaseCriticalSkill":5,
             "increaseBlockChance":8,
             "setCriticalMultiplier":1.5,
-            "setNonWeaponDamageModifier":125
+            "setNonWeaponDamageModifier":127
         },
         "hitEffect":{
             "conditionsTarget":[
@@ -253,7 +253,8 @@
             "increaseMoveCost":0,
             "increaseAttackCost":0,
             "increaseAttackChance":4,
-            "increaseBlockChance":9
+            "increaseBlockChance":9,
+            "setNonWeaponDamageModifier":98
         }
     },
     {
@@ -370,7 +371,8 @@
             },
             "increaseAttackCost":4,
             "increaseAttackChance":2,
-            "increaseBlockChance":1
+            "increaseBlockChance":1,
+            "setNonWeaponDamageModifier":94
         }
     },
     {
@@ -416,7 +418,7 @@
             "increaseAttackCost":8,
             "increaseAttackChance":15,
             "increaseBlockChance":3,
-            "setNonWeaponDamageModifier":200
+            "setNonWeaponDamageModifier":183
         }
     },
     {
@@ -493,7 +495,8 @@
                 "max":2
             },
             "increaseAttackCost":4,
-            "increaseAttackChance":5
+            "increaseAttackChance":5,
+            "setNonWeaponDamageModifier":97
         }
     },
     {
@@ -544,6 +547,7 @@
             "increaseAttackChance":10,
             "increaseCriticalSkill":3,
             "setCriticalMultiplier":1.5,
+            "setNonWeaponDamageModifier":102,
             "addedConditions":[
                 {
                     "condition":"sense_1",
@@ -592,7 +596,8 @@
                 "max":6
             },
             "increaseAttackCost":4,
-            "increaseAttackChance":24
+            "increaseAttackChance":24,
+            "setNonWeaponDamageModifier":104
         }
     },
     {
@@ -630,7 +635,7 @@
             "increaseAttackCost":6,
             "increaseAttackChance":14,
             "increaseBlockChance":7,
-            "setNonWeaponDamageModifier":130
+            "setNonWeaponDamageModifier":175
         }
     },
     {
