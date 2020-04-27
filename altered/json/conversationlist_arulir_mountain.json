@@ -1,0 +1,12 @@
+[
+    {
+        "id":"tjure_0_20",
+        "message":"I once found a mermaid asleep on the beach of a river, north of here. What a beautiful sight! I could not avert my eyes!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"tjure_0_22"
+            }
+        ]
+    }
+]
