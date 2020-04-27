@@ -213,6 +213,19 @@
             {
                 "progress":143,
                 "logText":"Never true"
+            },
+            {
+                "progress":144,
+                "logText":"Told fortune teller about andor"
+            },
+            {
+                "progress":145,
+                "logText":"Fortune teller told about gold behind father's house"
+            },
+            {
+                "progress":146,
+                "logText":"Fortune teller found gold behind father's house",
+                "rewardExperience":500
             }
         ]
     },

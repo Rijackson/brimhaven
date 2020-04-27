@@ -630,7 +630,8 @@
         "id":"brv_fortune_teller",
         "name":"Pangitain",
         "iconID":"monsters_tometik6:17",
-        "unique":1
+        "unique":1,
+        "phraseID":"brv_fortune_select"
     },
     {
         "id":"brv_playing_child1",

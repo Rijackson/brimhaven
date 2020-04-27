@@ -329,17 +329,17 @@
     <property name="spawngroup" value="brv_villager4"/>
    </properties>
   </object>
-  <object name="brv_ball" type="spawn" x="768" y="768" width="160" height="160">
+  <object name="brv_ball" type="spawn" x="800" y="864" width="64" height="64">
    <properties>
     <property name="spawngroup" value="brv_ball"/>
    </properties>
   </object>
-  <object name="brv_playing_child2" type="spawn" x="768" y="768" width="160" height="160">
+  <object name="brv_playing_child2" type="spawn" x="768" y="832" width="96" height="96">
    <properties>
     <property name="spawngroup" value="brv_playing_child2"/>
    </properties>
   </object>
-  <object name="brv_playing_child3" type="spawn" x="768" y="768" width="160" height="160">
+  <object name="brv_playing_child3" type="spawn" x="768" y="832" width="96" height="96">
    <properties>
     <property name="spawngroup" value="brv_playing_child3"/>
    </properties>
@@ -350,7 +350,7 @@
     <property name="spawngroup" value="brv_playing_child1"/>
    </properties>
   </object>
-  <object name="brv_playing_child4" type="spawn" x="768" y="768" width="160" height="160">
+  <object name="brv_playing_child4" type="spawn" x="768" y="832" width="96" height="96">
    <properties>
     <property name="spawngroup" value="brv_playing_child4"/>
    </properties>

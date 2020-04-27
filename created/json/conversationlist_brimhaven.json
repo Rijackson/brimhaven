@@ -6919,7 +6919,7 @@
         "replies":[
             {
                 "text":"Please tell me something that you can see about me or my brother Andor. [Give him 100 gold coins]",
-                "nextPhraseID":"brv_fortune_fortunes",
+                "nextPhraseID":"brv_fortune_fortunes_select",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -6950,7 +6950,7 @@
     },
     {
         "id":"brv_fortune_andor_20",
-        "message":"He bounded with dark forces.",
+        "message":"Your brother bounded with dark forces.",
         "replies":[
             {
                 "text":"N",
@@ -6960,7 +6960,7 @@
     },
     {
         "id":"brv_fortune_andor_30",
-        "message":"He is now in a big city",
+        "message":"Your brother is now in a big city",
         "replies":[
             {
                 "text":"N",
@@ -7039,22 +7039,19 @@
         ]
     },
     {
-        "id":"brv_fortune_hero_60",
-        "message":"I see a terrible daemon It attacks you!",
+        "id":"brv_fortune_hero_70",
+        "message":"I see you picking up a lot of coins from a hole in the ground. Can it be behind your fathers house?",
         "replies":[
             {
                 "text":"N",
                 "nextPhraseID":"brv_fortune_choice"
             }
-        ]
-    },
-    {
-        "id":"brv_fortune_hero_70",
-        "message":"I see a forest glade by a lake. There are many giants, but they are slow and you easily move between them.\nome to your him.",
-        "replies":[
+        ],
+        "rewards":[
             {
-                "text":"N",
-                "nextPhraseID":"brv_fortune_choice"
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay",
+                "value":145
             }
         ]
     },
@@ -7111,10 +7108,6 @@
         "id":"brv_ball_10",
         "message":"(You miss the ball and fall on your back)\n\nYou kick like a baby. Ha, ha ",
         "switchToNPC":"brv_playing_child1"
-    },
-    {
-        "id":"brv_fortune_fortunes",
-        "message":"TODO"
     },
     {
         "id":"brv_fortune_end_10",
@@ -7175,8 +7168,19 @@
         "message":"I feel that you are on a search... at the beginning of a long and dangerous search for a relative of you.",
         "replies":[
             {
-                "text":"N",
-                "nextPhraseID":"brv_fortune_40"
+                "text":"I am impressed. Can you tell me more about my brother Andor or me?",
+                "nextPhraseID":"brv_fortune_50"
+            },
+            {
+                "text":"That doesn't impress me.",
+                "nextPhraseID":"brv_fortune_end_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay",
+                "value":144
             }
         ]
     },
@@ -7191,6 +7195,179 @@
             {
                 "text":"I am searching...",
                 "nextPhraseID":"brv_fortune_30"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_50",
+        "message":"This will cost you 100 gold coins.",
+        "replies":[
+            {
+                "text":"[Give him 100 gold coins]",
+                "nextPhraseID":"brv_fortune_fortunes_select",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":100
+                    }
+                ]
+            },
+            {
+                "text":"That is too expensive for me.",
+                "nextPhraseID":"brv_fortune_end_10"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_select",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_fortune_choice",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay",
+                        "value":144
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brv_fortune"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_fortunes_select",
+        "replies":[
+            {
+                "nextPhraseID":"brv_fortune_andor_10",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"10"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_fortune_andor_20",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"11"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_fortune_andor_30",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"12"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_fortune_hero_10",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"14"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_fortune_hero_20",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"17"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_fortune_hero_30",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"20"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_fortune_hero_40",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"25"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_fortune_hero_50",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"33"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_fortune_hero_130",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"50"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_fortune_hero_70"
+            }
+        ]
+    },
+    {
+        "id":"crossglen_fortune_teller",
+        "message":"This looks like an undisturbed place.",
+        "replies":[
+            {
+                "text":"[Let's have a pee]",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Could this be the place? [Start digging with my hands]",
+                "nextPhraseID":"crossglen_fortune_teller_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay",
+                        "value":145
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay",
+                        "value":146,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"crossglen_fortune_teller_10",
+        "message":"After digging for some time you find a lot of gold coins! You take them and then close the hole.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay",
+                "value":146
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":1500
             }
         ]
     }
