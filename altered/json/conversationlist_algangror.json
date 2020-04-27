@@ -1,0 +1,19 @@
+[
+    {
+        "id":"algangror_task2_n",
+        "message":"Ah yes. After all, you are just a child and I can understand that all of this must be too much for you. He he.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"algangror_task2_n2"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fiveidols",
+                "value":100
+            }
+        ]
+    }
+]
