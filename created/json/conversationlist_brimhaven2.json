@@ -994,7 +994,31 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brv_school2",
+                        "value":102,
+						"negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_school2",
+                        "value":104,
+						"negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_school2",
                         "value":120,
+						"negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_school2",
+                        "value":122,
+						"negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_school2",
+                        "value":124,
 						"negate":true
                     }
                 ]
