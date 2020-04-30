@@ -6915,14 +6915,14 @@
     },
     {
         "id":"brv_fortune_choice",
-        "message":"Anything more where can I help you?",
+        "message":"Anything more where I can help you?",
         "replies":[
             {
                 "text":"Please tell me something that you can see about me or my brother Andor. [Give him 100 gold coins]",
-                "nextPhraseID":"brv_fortune_fortunes_select",
+                "nextPhraseID":"brv_fortune_pre_fortunes",
                 "requires":[
                     {
-                        "requireType":"inventoryRemove",
+                        "requireType":"inventoryKeep",
                         "requireID":"gold",
                         "value":100
                     }
@@ -6940,11 +6940,18 @@
     },
     {
         "id":"brv_fortune_andor_10",
-        "message":"I see you talking to your brother, somewhere far from here.",
+        "message":"I see you talking to your brother, somewhere far from here in a big city. Feygard or Nor City, I think.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brv_fortune_choice"
+                "nextPhraseID":"brv_fortune_post_fortunes"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay",
+                "value":151
             }
         ]
     },
@@ -6954,17 +6961,24 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brv_fortune_choice"
+                "nextPhraseID":"brv_fortune_post_fortunes"
             }
         ]
     },
     {
         "id":"brv_fortune_andor_30",
-        "message":"Your brother is now in a big city",
+        "message":"Your brother has bounded with dark forces.",
         "replies":[
             {
                 "text":"N",
                 "nextPhraseID":"brv_fortune_andor_31"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay",
+                "value":150
             }
         ]
     },
@@ -6980,11 +6994,11 @@
     },
     {
         "id":"brv_fortune_andor_35",
-        "message":"I can't see anything. My view seems to be blocked.",
+        "message":"I can't see more. My view seems to be blocked.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brv_fortune_choice"
+                "nextPhraseID":"brv_fortune_post_fortunes"
             }
         ]
     },
@@ -6994,7 +7008,14 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brv_fortune_choice"
+                "nextPhraseID":"brv_fortune_post_fortunes"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay",
+                "value":149
             }
         ]
     },
@@ -7004,7 +7025,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brv_fortune_choice"
+                "nextPhraseID":"brv_fortune_post_fortunes"
             }
         ]
     },
@@ -7014,7 +7035,14 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brv_fortune_choice"
+                "nextPhraseID":"brv_fortune_post_fortunes"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay",
+                "value":148
             }
         ]
     },
@@ -7024,7 +7052,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brv_fortune_choice"
+                "nextPhraseID":"brv_fortune_pre_fortunes"
             }
         ]
     },
@@ -7034,7 +7062,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brv_fortune_choice"
+                "nextPhraseID":"brv_fortune_post_fortunes"
             }
         ]
     },
@@ -7044,7 +7072,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brv_fortune_choice"
+                "nextPhraseID":"brv_fortune_post_fortunes"
             }
         ],
         "rewards":[
@@ -7063,6 +7091,13 @@
                 "text":"That must be my father Mikhail, he is waiting for me and my brother!",
                 "nextPhraseID":"brv_fortune_hero_131"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay",
+                "value":147
+            }
         ]
     },
     {
@@ -7071,7 +7106,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brv_fortune_choice"
+                "nextPhraseID":"brv_fortune_post_fortunes"
             }
         ]
     },
@@ -7148,8 +7183,8 @@
         "message":"I can see what others can't see.",
         "replies":[
             {
-                "text":"N",
-                "nextPhraseID":"brv_fortune_10"
+                "text":"Really? I am searching...",
+                "nextPhraseID":"brv_fortune_30"
             }
         ]
     },
@@ -7224,7 +7259,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brv_fortune_choice",
+                "nextPhraseID":"brv_fortune_back",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -7247,16 +7282,13 @@
                 "requires":[
                     {
                         "requireType":"random",
-                        "requireID":"10"
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"brv_fortune_andor_20",
-                "requires":[
+                        "requireID":"17"
+                    },
                     {
-                        "requireType":"random",
-                        "requireID":"11"
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay",
+                        "value":151,
+                        "negate":true
                     }
                 ]
             },
@@ -7265,7 +7297,13 @@
                 "requires":[
                     {
                         "requireType":"random",
-                        "requireID":"12"
+                        "requireID":"20"
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay",
+                        "value":150,
+                        "negate":true
                     }
                 ]
             },
@@ -7274,16 +7312,13 @@
                 "requires":[
                     {
                         "requireType":"random",
-                        "requireID":"14"
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"brv_fortune_hero_20",
-                "requires":[
+                        "requireID":"25"
+                    },
                     {
-                        "requireType":"random",
-                        "requireID":"17"
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay",
+                        "value":149,
+                        "negate":true
                     }
                 ]
             },
@@ -7292,25 +7327,13 @@
                 "requires":[
                     {
                         "requireType":"random",
-                        "requireID":"20"
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"brv_fortune_hero_40",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"25"
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"brv_fortune_hero_50",
-                "requires":[
-                    {
-                        "requireType":"random",
                         "requireID":"33"
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay",
+                        "value":148,
+                        "negate":true
                     }
                 ]
             },
@@ -7320,11 +7343,35 @@
                     {
                         "requireType":"random",
                         "requireID":"50"
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay",
+                        "value":147,
+                        "negate":true
                     }
                 ]
             },
             {
-                "nextPhraseID":"brv_fortune_hero_70"
+                "nextPhraseID":"brv_fortune_hero_70",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay",
+                        "value":145,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_fortune_fortunes_select"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":-100
             }
         ]
     },
@@ -7368,6 +7415,122 @@
                 "rewardType":"giveItem",
                 "rewardID":"gold",
                 "value":1500
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_pre_fortunes",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_fortune_come_back_much_later",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"brv_fortune",
+                        "value":6
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brv_fortune_fortunes_select",
+                "requires":[
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"brv_fortune",
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brv_fortune_come_back_later",
+                "requires":[
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"brv_fortune",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brv_fortune_fortunes_select"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_post_fortunes",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_fortunes_set_timer",
+                "requires":[
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"brv_fortune",
+                        "value":2
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brv_fortunes_set_timer",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"brv_fortune",
+                        "value":4
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brv_fortune_choice"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"brv_fortune",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"brv_fortunes_set_timer",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_fortune_choice"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"createTimer",
+                "rewardID":"brv_fortune"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_come_back_later",
+        "message":"I am tired and can't see anything new now. If you come back in a little while maybe I can tell you more. ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_fortune_choice"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_come_back_much_later",
+        "message":"I told you all I can see now. But you can come back to me in some months when you got new expiriences.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_fortune_choice"
             }
         ]
     }

@@ -220,12 +220,32 @@
             },
             {
                 "progress":145,
-                "logText":"Fortune teller told about gold behind father's house"
+                "logText":"Fortune teller told about gold behind father's house - brv_fortune_hero_70"
             },
             {
                 "progress":146,
                 "logText":"Fortune teller found gold behind father's house",
                 "rewardExperience":500
+            },
+            {
+                "progress":147,
+                "logText":"brv_fortune_hero_130"
+            },
+            {
+                "progress":148,
+                "logText":"brv_fortune_hero_30"
+            },
+            {
+                "progress":149,
+                "logText":"brv_fortune_hero_10"
+            },
+            {
+                "progress":150,
+                "logText":"brv_fortune_andor_30"
+            },
+            {
+                "progress":151,
+                "logText":"brv_fortune_andor_10"
             }
         ]
     },
