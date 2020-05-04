@@ -216,16 +216,16 @@
   </object>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object name="gornaud_1" type="spawn" x="64" y="576" width="192" height="192">
+  <object name="cave_serpent_1" type="spawn" x="64" y="576" width="192" height="192">
    <properties>
     <property name="quantity" value="3"/>
-    <property name="spawngroup" value="gornaud_1"/>
+    <property name="spawngroup" value="cave_serpent_1"/>
    </properties>
   </object>
-  <object name="gornaud_2" type="spawn" x="64" y="96" width="384" height="448">
+  <object name="cave_serpent_2" type="spawn" x="64" y="96" width="384" height="448">
    <properties>
     <property name="quantity" value="5"/>
-    <property name="spawngroup" value="gornaud_2"/>
+    <property name="spawngroup" value="cave_serpent_1"/>
    </properties>
   </object>
  </objectgroup>
