@@ -103,7 +103,7 @@
     },
     {
         "id":"old_basilisk",
-        "name":"Ancient Basilisk",
+        "name":"Ancient basilisk",
         "iconID":"monsters_giantbasilisk:0",
         "maxHP":120,
         "unique":1,
@@ -662,5 +662,114 @@
         "name":"Ball",
         "iconID":"monsters_misc:12",
         "phraseID":"brv_ball"
+    },
+    {
+        "id":"young_cave_serpent",
+        "name":"Young cave serpent",
+        "iconID":"monsters_tometik4:19",
+        "maxHP":18,
+        "monsterClass":"reptile",
+        "attackDamage":{
+            "min":2,
+            "max":4
+        },
+        "spawnGroup":"cave_serpent_1",
+        "attackCost":5,
+        "attackChance":100,
+        "criticalSkill":5,
+        "criticalMultiplier":2.0,
+        "blockChance":25,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"venom",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"10"
+                }
+            ]
+        }
+    },
+    {
+        "id":"cave_serpent",
+        "name":"Cave serpent",
+        "iconID":"monsters_tometik4:19",
+        "maxHP":24,
+        "monsterClass":"reptile",
+        "attackDamage":{
+            "min":2,
+            "max":5
+        },
+        "spawnGroup":"cave_serpent_1",
+        "attackCost":5,
+        "attackChance":100,
+        "criticalSkill":7,
+        "criticalMultiplier":2.0,
+        "blockChance":35,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"venom",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"10"
+                }
+            ]
+        }
+    },
+    {
+        "id":"venomous_cave_serpent",
+        "name":"Venomous cave serpent",
+        "iconID":"monsters_tometik4:19",
+        "maxHP":30,
+        "monsterClass":"reptile",
+        "attackDamage":{
+            "min":3,
+            "max":7
+        },
+        "spawnGroup":"cave_serpent_2",
+        "attackCost":5,
+        "attackChance":100,
+        "criticalSkill":14,
+        "criticalMultiplier":2.0,
+        "blockChance":45,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"venom",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"10"
+                }
+            ]
+        }
+    },
+    {
+        "id":"tough_cave_serpent",
+        "name":"Tough cave serpent",
+        "iconID":"monsters_tometik4:19",
+        "maxHP":40,
+        "monsterClass":"reptile",
+        "attackDamage":{
+            "min":3,
+            "max":9
+        },
+        "spawnGroup":"cave_serpent_2",
+        "attackCost":5,
+        "attackChance":100,
+        "criticalSkill":10,
+        "criticalMultiplier":2.0,
+        "blockChance":55,
+        "damageResistance":2,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"venom",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"10"
+                }
+            ]
+        }
     }
 ]
