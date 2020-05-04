@@ -1,0 +1,34 @@
+[
+    {
+        "id":"vilegard_smith_xul_15",
+        "message":"I think they are called Oegyth or something like that. The sword had three of them on its hilt.",
+        "replies":[
+            {
+                "text":"Never mind. Here is the sword. We had better destroy it.",
+                "nextPhraseID":"vilegard_smith_xul_8",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"xulviir0",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"I'll go find some of those crystals.",
+                "nextPhraseID":"vilegard_smith_xul_16"
+            },
+            {
+                "text":"I have three of those crystals right here.",
+                "nextPhraseID":"vilegard_smith_xul_17",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"oegyth",
+                        "value":3
+                    }
+                ]
+            }
+        ]
+    }
+]
