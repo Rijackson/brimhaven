@@ -6944,7 +6944,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brv_fortune_post_fortunes"
+                "nextPhraseID":"brv_fortune_choice"
             }
         ],
         "rewards":[
@@ -6961,7 +6961,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brv_fortune_post_fortunes"
+                "nextPhraseID":"brv_fortune_choice"
             }
         ]
     },
@@ -6998,7 +6998,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brv_fortune_post_fortunes"
+                "nextPhraseID":"brv_fortune_choice"
             }
         ]
     },
@@ -7008,7 +7008,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brv_fortune_post_fortunes"
+                "nextPhraseID":"brv_fortune_choice"
             }
         ],
         "rewards":[
@@ -7025,7 +7025,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brv_fortune_post_fortunes"
+                "nextPhraseID":"brv_fortune_choice"
             }
         ]
     },
@@ -7035,7 +7035,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brv_fortune_post_fortunes"
+                "nextPhraseID":"brv_fortune_choice"
             }
         ],
         "rewards":[
@@ -7062,7 +7062,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brv_fortune_post_fortunes"
+                "nextPhraseID":"brv_fortune_choice"
             }
         ]
     },
@@ -7072,7 +7072,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brv_fortune_post_fortunes"
+                "nextPhraseID":"brv_fortune_choice"
             }
         ],
         "rewards":[
@@ -7106,7 +7106,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brv_fortune_post_fortunes"
+                "nextPhraseID":"brv_fortune_choice"
             }
         ]
     },
@@ -7239,7 +7239,7 @@
         "replies":[
             {
                 "text":"[Give him 100 gold coins]",
-                "nextPhraseID":"brv_fortune_fortunes_select",
+                "nextPhraseID":"brv_fortune_pre_fortunes_2",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -7366,13 +7366,6 @@
             {
                 "nextPhraseID":"brv_fortune_fortunes_select"
             }
-        ],
-        "rewards":[
-            {
-                "rewardType":"giveItem",
-                "rewardID":"gold",
-                "value":-100
-            }
         ]
     },
     {
@@ -7434,7 +7427,7 @@
             },
             {
                 "text":"N",
-                "nextPhraseID":"brv_fortune_fortunes_select",
+                "nextPhraseID":"brv_fortune_pre_fortunes_2",
                 "requires":[
                     {
                         "requireType":"timerElapsed",
@@ -7450,19 +7443,19 @@
                     {
                         "requireType":"timerElapsed",
                         "requireID":"brv_fortune",
-                        "value":30,
+                        "value":1,
                         "negate":true
                     }
                 ]
             },
             {
                 "text":"N",
-                "nextPhraseID":"brv_fortune_fortunes_select"
+                "nextPhraseID":"brv_fortune_pre_fortunes_2"
             }
         ]
     },
     {
-        "id":"brv_fortune_post_fortunes",
+        "id":"brv_fortune_pre_fortunes_2",
         "replies":[
             {
                 "text":"N",
@@ -7480,7 +7473,7 @@
                 "nextPhraseID":"brv_fortunes_set_timer",
                 "requires":[
                     {
-                        "requireType":"factionScore",
+                        "requireType":"factionScoreEquals",
                         "requireID":"brv_fortune",
                         "value":4
                     }
@@ -7488,7 +7481,7 @@
             },
             {
                 "text":"N",
-                "nextPhraseID":"brv_fortune_choice"
+                "nextPhraseID":"brv_fortune_fortunes_select"
             }
         ],
         "rewards":[
@@ -7496,6 +7489,11 @@
                 "rewardType":"alignmentChange",
                 "rewardID":"brv_fortune",
                 "value":1
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":-100
             }
         ]
     },
@@ -7504,7 +7502,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brv_fortune_choice"
+                "nextPhraseID":"brv_fortune_fortunes_select"
             }
         ],
         "rewards":[
