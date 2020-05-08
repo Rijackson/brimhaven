@@ -1,77 +1,25 @@
 [
     {
-        "id":"blackjack_bet",
-        "message":"What is your 17+4 bet?",
+        "id":"blackjack_bet_select",
         "replies":[
             {
-                "text":"1 Gold",
-                "nextPhraseID":"blackjack_bet_1",
+                "nextPhraseID":"blackjack_play_higher_amounts",
                 "requires":[
                     {
-                        "requireType":"inventoryRemove",
-                        "requireID":"gold",
-                        "value":1
+                        "requireType":"factionScore",
+                        "requireID":"brv_blackjack_won",
+                        "value":3
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_blackjack",
+                        "value":45,
+                        "negate":true
                     }
                 ]
             },
             {
-                "text":"2 Gold",
-                "nextPhraseID":"blackjack_bet_2",
-                "requires":[
-                    {
-                        "requireType":"inventoryRemove",
-                        "requireID":"gold",
-                        "value":2
-                    }
-                ]
-            },
-            {
-                "text":"5 Gold",
-                "nextPhraseID":"blackjack_bet_5",
-                "requires":[
-                    {
-                        "requireType":"inventoryRemove",
-                        "requireID":"gold",
-                        "value":5
-                    }
-                ]
-            },
-            {
-                "text":"10 Gold",
-                "nextPhraseID":"blackjack_bet_10",
-                "requires":[
-                    {
-                        "requireType":"inventoryRemove",
-                        "requireID":"gold",
-                        "value":10
-                    }
-                ]
-            },
-            {
-                "text":"Explain me the rules please.",
-                "nextPhraseID":"blackjack_rules"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"brv_blackjack_hidden",
-                "value":1
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"brv_blackjack_hidden",
-                "value":10
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"brv_blackjack_hidden",
-                "value":20
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"brv_blackjack_hidden",
-                "value":30
+                "nextPhraseID":"blackjack_bet"
             }
         ]
     },
@@ -81,7 +29,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"blackjack_bet"
+                "nextPhraseID":"blackjack_bet_select"
             }
         ]
     },
@@ -130,6 +78,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"brv_blackjack_hidden",
                 "value":20
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_blackjack_hidden",
+                "value":140
             }
         ]
     },
@@ -146,6 +99,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"brv_blackjack_hidden",
                 "value":30
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_blackjack_hidden",
+                "value":140
             }
         ]
     },
@@ -192,6 +150,13 @@
                     }
                 ]
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"brv_blackjack_won",
+                "value":1
+            }
         ]
     },
     {
@@ -200,7 +165,7 @@
         "replies":[
             {
                 "text":"I am lucky since I was a child.",
-                "nextPhraseID":"blackjack_bet"
+                "nextPhraseID":"blackjack_bet_select"
             }
         ],
         "rewards":[
@@ -217,7 +182,7 @@
         "replies":[
             {
                 "text":"One more game please.",
-                "nextPhraseID":"blackjack_bet"
+                "nextPhraseID":"blackjack_bet_select"
             }
         ],
         "rewards":[
@@ -234,7 +199,7 @@
         "replies":[
             {
                 "text":"I am a good player.",
-                "nextPhraseID":"blackjack_bet"
+                "nextPhraseID":"blackjack_bet_select"
             }
         ],
         "rewards":[
@@ -251,7 +216,7 @@
         "replies":[
             {
                 "text":"One more game.",
-                "nextPhraseID":"blackjack_bet"
+                "nextPhraseID":"blackjack_bet_select"
             }
         ],
         "rewards":[

@@ -432,7 +432,7 @@
     },
     {
         "id":"brv_zimsko_30_1",
-        "message":"Thanks for trying to find out more. But you will need a password for entering the back room. [He whispers the password in your ear.]",
+        "message":"Thanks for trying to find out more. But you will need a password for entering the back room. [He whispers the password in your ear.]\n\nYou have to win and loose a few times until they trust you and play for higher amounts where they start cheating.",
         "replies":[
             {
                 "text":"N",
@@ -444,12 +444,17 @@
                 "rewardType":"questProgress",
                 "rewardID":"brv_blackjack",
                 "value":30
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_blackjack",
+                "value":31
             }
         ]
     },
     {
         "id":"brv_zimsko_30_2",
-        "message":"Thanks for trying to find out more. The password for entering the back room is... [he whispers the password in your ear.]",
+        "message":"Thanks for trying to find out more. The password for entering the back room is... [he whispers the password in your ear.]\n\nYou have to win and loose a few times until they trust you and play for higher amounts where they start cheating.",
         "replies":[
             {
                 "text":"N",
@@ -461,12 +466,17 @@
                 "rewardType":"questProgress",
                 "rewardID":"brv_blackjack",
                 "value":30
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_blackjack",
+                "value":31
             }
         ]
     },
     {
         "id":"brv_zimsko_40",
-        "message":"Did you already find out if they are cheating?",
+        "message":"Did you already find out if they are cheating?\n\nYou have to win and loose a few times until they trust you and play for higher amounts where they start cheating.",
         "replies":[
             {
                 "text":"I did not find anything out yet",

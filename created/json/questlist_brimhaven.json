@@ -394,7 +394,7 @@
             },
             {
                 "progress":140,
-                "logText":"Played blackjack"
+                "logText":"Played blackjack for higher amounts"
             },
             {
                 "progress":150,
@@ -420,8 +420,17 @@
                 "logText":"I told Zimsko that I want to find out more about the gambling and he told me the password to access the back room."
             },
             {
+                "progress":31,
+                "logText":"I have to win and loose a few times until they trust me and play for higher amounts where they start cheating."
+            },
+            {
                 "progress":40,
                 "logText":"With the password, I was allowed to enter the back room.",
+                "rewardExperience":300
+            },
+            {
+                "progress":45,
+                "logText":"They trust me and now and are playing for higher amounts",
                 "rewardExperience":500
             },
             {

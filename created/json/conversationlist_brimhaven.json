@@ -3068,7 +3068,7 @@
         "replies":[
             {
                 "text":"Yes",
-                "nextPhraseID":"blackjack_bet"
+                "nextPhraseID":"blackjack_bet_select"
             },
             {
                 "text":"No",
@@ -3082,7 +3082,7 @@
         "replies":[
             {
                 "text":"Let's go on.",
-                "nextPhraseID":"blackjack_bet"
+                "nextPhraseID":"blackjack_bet_select"
             },
             {
                 "text":"I have enough.",
@@ -3103,15 +3103,13 @@
                         "requireID":"brv_blackjack",
                         "value":80,
                         "negate":true
+                    },
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"brv_blackjack_won",
+                        "value":3
                     }
                 ]
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"brv_blackjack_hidden",
-                "value":140
             }
         ]
     },
@@ -7529,6 +7527,109 @@
             {
                 "text":"N",
                 "nextPhraseID":"brv_fortune_choice"
+            }
+        ]
+    },
+    {
+        "id":"blackjack_play_higher_amounts",
+        "message":"Now let's stop this children games and play for higher amounts.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"blackjack_bet"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_blackjack",
+                "value":45
+            }
+        ]
+    },
+    {
+        "id":"blackjack_bet",
+        "message":"What is your 17+4 bet?",
+        "replies":[
+            {
+                "text":"1 Gold",
+                "nextPhraseID":"blackjack_bet_1",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"2 Gold",
+                "nextPhraseID":"blackjack_bet_2",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":2
+                    }
+                ]
+            },
+            {
+                "text":"5 Gold",
+                "nextPhraseID":"blackjack_bet_5",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":5
+                    },
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"brv_blackjack_won",
+                        "value":3
+                    }
+                ]
+            },
+            {
+                "text":"10 Gold",
+                "nextPhraseID":"blackjack_bet_10",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":10
+                    },
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"brv_blackjack_won",
+                        "value":3
+                    }
+                ]
+            },
+            {
+                "text":"Explain me the rules please.",
+                "nextPhraseID":"blackjack_rules"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brv_blackjack_hidden",
+                "value":1
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brv_blackjack_hidden",
+                "value":10
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brv_blackjack_hidden",
+                "value":20
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brv_blackjack_hidden",
+                "value":30
             }
         ]
     }
