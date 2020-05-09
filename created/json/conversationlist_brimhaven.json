@@ -2717,7 +2717,7 @@
     },
     {
         "id":"arlish_16",
-        "message":"Well, I'm cutting the cake into 8 large pieces. Let them taste you!",
+        "message":"Well, I'm cutting the cake into 8 large pieces. I hope they taste good to you!",
         "replies":[
             {
                 "text":"Thank you.",
@@ -3547,7 +3547,7 @@
     },
     {
         "id":"brv_brother1_watchdog",
-        "message":"Grrr.... Wouff"
+        "message":"Grrr.... Woof."
     },
     {
         "id":"brv_brother2_door1",
@@ -3634,7 +3634,7 @@
     },
     {
         "id":"brv_brothers_6",
-        "message":"\n[Seems they still have not seen you, because they have their backs turned to you.] \n\nYour way of destroying the dam will not work. Better that we use my idea.",
+        "message":"[It seems they still have not seen you, because they have their backs turned to you.] \n\nYour way of destroying the dam will not work. Better that we use my idea.",
         "switchToNPC":"brv_alvies",
         "replies":[
             {
@@ -3663,7 +3663,7 @@
     },
     {
         "id":"brv_brothers_8",
-        "message":"\n[You accidently make a noise and they turn thier heads towards you]\n\nHey, what are you doing down here?\n\nNo matter, we have to shut his mouth.",
+        "message":"[You accidently make a noise and they turn thier heads towards you]\n\nHey, what are you doing down here?\n\nNo matter, we have to shut his mouth.",
         "switchToNPC":"brv_attohead",
         "replies":[
             {
@@ -3804,7 +3804,7 @@
     },
     {
         "id":"brv_brothers_9",
-        "message":"Since he is already here, we could ask him if he helps us for saving his life.",
+        "message":"Since he is already here, we could ask him if he will help us for saving his life.",
         "switchToNPC":"brv_alvies",
         "replies":[
             {
@@ -3825,7 +3825,7 @@
     },
     {
         "id":"brv_exit_forbidden_10",
-        "message":"Stop! All foreigners have to stay in town until we investigated who destroyed the great dam.",
+        "message":"Stop! All foreigners have to stay in town until we have investigated who destroyed the great dam.",
         "switchToNPC":"brv_exit_guard",
         "replies":[
             {
@@ -3948,7 +3948,7 @@
                 "nextPhraseID":"brv_guard_captain_22"
             },
             {
-                "text":"Alkapoan was the patron. Here are letters proving his guilt. He is waiting at his home for you to undergo punishment.",
+                "text":"Alkapoan was the patron. Here are letters proving his guilt. He is waiting at his home for you to arrest him.",
                 "nextPhraseID":"brv_guard_captain_30",
                 "requires":[
                     {
@@ -3963,7 +3963,7 @@
     },
     {
         "id":"brv_guard_captain_40",
-        "message":"Thank you. But beware you are not allowed to leave the town until we found out how destroyed the dam.",
+        "message":"Thank you. But be aware that you are not allowed to leave the town until we have found out how the dam was destroyed.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -4035,7 +4035,7 @@
     },
     {
         "id":"brv_brothers_14",
-        "message":"Great how you destroyed the dam!",
+        "message":"It' great how you destroyed the dam!",
         "replies":[
             {
                 "text":"Can you tell me who is your patron?",
@@ -4066,7 +4066,7 @@
         "message":"I... I.... know nothing. Really, it is the truth!",
         "replies":[
             {
-                "text":"I don't believe you a word. [Half-lie] The two brothers told me, that you paid them for destroying the dam.",
+                "text":"I don't believe a word you say. [Half-lie] The two brothers told me that you paid them for destroying the dam.",
                 "nextPhraseID":"brv_richman_20",
                 "requires":[
                     {
@@ -4077,11 +4077,11 @@
                 ]
             },
             {
-                "text":"You may be right, sorry.",
+                "text":"Maybe you are right, sorry.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"I found your coin bags and you paid the brothers for destroying the dam. [Show the coin bags]",
+                "text":"I found your coin bags, and you paid the brothers to destroy the dam. [Show the coin bags]",
                 "nextPhraseID":"brv_richman_20",
                 "requires":[
                     {
@@ -4105,7 +4105,7 @@
         "message":"[Breaks down]\n\nI was bribed by the people of Loneford to sabotate the dam. Here are some letters I exchanged with them, that prove what I did.",
         "replies":[
             {
-                "text":"You were honest to me so I will follow your wish. (And you can't escape from Brimhaven without me seeing you.)",
+                "text":"You were honest to me so I will not kill you, but I will tell the guard captain. (And you can't escape from Brimhaven without me seeing you.)",
                 "nextPhraseID":"brv_richman_25"
             }
         ],
@@ -4160,10 +4160,10 @@
     },
     {
         "id":"brv_richman_15",
-        "message":"You again. I already told you, that I know nothing about the destruction of the dam.",
+        "message":"You again. I already told you that I know nothing about the destruction of the dam.",
         "replies":[
             {
-                "text":"I don't believe you a word. [Half-lie] The two brothers told me, that you paid them for destroying the dam.",
+                "text":"I don't believe a word you say. [Half-lie] The two brothers told me that you paid them for destroying the dam.",
                 "nextPhraseID":"brv_richman_20",
                 "requires":[
                     {
@@ -4174,11 +4174,11 @@
                 ]
             },
             {
-                "text":"You may be right, sorry.",
+                "text":"Maybe you are right, sorry.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"I found your coin bags and you paid the brothers for destroying the dam. [Show the coin bags]",
+                "text":"I found your coin bags, and you paid the brothers for destroying the dam. [Show the coin bags]",
                 "nextPhraseID":"brv_richman_20",
                 "requires":[
                     {
@@ -4266,7 +4266,7 @@
     },
     {
         "id":"brv_guard_captain_25",
-        "message":"Hello again. Do you have found out, who destroyed the dam?",
+        "message":"Hello again. Did you find out who destroyed the dam?",
         "replies":[
             {
                 "text":"No, not yet.",
@@ -4277,7 +4277,7 @@
                 "nextPhraseID":"brv_guard_captain_22"
             },
             {
-                "text":"Alkapoan was the patron. Here are letters proving his guilt. He is waiting at his home for you to undergo punishment.",
+                "text":"Alkapoan was the patron. Here are letters proving his guilt. He is waiting at his home for you to arrest him.",
                 "nextPhraseID":"brv_guard_captain_30",
                 "requires":[
                     {
@@ -4342,7 +4342,7 @@
     },
     {
         "id":"brv_guard_captain_and_rich_man_30",
-        "message":"Let's see who is laughing in the end. The captain came for talking and not arresting. Now she owns a new horse and I will be earning a lot of money with the necessary repairing of the dam and later the food harvesting. I call this win win.",
+        "message":"Let's see who is laughing in the end. The captain came to talk and not arrest. Now she owns a new horse and I will be earning a lot of money with the necessary repairing of the dam and later the food harvesting. I call this win win.",
         "switchToNPC":"brv_richman",
         "replies":[
             {
@@ -4395,7 +4395,7 @@
     },
     {
         "id":"brv_prison_guard_20",
-        "message":"Are you looking for the captain? He is already away for a long time now arresting the destructor of the dam."
+        "message":"Are you looking for the captain? He has been gone for a while now, arresting the person that destroyed the dam."
     },
     {
         "id":"brv_prison_guard_10",
@@ -4521,7 +4521,7 @@
     },
     {
         "id":"brv_woodcraftsman_1",
-        "message":"I only know a girl looking like you. [Laughs]"
+        "message":"I only know a girl that looks like you. [Laughs]"
     },
     {
         "id":"melona_0a",
@@ -4561,7 +4561,7 @@
     },
     {
         "id":"melona_2",
-        "message":"Yes. It's 20gp. That may seem like a lot, but it's a one time payment. As long as a bed is free, in the future you can use it any time you want.",
+        "message":"Yes. It's 20 gold. That may seem like a lot, but it's a one time payment. As long as a bed is free, in the future you can use it any time you want.",
         "replies":[
             {
                 "text":"That's too expensive. Let's talk about something else.",
@@ -4831,11 +4831,11 @@
     },
     {
         "id":"brv_villager6",
-        "message":"Don't get in my way. Are you one of this guys from the east side of the town without manners?"
+        "message":"Don't get in my way. Are you one of those guys from the east side of the town, without manners?"
     },
     {
         "id":"brv_villager7",
-        "message":"I don't recognize you. Are you one of those people from the east part of the town, who send their cheap cloth wearing children to our school?"
+        "message":"I don't recognize you. Are you one of those people from the east part of the town, who send their children wearing cheap clothes to our school?"
     },
     {
         "id":"brv_villager8",
@@ -4843,7 +4843,7 @@
     },
     {
         "id":"brv_villager9",
-        "message":"Hello. Great dam. Isn't it? We people from the west side of the town pay for the dam because the people from the east side can't afford it. "
+        "message":"Hello. Great dam. Isn't it? We people from the west side of the town paid for the dam because the people from the east side can't afford it. "
     },
     {
         "id":"brv_villager10",
@@ -5090,7 +5090,7 @@
     },
     {
         "id":"brv_villager11",
-        "message":"The people from the west forced us to support the dam, but we don't get any benefit from it and they took all the good land."
+        "message":"The people from the west side of town forced us to support the dam, but we don't get any benefit from it and they took all the good land."
     },
     {
         "id":"brv_villager13",
@@ -5115,7 +5115,7 @@
     },
     {
         "id":"brv_villager_12a",
-        "message":"I have to bring my daughter to the school. I can't let her cross this dangerous area on her own and those people from the west don't care at all."
+        "message":"I have to take my daughter to the school. I can't let her cross this dangerous area on her own, and those people from the west side of town don't care at all."
     },
     {
         "id":"brv_villager14",
@@ -6540,7 +6540,7 @@
     },
     {
         "id":"brv_patrol_roaming_100",
-        "message":"Everything is ok. Stay clean.",
+        "message":"Everything is OK. Stay clean.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -6916,7 +6916,7 @@
         "message":"Anything more where I can help you?",
         "replies":[
             {
-                "text":"Please tell me something that you can see about me or my brother Andor. [Give him 100 gold coins]",
+                "text":"Please tell me something that you can see about me or my brother Andor. [Give him 100 gold]",
                 "nextPhraseID":"brv_fortune_pre_fortunes",
                 "requires":[
                     {
@@ -6927,7 +6927,7 @@
                 ]
             },
             {
-                "text":"I don't have 100 gold coins to pay you.",
+                "text":"I don't have 100 gold to pay you.",
                 "nextPhraseID":"brv_fortune_end_10"
             },
             {
@@ -6965,7 +6965,7 @@
     },
     {
         "id":"brv_fortune_andor_30",
-        "message":"Your brother has bounded with dark forces.",
+        "message":"Your brother is in league with dark forces.",
         "replies":[
             {
                 "text":"N",
@@ -7125,7 +7125,7 @@
     },
     {
         "id":"brv_playing_children_10",
-        "message":"We are practicing 'Ba game'.\n\nOnce a year the west and the east part of the town play against ech other. It can be very cruel."
+        "message":"We are practicing 'Ba game'.\n\nOnce a year the west and the east parts of the town play against each other. It can be very competitive."
     },
     {
         "id":"brv_ball",
@@ -7144,7 +7144,7 @@
     },
     {
         "id":"brv_fortune_end_10",
-        "message":"Then goodbye. I know you will come back some time."
+        "message":"Then goodbye. I know you will return some time in the future."
     },
     {
         "id":"brv_fortune_300",
@@ -7198,7 +7198,7 @@
     },
     {
         "id":"brv_fortune_40",
-        "message":"I feel that you are on a search... at the beginning of a long and dangerous search for a relative of you.",
+        "message":"I feel that you are on a search... at the beginning of a long and dangerous search for a relative of yours.",
         "replies":[
             {
                 "text":"I am impressed. Can you tell me more about my brother Andor or me?",
@@ -7219,10 +7219,10 @@
     },
     {
         "id":"brv_fortune_10",
-        "message":"What is leading you to me? It looks like you could need my help.",
+        "message":"What has brought you to me? It looks like you might need my help.",
         "replies":[
             {
-                "text":"What help do you offer?",
+                "text":"What help can you offer?",
                 "nextPhraseID":"brv_fortune_20"
             },
             {
@@ -7233,10 +7233,10 @@
     },
     {
         "id":"brv_fortune_50",
-        "message":"This will cost you 100 gold coins.",
+        "message":"It will cost you 100 gold.",
         "replies":[
             {
-                "text":"[Give him 100 gold coins]",
+                "text":"[Give him 100 gold]",
                 "nextPhraseID":"brv_fortune_pre_fortunes_2",
                 "requires":[
                     {
@@ -7522,7 +7522,7 @@
     },
     {
         "id":"brv_fortune_come_back_much_later",
-        "message":"I told you all I can see now. But you can come back to me in some months when you got new expiriences.",
+        "message":"I told you all I can see for now. But you can come back to me in a few months when you have had new experiences.",
         "replies":[
             {
                 "text":"N",
