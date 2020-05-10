@@ -333,7 +333,7 @@
     },
     {
         "id":"brv_school_emptyseat",
-        "message":"No. That won't go. You can't get late to school and then sit in the last bench.",
+        "message":"No. That is not acceptable. You can't be late to school and then sit in the last bench.",
         "switchToNPC":"brv_teacher"
     },
     {
@@ -371,7 +371,7 @@
     },
     {
         "id":"brv_school_enter_10",
-        "message":"Look who we got there? A new kid? However, you are late for class. Sit down now, and be punctual next time.",
+        "message":"Who do we have here? A new kid? You are late for class. Sit down now, and be punctual next time.",
         "switchToNPC":"brv_teacher",
         "replies":[
             {
@@ -1283,7 +1283,7 @@
     },
     {
         "id":"brv_school_weapons",
-        "message":"Keep your hands off this box until I allow it.",
+        "message":"Keep your hands off that box until I allow it.",
         "switchToNPC":"brv_teacher"
     },
     {

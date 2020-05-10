@@ -2600,7 +2600,7 @@
     },
     {
         "id":"basiliskcave2_warn",
-        "message":"You see an old Basilisk at the end of the room that glances at you. With a feeling of deadly danger your movements get slower the nearer you go.\n\nMaybe you should fnd something down here that you could wear to protect you from the glance?",
+        "message":"You see an old Basilisk at the end of the room that glances at you. With a feeling of deadly danger your movements get slower the nearer you go.\n\nMaybe you should find something down here that you could use to protect yourself from the glance?",
         "rewards":[
             {
                 "rewardType":"actorCondition",
@@ -4124,7 +4124,7 @@
     },
     {
         "id":"brv_flood_0_7",
-        "message":"This seems to be the weak spot of the dam the brothers were talking about. But with your curently equipped gear you can't hack the wood effectively and without drawing too much attention."
+        "message":"This seems to be the weak spot of the dam the brothers were talking about. But with your curently equipped gear you can't hack the wood effectively without drawing too much attention."
     },
     {
         "id":"brv_richman_05",
@@ -6133,7 +6133,7 @@
     },
     {
         "id":"mikhail_present_20_3",
-        "message":"Oh, where did you get the money to buy this? I better don't want to know...",
+        "message":"Oh, where did you get the money to buy this? Maybe I don't want to know...",
         "replies":[
             {
                 "text":"N",
@@ -6167,7 +6167,7 @@
     },
     {
         "id":"mikhail_present_20_1",
-        "message":"Hm, thank you. Looks like you spent all your pocketmoney for this.",
+        "message":"Hm, thank you. Looks like you spent all your pocket money for this.",
         "replies":[
             {
                 "text":"N",
