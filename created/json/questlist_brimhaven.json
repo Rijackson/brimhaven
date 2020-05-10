@@ -67,7 +67,7 @@
             },
             {
                 "progress":200,
-                "logText":"You gave the letters as piece of evidence to the captain of the guard. Now it is up to them to look after the rich man. ",
+                "logText":"You gave the letters as a piece of evidence to the captain of the guard. Now it is up to them to deal with the rich man. ",
                 "rewardExperience":1000,
                 "finishesQuest":1
             }
@@ -104,7 +104,7 @@
             },
             {
                 "progress":43,
-                "logText":"You have moved15 boulders. You are getting tired!"
+                "logText":"You have moved 15 boulders. You are getting tired!"
             },
             {
                 "progress":44,
@@ -293,7 +293,7 @@
             },
             {
                 "progress":79,
-                "logText":"I should search the other rooms in this cave for a mirror that I can wear to protect me from the glance of the Basilisk. "
+                "logText":"I should search the other rooms in this cave for a mirror that I can use to protect me from the glance of the Basilisk. "
             },
             {
                 "progress":80,
@@ -409,7 +409,7 @@
         "stages":[
             {
                 "progress":10,
-                "logText":"I heared noices from the back room but I was not allowed to enter because I didn't know the password."
+                "logText":"I heard noices from the back room but I was not allowed to enter because I didn't know the password."
             },
             {
                 "progress":20,
@@ -421,7 +421,7 @@
             },
             {
                 "progress":31,
-                "logText":"I have to win and loose a few times until they trust me and play for higher amounts where they start cheating."
+                "logText":"I have to win and lose a few times until they trust me and play for higher amounts where they start cheating."
             },
             {
                 "progress":40,
@@ -540,7 +540,7 @@
         "stages":[
             {
                 "progress":10,
-                "logText":"You thought it would be a good idea to give a necklace in your family colors red, green, white to your father. "
+                "logText":"You thought it would be a good idea to give a necklace to your father, in your family colors of red, green, and white. "
             },
             {
                 "progress":20,
@@ -564,7 +564,7 @@
             },
             {
                 "progress":60,
-                "logText":"Your father was disapointed with your prententious necklace.",
+                "logText":"Your father was disapointed with your pretentious necklace.",
                 "rewardExperience":50,
                 "finishesQuest":1
             }
