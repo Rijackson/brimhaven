@@ -7632,5 +7632,25 @@
                 "value":30
             }
         ]
+    },
+    {
+        "id":"stoutford_grave_1",
+        "message":"Here lies Adegil, the tree cutter, killed by a falling branch."
+    },
+    {
+        "id":"stoutford_grave_2",
+        "message":"Here lies Cadwait. One day, he picked the wrong pocket."
+    },
+    {
+        "id":"stoutford_grave_3",
+        "message":"Here lies Rumpt. His skin was so orange that many thought he was a monster."
+    },
+    {
+        "id":"stoutford_grave_4",
+        "message":"Here lies Orocho, the master cook, who died of food poisoning."
+    },
+    {
+        "id":"stoutford_grave_5",
+        "message":"Here lies Rurog, the master builder who fell through his own roof."
     }
 ]
