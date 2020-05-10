@@ -1,0 +1,42 @@
+[
+    {
+        "id":"caeda_root40_2",
+        "message":"Would it be too much to ask if you could get rid of the trolls?",
+        "replies":[
+            {
+                "text":"I can teach them to stay further away from the statue. No problem.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"secret_garden",
+                "value":50
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"lakecave0_15",
+                "mapName":"lakecave0"
+            }
+        ]
+    },
+    {
+        "id":"caeda_50",
+        "replies":[
+            {
+                "nextPhraseID":"caeda_root50_3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"secret_garden",
+                        "value":55
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"caeda_root50_2"
+            }
+        ]
+    }
+]
