@@ -1655,7 +1655,7 @@
     },
     {
         "id":"burhczydx_1a_5",
-        "message":"Wow, splendid idea! I will take my fathers cart. Then all I need is a name for my company. Thanks for this tip.",
+        "message":"Wow, splendid idea! I will take my father's cart. Then all I need is a name for my company. Thanks for this tip.",
         "replies":[
             {
                 "text":"My pleasure.",
@@ -2629,7 +2629,7 @@
         "message":"And when they leave, they don't even miss their purse or jewels.",
         "replies":[
             {
-                "text":"You are a pick pocket?!",
+                "text":"You are a pickpocket?!",
                 "nextPhraseID":"burhczydx_8a_7"
             }
         ]
@@ -2836,7 +2836,7 @@
     },
     {
         "id":"burhczydx_9a_6_82a",
-        "message":"Here is your necklace of the Undead. I didn't even wear it once.",
+        "message":"Here is your Necklace of the Undead. I didn't even wear it once.",
         "replies":[
             {
                 "text":"N",
@@ -2916,7 +2916,7 @@
     },
     {
         "id":"burhczydx_9a_6_84a",
-        "message":"Then we have a ruby gem - not of much worth really.",
+        "message":"Then we have a ruby gem - not of much worth, really.",
         "replies":[
             {
                 "text":"How dare you do that?",
@@ -2956,7 +2956,7 @@
     },
     {
         "id":"burhczydx_9a_6_85a",
-        "message":"Last but not least I proudly present: The dagger of the Shadow priests!",
+        "message":"Last but not least I proudly present: The Dagger of the Shadow Priests!",
         "replies":[
             {
                 "text":"I'm speechless!",
@@ -2995,7 +2995,7 @@
                 "nextPhraseID":"burhczydx_9a_9"
             },
             {
-                "text":"I don't suppose you are a member of the Thieves guild? I never heard of you.",
+                "text":"I don't suppose you are a member of the Thieves' Guild? I never heard of you.",
                 "nextPhraseID":"burhczydx_9a_8a",
                 "requires":[
                     {

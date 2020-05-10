@@ -26,7 +26,7 @@
             },
             {
                 "progress":54,
-                "logText":"You found the weak spot in the dam and started hacking on the wood.",
+                "logText":"You found the weak spot in the dam and started hacking at the wood.",
                 "rewardExperience":500
             },
             {
@@ -55,7 +55,7 @@
             },
             {
                 "progress":120,
-                "logText":"The two brothers did not know their patron, but he seemed to have a lot of gold."
+                "logText":"The two brothers did not know their boss's name, but he seemed to have a lot of gold."
             },
             {
                 "progress":130,
@@ -63,7 +63,7 @@
             },
             {
                 "progress":150,
-                "logText":"The rich man boasted that he had been bribed by the mayor of Loneford to sabotage the dam."
+                "logText":"The rich man boasted that he had been bribed by an important man in Loneford to sabotage the dam."
             },
             {
                 "progress":200,
@@ -421,7 +421,7 @@
             },
             {
                 "progress":31,
-                "logText":"I have to win and lose a few times until they trust me and play for higher amounts where they start cheating."
+                "logText":"I have to win and lose a few times until they trust me and play for higher amounts. Then they start cheating."
             },
             {
                 "progress":40,
@@ -479,20 +479,20 @@
     },
     {
         "id":"brv_dagger",
-        "name":"A strange looking dagger",
+        "name":"A strange-looking dagger",
         "showInLog":1,
         "stages":[
             {
                 "progress":10,
-                "logText":"I asked Edrin about the strange looking dagger I purchased. He told me he recognizes it because he made it many years ago, and it used to have a gem mounted in the pommel. If I can find the gem he can remount it in the dagger, and the dagger will have special properties."
+                "logText":"I asked Edrin about the strange-looking dagger I purchased. He told me he recognizes it because he made it many years ago, and it used to have a gem mounted in the pommel. If I can find the gem he can remount it in the dagger, and the dagger will have special properties."
             },
             {
                 "progress":20,
-                "logText":"I asked Edrin about the strange looking gem I purchased, and whether he has any idea what it might have been mounted in. He told me he recognizes it, and it used to be mounted in the pommel of a dagger that he made many years ago. If I can find the dagger he can remount the gem, and the dagger will have special properties."
+                "logText":"I asked Edrin about the strange-looking gem I purchased, and whether he has any idea what it might have been mounted in. He told me he recognizes it, and it used to be mounted in the pommel of a dagger that he made many years ago. If I can find the dagger he can remount the gem, and the dagger will have special properties."
             },
             {
                 "progress":25,
-                "logText":"I asked Edrin about the strange looking dagger and the strange looking gem I purchased. He told me he recognizes them because he made the dagger many years ago. The gem was originally mounted in the pommel, giving the dagger special properties. He offered to repair it for me."
+                "logText":"I asked Edrin about the strange-looking dagger and the strange-looking gem I purchased. He told me he recognizes them because he made the dagger many years ago. The gem was originally mounted in the pommel, giving the dagger special properties. He offered to repair it for me."
             },
             {
                 "progress":30,
@@ -504,7 +504,7 @@
             },
             {
                 "progress":50,
-                "logText":"I showed the strange looking dagger and the strange looking gem to Edrin. He said they match, and he can repair the dagger by mounting the gem in the pommel again."
+                "logText":"I showed the strange-looking dagger and the strange-looking gem to Edrin. He said they match, and he can repair the dagger by mounting the gem in the pommel again."
             },
             {
                 "progress":60,
@@ -512,7 +512,7 @@
             },
             {
                 "progress":70,
-                "logText":"Edrin wants 800gp to repair the dagger. I told him that was too expensive. I will keep the strange looking dagger and the strange looking gem.",
+                "logText":"Edrin wants 800gp to repair the dagger. I told him that was too expensive. I will keep the strange-looking dagger and the strange-looking gem.",
                 "rewardExperience":500,
                 "finishesQuest":1
             },
@@ -564,7 +564,7 @@
             },
             {
                 "progress":60,
-                "logText":"Your father was disapointed with your pretentious necklace.",
+                "logText":"Your father was disappointed with your pretentious necklace.",
                 "rewardExperience":50,
                 "finishesQuest":1
             }

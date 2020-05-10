@@ -10,7 +10,7 @@
             },
             {
                 "progress":12,
-                "logText":"You noticed an evil looking statue in a corner. Who on earth puts such an ugly, hideous thing in a school?"
+                "logText":"You noticed an evil-looking statue in a corner. Who on earth puts such an ugly, hideous thing in a school?"
             },
             {
                 "progress":20,
@@ -77,7 +77,7 @@
             },
             {
                 "progress":200,
-                "logText":"The teacher thanked you for saving him. School is over for you. You could go to the baker and get a cake for good performance.",
+                "logText":"The teacher thanked you for saving him. School is over for you. You could go to the general store and get a cake for good performance.",
                 "rewardExperience":5000,
                 "finishesQuest":1
             },
@@ -89,7 +89,7 @@
             },
             {
                 "progress":220,
-                "logText":"The teacher was very satisfied with your performance in the duel. School is over for you. You could go to the baker and get a cake for good performance.",
+                "logText":"The teacher was very satisfied with your performance in the duel. School is over for you. You could go to the general store and get a cake for good performance.",
                 "rewardExperience":1000,
                 "finishesQuest":1
             },

@@ -200,7 +200,7 @@
                 ]
             },
             {
-                "text":"I will buy your beer. [Pay 2 gold]",
+                "text":"I will buy you a beer. [Pay 2 gold]",
                 "nextPhraseID":"brv_zimsko_20",
                 "requires":[
                     {
@@ -294,7 +294,7 @@
                 ]
             },
             {
-                "text":"Where did you loose your money?",
+                "text":"Where did you lose your money?",
                 "nextPhraseID":"brv_zimsko_30",
                 "requires":[
                     {
@@ -311,7 +311,7 @@
                 ]
             },
             {
-                "text":"I want to find out whats happening in the back room but they want a password.",
+                "text":"I want to find out what's happening in the back room, but they want a password.",
                 "nextPhraseID":"brv_zimsko_30_2",
                 "requires":[
                     {
@@ -333,7 +333,7 @@
                 ]
             },
             {
-                "text":"I want to find out whats happening in the back room.",
+                "text":"I want to find out what's happening in the back room.",
                 "nextPhraseID":"brv_zimsko_30_1",
                 "requires":[
                     {
@@ -411,7 +411,7 @@
                 ]
             },
             {
-                "text":"I want to find out whats happening in the back room but they want a password.",
+                "text":"I want to find out what's happening in the back room, but they want a password.",
                 "nextPhraseID":"brv_zimsko_30_2",
                 "requires":[
                     {
@@ -432,7 +432,7 @@
     },
     {
         "id":"brv_zimsko_30_1",
-        "message":"Thanks for trying to find out more. But you will need a password for entering the back room. [He whispers the password in your ear.]\n\nYou have to win and loose a few times until they trust you and play for higher amounts where they start cheating.",
+        "message":"Thanks for trying to find out more. But you will need a password for entering the back room. [He whispers the password in your ear.]\n\nYou have to win and lose a few times until they trust you and play for higher amounts. Then they start cheating.",
         "replies":[
             {
                 "text":"N",
@@ -454,7 +454,7 @@
     },
     {
         "id":"brv_zimsko_30_2",
-        "message":"Thanks for trying to find out more. The password for entering the back room is... [he whispers the password in your ear.]\n\nYou have to win and loose a few times until they trust you and play for higher amounts where they start cheating.",
+        "message":"Thanks for trying to find out more. The password for entering the back room is... [he whispers the password in your ear.]\n\nYou have to win and lose a few times until they trust you and play for higher amounts. Then they start cheating.",
         "replies":[
             {
                 "text":"N",
@@ -476,7 +476,7 @@
     },
     {
         "id":"brv_zimsko_40",
-        "message":"Did you already find out if they are cheating?\n\nYou have to win and lose a few times until they trust you and play for higher amounts, when they start cheating.",
+        "message":"Did you already find out if they are cheating?\n\nYou have to win and lose a few times until they trust you and play for higher amounts. Then they start cheating.",
         "replies":[
             {
                 "text":"I did not find anything out yet",

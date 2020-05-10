@@ -417,7 +417,7 @@
     },
     {
         "id":"brv_school_history_10",
-        "message":"In the glorious days of year 2177 the enslavement of men ended.",
+        "message":"In the glorious days of year 2177, the enslavement of men ended.",
         "replies":[
             {
                 "text":"N",
@@ -888,7 +888,7 @@
     },
     {
         "id":"brv_school_seated_10",
-        "message":"[You sit next to a smug looking child that is about your age.]",
+        "message":"[You sit next to a smug-looking child that is about your age.]",
         "replies":[
             {
                 "text":"N",
@@ -1030,7 +1030,7 @@
     },
     {
         "id":"brv_school_statue_10",
-        "message":"Who on earth puts such an ugly, hideous thing into a school?",
+        "message":"Who on earth puts such an ugly, hideous thing in a school?",
         "switchToNPC":"none",
         "replies":[
             {
@@ -1124,7 +1124,7 @@
     },
     {
         "id":"brv_school_statue_42",
-        "message":"I learn much about The Shadow, all very exciting.",
+        "message":"I learn much about the Shadow, all very exciting.",
         "replies":[
             {
                 "text":"N",
@@ -1283,7 +1283,7 @@
     },
     {
         "id":"brv_school_weapons",
-        "message":"Keep your hands off that box until I allow it.",
+        "message":"Keep your hands off that box until I tell you.",
         "switchToNPC":"brv_teacher"
     },
     {
@@ -1627,7 +1627,7 @@
     },
     {
         "id":"brv_teacher_104a_20",
-        "message":"As a reward, you can get yourself a cake from Arlish at the store. Tell her I sent you.",
+        "message":"As a reward, you can get yourself a cake from Arlish at the general store. Tell her I sent you.",
         "replies":[
             {
                 "text":"Thank you!",
@@ -1661,7 +1661,7 @@
     },
     {
         "id":"brv_teacher_104b",
-        "message":"I saw, that you cheated!",
+        "message":"I saw that you cheated!",
         "replies":[
             {
                 "text":"N",
@@ -1681,7 +1681,7 @@
     },
     {
         "id":"brv_teacher_104b_20",
-        "message":"I can not accept such a behaviour! You have to leave our school - now!",
+        "message":"I cannot accept such a behaviour! You have to leave our school - now!",
         "replies":[
             {
                 "text":"N",
@@ -1758,7 +1758,7 @@
     },
     {
         "id":"brv_teacher_124_20",
-        "message":"As a reward, you can get yourself a cake from the baker. Tell him I sent you.",
+        "message":"As a reward, you can get yourself a cake from Arlish at the general store. Tell her I sent you.",
         "replies":[
             {
                 "text":"Thank you!",
@@ -1835,7 +1835,7 @@
     },
     {
         "id":"brv_teacher_152_90",
-        "message":"We all owe our lives to you! As a reward, you can get yourself a cake from the baker. Tell him I sent you.",
+        "message":"We all owe our lives to you! As a reward, you can get yourself a cake from Arlish at the general store. Tell her I sent you.",
         "replies":[
             {
                 "text":"Thank you!",
@@ -1924,7 +1924,7 @@
     },
     {
         "id":"brv_wh_boss_20",
-        "message":"I need someone to check, if all the items are still in the storage.",
+        "message":"I need someone to check if all the items are still in the storage.",
         "replies":[
             {
                 "text":"N",
@@ -1985,7 +1985,7 @@
     },
     {
         "id":"brv_wh_boss_42",
-        "message":"Then go and look for the another item of the same kind. So you'll have a pair of them.",
+        "message":"Then go and look for the another item of the same kind. So then you'll have a pair of them.",
         "replies":[
             {
                 "text":"A pair.",
@@ -2591,7 +2591,7 @@
     },
     {
         "id":"brv_wh_item_02_1",
-        "message":"Great! You have found the second lyra and put it into your bag.",
+        "message":"Great! You have found the second lyre and put it into your bag.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -3928,7 +3928,7 @@
     },
     {
         "id":"golin_60_20",
-        "message":"[still giggling] If you insist - en Garde!",
+        "message":"[still giggling] If you insist - en garde!",
         "replies":[
             {
                 "text":"Yes, en Garde!",
