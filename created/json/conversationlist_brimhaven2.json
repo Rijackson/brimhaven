@@ -4086,5 +4086,199 @@
     {
         "id":"golin_220",
         "message":"Pity you are leaving. It was a nice break from the boring lessons."
+    },
+    {
+        "id":"guard_advent",
+        "message":"I used to be an adventurer like you,",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"guard_advent_2"
+            }
+        ]
+    },
+    {
+        "id":"guard_advent_2",
+        "message":"then I took an arrow in the knee.",
+        "replies":[
+            {
+                "text":"Sorry for you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Shall we sing a song?",
+                "nextPhraseID":"guard_advent_10",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"20"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"guard_advent_10",
+        "message":"Mahna.",
+        "replies":[
+            {
+                "text":"Mahna mahna?",
+                "nextPhraseID":"guard_advent_12"
+            }
+        ]
+    },
+    {
+        "id":"guard_advent_12",
+        "message":"I took an arrow ...",
+        "replies":[
+            {
+                "text":"You took an arrow",
+                "nextPhraseID":"guard_advent_14"
+            }
+        ]
+    },
+    {
+        "id":"guard_advent_14",
+        "message":"... right in the knee.",
+        "replies":[
+            {
+                "text":"right in your knee",
+                "nextPhraseID":"guard_advent_16"
+            }
+        ]
+    },
+    {
+        "id":"guard_advent_16",
+        "message":"I took an arrow.",
+        "replies":[
+            {
+                "text":"You took an arrow,\nan arrow, an arrow,\nan evil dirty arrow in your knee.",
+                "nextPhraseID":"guard_advent_20"
+            }
+        ]
+    },
+    {
+        "id":"guard_advent_20",
+        "replies":[
+            {
+                "nextPhraseID":"guard_advent_22",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"50"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"guard_advent_30"
+            }
+        ]
+    },
+    {
+        "id":"guard_advent_22",
+        "message":"-",
+        "replies":[
+            {
+                "text":"What?",
+                "nextPhraseID":"guard_advent_30"
+            }
+        ]
+    },
+    {
+        "id":"guard_advent_30",
+        "message":"I took an arrow ...",
+        "replies":[
+            {
+                "text":"He took an arrow",
+                "nextPhraseID":"guard_advent_32"
+            }
+        ]
+    },
+    {
+        "id":"guard_advent_32",
+        "message":"... right in the knee.",
+        "replies":[
+            {
+                "text":"right in his knee",
+                "nextPhraseID":"guard_advent_34"
+            }
+        ]
+    },
+    {
+        "id":"guard_advent_34",
+        "message":"I took an arrow.",
+        "replies":[
+            {
+                "text":"He took an arrow,\nan arrow, an arrow,\nan evil dirty arrow in his knee.",
+                "nextPhraseID":"guard_advent_40"
+            }
+        ]
+    },
+    {
+        "id":"guard_advent_40",
+        "replies":[
+            {
+                "nextPhraseID":"guard_advent_12",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"25"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"guard_advent_50"
+            }
+        ]
+    },
+    {
+        "id":"guard_advent_50",
+        "message":"An adventurer like you,",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"guard_advent_52"
+            }
+        ]
+    },
+    {
+        "id":"guard_advent_52",
+        "message":"I took an arrow in the knee!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"guard_advent_54"
+            }
+        ]
+    },
+    {
+        "id":"guard_advent_54",
+        "message":"adventunarrow,\nin the knee the arrow",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"guard_advent_56"
+            }
+        ]
+    },
+    {
+        "id":"guard_advent_56",
+        "message":"La be di bap bap ...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"guard_advent_58"
+            }
+        ]
+    },
+    {
+        "id":"guard_advent_58",
+        "message":"Die be die be boo mbie \nLa be di bap bap ...",
+        "replies":[
+            {
+                "text":"What??",
+                "nextPhraseID":"guard_advent_12"
+            }
+        ]
     }
 ]
