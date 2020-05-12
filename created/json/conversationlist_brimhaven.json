@@ -778,7 +778,14 @@
                 ]
             },
             {
-                "nextPhraseID":"brv_employer_get_boulder_02"
+                "nextPhraseID":"brv_employer_get_boulder_02",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_employee",
+                        "value":10
+                    }
+                ]
             }
         ]
     },

@@ -717,6 +717,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"brv_school2",
                 "value":60
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"brv_school_check_duel_mapob",
+                "mapName":"brimhaven_school"
             }
         ]
     },
@@ -3993,12 +3998,7 @@
     },
     {
         "id":"golin_120",
-        "message":"120",
-        "replies":[
-            {
-                "nextPhraseID":"Hey, do not run away! Finish your fight with the teacher."
-            }
-        ]
+        "message":"Hey, do not run away! Finish your fight with the teacher."
     },
     {
         "id":"golin_122",

@@ -161,7 +161,7 @@
     {
         "id":"brv_nondisplay2",
         "name":"brv_nondisplay2",
-        "showInLog":1,
+        "showInLog":0,
         "stages":[
             {
                 "progress":10,
