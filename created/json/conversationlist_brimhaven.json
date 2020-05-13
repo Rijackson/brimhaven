@@ -3905,7 +3905,7 @@
     },
     {
         "id":"brv_exit_forbidden_20",
-        "message":"Mustura, the captain of the guard, gave the order. Usually you can find her in front of the guard house in the center of the town north of the church."
+        "message":"Mustura, the captain of the guard, gave the order. Usually you can find her in front of the warehouse in the center of the town north of the church."
     },
     {
         "id":"brv_guard_captain_10",
@@ -6482,11 +6482,11 @@
     },
     {
         "id":"brv_wait_patrol",
-        "message":"[I better wait and talk to the knights what they did with my belongings]"
+        "message":"[I better wait and talk to the soldiers what they did with my belongings]"
     },
     {
         "id":"brv_patrol_stop_hero",
-        "message":"Stop in the name of Feygard!\n\n[The knights approach and search your belongings]",
+        "message":"Stop in the name of Feygard!\n\n[The soldiers approach and search your belongings]",
         "switchToNPC":"patrol_roaming",
         "rewards":[
             {
