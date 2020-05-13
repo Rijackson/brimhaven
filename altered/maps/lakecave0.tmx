@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextobjectid="32">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextobjectid="28">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -46,7 +46,7 @@
   <image source="../drawable/map_entrance_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="1841" name="map_entrance_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../altered/spritesheets/map_entrance_2.png" width="512" height="256"/>
+  <image source="../drawable/map_entrance_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="1969" name="map_fence_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_fence_1.png" width="512" height="256"/>
@@ -94,7 +94,7 @@
   <image source="../drawable/map_indoor_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="3889" name="map_indoor_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../altered/spritesheets/map_indoor_2.png" width="512" height="256"/>
+  <image source="../drawable/map_indoor_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="4017" name="map_kitchen_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_kitchen_1.png" width="512" height="256"/>
@@ -106,7 +106,7 @@
   <image source="../drawable/map_pillar_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="4401" name="map_pillar_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../altered/spritesheets/map_pillar_2.png" width="512" height="256"/>
+  <image source="../drawable/map_pillar_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="4529" name="map_plant_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_plant_1.png" width="512" height="256"/>
@@ -121,7 +121,7 @@
   <image source="../drawable/map_rock_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="5041" name="map_roof_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../altered/spritesheets/map_roof_1.png" width="512" height="256"/>
+  <image source="../drawable/map_roof_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="5169" name="map_roof_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_roof_2.png" width="512" height="256"/>
@@ -153,254 +153,233 @@
  <tileset firstgid="6321" name="map_transition_4" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_transition_4.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="6449" name="map_tree_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_tree_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="6577" name="map_tree_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_tree_2.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="6705" name="map_wall_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_wall_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="6833" name="map_wall_2" tilewidth="32" tileheight="32" tilecount="120" columns="15">
-  <image source="../drawable/map_wall_2.png" width="480" height="256"/>
- </tileset>
- <tileset firstgid="6953" name="map_wall_3" tilewidth="32" tileheight="32" tilecount="120" columns="15">
-  <image source="../drawable/map_wall_3.png" width="480" height="256"/>
- </tileset>
- <tileset firstgid="7073" name="map_wall_4" tilewidth="32" tileheight="32" tilecount="120" columns="15">
-  <image source="../drawable/map_wall_4.png" width="480" height="256"/>
- </tileset>
- <tileset firstgid="7193" name="map_window_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_window_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="7321" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_window_2.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="7449" name="map_transition_5" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="6449" name="map_transition_5" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_transition_5.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_guynmart.png" width="512" height="256"/>
+ <tileset firstgid="6577" name="map_tree_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_tree_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="6705" name="map_tree_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_tree_2.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="6833" name="map_wall_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_wall_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="6961" name="map_wall_2" tilewidth="32" tileheight="32" tilecount="120" columns="15">
+  <image source="../drawable/map_wall_2.png" width="480" height="256"/>
+ </tileset>
+ <tileset firstgid="7081" name="map_wall_3" tilewidth="32" tileheight="32" tilecount="120" columns="15">
+  <image source="../drawable/map_wall_3.png" width="480" height="256"/>
+ </tileset>
+ <tileset firstgid="7201" name="map_wall_4" tilewidth="32" tileheight="32" tilecount="120" columns="15">
+  <image source="../drawable/map_wall_4.png" width="480" height="256"/>
+ </tileset>
+ <tileset firstgid="7321" name="map_window_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_window_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
  <layer name="Ground" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJytlzFuwzAMRQ0DHezVm0+SEwQ9pK8QB8nWSW2nAp2SLj1Ahp7BU03URL+/KYlKG+ADiRT5kdSnbI91VY1OHWft26o6wNgNdJl1dUjWPxfoZeEGGOPYbg4FZ3yqj1mnZp1XiPBVGLeOeevC3HO3Vajt+uD6AOwS7nXhvnZbaQ4cj9RVP5f61xue/UAJd9dvJeMyz/HI+LRIviv3rSmTrH3stzo1dkzMDX/goib6bcWDXK11KfepTnOtsYnG7uG+G1yvkMuxsjw5s4c5R54XbmxO11tsyRnZOQ/zPHI/u61SOSObPbx/WHN53stNsT0e5vkRuF/dVjku7zV6h73E50asFrt+zfXU2+PnQNzUGeStd6y3cE7PDavHS/vKqjdzrT7yqG1/dE+92be5/uVeTnFT7BTXuqfyWaDcHNviYp8cMn627mclex07Ow4ZP1tngcdrnDNfX7jDoty9DK8j9WbvMNvqIz47xuUZzHN/i8WVqzVKuUd4VvQqx2Vv43+RW8KM7UNqn/+T6/F3ijs6uQP50Nq7mL/wOvxOMSRkvYPwf6ycOV9d+w2CCbDk
+   eJy1V0kOwkAMQ73xdd7QL7T0wL2dJ5R+gYcwSESyjLP0wMESSxrPOE4C83C5zB1bgjlAJUbFto5ngtXJ0woxxoex946j45Vg75hEnoNiVqGV8WHsh/dxrUHl4ZhdaGV8GMe8Y39/+2IEtCQPgrVSMcg7iXopPav6eJhJ50XUy9PTYNoojOI58wfyqlo/xWdWi6wP1m+MPYd+N66p6DHsnawPdtLK/H6W1zgzX0XYA151hqzW6P2MG/NjLVb4fIE83h3VfOIzebxYi8/rRfB6Z+fZu9Ed2L9RTY1vKtRczXi8A/u6wmvnxTlmQF3Z2+yNY/jVSPGi/tmOak6OSm3wPhvlivpzGX49nnkaeb36ZGDfqTno8fLcPzMT2C9eL6k+qt5N3RWfVTsf92nFzxV4M83zXzQPcd4Z1I5j70UejGayp1O0687UJ5r/0W8jBZXf2w/Z3qnk9sB6sdcb8EZ+9xDtPNTK8z7PKwXOy/uu2g+8jyr/LewM3vdZP6g9WOHNgH6J4jzN/s2LeAPn45i4
   </data>
  </layer>
  <layer name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzVVr9rFEEUHjfsmbM4cgcuRLbwT/AfEANqOrHQiLELVpZqkbSCFsHKWlLYRrsTtIjViXtHtDirA08lC5YJiD+w9D1nPubtc2bvcqbxg8fOzey87/3eM8aY9x0zE54ms90D1v7x/lHZ8T+hPB4/GzasADouzUicTkwRv2Q+fn+POMtGda9D7+aJfS4mlqMp9nh9yv2WuJgbs0zyreF9WJxgn/TzVzadfCDpNo1507b3VojzGsmciO+uOztNe9u5Xa+m/rxo19sVwk/HDayTvg2SEel6mHp7GGeELbccb5Z4uw6LgnhLwd13etYot3dI7pLcnLd7m6l/Z+TeY9tm6bUi8/e17dkh9X0kXa8i8onkq/APsZY+h3CWfB26dwaR2B6wnsicHGc+RgB8Zu4i4DfjkuOtiwGf9SM2jZ3uXsBncL87adfboqcYQxUTPjtP71zI47YA+y7WOh66toG5mpnFZ1eI8+oUvBzjsdPfUzw618jjelp9T/asPEP+zuVWOB5Ys679SI390SniPQmxXF/OrXA8sL4u7AvVWCjet8Wc0NDzSs4aWQ/dVpWXURdv1nPP8a4uGHNjwa5DdTup33GOGgv1o4z3IxGjDbd+kv59hxHrbY1JPoMb0HmZFXU1FuutOnD80dN4YgboXh+43uKejnGzz8gp8rTkdC6p/kVP44kZgN+yNhBv1KPkLyI+8/8H9IrEFu13yYfnYjb9aNna2FS9MQ7oXj5WFYn7dP+B07EX+Bb0aO81yfdWdV/WR78d5l0RXPo7HdIjAX93OzaPpVtjn/0fKV58i3uBWJei72L/cZ4l3t8d9Q3GPtvwpeV5ByoOQKy22T49Q96SzhckL8WT97h3Pqv/AwdOJ/INX2LfSxkbDb5TEE+/4587guexmmtbgTnHOQjVl5yJWs9RgG3R9QVwTiTnb2YD7t4=
+   eJzFVj1LA0EQXQImqGCSOxCUpEoj/g1/iWItwR8gaS3VUiKYlLGx0t6AFtYhthFrK3v3mRszN85+3F3hg2PvY3bfzJvZ2TPm/7FRW9337f1Fw5hLe101wnNPa2Ebwomw3WXPA3t/a/lG9hpH8BbBWcZzF/B11jbm3WHzOzfN2/TS5chjkzyLZDleR2p1IPyl+QBxd7MRsUm+WB6JkD7AfVt/H+Lsiu8aV4zfQ2vTTN3210quodlHK/9OzpW1CRzad+sltSR8tdycAPLXUd7vlODF+tCHcoTxXKyTsHqZarnM6lvqF4sbxTZUn0PP+kW4uT04+b5x1RZx03efLzGg2gS2UrddzHxgwnIhtXjazj/Ps3xqsaLH90vEptZIAaDHDzwx8BzJeFw56zGN9pv5b1pfof0g6zoGst8CiWcNWUcUH3QsUw8cr0nep59Y0vL9nvoO9YRP26seLMdjsho5QjzIXyhGTX/U7bPleklW41vy1+6obsxx3b8+IPdw0ZwD2jkC4EzAWYEa3IvMZ9n8ECjf/KxoetZcKNq54DrfXGvMPf9ILmhnKz/foPGM9RmuF/YN5XO05ubAHp9kdpvKv9E8so/NCvQ72a980M68KetLQEfU3NgTrwtDpmWo7lya8Nqv2v85oBd8C/lVtU+WBfyruler4huWcXL3
   </data>
  </layer>
  <layer name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYCANHBYjUQOVwGCx954wfex9yI7K/0fA3stAd8qxQzAlgJGDeDeBwCUax0swK3Y3MeFxJ6mAkwmVLwPkJ7NiV4svHT6TJYxJBTxQt+ELZ2LsJcduSgEp9uLLV4TyHD75pWhxiy1fPWLHLo+e53DlSZj+y3jiiFAaxpfvPuLI05+g4h/R7EX28yFR3OYSAoTsBQF0PyPbzYMW9uhpGDnfzUZi4woL5PBC9zO63eSAszjCilCexwcsBRgYrAQI2y2D5PZIaNkDCq+LaHbDwhtmLy4/ewLt9CLCXhDIgNqXyQpho9sJAh+R7CVkNwxgqy+QAbF1KcjPpJRjuNItzD346lLksoBUP+OyF1/ehgFc9RkxdhNjPi6wi8jyAZvdp4jQK4OjPKCk3VACTKOlOOrngQT4yn9i9IYzQnAEI2n6KAlLfHUHPkCN9jhyeNHTXnL8PJfCumWgAbHpCwCkv2o0
+   eJzFllEOwyAIho0PTXaBJV5r2e2WnaY3mEfYRbYmMyGUv4JQx5NV5EOwYEr/lfU6Zy/Vrd/xa5Cr3dt4VFfj7yPvedzOkUh62jhVojcaH8S9ZNkPTy40XGQ/msm51nut0a9AZ4Qr3U8kSMfKjco14qL4ROUacdsY8SO45VcXpHoyWkO5v/wb2W3zzyyvIw49QyF7OafH1TJ7eefr6DwStxh0R8VStz13nHO0tpB/vf9gi53H59uS0n3Zz/fu44y+L8msN84mVagPM7iWXrCyekDH1hhbuJE939PrLfI+qI3a+uuV6Deatk9Gx1UbrzPyqTnzGfm0nuUDQ2dcxA==
   </data>
  </layer>
- <layer name="Objects_brother2_open_door" width="30" height="30" visible="0">
+ <layer name="Objects_doorOpened" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztzTENADAIADASkuFfKwZwsJeD1kAjgJ9+O2/WzgsAwB0DFrwBBA==
+   eJztzbENACAMxMDvsr8EmQAyJz9FQuGTXFv6zwppu4ze7/Hvumr+AgAAAMCEB+QkA9k=
   </data>
  </layer>
- <layer name="Top" width="30" height="30">
+ <layer name="Objects_doorClosed" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFgxFcEhtoFxAHHrHT1vzDAxQOQyX8R8EoIBUMVJ4a7OC46EC7YBSMAvqC0bJgFIyCUQADABloBiE=
+   eJztzbERACAMw0B3mR8yAWRRPEVCob9TLek/K6TtMnq/x7/rqvkLAAAAABMe9d0Dxw==
   </data>
  </layer>
  <layer name="Walkable" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztk1EOgDAIQz3F7n+F3VB/TMxSoAWmPy7hw4z1AZY5jmNewZw7b46++Iqr1PdzuX/4Jnf1RxeX0bPYrJfRzBDX0vfqUdienqVb8YWny9bP5GT8wt5n/N9RV4Zb2Z/KrFg/KR5XuIiBToaL3nm5ERt9K7uE7hXu8w3LRexVA+Up80H1RZpKH8peKL10cCP2Tm70JstlevD4KEepteI/pKHOlNVmdBh2lw6T7+VVemZmnZl5xx5Y/trhgx1hMU/J8qe3
+   eJztksERwDAIwzJF918hG3YBKLJJeDV3+bWRMN7PWvu/Y7c65F+Fo/5X+ZLvHF+aD8mNculsdA/Ew8lE4UYzdZgK96sLyp473GgPxKlycbgkB9IbwiX+p7kZm/Sp4kZvkrc73GxnKjc7Va8rX8JUO636Rwx1fjdLkh/hUreuN8mEZKV40Jyc3Ke5NJuJeTtcekgHI49Tb9N5aZZuHi5X7anrf4t746rcF68P6pE=
+  </data>
+ </layer>
+ <layer name="Walkable_doorOpened" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBh8YKMYAtPbXmR6FIyCUTAKRsEoGAWjYBSMglEwCoYzAACvdwPk
+  </data>
+ </layer>
+ <layer name="Walkable_doorClosed" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztzTENAAAIwDBU4N8CDjmRAAltsnsR91ROH74AAAAbGsr3BKs=
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object id="1" name="west" type="mapchange" x="0" y="320" width="32" height="416">
+  <object id="1" name="south" type="mapchange" x="576" y="928" width="32" height="32">
    <properties>
-    <property name="map" value="brimhaven1"/>
-    <property name="place" value="east"/>
+    <property name="map" value="mountainlake11"/>
+    <property name="place" value="north"/>
    </properties>
   </object>
-  <object id="2" name="north" type="mapchange" x="800" y="128" width="64" height="32">
+  <object id="2" name="east" type="mapchange" x="928" y="96" width="32" height="32">
    <properties>
-    <property name="map" value="brimhaven6"/>
+    <property name="map" value="lakecave2"/>
+    <property name="place" value="west1"/>
+   </properties>
+  </object>
+  <object id="3" name="north" type="mapchange" x="256" y="64" width="32" height="32">
+   <properties>
+    <property name="map" value="lakecave1"/>
     <property name="place" value="south"/>
    </properties>
   </object>
-  <object id="3" name="north2" type="mapchange" x="64" y="0" width="352" height="32">
+  <object id="4" name="script_lakecave0" type="script" x="256" y="288" width="32" height="32"/>
+  <object id="5" name="script_close_glade_door_0" type="script" x="160" y="96" width="32" height="32">
    <properties>
-    <property name="map" value="brimhaven7"/>
-    <property name="place" value="south"/>
+    <property name="when" value="enter"/>
    </properties>
   </object>
-  <object id="4" name="brimhaven_employee" type="mapchange" x="832" y="416" width="32" height="32">
+  <object id="6" name="script_open_glade_door_0" type="script" x="192" y="96" width="128" height="32">
    <properties>
-    <property name="map" value="brimhaven_employee"/>
-    <property name="place" value="entrance"/>
+    <property name="when" value="step"/>
    </properties>
   </object>
-  <object id="5" name="tavern" type="mapchange" x="864" y="704" width="32" height="32">
+  <object id="7" name="script_grow_lakecave1_damerilias_0" type="script" x="224" y="96" width="96" height="32">
    <properties>
-    <property name="map" value="brimhaven_tavern1"/>
-    <property name="place" value="entrance"/>
+    <property name="when" value="step"/>
    </properties>
   </object>
-  <object id="6" name="burhczyd_check10" type="script" x="832" y="736" width="96" height="32"/>
-  <object id="7" name="brother1" type="mapchange" x="512" y="192" width="32" height="32">
+  <object id="27" name="script_lakecave_cleared" type="script" x="256" y="96" width="672" height="736">
    <properties>
-    <property name="map" value="brimhaven_brother1"/>
-    <property name="place" value="entrance"/>
-   </properties>
-  </object>
-  <object id="8" name="brother2" type="mapchange" x="672" y="224" width="32" height="32">
-   <properties>
-    <property name="map" value="brimhaven_brother2"/>
-    <property name="place" value="entrance"/>
-   </properties>
-  </object>
-  <object id="9" name="inn" type="mapchange" x="192" y="704" width="32" height="32">
-   <properties>
-    <property name="map" value="brimhaven_inn_east"/>
-    <property name="place" value="entrance"/>
-   </properties>
-  </object>
-  <object id="10" name="brimhaven_metalsmith" type="mapchange" x="128" y="512" width="32" height="32">
-   <properties>
-    <property name="map" value="brimhaven_metalsmith"/>
-    <property name="place" value="entrance"/>
-   </properties>
-  </object>
-  <object id="11" name="fortune_teller" type="mapchange" x="608" y="416" width="32" height="32">
-   <properties>
-    <property name="map" value="brimhaven_fortune_teller"/>
-    <property name="place" value="entrance"/>
-   </properties>
-  </object>
- </objectgroup>
- <objectgroup name="Replace">
-  <object id="12" name="brother2_door" type="replace" x="672" y="192" width="32" height="64">
-   <properties>
-    <property name="Objects" value="Objects_brother2_open_door"/>
-    <property name="requireId" value="brv_nondisplay_multipurpose"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="20"/>
+    <property name="when" value="step"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object id="13" name="brv_fisher" type="spawn" x="608" y="736" width="96" height="192">
+  <object id="8" name="lakecave0_1" type="spawn" x="512" y="640" width="320" height="224">
    <properties>
-    <property name="spawngroup" value="brv_fisher"/>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="scorpion_1"/>
    </properties>
   </object>
-  <object id="14" name="brv_fish1" type="spawn" x="448" y="480" width="128" height="192">
+  <object id="9" name="lakecave0_2" type="spawn" x="32" y="96" width="192" height="128">
    <properties>
-    <property name="spawngroup" value="brv_fish"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="scorpion_3"/>
    </properties>
   </object>
-  <object id="15" name="brv_fish2" type="spawn" x="32" y="224" width="320" height="96">
+  <object id="10" name="lakecave0_2" type="spawn" x="32" y="224" width="192" height="288">
    <properties>
-    <property name="spawngroup" value="brv_fish"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="scorpion_3"/>
    </properties>
   </object>
-  <object id="16" name="exit_guard" type="spawn" x="832" y="160" width="32" height="32">
+  <object id="11" name="lakecave0_3" type="spawn" x="224" y="320" width="32" height="256">
+   <properties>
+    <property name="spawngroup" value="scorpion_2"/>
+   </properties>
+  </object>
+  <object id="12" name="lakecave0_4" type="spawn" x="160" y="544" width="320" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="scorpion_2"/>
+   </properties>
+  </object>
+  <object id="13" name="lakecave0_5" type="spawn" x="32" y="672" width="480" height="192">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="scorpion_1"/>
+   </properties>
+  </object>
+  <object id="14" name="lakecave0_6" type="spawn" x="864" y="864" width="64" height="32">
+   <properties>
+    <property name="spawngroup" value="cave_troll_6"/>
+   </properties>
+  </object>
+  <object id="15" name="lakecave0_7" type="spawn" x="896" y="768" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="cave_troll_3"/>
+   </properties>
+  </object>
+  <object id="16" name="lakecave0_8" type="spawn" x="896" y="704" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="cave_troll_2"/>
+   </properties>
+  </object>
+  <object id="17" name="lakecave0_9" type="spawn" x="288" y="352" width="224" height="96">
+   <properties>
+    <property name="spawngroup" value="cave_troll_1"/>
+   </properties>
+  </object>
+  <object id="18" name="lakecave0_10" type="spawn" x="544" y="288" width="160" height="32">
+   <properties>
+    <property name="spawngroup" value="cave_troll_4"/>
+   </properties>
+  </object>
+  <object id="19" name="lakecave0_11" type="spawn" x="480" y="96" width="256" height="96">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="cave_troll_1"/>
+   </properties>
+  </object>
+  <object id="20" name="lakecave0_12" type="spawn" x="736" y="160" width="192" height="448">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="cave_troll_4"/>
+   </properties>
+  </object>
+  <object id="21" name="lakecave0_13" type="spawn" x="608" y="480" width="128" height="32">
+   <properties>
+    <property name="spawngroup" value="cave_troll_4"/>
+   </properties>
+  </object>
+  <object id="22" name="lakecave0_14" type="spawn" x="736" y="160" width="192" height="544">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="cave_troll_2"/>
+   </properties>
+  </object>
+  <object id="23" name="lakecave0_9_1" type="spawn" x="352" y="288" width="192" height="160">
+   <properties>
+    <property name="spawngroup" value="cave_troll_1"/>
+   </properties>
+  </object>
+  <object id="26" name="lakecave0_9_2" type="spawn" x="352" y="160" width="128" height="128">
+   <properties>
+    <property name="spawngroup" value="cave_troll_1"/>
+   </properties>
+  </object>
+  <object id="28" name="lakecave0_15" type="spawn" x="288" y="288" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
-    <property name="spawngroup" value="brv_exit_guard"/>
-   </properties>
-  </object>
-  <object id="17" name="brv_villager1" type="spawn" x="704" y="256" width="160" height="64">
-   <properties>
-    <property name="spawngroup" value="brv_villager1"/>
-   </properties>
-  </object>
-  <object id="18" name="brv_villager14" type="spawn" x="256" y="576" width="224" height="320">
-   <properties>
-    <property name="spawngroup" value="brv_villager14"/>
-   </properties>
-  </object>
-  <object id="19" name="brv_villager15" type="spawn" x="224" y="320" width="160" height="256">
-   <properties>
-    <property name="spawngroup" value="brv_villager15"/>
-   </properties>
-  </object>
-  <object id="20" name="brv_villager4" type="spawn" x="672" y="416" width="160" height="288">
-   <properties>
-    <property name="spawngroup" value="brv_villager4"/>
-   </properties>
-  </object>
-  <object id="21" name="brv_ball" type="spawn" x="800" y="864" width="64" height="64">
-   <properties>
-    <property name="spawngroup" value="brv_ball"/>
-   </properties>
-  </object>
-  <object id="22" name="brv_playing_child2" type="spawn" x="768" y="832" width="96" height="96">
-   <properties>
-    <property name="spawngroup" value="brv_playing_child2"/>
-   </properties>
-  </object>
-  <object id="23" name="brv_playing_child3" type="spawn" x="768" y="832" width="96" height="96">
-   <properties>
-    <property name="spawngroup" value="brv_playing_child3"/>
-   </properties>
-  </object>
-  <object id="24" name="brv_playing_child1" type="spawn" x="800" y="928" width="32" height="32">
-   <properties>
-    <property name="ignoreAreas" value="true"/>
-    <property name="spawngroup" value="brv_playing_child1"/>
-   </properties>
-  </object>
-  <object id="25" name="brv_playing_child4" type="spawn" x="768" y="832" width="96" height="96">
-   <properties>
-    <property name="spawngroup" value="brv_playing_child4"/>
-   </properties>
-  </object>
-  <object id="31" name="guard_advent" type="spawn" x="128" y="736" width="128" height="96">
-   <properties>
-    <property name="spawngroup" value="guard_advent"/>
+    <property name="spawngroup" value="cave_troll_7"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys">
-  <object id="26" name="andor:1" type="key" x="608" y="896" width="64" height="32">
+ <objectgroup name="Keys"/>
+ <objectgroup name="Replace">
+  <object id="24" name="DoorOpened" type="replace" x="224" y="32" width="96" height="64">
    <properties>
-    <property name="phrase" value="brv_fisher"/>
-    <property name="requireId" value="andor"/>
+    <property name="Objects" value="Objects_doorOpened"/>
+    <property name="Walkable" value="Walkable_doorOpened"/>
+    <property name="requireId" value="nondisplay"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="1"/>
+    <property name="requireValue" value="25"/>
    </properties>
   </object>
-  <object id="27" name="andor:1b" type="key" x="640" y="736" width="64" height="32">
+  <object id="25" name="DoorClosed" type="replace" x="224" y="32" width="96" height="64">
    <properties>
-    <property name="phrase" value="brv_fisher"/>
-    <property name="requireId" value="andor"/>
+    <property name="Objects" value="Objects_doorClosed"/>
+    <property name="Walkable" value="Walkable_doorClosed"/>
+    <property name="requireId" value="nondisplay"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="1"/>
-   </properties>
-  </object>
-  <object id="28" name="brother2_door" type="key" x="672" y="224" width="32" height="32">
-   <properties>
-    <property name="phrase" value="brv_brother2_door1"/>
-    <property name="requireId" value="brv_nondisplay_multipurpose"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="20"/>
-   </properties>
-  </object>
-  <object id="29" name="block_exit" type="key" x="800" y="128" width="64" height="32">
-   <properties>
-    <property name="phrase" value="brv_exit_forbidden_10"/>
-    <property name="requireId" value="brv_nondisplay"/>
-    <property name="requireNegation" value="true"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="100"/>
-   </properties>
-  </object>
-  <object id="30" name="block_playing_children" type="key" x="768" y="928" width="96" height="32">
-   <properties>
-    <property name="phrase" value="brv_playing_children"/>
-    <property name="requireId" value="brv_nondisplay"/>
-    <property name="requireNegation" value="false"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="143"/>
+    <property name="requireValue" value="26"/>
    </properties>
   </object>
  </objectgroup>

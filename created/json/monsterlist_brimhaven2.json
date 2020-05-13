@@ -426,5 +426,11 @@
         "attackChance":40,
         "blockChance":120,
         "damageResistance":5
+    },
+    {
+        "id":"guard_advent",
+        "name":"Guard",
+        "iconID":"monsters_ld1:41",
+        "phraseID":"guard_advent"
     }
 ]

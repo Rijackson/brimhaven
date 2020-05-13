@@ -25,7 +25,7 @@
     },
     {
         "id":"blackjack_rules",
-        "message":"We play with several 32 piece card sets from 7 to 10, boy (2 points), queen (3 points), king (4 points) and ace (11 points).\n\nYou can draw as many cards as you want and you will get them face down so only you can take a look at them. After each draw you can decide to draw another card or stop. You loose if you have drawn more than 21 points.\n\t\n\nAfter you stop I will draw following the same rules. Then we show each other our cards. You win if you have more points than I have otherwise you loose.",
+        "message":"We play with several 32-piece card decks from 7 to 10, jack (2 points), queen (3 points), king (4 points) and ace (11 points).\n\nYou can draw as many cards as you want and you will get them face down so only you can take a look at them. After each draw you can decide to draw another card or stop. You lose if you have drawn more than 21 points.\n\t\n\nAfter you stop I will draw following the same rules. Then we show each other our cards. You win if you have more points than I have; otherwise you lose.",
         "replies":[
             {
                 "text":"N",
@@ -257,7 +257,7 @@
     },
     {
         "id":"blackjack_draw_4",
-        "message":"[You have 4 points.] Do you risk to take another card?",
+        "message":"[You have 4 points.] Do you risk taking another card?",
         "replies":[
             {
                 "text":"Give me one more card.",
@@ -341,7 +341,7 @@
     },
     {
         "id":"blackjack_draw_10",
-        "message":"[You have 10 points.] Do you risk to take another card? [Laughs]",
+        "message":"[You have 10 points.] Do you risk taking another card? [Laughs]",
         "replies":[
             {
                 "text":"Give me one more card.",
@@ -622,7 +622,7 @@
         "replies":[
             {
                 "text":"",
-                "nextPhraseID":"blackjack_loose_15",
+                "nextPhraseID":"blackjack_lose_15",
                 "requires":[
                     {
                         "requireType":"random",
@@ -632,7 +632,7 @@
             },
             {
                 "text":"",
-                "nextPhraseID":"blackjack_loose_16",
+                "nextPhraseID":"blackjack_lose_16",
                 "requires":[
                     {
                         "requireType":"random",
@@ -642,7 +642,7 @@
             },
             {
                 "text":"",
-                "nextPhraseID":"blackjack_loose_17",
+                "nextPhraseID":"blackjack_lose_17",
                 "requires":[
                     {
                         "requireType":"random",
@@ -652,7 +652,7 @@
             },
             {
                 "text":"",
-                "nextPhraseID":"blackjack_loose_18",
+                "nextPhraseID":"blackjack_lose_18",
                 "requires":[
                     {
                         "requireType":"random",
@@ -662,7 +662,7 @@
             },
             {
                 "text":"",
-                "nextPhraseID":"blackjack_loose_19",
+                "nextPhraseID":"blackjack_lose_19",
                 "requires":[
                     {
                         "requireType":"random",
@@ -672,7 +672,7 @@
             },
             {
                 "text":"",
-                "nextPhraseID":"blackjack_loose_20",
+                "nextPhraseID":"blackjack_lose_20",
                 "requires":[
                     {
                         "requireType":"random",
@@ -682,7 +682,7 @@
             },
             {
                 "text":"",
-                "nextPhraseID":"blackjack_loose_21",
+                "nextPhraseID":"blackjack_lose_21",
                 "requires":[
                     {
                         "requireType":"random",
@@ -741,7 +741,7 @@
             },
             {
                 "text":"",
-                "nextPhraseID":"blackjack_loose_16",
+                "nextPhraseID":"blackjack_lose_16",
                 "requires":[
                     {
                         "requireType":"random",
@@ -751,7 +751,7 @@
             },
             {
                 "text":"",
-                "nextPhraseID":"blackjack_loose_17",
+                "nextPhraseID":"blackjack_lose_17",
                 "requires":[
                     {
                         "requireType":"random",
@@ -761,7 +761,7 @@
             },
             {
                 "text":"",
-                "nextPhraseID":"blackjack_loose_18",
+                "nextPhraseID":"blackjack_lose_18",
                 "requires":[
                     {
                         "requireType":"random",
@@ -771,7 +771,7 @@
             },
             {
                 "text":"",
-                "nextPhraseID":"blackjack_loose_19",
+                "nextPhraseID":"blackjack_lose_19",
                 "requires":[
                     {
                         "requireType":"random",
@@ -781,7 +781,7 @@
             },
             {
                 "text":"",
-                "nextPhraseID":"blackjack_loose_20",
+                "nextPhraseID":"blackjack_lose_20",
                 "requires":[
                     {
                         "requireType":"random",
@@ -791,7 +791,7 @@
             },
             {
                 "text":"",
-                "nextPhraseID":"blackjack_loose_21",
+                "nextPhraseID":"blackjack_lose_21",
                 "requires":[
                     {
                         "requireType":"random",
@@ -860,7 +860,7 @@
             },
             {
                 "text":"",
-                "nextPhraseID":"blackjack_loose_17",
+                "nextPhraseID":"blackjack_lose_17",
                 "requires":[
                     {
                         "requireType":"random",
@@ -870,7 +870,7 @@
             },
             {
                 "text":"",
-                "nextPhraseID":"blackjack_loose_18",
+                "nextPhraseID":"blackjack_lose_18",
                 "requires":[
                     {
                         "requireType":"random",
@@ -880,7 +880,7 @@
             },
             {
                 "text":"",
-                "nextPhraseID":"blackjack_loose_19",
+                "nextPhraseID":"blackjack_lose_19",
                 "requires":[
                     {
                         "requireType":"random",
@@ -890,7 +890,7 @@
             },
             {
                 "text":"",
-                "nextPhraseID":"blackjack_loose_20",
+                "nextPhraseID":"blackjack_lose_20",
                 "requires":[
                     {
                         "requireType":"random",
@@ -900,7 +900,7 @@
             },
             {
                 "text":"",
-                "nextPhraseID":"blackjack_loose_21",
+                "nextPhraseID":"blackjack_lose_21",
                 "requires":[
                     {
                         "requireType":"random",
@@ -979,7 +979,7 @@
             },
             {
                 "text":"",
-                "nextPhraseID":"blackjack_loose_18",
+                "nextPhraseID":"blackjack_lose_18",
                 "requires":[
                     {
                         "requireType":"random",
@@ -989,7 +989,7 @@
             },
             {
                 "text":"",
-                "nextPhraseID":"blackjack_loose_19",
+                "nextPhraseID":"blackjack_lose_19",
                 "requires":[
                     {
                         "requireType":"random",
@@ -999,7 +999,7 @@
             },
             {
                 "text":"",
-                "nextPhraseID":"blackjack_loose_20",
+                "nextPhraseID":"blackjack_lose_20",
                 "requires":[
                     {
                         "requireType":"random",
@@ -1009,7 +1009,7 @@
             },
             {
                 "text":"",
-                "nextPhraseID":"blackjack_loose_21",
+                "nextPhraseID":"blackjack_lose_21",
                 "requires":[
                     {
                         "requireType":"random",
@@ -1098,7 +1098,7 @@
             },
             {
                 "text":"",
-                "nextPhraseID":"blackjack_loose_19",
+                "nextPhraseID":"blackjack_lose_19",
                 "requires":[
                     {
                         "requireType":"random",
@@ -1108,7 +1108,7 @@
             },
             {
                 "text":"",
-                "nextPhraseID":"blackjack_loose_20",
+                "nextPhraseID":"blackjack_lose_20",
                 "requires":[
                     {
                         "requireType":"random",
@@ -1118,7 +1118,7 @@
             },
             {
                 "text":"",
-                "nextPhraseID":"blackjack_loose_21",
+                "nextPhraseID":"blackjack_lose_21",
                 "requires":[
                     {
                         "requireType":"random",
@@ -1217,7 +1217,7 @@
             },
             {
                 "text":"",
-                "nextPhraseID":"blackjack_loose_20",
+                "nextPhraseID":"blackjack_lose_20",
                 "requires":[
                     {
                         "requireType":"random",
@@ -1227,7 +1227,7 @@
             },
             {
                 "text":"",
-                "nextPhraseID":"blackjack_loose_21",
+                "nextPhraseID":"blackjack_lose_21",
                 "requires":[
                     {
                         "requireType":"random",
@@ -1336,7 +1336,7 @@
             },
             {
                 "text":"",
-                "nextPhraseID":"blackjack_loose_21",
+                "nextPhraseID":"blackjack_lose_21",
                 "requires":[
                     {
                         "requireType":"random",
@@ -1381,7 +1381,7 @@
         ]
     },
     {
-        "id":"blackjack_loose_15",
+        "id":"blackjack_lose_15",
         "message":"I have 15 points. Bad luck for you.",
         "replies":[
             {
@@ -1401,8 +1401,8 @@
         ]
     },
     {
-        "id":"blackjack_loose_16",
-        "message":"[You show each other your cards]. I have 16 points and you loose. Next time you will be lucky.",
+        "id":"blackjack_lose_16",
+        "message":"[You show each other your cards]. I have 16 points and you lose. Next time you will be lucky.",
         "replies":[
             {
                 "text":"N",
@@ -1412,7 +1412,7 @@
     },
     {
         "id":"blackjack_win_16",
-        "message":"[You show each other your cards.] I have 16 points. In my oppinion you are a bit too lucky.",
+        "message":"[You show each other your cards.] I have 16 points. In my opinion, you are a bit too lucky.",
         "replies":[
             {
                 "text":"N",
@@ -1421,8 +1421,8 @@
         ]
     },
     {
-        "id":"blackjack_loose_17",
-        "message":"[You show each other your cards.] I have 17 points so you loose. Don't give up.",
+        "id":"blackjack_lose_17",
+        "message":"[You show each other your cards.] I have 17 points so you lose. Don't give up.",
         "replies":[
             {
                 "text":"N",
@@ -1440,9 +1440,9 @@
             }
         ]
     },
-    {
-        "id":"blackjack_loose_18",
-        "message":"[You show each other your cards.] I have 18 points and you looese. Next game next chance for you.",
+	{
+        "id":"blackjack_lose_18",
+        "message":"[You show each other your cards.] I have 18 points and you lose. Next game next chance for you.",
         "replies":[
             {
                 "text":"N",
@@ -1461,8 +1461,8 @@
         ]
     },
     {
-        "id":"blackjack_loose_19",
-        "message":"[You show each other your cards.] I have 19 points and you loose. Double your bet and win back what you lost.",
+        "id":"blackjack_lose_19",
+        "message":"[You show each other your cards.] I have 19 points and you lose. Double your bet and win back what you lost.",
         "replies":[
             {
                 "text":"N",
@@ -1481,7 +1481,7 @@
         ]
     },
     {
-        "id":"blackjack_loose_20",
+        "id":"blackjack_lose_20",
         "message":"[You show each other your cards.] I have 20 points. Bad luck for you.",
         "replies":[
             {
@@ -1492,7 +1492,7 @@
     },
     {
         "id":"blackjack_win_20",
-        "message":"[You show each other your cards.] I have 20 points. In my oppinion you are a bit too lucky.",
+        "message":"[You show each other your cards.] I have 20 points. In my opinion you are a bit too lucky.",
         "replies":[
             {
                 "text":"N",
@@ -1501,8 +1501,8 @@
         ]
     },
     {
-        "id":"blackjack_loose_21",
-        "message":"[You show each other your cards.] I have 21 points and you loose. Next time you will be lucky.",
+        "id":"blackjack_lose_21",
+        "message":"[You show each other your cards.] I have 21 points and you lose. Next time, you will be lucky.",
         "replies":[
             {
                 "text":"N",
@@ -1542,7 +1542,7 @@
     },
     {
         "id":"blackjack_win_25",
-        "message":"[You show each other your cards.] I have 25 points. In my oppinion you are a bit too lucky.",
+        "message":"[You show each other your cards.] I have 25 points. In my opinion you are a bit too lucky.",
         "replies":[
             {
                 "text":"N",

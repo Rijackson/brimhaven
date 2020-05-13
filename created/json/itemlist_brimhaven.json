@@ -33,7 +33,7 @@
         "hasManualPrice":1,
         "baseMarketCost":6700,
         "category":"whip",
-        "description":"When you hold it, it almost feels like it's moving on it's own, as though it were alive.",
+        "description":"When you hold it, it almost feels like it's moving on its own, as though it were alive.",
         "equipEffect":{
             "increaseAttackDamage":{
                 "min":2,
@@ -520,7 +520,7 @@
         "name":"A strange looking dagger",
         "displaytype":"quest",
         "category":"dagger",
-        "description":"This dagger has a strange looking hilt.",
+        "description":"This dagger has a strange-looking hilt.",
         "equipEffect":{
             "increaseAttackDamage":{
                 "min":1,
@@ -559,7 +559,7 @@
     {
         "id":"strange_gem",
         "iconID":"items_misc_6:33",
-        "name":"A strange looking gem",
+        "name":"A strange-looking gem",
         "displaytype":"quest",
         "hasManualPrice":1,
         "baseMarketCost":437,
