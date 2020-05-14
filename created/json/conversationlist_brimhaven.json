@@ -7073,7 +7073,7 @@
     },
     {
         "id":"brv_fortune_hero_70",
-        "message":"I see you picking up a lot of coins from a hole in the ground. Can it be behind your fathers house?",
+        "message":"I see you picking up a lot of coins from a hole in the ground. Can it be behind your father's house?",
         "replies":[
             {
                 "text":"N",
@@ -7539,7 +7539,7 @@
     },
     {
         "id":"blackjack_play_higher_amounts",
-        "message":"Now let's stop this children games and play for higher amounts.",
+        "message":"Now let's stop this child's game and play for higher amounts.",
         "replies":[
             {
                 "text":"N",
