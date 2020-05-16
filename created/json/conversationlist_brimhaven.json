@@ -786,6 +786,9 @@
                         "value":10
                     }
                 ]
+            },
+            {
+                "nextPhraseID":"brv_employer_get_boulder_04"
             }
         ]
     },
@@ -793,6 +796,10 @@
         "id":"brv_employer_get_boulder_02",
         "message":"Hands off! These boulders are needed for the dam!",
         "switchToNPC":"brv_employer"
+    },
+    {
+        "id":"brv_employer_get_boulder_04",
+        "message":"A huge pile of boulders."
     },
     {
         "id":"brv_employer_get_boulder_10",
