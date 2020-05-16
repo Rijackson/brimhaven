@@ -4185,11 +4185,11 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"I found your coin bags, and you paid the brothers for destroying the dam. [Show the coin bags]",
+                "text":"I found your coin bags, and you paid the brothers for destroying the dam. [Hand him the coin bags]",
                 "nextPhraseID":"brv_richman_20",
                 "requires":[
                     {
-                        "requireType":"inventoryKeep",
+                        "requireType":"inventoryRemove",
                         "requireID":"brv_richmans_coin_bag",
                         "value":1
                     }
