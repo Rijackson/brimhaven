@@ -152,7 +152,7 @@
     {
         "id":"brv_wh_item_00",
         "name":"brv_wh_item_00",
-        "iconID":"items_japozero:0",
+        "iconID":"monsters_guynmart:8",
         "moveCost":99,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_wh_item_00",
@@ -161,7 +161,7 @@
     {
         "id":"brv_wh_item_20",
         "name":"brv_wh_item_20",
-        "iconID":"items_japozero:0",
+        "iconID":"monsters_guynmart:8",
         "moveCost":99,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_wh_item_20",
@@ -175,7 +175,7 @@
     {
         "id":"brv_wh_item_01",
         "name":"brv_wh_item_01",
-        "iconID":"items_japozero:16",
+        "iconID":"monsters_guynmart:8",
         "moveCost":99,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_wh_item_01",
@@ -184,7 +184,7 @@
     {
         "id":"brv_wh_item_21",
         "name":"brv_wh_item_21",
-        "iconID":"items_japozero:16",
+        "iconID":"monsters_guynmart:8",
         "moveCost":99,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_wh_item_21",
@@ -198,7 +198,7 @@
     {
         "id":"brv_wh_item_02",
         "name":"brv_wh_item_02",
-        "iconID":"items_japozero:32",
+        "iconID":"monsters_guynmart:8",
         "moveCost":99,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_wh_item_02",
@@ -207,7 +207,7 @@
     {
         "id":"brv_wh_item_22",
         "name":"brv_wh_item_22",
-        "iconID":"items_japozero:32",
+        "iconID":"monsters_guynmart:8",
         "moveCost":99,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_wh_item_22",
@@ -221,7 +221,7 @@
     {
         "id":"brv_wh_item_03",
         "name":"brv_wh_item_03",
-        "iconID":"items_japozero:64",
+        "iconID":"monsters_guynmart:8",
         "moveCost":99,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_wh_item_03",
@@ -230,7 +230,7 @@
     {
         "id":"brv_wh_item_23",
         "name":"brv_wh_item_23",
-        "iconID":"items_japozero:64",
+        "iconID":"monsters_guynmart:8",
         "moveCost":99,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_wh_item_23",
@@ -244,7 +244,7 @@
     {
         "id":"brv_wh_item_04",
         "name":"brv_wh_item_04",
-        "iconID":"items_japozero:80",
+        "iconID":"monsters_guynmart:8",
         "moveCost":99,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_wh_item_04",
@@ -253,7 +253,7 @@
     {
         "id":"brv_wh_item_24",
         "name":"brv_wh_item_24",
-        "iconID":"items_japozero:80",
+        "iconID":"monsters_guynmart:8",
         "moveCost":99,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_wh_item_24",
@@ -267,7 +267,7 @@
     {
         "id":"brv_wh_item_05",
         "name":"brv_wh_item_05",
-        "iconID":"items_japozero:96",
+        "iconID":"monsters_guynmart:8",
         "moveCost":99,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_wh_item_05",
@@ -276,7 +276,7 @@
     {
         "id":"brv_wh_item_25",
         "name":"brv_wh_item_25",
-        "iconID":"items_japozero:96",
+        "iconID":"monsters_guynmart:8",
         "moveCost":99,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_wh_item_25",
@@ -290,7 +290,7 @@
     {
         "id":"brv_wh_item_06",
         "name":"brv_wh_item_06",
-        "iconID":"items_japozero:112",
+        "iconID":"monsters_guynmart:8",
         "moveCost":99,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_wh_item_06",
@@ -299,7 +299,7 @@
     {
         "id":"brv_wh_item_26",
         "name":"brv_wh_item_26",
-        "iconID":"items_japozero:112",
+        "iconID":"monsters_guynmart:8",
         "moveCost":99,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_wh_item_26",
@@ -313,7 +313,7 @@
     {
         "id":"brv_wh_item_07",
         "name":"brv_wh_item_07",
-        "iconID":"items_japozero:128",
+        "iconID":"monsters_guynmart:8",
         "moveCost":99,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_wh_item_07",
@@ -322,7 +322,7 @@
     {
         "id":"brv_wh_item_27",
         "name":"brv_wh_item_27",
-        "iconID":"items_japozero:128",
+        "iconID":"monsters_guynmart:8",
         "moveCost":99,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_wh_item_27",
@@ -336,7 +336,7 @@
     {
         "id":"brv_wh_item_08",
         "name":"brv_wh_item_08",
-        "iconID":"items_japozero:144",
+        "iconID":"monsters_guynmart:8",
         "moveCost":99,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_wh_item_08",
@@ -345,7 +345,7 @@
     {
         "id":"brv_wh_item_28",
         "name":"brv_wh_item_28",
-        "iconID":"items_japozero:144",
+        "iconID":"monsters_guynmart:8",
         "moveCost":99,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_wh_item_28",
@@ -359,7 +359,7 @@
     {
         "id":"brv_wh_item_09",
         "name":"brv_wh_item_09",
-        "iconID":"items_japozero:160",
+        "iconID":"monsters_guynmart:8",
         "moveCost":99,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_wh_item_09",
@@ -368,7 +368,7 @@
     {
         "id":"brv_wh_item_29",
         "name":"brv_wh_item_29",
-        "iconID":"items_japozero:160",
+        "iconID":"monsters_guynmart:8",
         "moveCost":99,
         "monsterClass":"humanoid",
         "spawnGroup":"brv_wh_item_29",

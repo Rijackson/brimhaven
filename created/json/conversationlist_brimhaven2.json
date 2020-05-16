@@ -4099,21 +4099,31 @@
     },
     {
         "id":"guard_advent_2",
-        "message":"then I took an arrow in the knee.",
+        "message":"Then I took an arrow in the knee.",
         "replies":[
             {
                 "text":"Sorry for you.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"Shall we sing a song?",
-                "nextPhraseID":"guard_advent_10",
+                "text":"That reminds me of a song.",
+                "nextPhraseID":"guard_advent_4",
                 "requires":[
                     {
                         "requireType":"random",
                         "requireID":"20"
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "id":"guard_advent_4",
+        "message":"I think I know which song you are thinking of.",
+        "replies":[
+            {
+                "text":"Shall we sing it together?",
+                "nextPhraseID":"guard_advent_10"
             }
         ]
     },
