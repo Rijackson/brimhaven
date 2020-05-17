@@ -5392,7 +5392,7 @@
                 ]
             },
             {
-                "text":"I brought a gem. I think it's the right one for the dagger we discussed.",
+                "text":"I have a gem. I think it's the right one for the dagger we discussed.",
                 "nextPhraseID":"edrin_5_0",
                 "requires":[
                     {
@@ -5443,7 +5443,7 @@
                 ]
             },
             {
-                "text":"I brought a dagger. I think it's the one that matches the gem we discussed. ",
+                "text":"I have a dagger. I think it's the one that matches the gem we discussed. ",
                 "nextPhraseID":"edrin_6_0",
                 "requires":[
                     {
