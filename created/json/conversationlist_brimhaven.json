@@ -5398,7 +5398,7 @@
                 ]
             },
             {
-                "text":"I brought a gem. I think it's the right one for the dagger we discussed.",
+                "text":"I have a gem. I think it's the right one for the dagger we discussed.",
                 "nextPhraseID":"edrin_5_0",
                 "requires":[
                     {
@@ -5449,7 +5449,7 @@
                 ]
             },
             {
-                "text":"I brought a dagger. I think it's the one that matches the gem we discussed. ",
+                "text":"I have a dagger. I think it's the one that matches the gem we discussed. ",
                 "nextPhraseID":"edrin_6_0",
                 "requires":[
                     {
@@ -7159,8 +7159,13 @@
     },
     {
         "id":"brv_ball_10",
-        "message":"(You miss the ball and fall on your back)\n\nYou kick like a baby. Ha, ha ",
-        "switchToNPC":"brv_playing_child1"
+        "message":"(You miss the ball and fall on your back)",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_ball_11"
+            }
+        ]
     },
     {
         "id":"brv_fortune_end_10",
@@ -7672,5 +7677,10 @@
     {
         "id":"stoutford_grave_5",
         "message":"Here lies Rurog, the master builder who fell through his own roof."
+    },
+    {
+        "id":"brv_ball_11",
+        "message":"You kick like a baby. Ha, ha.",
+        "switchToNPC":"brv_playing_child1"
     }
 ]
