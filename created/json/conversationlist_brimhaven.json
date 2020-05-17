@@ -2661,23 +2661,29 @@
             },
             {
                 "text":"The teacher said that you would give me a cake.",
-                "nextPhraseID":"arlish_20",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brv_nondisplay2",
-                        "value":42
-                    }
-                ]
-            },
-            {
-                "text":"The teacher said that you would give me a cake.",
                 "nextPhraseID":"arlish_10",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"brv_nondisplay2",
                         "value":40
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay2",
+                        "value":42,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"The teacher said that you would give me a cake.",
+                "nextPhraseID":"arlish_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay2",
+                        "value":42
                     }
                 ]
             }
