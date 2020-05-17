@@ -7153,8 +7153,13 @@
     },
     {
         "id":"brv_ball_10",
-        "message":"(You miss the ball and fall on your back)\n\nYou kick like a baby. Ha, ha ",
-        "switchToNPC":"brv_playing_child1"
+        "message":"(You miss the ball and fall on your back)",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_ball_11"
+            }
+        ]
     },
     {
         "id":"brv_fortune_end_10",
@@ -7666,5 +7671,10 @@
     {
         "id":"stoutford_grave_5",
         "message":"Here lies Rurog, the master builder who fell through his own roof."
+    },
+    {
+        "id":"brv_ball_11",
+        "message":"You kick like a baby. Ha, ha.",
+        "switchToNPC":"brv_playing_child1"
     }
 ]
