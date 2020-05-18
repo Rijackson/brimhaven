@@ -4122,7 +4122,7 @@
     },
     {
         "id":"brv_richman_20",
-        "message":"[Breaks down]\n\nI was bribed by the people of Loneford to sabotate the dam. Here are some letters I exchanged with them, that prove what I did.",
+        "message":"[Breaks down]\n\nI was bribed by the people of Loneford to sabotage the dam. Here are some letters I exchanged with them, that prove what I did.",
         "replies":[
             {
                 "text":"You were honest to me so I will not kill you, but I will tell the guard captain. (And you can't escape from Brimhaven without me seeing you.)",
@@ -6933,7 +6933,7 @@
     },
     {
         "id":"brv_fortune_choice",
-        "message":"Anything more where I can help you?",
+        "message":"Anything more I can help you with?",
         "replies":[
             {
                 "text":"Please tell me something that you can see about me or my brother Andor. [Give him 100 gold]",
