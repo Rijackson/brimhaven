@@ -4594,7 +4594,7 @@
                     {
                         "requireType":"inventoryRemove",
                         "requireID":"gold",
-                        "value":20
+                        "value":90
                     }
                 ]
             }
