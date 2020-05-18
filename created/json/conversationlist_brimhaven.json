@@ -2672,7 +2672,7 @@
                         "requireType":"questProgress",
                         "requireID":"brv_nondisplay2",
                         "value":42,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -7149,7 +7149,7 @@
     },
     {
         "id":"brv_ball",
-        "message":"(This looks like a ball made of leather)",
+        "message":"[This looks like a ball made of leather]",
         "replies":[
             {
                 "text":"[Kick the ball as hard as possible]",
@@ -7159,7 +7159,7 @@
     },
     {
         "id":"brv_ball_10",
-        "message":"(You miss the ball and fall on your back)",
+        "message":"[You miss the ball and fall on your back]",
         "replies":[
             {
                 "text":"N",
@@ -7682,5 +7682,9 @@
         "id":"brv_ball_11",
         "message":"You kick like a baby. Ha, ha.",
         "switchToNPC":"brv_playing_child1"
+    },
+    {
+        "id":"sign_brimhaven1",
+        "message":"Welcome to Brimhaven"
     }
 ]
