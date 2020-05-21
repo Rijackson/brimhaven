@@ -125,8 +125,10 @@
         "id":"venom",
         "iconID":"actorconditions_japozero:2",
         "name":"Venom",
+        "category":"blood",
         "isStacking":1,
         "roundEffect":{
+            "visualEffectID":"greenSplash",
             "increaseCurrentHP":{
                 "min":-1,
                 "max":-1
