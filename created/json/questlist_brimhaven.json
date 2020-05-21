@@ -123,6 +123,10 @@
         "showInLog":0,
         "stages":[
             {
+                "progress":1,
+                "logText":"butcher state"
+            },
+            {
                 "progress":11,
                 "logText":"11=1 Employee is at home"
             },

@@ -477,6 +477,18 @@
         "phraseID":"brv_inn_guest_0"
     },
     {
+        "id":"brv_butcher",
+        "name":"butcher",
+        "iconID":"monsters_fatboy73:7",
+        "phraseID":"brv_butcher"
+    },
+    {
+        "id":"brv_cleaning",
+        "name":"Room service",
+        "iconID":"monsters_fatboy73:6",
+        "phraseID":"brv_cleaning"
+    },
+    {
         "id":"brv_metalsmith",
         "name":"Edrin",
         "iconID":"monsters_ld1:22",

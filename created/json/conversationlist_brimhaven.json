@@ -4632,6 +4632,102 @@
         ]
     },
     {
+        "id":"brv_butcher",
+        "message":"... chop chop chop ..."
+    },
+    {
+        "id":"brv_butcher_clock",
+		"replies":[ { "nextPhraseID":"brv_butcher_clock_10" }]
+    },
+    {
+        "id":"brv_butcher_clock_10",
+		"replies":[ { "nextPhraseID":"brv_butcher_clock_20", 
+					  "requires":[{ "requireType":"questProgress", "requireID":"brv_nondisplay", "value":1 }] },
+					{ "nextPhraseID":"brv_butcher_clock_30" }]
+    },
+    {
+        "id":"brv_butcher_clock_20",
+		"rewards":[	{ "rewardType":"removeQuestProgress", "rewardID":"brv_nondisplay", "value":1 }]
+    },
+    {
+        "id":"brv_butcher_clock_30",
+		"rewards":[	{ "rewardType":"questProgress", "rewardID":"brv_nondisplay", "value":1 }]
+    },
+    {
+        "id":"brv_cleaning",
+		"replies": [
+			{
+				"nextPhraseID": "brv_cleaning_10",
+				"requires": [
+					{
+						"requireType": "random",
+						"requireID": "20"
+					}
+				]
+			},
+			{
+				"nextPhraseID": "brv_cleaning_20",
+				"requires": [
+					{
+						"requireType": "random",
+						"requireID": "25"
+					}
+				]
+			},
+			{
+				"nextPhraseID": "brv_cleaning_30",
+				"requires": [
+					{
+						"requireType": "random",
+						"requireID": "33"
+					}
+				]
+			},
+			{
+				"nextPhraseID": "brv_cleaning_40",
+				"requires": [
+					{
+						"requireType": "random",
+						"requireID": "50"
+					}
+				]
+			},
+			{
+				"nextPhraseID": "brv_cleaning_50"
+			}
+		]
+    },
+    {
+        "id":"brv_cleaning_10",
+        "message":"Wipe your feet!"
+    },
+    {
+        "id":"brv_cleaning_20",
+        "message":"[Muttering] Someday I will kill her ...",
+        "replies":[
+            {
+                "text":"Whom do you want to kill?",
+                "nextPhraseID":"brv_cleaning_22"
+            }
+        ]
+    },
+    {
+        "id":"brv_cleaning_22",
+        "message":"Oh, nothing - nothing at all."
+    },
+    {
+        "id":"brv_cleaning_30",
+        "message":"Go away, I have work to do!"
+    },
+    {
+        "id":"brv_cleaning_40",
+        "message":"All these guests are so very untidy!"
+    },
+    {
+        "id":"brv_cleaning_50",
+        "message":"Only one more bed ..."
+    },
+    {
         "id":"brv_inn_guest_0",
         "message":"Do you mind not bumping into me, kid. I've had a long day, and I don't need rude little children bumping into me.",
         "replies":[
