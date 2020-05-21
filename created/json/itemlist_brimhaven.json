@@ -693,19 +693,7 @@
                     "magnitude":-99
                 },
                 {
-                    "condition":"contagion",
-                    "magnitude":-99
-                },
-                {
-                    "condition":"blister",
-                    "magnitude":-99
-                },
-                {
                     "condition":"poison_irdegh",
-                    "magnitude":-99
-                },
-                {
-                    "condition":"foodp",
                     "magnitude":-99
                 },
                 {
