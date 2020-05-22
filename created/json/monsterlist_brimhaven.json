@@ -783,5 +783,14 @@
                 }
             ]
         }
+    },
+    {
+        "id":"brv_temple_entrance_guard",
+        "name":"Temple Guard",
+        "iconID":"monsters_rltiles4:41",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"temple_guard",
+        "phraseID":"brv_temple_entrance_guard"
     }
 ]

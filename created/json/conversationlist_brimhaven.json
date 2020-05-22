@@ -7686,5 +7686,9 @@
     {
         "id":"sign_brimhaven1",
         "message":"Welcome to Brimhaven"
+    },
+    {
+        "id":"brv_temple_entrance_guard",
+        "message":"No one is allowed in our sacred temple at this time."
     }
 ]
