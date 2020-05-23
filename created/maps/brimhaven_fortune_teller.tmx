@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.2" orientation="orthogonal" renderorder="right-down" width="8" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="4">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="8" height="8" tilewidth="32" tileheight="32" infinite="0" nextobjectid="4">
  <properties>
   <property name="colorfilter" value="black40"/>
  </properties>
@@ -183,27 +183,32 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer id="1" name="Ground" width="8" height="8">
+ <layer name="Ground" width="8" height="8">
   <data encoding="base64" compression="zlib">
    eJzbysnAsJUAviiFHcPkH0phxzD5HVD8Cwnv4CROHmTPDiQ1q8QQ7ItQe5DlkTFI7iknKt6BxgcAKEg19w==
   </data>
  </layer>
- <layer id="2" name="Objects" width="8" height="8">
+ <layer name="Objects" width="8" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYCAMVIUZGJbKMDDYskH4IHoaG0J+NysDw1agvC9QzIwFQvciyZ8GypsCsTMTA4MbC0QsUQAhn8jBwJDMgeAnA9UxItlvLgihV4oxMFwA6lsNpEFCIPNEgThNEMJGBiAzxNHEsAEAyXAMsw==
+   eJxjYCAMVIUZGJbKMDDYskH4IHoaG0J+NysDw1agvC9QzIwFQvciyZ8GypsCsTMTA4MbC0QsUQAhn8jBwJDMgeAnA9UxYnHHSjEGhgtAfauBtCADxDxRIE4ThLCRAcgMcSYshqABAK+hDGs=
   </data>
  </layer>
- <layer id="3" name="Above" width="8" height="8">
+ <layer name="Above" width="8" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYCAMDothijkz4ZcnpB+X/AEB4vSbCyLYl7DIpwliimEDAIPBBvo=
+   eJxjYCAMDothijkz4ZcnpB+X/AEBTHlzQfxil7CYn4ZFDzYAAE+qBmk=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="8" height="8">
+ <layer name="Top" width="8" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBj84LAY7cwGAE7mANo=
+  </data>
+ </layer>
+ <layer name="Walkable" width="8" height="8" visible="0">
   <data encoding="base64" compression="zlib">
    eJzbKMbAsJFOGBngk0NXgy6GzQxcerHZg8wHAFZsI8M=
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup name="Mapevents">
   <object id="1" name="entrance" type="mapchange" x="128" y="224" width="32" height="32">
    <properties>
     <property name="map" value="brimhaven3"/>
@@ -211,7 +216,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
+ <objectgroup name="Spawn">
   <object id="2" name="brv_fortune_teller" type="spawn" x="128" y="96" width="32" height="32">
    <properties>
     <property name="spawngroup" value="brv_fortune_teller"/>
@@ -223,5 +228,5 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Keys"/>
+ <objectgroup name="Keys"/>
 </map>

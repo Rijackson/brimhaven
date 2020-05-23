@@ -200,9 +200,9 @@
    eJw7xsnAcAyKyQWHxUhTLyFAmX4QOMtPmX5S7G9ioUw/ufYTshcGLhFhP7FmkQoAeWULAg==
   </data>
  </layer>
- <layer name="Top" width="16" height="9" visible="0">
+ <layer name="Top" width="16" height="9">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFhMBR/oGxdwsV7T1GIz8AALN2Am0=
+   eJxjYBgFuMBlMQh9lJ88/YfFKLOfUv2XkPQfI9MPhAAA5wsFLQ==
   </data>
  </layer>
  <layer name="Walkable" width="16" height="9" visible="0">
