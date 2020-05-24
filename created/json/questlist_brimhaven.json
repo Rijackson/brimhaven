@@ -183,6 +183,14 @@
                 "logText":"83=stage-3 flood"
             },
             {
+                "progress":87,
+                "logText":"87=flood pending"
+            },
+            {
+                "progress":88,
+                "logText":"88=drain pending"
+            },
+            {
                 "progress":89,
                 "logText":"89=End flood"
             },
