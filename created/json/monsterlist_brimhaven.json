@@ -442,7 +442,7 @@
         "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"none",
-        "droplistID":"quiet_thief_1"
+        "droplistID":"quiet_thief"
     },
     {
         "id":"quiet_thief_2",
@@ -479,7 +479,7 @@
     },
     {
         "id":"brv_butcher",
-        "name":"butcher",
+        "name":"Butcher",
         "iconID":"monsters_fatboy73:7",
         "phraseID":"brv_butcher"
     },
@@ -793,5 +793,23 @@
         "monsterClass":"humanoid",
         "spawnGroup":"temple_guard",
         "phraseID":"brv_temple_entrance_guard"
+    },
+    {
+        "id":"churrie",
+        "name":"Churrie",
+        "iconID":"monsters_ld1:184",
+        "moveCost":5,
+        "monsterClass":"humanoid",
+        "spawnGroup":"churrie",
+        "phraseID":"churrie"
+    },
+    {
+        "id":"tamarukh",
+        "name":"Tamarukh",
+        "iconID":"monsters_ld1:141",
+        "moveCost":5,
+        "monsterClass":"humanoid",
+        "spawnGroup":"tamarukh",
+        "phraseID":"tamarukh"
     }
 ]
