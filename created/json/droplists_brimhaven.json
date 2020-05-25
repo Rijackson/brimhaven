@@ -455,14 +455,6 @@
                 }
             },
             {
-                "itemID":"brimhaven_engraved_steel_helmet",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
                 "itemID":"brimhaven_plate_mail1",
                 "chance":"100",
                 "quantity":{
@@ -1075,6 +1067,27 @@
                 "quantity":{
                     "min":1,
                     "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"old_basilisk",
+        "items":[
+            {
+                "itemID":"brimhaven_engraved_steel_helmet",
+                "chance":"100/100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gold",
+                "chance":"100/100",
+                "quantity":{
+                    "min":200,
+                    "max":200
                 }
             }
         ]

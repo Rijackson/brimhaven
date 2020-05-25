@@ -114,6 +114,7 @@
         },
         "spawnGroup":"basiliskcave2_boss",
         "faction":"",
+        "droplistID":"old_basilisk",
         "attackCost":3,
         "attackChance":80,
         "criticalSkill":20,
