@@ -441,7 +441,7 @@
         "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"none",
-        "droplistID":"quiet_thief_1"
+        "droplistID":"quiet_thief"
     },
     {
         "id":"quiet_thief_2",
