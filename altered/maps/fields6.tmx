@@ -50,7 +50,7 @@
   <image source="../drawable/map_entrance_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="1841" name="map_entrance_2" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_entrance_2.png" width="512" height="256"/>
+  <image source="../spritesheets/map_entrance_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="1969" name="map_fence_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_fence_1.png" width="512" height="256"/>
@@ -98,7 +98,7 @@
   <image source="../drawable/map_indoor_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="3889" name="map_indoor_2" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_indoor_2.png" width="512" height="256"/>
+  <image source="../spritesheets/map_indoor_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="4017" name="map_kitchen_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_kitchen_1.png" width="512" height="256"/>
@@ -110,7 +110,7 @@
   <image source="../drawable/map_pillar_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="4401" name="map_pillar_2" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_pillar_2.png" width="512" height="256"/>
+  <image source="../spritesheets/map_pillar_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="4529" name="map_plant_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_plant_1.png" width="512" height="256"/>
@@ -125,7 +125,7 @@
   <image source="../drawable/map_rock_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="5041" name="map_roof_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_roof_1.png" width="512" height="256"/>
+  <image source="../spritesheets/map_roof_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="5169" name="map_roof_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_roof_2.png" width="512" height="256"/>
@@ -134,7 +134,7 @@
   <image source="../drawable/map_roof_3.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="5425" name="map_shop_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_shop_1.png" width="512" height="256"/>
+  <image source="../spritesheets/map_shop_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="5553" name="map_sign_ladder_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_sign_ladder_1.png" width="512" height="256"/>
@@ -233,11 +233,13 @@
  <objectgroup name="Spawn">
   <object name="tinlyn" type="spawn" x="384" y="640" width="32" height="32">
    <properties>
+    <property name="ignoreAreas" value="true"/>
     <property name="spawngroup" value="tinlyn"/>
    </properties>
   </object>
   <object name="tinlyn_sheep" type="spawn" x="192" y="416" width="256" height="224">
    <properties>
+    <property name="ignoreAreas" value="true"/>
     <property name="quantity" value="4"/>
     <property name="spawngroup" value="tinlyn_sheep"/>
    </properties>
@@ -249,11 +251,13 @@
   </object>
   <object name="fieldcritter_0_1" type="spawn" x="608" y="704" width="288" height="128">
    <properties>
+    <property name="ignoreAreas" value="true"/>
     <property name="spawngroup" value="fieldcritter_0"/>
    </properties>
   </object>
   <object name="fieldcritter_0_2" type="spawn" x="512" y="256" width="160" height="192">
    <properties>
+    <property name="ignoreAreas" value="true"/>
     <property name="spawngroup" value="fieldcritter_0"/>
    </properties>
   </object>
