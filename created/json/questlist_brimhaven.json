@@ -549,6 +549,7 @@
     {
         "id":"brv_present",
         "name":"Honor your parents",
+        "showInLog":1,
         "stages":[
             {
                 "progress":10,
