@@ -98,6 +98,12 @@
 				"logText": "The teacher sent you away, because you killed Golin in the duel.",
 				"rewardExperience": 500,
 				"finishesQuest": 1
+			},
+			{
+				"progress": 240,
+				"logText": "Golin was horrified by your murder of the teacher and attacked you to avenge her.",
+				"rewardExperience": 500,
+				"finishesQuest": 1
 			}
 		]
 	},

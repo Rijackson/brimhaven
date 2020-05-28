@@ -4297,6 +4297,11 @@
 				"rewardType": "alignmentChange",
 				"rewardID": "brv_fct_school_duel",
 				"value": -10
+			},
+			{
+				"rewardType": "questProgress",
+				"rewardID": "brv_school2",
+				"value": 240
 			}
 		]
 	},
