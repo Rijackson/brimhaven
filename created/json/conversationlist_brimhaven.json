@@ -7096,7 +7096,7 @@
     },
     {
         "id":"brv_patrol_bonemeals_removed",
-        "message":"What's this? Smells like Bonemeal!\n\nBonemeal is illegal and forbidden by the law of Feygard. I will have to confiscate it.\n[He gives you back all your belongings but keeps the Bonemeals]\n\nKeep away from illegal stuff. Now go your way.",
+        "message":"What's this? Smells like Bonemeal!\n\nBonemeal is illegal and forbidden by the law of Feygard. I will have to confiscate it.\n[He gives you back all your belongings but keeps the Bonemeals]\n\nKeep away from illegal stuff. Now go on your way.",
         "rewards":[
             {
                 "rewardType":"questProgress",
