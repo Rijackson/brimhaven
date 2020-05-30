@@ -2313,7 +2313,7 @@
         "message":"Thank you for saving my life. Please come back and visit me sometime in the future when you are older.",
         "replies":[
             {
-                "text":"No problem. You might like my older brother Andor. It was my pleasure.",
+                "text":"No problem, the pleasure was mine. Maybe sometime soon I could introduce you to my older brother Andor.",
                 "nextPhraseID":"X"
             }
         ]
@@ -2336,7 +2336,7 @@
         "replies":[
             {
                 "text":"That is too expensive for me.",
-                "nextPhraseID":"fallhaven_potions"
+                "nextPhraseID":"fallhaven_potions_offer_crystal_vial_too_expensive"
             },
             {
                 "text":"I'll take one.",
@@ -8085,6 +8085,16 @@
             {
                 "text":"OK. Thanks. What do you have to sell?",
                 "nextPhraseID":"S"
+            }
+        ]
+    },
+    {
+        "id":"fallhaven_potions_offer_crystal_vial_too_expensive",
+        "message":"Well, that's the price.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fallhaven_potions"
             }
         ]
     }
