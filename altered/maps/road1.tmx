@@ -290,14 +290,6 @@
     <property name="spawngroup" value="beetle2"/>
    </properties>
   </object>
-  <object name="knights" type="spawn" x="160" y="192" width="608" height="512">
-   <properties>
-    <property name="active" value="false"/>
-    <property name="ignoreAreas" value="true"/>
-    <property name="quantity" value="6"/>
-    <property name="spawngroup" value="patrol_roaming"/>
-   </properties>
-  </object>
  </objectgroup>
  <objectgroup name="Keys">
   <object name="stop_hero" type="key" x="160" y="192" width="608" height="512">
@@ -332,6 +324,16 @@
    <properties>
     <property name="active" value="false"/>
     <property name="spawngroup" value="Feygard_BG"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn_knights">
+  <object name="knights" type="spawn" x="160" y="192" width="608" height="512">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="6"/>
+    <property name="spawngroup" value="patrol_roaming"/>
    </properties>
   </object>
  </objectgroup>
