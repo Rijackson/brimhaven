@@ -3402,7 +3402,7 @@
                 ]
             },
             {
-                "text":"Plaese improve my fine green hat.",
+                "text":"Please improve my fine green hat.",
                 "nextPhraseID":"brv_laundry_boss_5b",
                 "requires":[
                     {
@@ -3419,7 +3419,7 @@
                 ]
             },
             {
-                "text":"Plaese improve my fine green hat.",
+                "text":"Please improve my fine green hat.",
                 "nextPhraseID":"brv_laundry_boss_5",
                 "requires":[
                     {
@@ -3435,7 +3435,7 @@
                 ]
             },
             {
-                "text":"Plaese improve my fine snakeskin gloves.",
+                "text":"Please improve my fine snakeskin gloves.",
                 "nextPhraseID":"brv_laundry_boss_6b",
                 "requires":[
                     {
@@ -3468,7 +3468,7 @@
                 ]
             },
             {
-                "text":"Plaese improve my superior leather boots.",
+                "text":"Please improve my superior leather boots.",
                 "nextPhraseID":"brv_laundry_boss_7b",
                 "requires":[
                     {
