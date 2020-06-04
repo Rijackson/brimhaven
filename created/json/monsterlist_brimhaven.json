@@ -648,7 +648,7 @@
     },
     {
         "id":"brv_playing_child1",
-        "name":"Playing child",
+        "name":"Playing children",
         "iconID":"monsters_ld1:20",
         "phraseID":"brv_playing_children"
     },
