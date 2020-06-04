@@ -1,0 +1,22 @@
+[
+    {
+        "id":"blackwater_chamber_guard",
+        "name":"Blackwater chamber guard",
+        "iconID":"monsters_men:3",
+        "maxHP":60,
+        "maxAP":10,
+        "moveCost":5,
+        "unique":1,
+        "monsterClass":"humanoid",
+        "attackDamage":{
+            "min":3,
+            "max":6
+        },
+        "spawnGroup":"blackwater_throneguard",
+        "phraseID":"blackwater_throneguard",
+        "attackCost":5,
+        "attackChance":60,
+        "blockChance":70,
+        "damageResistance":3
+    }
+]
