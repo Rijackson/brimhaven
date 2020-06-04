@@ -1770,7 +1770,7 @@
             },
             {
                 "text":"No, that's none of my business.",
-                "nextPhraseID":"X"
+                "nextPhraseID":"anakis_deny_help"
             }
         ]
     },
@@ -1803,7 +1803,7 @@
             },
             {
                 "text":"No, that's none of my business.",
-                "nextPhraseID":"X"
+                "nextPhraseID":"anakis_deny_help"
             }
         ],
         "rewards":[
@@ -1870,7 +1870,7 @@
     },
     {
         "id":"anakis_can_you_take_revenge",
-        "message":"Can you find the Basilisk and kill it? But take care that the same fate that happened to my sister does not befall you.",
+        "message":"Can you find the Basilisk and kill it? And maybe there is a way to help my sister. But take care that the same fate that happened to my sister does not befall you.",
         "replies":[
             {
                 "text":"I already found the Basilisk and killed it.",
@@ -1884,8 +1884,8 @@
                 ]
             },
             {
-                "text":"I will take revenge for your sister and find a way to kill that Basilisk.",
-                "nextPhraseID":"anakis_agreed_take_revenge",
+                "text":"I will take revenge, but first tell me how I might help your sister.",
+                "nextPhraseID":"anakis_talk_to_priest",
                 "requires":[
                     {
                         "requireType":"killedMonster",
@@ -1896,8 +1896,8 @@
                 ]
             },
             {
-                "text":"I will take revenge, but let me first think if it is possible to help your sister.",
-                "nextPhraseID":"anakis_talk_to_priest",
+                "text":"I can't imagine how to help your sister but I will take revenge for her and find a way to kill that Basilisk.",
+                "nextPhraseID":"anakis_agreed_take_revenge",
                 "requires":[
                     {
                         "requireType":"killedMonster",
@@ -2131,10 +2131,44 @@
         ]
     },
     {
-        "id":"basiliskcave2_check_turntostone",
+        "id":"basiliskcave2_check_turntostone_30",
         "replies":[
             {
                 "nextPhraseID":"basiliskcave2_warn",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"old_basilisk",
+                        "value":1,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"wear",
+                        "requireID":"hand_mirror",
+                        "value":1,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"hasActorCondition",
+                        "requireID":"turn_to_stone",
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"quick_glance",
+                        "value":15,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"quick_glance",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"basiliskcave2_warn_hint",
                 "requires":[
                     {
                         "requireType":"killedMonster",
@@ -2168,17 +2202,6 @@
                         "requireID":"turn_to_stone"
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "id":"basiliskcave2_blocked",
-        "message":"You can't go nearer to the Basilisk while your eyes meet the Basilisk's eyes.\n\nMaybe you can find a mirror down here that you could wear to protect you from the glance.",
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"quick_glance",
-                "value":79
             }
         ]
     },
@@ -2465,7 +2488,7 @@
     },
     {
         "id":"anakis_talk_to_priest",
-        "message":"Do you think it is possbile to help her? Maybe Fangwurm the priest in western Brimhaven has some information.",
+        "message":"I have no idea how to help her. But maybe Fangwurm the priest in western Brimhaven has some information.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2624,7 +2647,7 @@
     },
     {
         "id":"basiliskcave2_warn",
-        "message":"You see an old Basilisk at the end of the room that glances at you. With a feeling of deadly danger your movements get slower the nearer you go.\n\nMaybe you should find something down here that you could use to protect yourself from the glance?",
+        "message":"You see an old Basilisk at the end of the room that glances at you. With a feeling of deadly danger your movements get slower the nearer you go.",
         "rewards":[
             {
                 "rewardType":"actorCondition",
@@ -8095,6 +8118,158 @@
             {
                 "text":"N",
                 "nextPhraseID":"fallhaven_potions"
+            }
+        ]
+    },
+    {
+        "id":"anakis_deny_help",
+        "message":"Oh, thats's sad.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"quick_glance",
+                "value":15
+            }
+        ]
+    },
+    {
+        "id":"basiliskcave2_warn_hint",
+        "message":"You see an old Basilisk at the end of the room that glances at you. With a feeling of deadly danger your movements get slower the nearer you go.\n\n(Maybe I could find something to protect myself from its glance?)",
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"turn_to_stone",
+                "value":999
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"quick_glance_hidden_position",
+                "value":110
+            }
+        ]
+    },
+    {
+        "id":"basiliskcave2_check_turntostone_20",
+        "replies":[
+            {
+                "nextPhraseID":"basiliskcave2_check_turntostone_30"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"quick_glance_hidden_position",
+                "value":110
+            }
+        ]
+    },
+    {
+        "id":"basiliskcave2_check_turntostone_10",
+        "replies":[
+            {
+                "nextPhraseID":"basiliskcave2_check_turntostone_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"quick_glance",
+                        "value":20
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"quick_glance",
+                        "value":50,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"basiliskcave2_check_turntostone_30"
+            }
+        ]
+    },
+    {
+        "id":"basiliskcave2_blocked_10",
+        "message":"You can't go nearer to the Basilisk while your eyes meet the Basilisk's eyes.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"basiliskcave2_blocked_select_20"
+            }
+        ]
+    },
+    {
+        "id":"basiliskcave2_blocked_20",
+        "message":"(What am I doing here. I should go and find Juttarka before I come back here.)"
+    },
+    {
+        "id":"basiliskcave2_blocked_30",
+        "message":"(What am I doing here. I should go and talk to Anakis about the statue I found before I come back here.)"
+    },
+    {
+        "id":"basiliskcave2_blocked_40",
+        "message":"(Maybe I should try to find a mirror down here that I could wear to protect me from the glance so I could go nearer to the Basilisk.)"
+    },
+    {
+        "id":"basiliskcave2_blocked_50",
+        "message":"(I better leave the Basilisk.)"
+    },
+    {
+        "id":"basiliskcave2_blocked_select_10",
+        "replies":[
+            {
+                "nextPhraseID":"basiliskcave2_blocked_40",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"quick_glance",
+                        "value":50
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"basiliskcave2_blocked_10",
+                "requires":[
+                    {
+                        "requireType":"hasActorCondition",
+                        "requireID":"turn_to_stone"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"basiliskcave2_blocked_select_20"
+            }
+        ]
+    },
+    {
+        "id":"basiliskcave2_blocked_select_20",
+        "replies":[
+            {
+                "nextPhraseID":"basiliskcave2_blocked_30",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"quick_glance",
+                        "value":20
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"quick_glance",
+                        "value":40
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"basiliskcave2_blocked_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"quick_glance",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"basiliskcave2_blocked_50"
             }
         ]
     }

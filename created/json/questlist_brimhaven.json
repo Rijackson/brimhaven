@@ -271,6 +271,10 @@
                 "logText":"I talked to Anakis. He told me that his sister, Juttarka, went into the cave and did not come out again."
             },
             {
+                "progress":15,
+                "logText":"I denied to help Anaksi to find his sister, Juttarka."
+            },
+            {
                 "progress":20,
                 "logText":"I agreed to help Anakis find his sister, Juttarka."
             },
@@ -364,7 +368,7 @@
             },
             {
                 "progress":110,
-                "logText":"Unprotected"
+                "logText":"Basilisk blocked"
             }
         ]
     },
