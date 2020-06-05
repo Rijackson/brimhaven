@@ -186,9 +186,6 @@
  <tileset firstgid="7577" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_guynmart.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7705" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../created/drawable/map_trail_1.png" width="512" height="256"/>
- </tileset>
  <layer name="Ground" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJzNls0NwjAMhaPe0g06FmLSqieUBSoBKzACM0CkWhjj5zhpI3HwpXLeVzv+yRxDmP/U0hDC7W2XoY8/0rhvOteCDvG4fwubNJb4MUuHeNy/lp0UDdJBOZS+/IyXK+PkhnKO/JeKHFsalhby9ebaw0VaKNcldhI5XpmV7k2erWHLu0VcGXNS6h/VpSdPq8EmHa3nrLrcyyUdrecsHW9dIC76F8sXcb313INbw26xPdyWf0Os0xjCebT7UDvv6TmN95i+uaWeQPlBXIuZYySuxbTmo8ZFuX1O5R3EDe01jXvULkAxUz305vL5yGdkb242zm3p06NnhhZrrtXe/DX+7sfMbXlb1nL5nr1v3NZ3bekOtfuX32velpqu99/m6JtdR5hk7K3xI+0FgFGXhw==
@@ -295,14 +292,14 @@
   </object>
   <object id="14" name="churrie" type="spawn" x="864" y="640" width="64" height="160">
    <properties>
+    <property name="active" value="false"/>
     <property name="spawngroup" value="churrie"/>
-	<property name="active" value="false"/>
    </properties>
   </object>
   <object id="15" name="tamarukh" type="spawn" x="32" y="512" width="64" height="64">
    <properties>
+    <property name="active" value="false"/>
     <property name="spawngroup" value="tamarukh"/>
-	<property name="active" value="false"/>
    </properties>
   </object>
  </objectgroup>
